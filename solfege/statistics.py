@@ -566,7 +566,7 @@ class AbstractStatistics(object):
         else:
             c = solfege.db.conn.execute("select distinct(answerkey) from sessions where fileid=? and answerkey=guessed", (fileid,))
             c = [x[0] for x in list(c)]
-        v = [self.int_if_int(x) for x in c]
+        v = [self.int_if_int(x) for x in c if x != 'None']
         v.sort()
         return [str(x) for x in v]
 
