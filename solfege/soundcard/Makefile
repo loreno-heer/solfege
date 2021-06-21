@@ -24,7 +24,7 @@ dist_files += solfege/soundcard/Makefile \
 	$(wildcard solfege/soundcard/tests/*.py)
 
 CFLAGS:=$(CFLAGS) -I/usr/src/linux/include -Wall -pedantic -fPIC -I.
-CC:=$(CC) $(CFLAGS) -DHAVE_CONFIG_H 
+CC:=$(CC) $(CPPFLAGS) $(CFLAGS) -DHAVE_CONFIG_H
 
 ifeq ($(ENABLE_OSS_SOUND),yes)
  ifdef SWIG
