@@ -4,7 +4,7 @@
 
 header {
     module = solmisation
-    title = _("Solmisation Diktat")
+    title = _("Dictation (solmization)")
     solmisation_elements = 7, 10, 13, 14, 17, 20, 23, 24
     num_notes = 4
     bpm = 66
