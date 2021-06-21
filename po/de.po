@@ -4,17 +4,18 @@
 # Oliver Vollmer <Oliver.Vollmer@epost.de>, 2001.
 # Michael Becker <{M.K.Becker@t-online.de>, 2003.
 # Marc Schettke <schettke@ms2.info>, 2007.
-# Michael Weilguni <michael.weilguni@gmx.at>, 2011.
+# Michael Weilguni <michael.weilguni@gmx.at>, 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: solfege 3.20.0\n"
+"Project-Id-Version: solfege 3.20.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-06-08 23:44+0200\n"
-"PO-Revision-Date: 2011-09-06 09:43+0100\n"
+"POT-Creation-Date: 2011-09-25 16:00+0200\n"
+"PO-Revision-Date: 2012-03-01 13:01+0100\n"
 "Last-Translator: Michael Weilguni <michael.weilguni@gmx.at>\n"
 "Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
 "Language: de\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,97 +25,97 @@ msgstr ""
 msgid "The lessonfile contain potentially dangerous code because it run external programs. Run anyway?"
 msgstr "Die Lektionsdatei enthält möglicherweise gefährlichen Code, weil sie ein externes Programm ausführt. Trotzdem starten?"
 
-#: solfege/abstract.py:359 solfege/configwindow.py:483 solfege/mainwin.py:690
+#: solfege/abstract.py:376 solfege/configwindow.py:483 solfege/mainwin.py:716
 #: exercises/standard/learningtree.txt:284
 msgid "Practise"
 msgstr "Übung"
 
-#: solfege/abstract.py:360
+#: solfege/abstract.py:377
 msgid "Config"
 msgstr "Konfigurieren"
 
-#: solfege/abstract.py:362
+#: solfege/abstract.py:379
 msgid "_Cancel test"
 msgstr "Test _abbrechen"
 
-#: solfege/abstract.py:389 solfege/exercises/idbyname.py:332
+#: solfege/abstract.py:406 solfege/exercises/idbyname.py:332
 #: solfege/exercises/idproperty.py:284 solfege/exercises/nameinterval.py:138
 #: solfege/exercises/singanswer.py:45 solfege/exercises/singchord.py:45
 #: solfege/exercises/twelvetone.py:68
 msgid "_New"
 msgstr "_Neu"
 
-#: solfege/abstract.py:390 solfege/exercises/harmonicinterval.py:341
-#: solfege/exercises/melodicinterval.py:294
+#: solfege/abstract.py:407 solfege/exercises/harmonicinterval.py:352
+#: solfege/exercises/melodicinterval.py:297
 #: solfege/exercises/singinterval.py:106 solfege/exercises/singinterval.py:232
 msgid "_New interval"
 msgstr "_Neues Intervall"
 
-#: solfege/abstract.py:391 solfege/lessonfile.py:1667
+#: solfege/abstract.py:408 solfege/lessonfile.py:1663
 #: solfege/exercises/chord.py:96
 msgid "_New chord"
 msgstr "_Neuer Akkord"
 
-#: solfege/abstract.py:392
+#: solfege/abstract.py:409
 msgid "_New tone"
 msgstr "_Neuer Klang"
 
-#: solfege/abstract.py:393 solfege/trainingsetdlg.py:104
+#: solfege/abstract.py:410 solfege/trainingsetdlg.py:104
 #: solfege/exercises/chord.py:98 solfege/exercises/singanswer.py:46
 msgid "_Repeat"
 msgstr "_Wiederholen"
 
-#: solfege/abstract.py:394 solfege/exercises/chord.py:101
+#: solfege/abstract.py:411 solfege/exercises/chord.py:101
 #: solfege/exercises/singanswer.py:49
 msgid "Repeat _arpeggio"
 msgstr "A_rpeggiert wiederholen"
 
-#: solfege/abstract.py:395
+#: solfege/abstract.py:412
 msgid "Repeat _slowly"
 msgstr "Lang_sam wiederholen"
 
-#: solfege/abstract.py:396
+#: solfege/abstract.py:413
 msgid "Repeat _melodic"
 msgstr "_Melodisch wiederholen"
 
-#: solfege/abstract.py:397
+#: solfege/abstract.py:414
 msgid "Repeat first"
 msgstr "Erste Note wiederholen"
 
-#: solfege/abstract.py:398
+#: solfege/abstract.py:415
 msgid "Repeat last"
 msgstr "Letzte Note wiederholen"
 
-#: solfege/abstract.py:399
+#: solfege/abstract.py:416
 msgid "Play _tonic"
 msgstr "_Tonica spielen"
 
-#: solfege/abstract.py:400
+#: solfege/abstract.py:417
 msgid "P_lay music"
 msgstr "Musik abspie_len"
 
-#: solfege/abstract.py:401 solfege/exercises/singanswer.py:52
+#: solfege/abstract.py:418 solfege/exercises/singanswer.py:52
 #: solfege/exercises/singchord.py:47 solfege/exercises/singinterval.py:113
 msgid "_Play answer"
 msgstr "_Antwort spielen"
 
-#: solfege/abstract.py:402
+#: solfege/abstract.py:419
 msgid "Guess _answer"
 msgstr "Antwort _raten"
 
-#: solfege/abstract.py:403
+#: solfege/abstract.py:420
 msgid "_Display music"
 msgstr "_Musik anzeigen"
 
-#: solfege/abstract.py:409 solfege/exercises/dictation.py:69
+#: solfege/abstract.py:426 solfege/exercises/dictation.py:69
 msgid "_Show"
 msgstr "_Anzeigen"
 
-#: solfege/abstract.py:410 solfege/exercises/chord.py:103
+#: solfege/abstract.py:427 solfege/exercises/chord.py:103
 msgid "_Give up"
 msgstr "_Aufgeben"
 
-#: solfege/abstract.py:532
+#: solfege/abstract.py:549
 #, python-format
 msgid ""
 "Test completed!\n"
@@ -125,7 +126,7 @@ msgstr ""
 "Sie haben %(score).1f%% erreicht.\n"
 "Die Testanfordung war %(requirement).1f%%."
 
-#: solfege/abstract.py:534
+#: solfege/abstract.py:551
 #, python-format
 msgid ""
 "Test failed.\n"
@@ -136,29 +137,29 @@ msgstr ""
 "Sie haben %(score).1f%% erreicht.\n"
 "Die Testanforderung war %(requirement).1f%%."
 
-#: solfege/abstract.py:567
+#: solfege/abstract.py:584
 msgid "Statistics is disabled. Either because you selected a “Configure yourself” exercise, or because “Expert mode” is selected in the preferences window."
 msgstr "Statistiken sind deaktiviert. Entweder wurde eine benutzerdefinierte Übung oder der Expertenmodus in den Einstellungen gewählt. "
 
-#: solfege/abstract.py:586 solfege/configwindow.py:500
+#: solfege/abstract.py:603 solfege/configwindow.py:500
 #: solfege/configwindow.py:511 solfege/exercises/identifybpm.py:145
 msgid "Statistics"
 msgstr "Statistik"
 
-#: solfege/abstract.py:601
+#: solfege/abstract.py:618
 msgid "Delay (seconds):"
 msgstr "Verzögerung (Sek.):"
 
-#: solfege/abstract.py:607
+#: solfege/abstract.py:624
 msgid "_New question automatically."
 msgstr "Automatisch _neue Frage stellen"
 
-#: solfege/abstract.py:617
+#: solfege/abstract.py:634
 #, python-format
 msgid "Please check question number %(idx)i in the lesson file \"%(lf)s\"."
 msgstr "Bitte prüfen Sie die Frage Nummer %(idx)i in der Lektionsdatei \"%(lf)s\"."
 
-#: solfege/abstract.py:624 solfege/abstract.py:638 solfege/gu.py:1064
+#: solfege/abstract.py:641 solfege/abstract.py:655 solfege/gu.py:1083
 #, python-format
 msgid ""
 "The exception was caught in\n"
@@ -167,63 +168,82 @@ msgstr ""
 "Der Fehler wurde verursacht in\n"
 "\"%(filename)s\", Zeile %(lineno)i."
 
-#: solfege/abstract.py:630
+#: solfege/abstract.py:647
 #, python-format
 msgid "Failed to parse the music in the variable \"%(varname)s\" in question number %(idx)i in the lesson file \"%(lf)s\"."
 msgstr "Fehler beim Parsen der Musik in der Variable \"%(varname)s\" in Frage Nummer %(idx)i in der Lektionsdatei \"%(lf)s\"."
 
-#: solfege/abstract.py:635
+#: solfege/abstract.py:652
 #, python-format
 msgid "Failed to parse the music for question number %(idx)i in the lesson file \"%(lf)s\"."
 msgstr "Fehler beim Parsen der Musik von Frage Nummer %(idx)i in der Lektionsdatei \"%(lf)s\"."
 
-#: solfege/abstract.py:695
+#: solfege/abstract.py:712
 msgid "Rhythms to use in question"
 msgstr "Zu verwendende Rhythmen in der Übung:"
 
-#: solfege/abstract.py:704
+#: solfege/abstract.py:721
 msgid "Number of beats in question:"
 msgstr "Anzahl der Schläge pro Übung:"
 
-#: solfege/abstract.py:715
+#: solfege/abstract.py:732
 msgid "Count in before question:"
 msgstr "Vorzählen vor Frage:"
 
-#: solfege/abstract.py:793
+#: solfege/abstract.py:810
 msgid "Input interface:"
 msgstr "Eingabe Interface:"
 
-#: solfege/abstract.py:806
+#: solfege/abstract.py:823
 msgid "_Disable unused buttons"
 msgstr "_Deaktivieren unbenutzer Schaltflächen"
 
-#: solfege/abstract.py:830 solfege/inputwidgets.py:657
+#: solfege/abstract.py:833
+msgid "Lock intervals to key:"
+msgstr "Intervalle an Tonart binden:"
+
+#: solfege/abstract.py:841 solfege/abstract.py:842
+#: exercises/standard/lesson-files/include/sc-master:22
+msgid "Major"
+msgstr "Dur"
+
+#: solfege/abstract.py:842
+#: exercises/standard/lesson-files/include/sc-master:211
+msgid "Natural Minor"
+msgstr "Natürlich Moll"
+
+#: solfege/abstract.py:842
+#: exercises/standard/lesson-files/include/sc-master:562
+msgid "Harmonic Minor"
+msgstr "Harmonisch Moll"
+
+#: solfege/abstract.py:869 solfege/inputwidgets.py:622
 msgid "Buttons"
 msgstr "Schaltflächen"
 
-#: solfege/abstract.py:863 solfege/lessonfile_editor_main.py:221
+#: solfege/abstract.py:902 solfege/lessonfile_editor_main.py:221
 msgid "Random transpose:"
 msgstr "Zufällige Transponierung:"
 
-#: solfege/abstract.py:871
+#: solfege/abstract.py:910
 msgid "Change ..."
 msgstr "Ändern..."
 
-#: solfege/abstract.py:881 solfege/specialwidgets.py:186
+#: solfege/abstract.py:920 solfege/specialwidgets.py:186
 msgid "Yes"
 msgstr "Ja"
 
-#: solfege/abstract.py:883 solfege/specialwidgets.py:183
+#: solfege/abstract.py:922 solfege/specialwidgets.py:183
 msgid "No"
 msgstr "Nein"
 
 #: solfege/application.py:216
-msgid "The pyalsa python module is missing"
+msgid "The pyalsa Python module is missing"
 msgstr "Das Python-Modul pyalsa fehlt"
 
 #: solfege/application.py:218
-msgid "Solfege was configured to the Python modules from www.alsa-project.org, but the modules was not found. You must reconfigure sound in the preferences window (Ctrl-F12) or restart Solfege in a way that it finds the module."
-msgstr "Solfege wurde an die Python-Module (www.alsa-project.org) angepasst, aber diese Module wurden nicht gefunden. Sie müssen entweder die Sound-Einstellungen prüfen (Strg+F12) oder Solfege neu starten, damit es die Module finden."
+msgid "Solfege was configured to use the Python modules from www.alsa-project.org, but the modules were not found. You must reconfigure sound in the preferences window (Ctrl-F12) or restart Solfege in a way that it finds the modules."
+msgstr "Solfege wurde konfiguriert, die Python-Module von www.alsa-project.org zu nutzen, aber diese Module wurden nicht gefunden. Sie müssen entweder die Sound-Einstellungen prüfen (Strg+F12) oder Solfege neu starten, damit es die Module finden."
 
 #: solfege/application.py:240
 msgid "MIDI setup"
@@ -242,7 +262,7 @@ msgstr "Sie sollten den 'Sound' unter Einstellungen konfigurieren."
 msgid "You should configure sound from the preferences window, and try to use an external midi player. Or try to recompile the program and check for error messages to see why the module is not built."
 msgstr "Sie sollten den 'Sound' unter Einstellungen konfigurieren und versuchen, einen externen MIDI-Player zu verwenden. Oder versuchen Sie, das Programm neu zu kompilieren und prüfen Sie die Fehlermeldungen, um zu sehen, warum das Modul nicht erstellt wurde."
 
-#: solfege/application.py:373 solfege/mainwin.py:344 solfege/mainwin.py:537
+#: solfege/application.py:373 solfege/mainwin.py:345 solfege/mainwin.py:543
 msgid "Error opening web browser"
 msgstr "Fehler beim Öffnen des Webbrowsers"
 
@@ -358,6 +378,10 @@ msgstr "CSound:"
 msgid "Lilypond-book:"
 msgstr "Lilypond-book:"
 
+#: solfege/configwindow.py:296
+msgid "Text editor:"
+msgstr "Texteditor:"
+
 #: solfege/configwindow.py:308
 msgid "Not found. Much of GNU Solfege will run fine without this program. You will get a message when the program is required, and the user manual will explain what you need it for."
 msgstr "Nicht gefunden. Ein Großteil von GNU Solfege funktioniert auch ohne dieses Programm. Es wird eine Nachricht angezeigt, falls das Programm benötigt wird."
@@ -461,8 +485,8 @@ msgstr "Geben Sie den Namen des Programmes ein. Ein absoluter Pfad ist nur notwe
 msgid "The command line options required. Write %s where you want the name of the file to be played. Or omit it to have it added to the end of the string."
 msgstr "Kommandozeilenoptionen notwendig. Schreiben Sie %s, wo Sie möchten, dass die Datei gespielt wird. Oder lassen Sie es aus, um es am Ende des Strings anzuhängen."
 
-#: solfege/configwindow.py:608 solfege/configwindow.py:703
-#: solfege/configwindow.py:746
+#: solfege/configwindow.py:608 solfege/configwindow.py:709
+#: solfege/configwindow.py:752
 msgid "_Test"
 msgstr "_Test"
 
@@ -470,62 +494,62 @@ msgstr "_Test"
 msgid "This button is clickable only if the binary is found."
 msgstr "Diese Schaltfläche ist nur verfügbar, wenn die Binärdatei gefunden wurde."
 
-#: solfege/configwindow.py:638 solfege/configwindow.py:705
+#: solfege/configwindow.py:640 solfege/configwindow.py:711
 msgid "Sound Setup"
 msgstr "Sound-Einstellungen"
 
-#: solfege/configwindow.py:643 solfege/configwindow.py:715
+#: solfege/configwindow.py:645 solfege/configwindow.py:721
 msgid "_No sound"
 msgstr "Kei_n Sound"
 
-#: solfege/configwindow.py:649
+#: solfege/configwindow.py:652
 msgid "Use ALSA _device"
 msgstr "ALSA -_Device verwenden"
 
-#: solfege/configwindow.py:674
+#: solfege/configwindow.py:680
 msgid "Use OSS _device"
 msgstr "OSS-_Device verwenden"
 
-#: solfege/configwindow.py:691 solfege/configwindow.py:736
+#: solfege/configwindow.py:697 solfege/configwindow.py:742
 msgid "Use _external MIDI player"
 msgstr "Externen MIDI-Player verwenden"
 
-#: solfege/configwindow.py:709
+#: solfege/configwindow.py:715
 msgid "Solfege has two ways to play MIDI files. It is recommended to use Windows multimedia output. An external MIDI player can be useful if your soundcard lacks a hardware synth, in which case you have to use a program like timidity to play the music."
 msgstr "Es wird empfohlen, die Windows Multimedia Ausgabe zu verwenden. Falls die Soundkarte keinen Hardware-Synthesizer besitzt, kein ein externer MIDI-Player hilfreich sein. Verwenden Sie in diesem Fall ein Programm wie timidity!"
 
-#: solfege/configwindow.py:720
+#: solfege/configwindow.py:726
 msgid "_Windows multimedia output:"
 msgstr "_Windows Multimedia Ausgabe:"
 
-#: solfege/configwindow.py:848
+#: solfege/configwindow.py:857
 msgid "Delete statistics and test results?"
 msgstr "Statistiken und Testergebnisse löschen?"
 
-#: solfege/configwindow.py:849
+#: solfege/configwindow.py:858
 #, python-format
 msgid "This will delete and recreate the file «%s»."
 msgstr "Die Datei «%s» wird gelöscht und neu erstellt."
 
-#: solfege/configwindow.py:862
+#: solfege/configwindow.py:871
 msgid "Delete obsolete statistics?"
 msgstr "Veraltete Statistiken löschen?"
 
-#: solfege/configwindow.py:863
+#: solfege/configwindow.py:872
 #, python-format
 msgid "This will delete the directory «%s»."
 msgstr "Das Verzeichnis «%s» wird gelöscht."
 
-#: solfege/configwindow.py:878
+#: solfege/configwindow.py:887
 #, python-format
 msgid "You have %i files and directories storing statistics in the old format that only Solfege 3.14 and older will use. These files are not useful any more unless you want to downgrade to Solfege 3.14."
 msgstr "Auf Ihrem Computer befinden sich %i Dateien, die Statistiken im alten Format (Solfege 3.14 und älter) enthalten. Diese Dateien werden nicht mehr benötigt, es sei denn, Sie wechseln zurück zu Solfege 3.14 oder älter."
 
-#: solfege/configwindow.py:880
+#: solfege/configwindow.py:889
 msgid "No obsolete statistics found."
 msgstr "Keine veralteten Statistiken gefunden."
 
-#: solfege/configwindow.py:883
+#: solfege/configwindow.py:892
 #, python-format
 msgid "Statistics of %(practise_count)i practise sessions and %(test_count)i tests from %(exercises)i different exercises."
 msgstr "Statistiken von %(practise_count)i Übungsabschnitten und %(test_count)i Tests von %(exercises)i unterschiedlichen Übungen."
@@ -565,45 +589,45 @@ msgstr "Zeile %(lineno)i in der Datei \"%(filename)s\" konnte nicht in Token zer
 msgid "Token \"%(nottoken)s\" not found, found \"%(foundtoken)s\" of type %(type)s."
 msgstr "Token \"%(nottoken)s\" nicht gefunden, gefunden wurde(n) \"%(foundtoken)s\" vom Typ %(type)s."
 
-#: solfege/esel.py:147
+#: solfege/esel.py:156
 msgid "Search"
 msgstr "Suchen"
 
-#: solfege/esel.py:233 solfege/fpeditor.py:356
+#: solfege/esel.py:247 solfege/fpeditor.py:356
 #, python-format
 msgid "«%s» was not found"
 msgstr "«%s» wurde nicht gefunden"
 
-#: solfege/esel.py:236
+#: solfege/esel.py:250
 #, python-format
 msgid "Failed to parse «%s»"
 msgstr "Fehler beim Parsen von «%s»"
 
-#: solfege/esel.py:258
+#: solfege/esel.py:272
 #, python-format
 msgid "passed, %.1f%%"
 msgstr "bestanden, %.1f%%"
 
-#: solfege/esel.py:260
+#: solfege/esel.py:274
 #, python-format
 msgid "failed, %.1f%%"
 msgstr "missglückt, %.1f%%"
 
-#: solfege/esel.py:282
+#: solfege/esel.py:298
 #, python-format
 msgid "Search results for “%s”:"
 msgstr "Suchergebnisse für “%s”:"
 
-#: solfege/esel.py:285
+#: solfege/esel.py:301
 #, python-format
 msgid "C-locale search results for “%s”:"
 msgstr "C-lokal Suchergebnisse für \"%s\":"
 
-#: solfege/esel.py:339
+#: solfege/esel.py:360
 msgid "Search untranslated lesson titles"
 msgstr "Nach nicht übersetzten Lektionstiteln suchen"
 
-#: solfege/esel.py:341 solfege/esel.py:358
+#: solfege/esel.py:362 solfege/esel.py:380
 msgid "Too few matches?"
 msgstr "Zu wenig Übereinstimmungen?"
 
@@ -628,7 +652,7 @@ msgid "Add link by searching for exercises"
 msgstr "Verknüpfung durch Suchen nach Übungen hinzufügen"
 
 #: solfege/fpeditor.py:334 solfege/fpeditor.py:513 solfege/fpeditor.py:671
-#: solfege/frontpage.py:249 solfege/gu.py:651
+#: solfege/frontpage.py:249 solfege/gu.py:670
 #, python-format
 msgid "Untitled%s"
 msgstr "Unbenannt%s"
@@ -654,46 +678,46 @@ msgstr "Die Datei der Startseite ist schreibgeschützt in Ihrer Installation. Da
 msgid "<b>IMPORTANT:</b> Your front page file <b>must</b> be saved in a subdirectory below the directory named exercises. See the user manual for details."
 msgstr "<b>Wichtig:</b> Ihre Startseite muss in einem Unterverzeichnis unterhalb des Übungs-Verzeichnisses gespeichert werden. Details siehe Benutzerhandbuch."
 
-#: solfege/gu.py:687
+#: solfege/gu.py:706
 #, python-format
 msgid "Save changes to \"%s\" before closing?"
 msgstr "Möchten Sie die Änderungen in \"%s\" speichern?"
 
-#: solfege/gu.py:690
+#: solfege/gu.py:709
 #, python-format
 msgid "If you don't save, changes from the past %i seconds will be permanently lost."
 msgstr "Wenn Sie nicht speichern, gehen die Änderungen der vergangenen %i Sekunden verloren."
 
-#: solfege/gu.py:692
+#: solfege/gu.py:711
 #, python-format
 msgid "If you don't save, changes from the past %i minutes will be permanently lost."
 msgstr "Wenn Sie nicht speichern, gehen die Änderungen der vergangenen %i Minuten verloren."
 
-#: solfege/gu.py:694
+#: solfege/gu.py:713
 msgid "_Close without Saving"
 msgstr "S_chließen, ohne zu speichern"
 
-#: solfege/gu.py:753
+#: solfege/gu.py:772
 msgid "Save As..."
 msgstr "Speichern _unter..."
 
-#: solfege/gu.py:778
+#: solfege/gu.py:797
 msgid "File exists. Overwrite?"
 msgstr "Datei vorhanden. Überschreiben?"
 
-#: solfege/gu.py:788 solfege/gu.py:807
+#: solfege/gu.py:807 solfege/gu.py:826
 msgid "Error saving file"
 msgstr "Fehler beim Speichern der Datei"
 
-#: solfege/gu.py:820
+#: solfege/gu.py:839
 msgid "Select an empty directory, since we want to fill it with files."
 msgstr "Wählen Sie ein leeres Verzeichnis, das mit Dateien gefüllt werden kann."
 
-#: solfege/gu.py:996
+#: solfege/gu.py:1015
 msgid "Visit http://www.solfege.org/support if you need help."
 msgstr "Besuchen Sie http://www.solfege.org/support, falls Sie Hilfe benötigen."
 
-#: solfege/gu.py:1062
+#: solfege/gu.py:1081
 #, python-format
 msgid "Please check the lesson file %s."
 msgstr "Bitte prüfen Sie die Lektionsdatei %s."
@@ -1059,37 +1083,41 @@ msgstr "Kleine Dezime"
 msgid "Major Tenth"
 msgstr "Große Dezime"
 
-#: solfege/inputwidgets.py:658 solfege/inputwidgets.py:664
+#: solfege/inputwidgets.py:623 solfege/inputwidgets.py:630
 msgid "Piano"
 msgstr "Klavier"
 
-#: solfege/inputwidgets.py:658 solfege/inputwidgets.py:672
+#: solfege/inputwidgets.py:623 solfege/inputwidgets.py:640
 msgid "Guitar"
 msgstr "Gitarre"
 
-#: solfege/inputwidgets.py:658 solfege/inputwidgets.py:675
+#: solfege/inputwidgets.py:623 solfege/inputwidgets.py:643
 msgid "Bass"
 msgstr "Bass"
 
-#: solfege/inputwidgets.py:659 solfege/inputwidgets.py:678
+#: solfege/inputwidgets.py:624 solfege/inputwidgets.py:646
 msgid "5 string bass"
 msgstr "6-saitiger Bass"
 
-#: solfege/inputwidgets.py:659 solfege/inputwidgets.py:682
+#: solfege/inputwidgets.py:624 solfege/inputwidgets.py:650
 msgid "6 string bass"
 msgstr "6-saitiger Bass"
 
-#: solfege/inputwidgets.py:660 solfege/inputwidgets.py:666
+#: solfege/inputwidgets.py:625 solfege/inputwidgets.py:632
 msgid "Accordion B griff"
 msgstr "Akkordeon (B-Griff)"
 
-#: solfege/inputwidgets.py:660 solfege/inputwidgets.py:668
+#: solfege/inputwidgets.py:625 solfege/inputwidgets.py:634
 msgid "Accordion C griff"
 msgstr "Akkordeon (C-Griff)"
 
-#: solfege/inputwidgets.py:661 solfege/inputwidgets.py:670
+#: solfege/inputwidgets.py:626 solfege/inputwidgets.py:636
 msgid "Accordion (system used in Finland)"
 msgstr "Akkordeon (Finnisches System)"
+
+#: solfege/inputwidgets.py:627 solfege/inputwidgets.py:638
+msgid "Accordion (Belgian Charleroi do2)"
+msgstr "Akkordeon (Belgisch Charleroi c2)"
 
 #: solfege/instrumentselector.py:120
 msgid "Highest:"
@@ -1135,11 +1163,11 @@ msgstr "Töne löschen"
 msgid "GNU Solfege lesson file editor"
 msgstr "GNU Solfege Lektionsdatei Editor"
 
-#: solfege/lessonfile_editor_main.py:75 solfege/mainwin.py:207
+#: solfege/lessonfile_editor_main.py:75 solfege/mainwin.py:208
 msgid "_File"
 msgstr "_Datei"
 
-#: solfege/lessonfile_editor_main.py:81 solfege/mainwin.py:225
+#: solfege/lessonfile_editor_main.py:81 solfege/mainwin.py:226
 msgid "_Help"
 msgstr "_Hilfe"
 
@@ -1238,17 +1266,17 @@ msgstr "Keine Fragen gewählt"
 msgid "You can select questions on the config page of the exercise."
 msgstr "Sie können Fragen in den Einstellungen der Übung auswählen."
 
-#: solfege/lessonfile.py:1399
+#: solfege/lessonfile.py:1392
 #, python-format
 msgid "Discarding question %(questionidx)i from the lessonfile \"%(filename)s\" because it is missing the \"name\" variable. All questions in lesson files of this type must have a name variable."
 msgstr "Die Frage %(questionidx)i der Lektionsdatei \"%(filename)s\" wird verworfen, da die \"name\"-Variable fehlt. Alle Fragen einer Lektionsdatei dieses Typs benötigen eine name-Variable."
 
-#: solfege/lessonfile.py:1626
+#: solfege/lessonfile.py:1622
 #, python-format
 msgid "Question number %(index)i in the lesson file \"%(filename)s\" is missing the \"question_text\" variable."
 msgstr "Der Frage Nummer %(index)i in der Lektionsdatei \"%(filename)s\" fehlt die \"question_text\"-Variable."
 
-#: solfege/lessonfile.py:1669 solfege/exercises/chord.py:201
+#: solfege/lessonfile.py:1665 solfege/exercises/chord.py:201
 #: exercises/standard/lesson-files/altered-1:14
 #: exercises/standard/lesson-files/chord-7b9-maj79:13
 #: exercises/standard/lesson-files/chord-dim-aug:13
@@ -1263,40 +1291,40 @@ msgstr "Der Frage Nummer %(index)i in der Lektionsdatei \"%(filename)s\" fehlt d
 msgid "Identify the chord"
 msgstr "Bestimmen Sie den Akkord"
 
-#: solfege/lessonfile.py:1673 solfege/exercises/chordvoicing.py:166
+#: solfege/lessonfile.py:1669 solfege/exercises/chordvoicing.py:166
 msgid "Chord type"
 msgstr "Akkordtyp"
 
-#: solfege/lessonfile.py:1674
+#: solfege/lessonfile.py:1670
 msgid "Inversion"
 msgstr "Umkehrung"
 
-#: solfege/lessonfile.py:1675
+#: solfege/lessonfile.py:1671
 msgid "Toptone"
 msgstr "Höchster Ton"
 
-#: solfege/lessonfile.py:1677
+#: solfege/lessonfile.py:1673
 #, python-format
 msgid "Missing qprops variable in the lesson file %s."
 msgstr "Fehlende qprogs-Variable in der Lektionsdatei %s."
 
-#: solfege/lessonfile.py:1685
+#: solfege/lessonfile.py:1681
 #, python-format
 msgid "Error in the lesson file header of \"%(filename)s\". The variables qprops and qprop_labels must have the same length."
 msgstr "Fehler im Header der Lektionsdatei \"%(filename)s\". Die Variablen qprops und qprop_labels müssen die selbe Länge haben."
 
-#: solfege/lessonfile.py:1698 exercises/standard/lesson-files/chord-7-inv:19
+#: solfege/lessonfile.py:1694 exercises/standard/lesson-files/chord-7-inv:21
 msgid "root position"
 msgstr "Grundstellung"
 
-#: solfege/lessonfile.py:1703 exercises/standard/lesson-files/chord-7-inv:23
-#: exercises/standard/lesson-files/chord-7-inv:27
-#: exercises/standard/lesson-files/chord-7-inv:32
+#: solfege/lessonfile.py:1699 exercises/standard/lesson-files/chord-7-inv:25
+#: exercises/standard/lesson-files/chord-7-inv:29
+#: exercises/standard/lesson-files/chord-7-inv:34
 #, python-format
 msgid "%i. inversion"
 msgstr "%i. Umkehrung"
 
-#: solfege/lessonfile.py:1726
+#: solfege/lessonfile.py:1722
 #, python-format
 msgid "Discarding question %(questionidx)i from the lesson file \"%(filename)s\" because of a missing variable: %(var)s"
 msgid_plural "Discarding question %(questionidx)i from the lesson file \"%(filename)s\" because of some missing variables: %(var)s"
@@ -1312,128 +1340,128 @@ msgstr "GNU Solfege %s wird gestartet"
 msgid "Close"
 msgstr "Schließen"
 
-#: solfege/mainwin.py:200
+#: solfege/mainwin.py:201
 #, python-format
 msgid "Loading front page '%s' failed. Using default page."
 msgstr "Laden der Startseite '%s' fehlgeschlagen. Standardstartseite wird verwendet."
 
-#: solfege/mainwin.py:211 exercises/standard/learningtree.txt:181
+#: solfege/mainwin.py:212 exercises/standard/learningtree.txt:181
 msgid "The_ory"
 msgstr "The_orie"
 
-#: solfege/mainwin.py:212
+#: solfege/mainwin.py:213
 msgid "Sele_ct Front Page"
 msgstr "Startseite _wählen"
 
-#: solfege/mainwin.py:213 exercises/standard/learningtree.txt:4
+#: solfege/mainwin.py:214 exercises/standard/learningtree.txt:4
 msgid "_Intervals"
 msgstr "_Intervalle"
 
-#: solfege/mainwin.py:215
+#: solfege/mainwin.py:216
 msgid "_Edit Front Page"
 msgstr "Startseite _bearbeiten..."
 
-#: solfege/mainwin.py:217
+#: solfege/mainwin.py:218
 msgid "E_xport Exercises to Audio Files…"
 msgstr "Übungen als Audiodateien e_xportierten"
 
-#: solfege/mainwin.py:219
+#: solfege/mainwin.py:220
 msgid "Ear Training Test Pri_ntout…"
 msgstr "Drucken des _Gehörübungstests ..."
 
-#: solfege/mainwin.py:221
+#: solfege/mainwin.py:222
 msgid "Profile _Manager"
 msgstr "Profil-_Manager"
 
-#: solfege/mainwin.py:226
+#: solfege/mainwin.py:227
 msgid "_Search Exercises"
 msgstr "Übungen _suchen"
 
-#: solfege/mainwin.py:228
+#: solfege/mainwin.py:229
 msgid "_Front Page"
 msgstr "_Startseite"
 
-#: solfege/mainwin.py:230
+#: solfege/mainwin.py:231
 msgid "_Tests Page"
 msgstr "_Testseite"
 
-#: solfege/mainwin.py:232
+#: solfege/mainwin.py:233
 msgid "_Recent Exercises"
 msgstr "_Zuletzt ausgeführte Übungen"
 
-#: solfege/mainwin.py:234
+#: solfege/mainwin.py:235
 msgid "_Recent Tests"
 msgstr "_Zuletzt ausgeführte Tests"
 
-#: solfege/mainwin.py:236
+#: solfege/mainwin.py:237
 msgid "_User Exercises"
 msgstr "Benutzer_definierte Übungen"
 
-#: solfege/mainwin.py:238
+#: solfege/mainwin.py:239
 msgid "Download and compile ALSA modules"
 msgstr "ALSA-Module downloaden und kompilieren"
 
-#: solfege/mainwin.py:239
+#: solfege/mainwin.py:240
 msgid "_Help on the current exercise"
 msgstr "_Hilfe zu dieser Übung..."
 
-#: solfege/mainwin.py:241
+#: solfege/mainwin.py:242
 msgid "_Music theory on the current exercise"
 msgstr "_Musiktheorie zu dieser Übung"
 
-#: solfege/mainwin.py:242
+#: solfege/mainwin.py:243
 msgid "_User manual"
 msgstr "_Benutzerhandbuch..."
 
-#: solfege/mainwin.py:244 solfege/mainwin.py:392 solfege/mainwin.py:396
+#: solfege/mainwin.py:245 solfege/mainwin.py:393 solfege/mainwin.py:402
 msgid "_File locations"
 msgstr "_Dateispeicherorte"
 
-#: solfege/mainwin.py:246
+#: solfege/mainwin.py:247
 msgid "_Mailing lists, web page etc."
 msgstr "_Mailingliste, Website etc."
 
-#: solfege/mainwin.py:248
+#: solfege/mainwin.py:249
 msgid "_Donate"
 msgstr "_Spenden"
 
-#: solfege/mainwin.py:250
+#: solfege/mainwin.py:251
 msgid "Reporting _bugs"
 msgstr "_Fehler melden..."
 
-#: solfege/mainwin.py:253
+#: solfege/mainwin.py:254
 msgid "_See your bug reports"
 msgstr "F_ehlerberichte einsehen..."
 
-#: solfege/mainwin.py:320
+#: solfege/mainwin.py:321
 msgid "Question"
 msgstr "Frage"
 
-#: solfege/mainwin.py:327
+#: solfege/mainwin.py:328
 msgid "Please enter the email used when you submitted the bugs:"
 msgstr "Bitte gib die E-Mail-Adresse ein, die beim Senden von Fehlerberichten verwendet wird:"
 
-#: solfege/mainwin.py:402
+#: solfege/mainwin.py:408
 msgid "Solfege application data:"
 msgstr "Solfege Anwendungsdaten:"
 
-#: solfege/mainwin.py:403
+#: solfege/mainwin.py:409
 msgid "Solfege user data:"
 msgstr "Solfege Benutzerdaten:"
 
-#: solfege/mainwin.py:404
+#: solfege/mainwin.py:410
 msgid "Solfege config file:"
 msgstr "Solfege Konfigurationsdatei:"
 
-#: solfege/mainwin.py:405
+#: solfege/mainwin.py:411
 msgid "Solfege installation directory:"
 msgstr "Solfege Installationsverzeichnis:"
 
-#: solfege/mainwin.py:406
+#: solfege/mainwin.py:412
 msgid "User manual in HTML format:"
 msgstr "Benutzerhandbuch im HTML-Format:"
 
-#: solfege/mainwin.py:421 solfege/mainwin.py:446
+#: solfege/mainwin.py:427 solfege/mainwin.py:452
 msgid "SOLFEGETRANSLATORS"
 msgstr ""
 "Oliver Vollmer\n"
@@ -1441,39 +1469,39 @@ msgstr ""
 "Marc Schettke\n"
 "Michael Weilguni"
 
-#: solfege/mainwin.py:432 solfege/mainwin.py:433
+#: solfege/mainwin.py:438 solfege/mainwin.py:439
 msgid "(some lessonfiles)"
 msgstr "(einige Lektionsdateien)"
 
-#: solfege/mainwin.py:434
+#: solfege/mainwin.py:440
 msgid "(sound code for the MS Windows port)"
 msgstr "(Sound-Code für die MS Windows Schnittstelle)"
 
-#: solfege/mainwin.py:435
+#: solfege/mainwin.py:441
 msgid "(ported winmidi.c to gcc)"
 msgstr "(portiert: winmidi.c für gcc)"
 
-#: solfege/mainwin.py:436
+#: solfege/mainwin.py:442
 msgid "(spec file for SuSE 8.2)"
 msgstr "(spec file für SuSE 8.2)"
 
-#: solfege/mainwin.py:437
+#: solfege/mainwin.py:443
 msgid "(spec file cleanup)"
 msgstr "(spec file aufräumen)"
 
-#: solfege/mainwin.py:438
+#: solfege/mainwin.py:444
 msgid "(testing and portability fixes for FreeBSD)"
 msgstr "(Testing und Portabilitäts-Fixes für FreeBSD)"
 
-#: solfege/mainwin.py:439 solfege/mainwin.py:440
+#: solfege/mainwin.py:445 solfege/mainwin.py:446
 msgid "(the music font from Lilypond)"
 msgstr "(die Music-Schrift von Lilypond)"
 
-#: solfege/mainwin.py:441
+#: solfege/mainwin.py:447
 msgid "(scale exercises)"
 msgstr "(Skalenübungen)"
 
-#: solfege/mainwin.py:471
+#: solfege/mainwin.py:477
 #, python-format
 msgid ""
 "In Solfege 3.9.0, the location where Solfege look for lesson files you have created was changed. The files has to be moved from \"%(old)s\" and into the folder \"%(gnu)s\" in your \"%(doc)s\" folder.\n"
@@ -1482,7 +1510,7 @@ msgstr ""
 "Das Verzeichnis, indem Solfege nach Ihren selbst erstellten Lektionsdateien sucht, wurde geändert. Die Dateien müssen von \"%(old)s\" in das Verzeichnis \"%(gnu)s\" in Ihrem \"%(doc)s\" Verzeichnis verschoben werden.\n"
 "Sollen die Dateien jetzt automatisch verschoben werden?"
 
-#: solfege/mainwin.py:482
+#: solfege/mainwin.py:488
 #, python-format
 msgid ""
 "Error while copying directory:\n"
@@ -1491,27 +1519,36 @@ msgstr ""
 "Fehler beim Kopieren des Verzeichnises:\n"
 "%s"
 
-#: solfege/mainwin.py:484
+#: solfege/mainwin.py:490
 msgid "Files copied. The old files has been left behind. Please delete them when you have verified that all files was copied correctly."
 msgstr "Dateien kopiert. Die ursprünglichen Dateien wurden beibehalten. Bitte löschen Sie diese Dateien, wenn Sie sich vergewissert haben, dass sie richtig kopiert wurden."
 
-#: solfege/mainwin.py:491
+#: solfege/mainwin.py:497
 msgid "Migrated old language setup. You might have to restart the program all translated messages to show up."
 msgstr "Migration der alten Spracheinstellung. Sie müssen das Programm eventuell neu start, damit die Änderungen wirksam werden."
 
-#: solfege/mainwin.py:540
+#: solfege/mainwin.py:546
 msgid "User exercises"
 msgstr "Benutzerdefinierte Übungen"
 
-#: solfege/mainwin.py:573 solfege/mainwin.py:575
+#: solfege/mainwin.py:558
+#, python-format
+msgid "You really should move the following directory to a directory below <span font_family=\"monospace\">%s</span>. Future versions of GNU Solfege will not display files in the old location. The user manual have details on where to place the files."
+msgstr "Sie sollten das folgende Verzeichnis unbedingt unterhalb von <span font_family=\"monospace\">%s</span> verschieben. Zukünftige Versionen von GNU Solfege werden Dateien vom alten Platz nicht mehr anzeigen. Im Benutzerhandbuch gibt es Informationen, wohin die Dateien gelegt werden sollten."
+
+#: solfege/mainwin.py:570 solfege/mainwin.py:572
 msgid "Recent exercises"
 msgstr "Zuletzt ausgeführte Übungen"
 
-#: solfege/mainwin.py:580 solfege/mainwin.py:582
+#: solfege/mainwin.py:577 solfege/mainwin.py:579
 msgid "Recent tests"
 msgstr "Zuletzt ausgeführte Tests"
 
-#: solfege/mainwin.py:679
+#: solfege/mainwin.py:600
+msgid "Search the exercise titles of all lesson files found by the program, not just the active front page with sub pages."
+msgstr "Suche die Titel der Übungen von allen Lektionsdateien, die das Programm findet, nicht nur die der aktiven Startseite."
+
+#: solfege/mainwin.py:705
 #, python-format
 msgid "The '%s' exercise module does not support test yet."
 msgstr "Das '%s' Übungsmodul unterstützt im Moment keine Tests."
@@ -1582,7 +1619,7 @@ msgid "Start with <profile>. Create the profile if it does not exist."
 msgstr "Mit <profile> starten. Profil erstellen, falls es nicht existiert."
 
 #: solfege/optionparser.py:55
-msgid "Create or update the screenshots for the users manual. Intended for developers of this program."
+msgid "Create or update the screenshots for the user manual. Intended for developers of this program."
 msgstr "Erstellen bzw. aktualisieren der Screen-Shots für das Benutzerhandbuch. Gedacht für Entwickler dieses Programms."
 
 #: solfege/osutils.py:59
@@ -1602,13 +1639,13 @@ msgid ""
 "\n"
 "\t%(exception)s\n"
 "\n"
-"Please check that the program is installed. If you did not supply the full path to the program in the preferences window (Ctrl-12), you must make sure the program is on your PATH."
+"Please check that the program is installed. If you did not supply the full path to the program in the preferences window (Ctrl-F12), you must make sure the program is on your PATH."
 msgstr ""
 "Versucht `%(bin)s`:\n"
 "\n"
 "\t%(exception)s\n"
 "\n"
-"Bitte prüfen Sie, ob das Programm installiert ist. Falls der vollständige Programmpfad nicht unter Einstellungen (Strg+F12) angegeben wurde, stellen Sie sicher, dass der Programmpfad in der PATH-Variable enthalten ist."
+"Bitte prüfen Sie, ob das Programm installiert wurde. Falls der vollständige Programmpfad nicht unter Einstellungen (Strg+F12) angegeben wurde, stellen Sie sicher, dass der Programmpfad in der PATH-Variable enthalten ist."
 
 #: solfege/osutils.py:85
 #, python-format
@@ -1755,8 +1792,8 @@ msgid "_Send"
 msgstr "_Senden"
 
 #: solfege/reportbug.py:42
-msgid "Information about the version of GNU Solfege, your operating system and Python version, and the python traceback (error message) will be send to the crash database. Your email will not be published or shared, but we might contact you by email if we have follow questions to your crash report."
-msgstr "Informationen zur Solfege-Version, Ihrem Betriebssystem, der Python-Version und der Python-Fehlermeldung werden zur Fehlerdatenbank gesendet. Ihre E-Mail-Adresse wird nicht veröffentlicht oder weitergegeben, aber wir könnten Sie bei weiteren Fragen zu Ihrem Fehlerbericht kontaktieren."
+msgid "Information about the version of GNU Solfege, your operating system and Python version, and the Python traceback (error message) will be sent to the crash database. Your email will not be published or shared, but we might contact you by email if we have further questions about your crash report."
+msgstr "Informationen zur Solfege-Version, Ihrem Betriebssystem, der Python-Version und dem Python-Traceback (Fehlermeldung) werden zur Fehlerdatenbank gesendet. Ihre E-Mail-Adresse wird nicht veröffentlicht oder weitergegeben, aber es könnte sein, dass wir Sie bei weiteren Fragen zu Ihrem Fehlerbericht per E-Mail kontaktieren."
 
 #: solfege/reportbug.py:48
 msgid "_Email:"
@@ -2299,12 +2336,12 @@ msgstr "hisis"
 msgid "Invalid notename: %s"
 msgstr "Ungütliger Notenname: %s"
 
-#: solfege/mpd/musicalpitch.py:353
+#: solfege/mpd/musicalpitch.py:355
 #, no-python-format
 msgid "notenameformat|%(notename)s"
 msgstr "%(notename)s"
 
-#: solfege/mpd/musicalpitch.py:356
+#: solfege/mpd/musicalpitch.py:358
 #, no-python-format
 msgid "notenameformat|%(notename)s%(oct)s"
 msgstr "%(notename)s%(oct)s"
@@ -2328,10 +2365,10 @@ msgstr "Zu fragende Akkordarten"
 #: solfege/exercises/chord.py:210 solfege/exercises/chordvoicing.py:261
 #: solfege/exercises/compareintervals.py:260
 #: solfege/exercises/elembuilder.py:149
-#: solfege/exercises/harmonicinterval.py:236
+#: solfege/exercises/harmonicinterval.py:245
 #: solfege/exercises/harmonicprogressiondictation.py:92
 #: solfege/exercises/idbyname.py:242 solfege/exercises/idproperty.py:197
-#: solfege/exercises/idtone.py:244 solfege/exercises/melodicinterval.py:208
+#: solfege/exercises/idtone.py:244 solfege/exercises/melodicinterval.py:209
 #: solfege/exercises/nameinterval.py:192
 #: solfege/exercises/rhythmdictation2.py:113
 #: solfege/exercises/rhythmdictation.py:139 solfege/exercises/rhythm.py:147
@@ -2342,11 +2379,11 @@ msgstr "Richtig"
 #: solfege/exercises/chordvoicing.py:266
 #: solfege/exercises/compareintervals.py:265
 #: solfege/exercises/elembuilder.py:73 solfege/exercises/elembuilder.py:156
-#: solfege/exercises/harmonicinterval.py:239
+#: solfege/exercises/harmonicinterval.py:248
 #: solfege/exercises/harmonicprogressiondictation.py:95
 #: solfege/exercises/idbyname.py:247 solfege/exercises/identifybpm.py:196
 #: solfege/exercises/idproperty.py:206 solfege/exercises/idtone.py:251
-#: solfege/exercises/melodicinterval.py:212
+#: solfege/exercises/melodicinterval.py:213
 #: solfege/exercises/nameinterval.py:194
 #: solfege/exercises/rhythmdictation2.py:116
 #: solfege/exercises/rhythmdictation.py:142 solfege/exercises/rhythm.py:135
@@ -2376,8 +2413,8 @@ msgstr "Akkord Voicing"
 #: solfege/exercises/chordvoicing.py:169 solfege/exercises/chordvoicing.py:306
 #: solfege/exercises/compareintervals.py:318
 #: solfege/exercises/compareintervals.py:352
-#: solfege/exercises/harmonicinterval.py:292
-#: solfege/exercises/melodicinterval.py:254 solfege/exercises/rhythm.py:299
+#: solfege/exercises/harmonicinterval.py:301
+#: solfege/exercises/melodicinterval.py:255 solfege/exercises/rhythm.py:299
 #: solfege/exercises/rhythmtapping.py:182
 msgid "You have to solve this question first."
 msgstr "Sie müssen diese Frage zuerst beantworten."
@@ -2439,7 +2476,7 @@ msgid "Last interval:"
 msgstr "Letzes Intervall:"
 
 #: solfege/exercises/compareintervals.py:252
-#: solfege/exercises/harmonicinterval.py:231
+#: solfege/exercises/harmonicinterval.py:240
 #: solfege/exercises/harmonicprogressiondictation.py:87
 #: solfege/exercises/idbyname.py:237 solfege/exercises/idbyname.py:296
 #: solfege/exercises/idtone.py:239 solfege/exercises/idtone.py:280
@@ -2451,7 +2488,7 @@ msgid "Correct, but you have already solved this question"
 msgstr "Richtig, Frage wurde aber bereits gelöst."
 
 #: solfege/exercises/compareintervals.py:254
-#: solfege/exercises/harmonicinterval.py:233
+#: solfege/exercises/harmonicinterval.py:242
 #: solfege/exercises/harmonicprogressiondictation.py:89
 #: solfege/exercises/idbyname.py:239 solfege/exercises/idbyname.py:297
 #: solfege/exercises/idtone.py:241 solfege/exercises/idtone.py:281
@@ -2479,7 +2516,7 @@ msgstr "Erstes Intervall ist das größte"
 #: solfege/exercises/compareintervals.py:282
 #: solfege/exercises/compareintervals.py:350
 #: solfege/exercises/compareintervals.py:351
-#: solfege/exercises/harmonicinterval.py:204 solfege/exercises/idtone.py:267
+#: solfege/exercises/harmonicinterval.py:213 solfege/exercises/idtone.py:267
 #, python-format
 msgid "The answer is: %s"
 msgstr "Die Antwort ist: %s"
@@ -2519,45 +2556,45 @@ msgid "elembuilder"
 msgstr "Element Builder"
 
 #: solfege/exercises/elembuilder.py:143
-#: solfege/exercises/harmonicinterval.py:216
-#: solfege/exercises/harmonicinterval.py:318 solfege/exercises/idbyname.py:230
-#: solfege/exercises/idbyname.py:306 solfege/exercises/melodicinterval.py:173
-#: solfege/exercises/melodicinterval.py:271
+#: solfege/exercises/harmonicinterval.py:225
+#: solfege/exercises/harmonicinterval.py:329 solfege/exercises/idbyname.py:230
+#: solfege/exercises/idbyname.py:306 solfege/exercises/melodicinterval.py:174
+#: solfege/exercises/melodicinterval.py:274
 msgid "Click 'Start test' to begin."
 msgstr "'Test starten' klicken, um zu beginnen."
 
-#: solfege/exercises/harmonicinterval.py:171
+#: solfege/exercises/harmonicinterval.py:178
 msgid "Ask for these intervals"
 msgstr "Nach diesen Intervallen fragen"
 
-#: solfege/exercises/harmonicinterval.py:200
-#: solfege/exercises/harmonicinterval.py:314
+#: solfege/exercises/harmonicinterval.py:209
+#: solfege/exercises/harmonicinterval.py:325
 msgid "Harmonic interval"
 msgstr "Harmonisches Intervall"
 
-#: solfege/exercises/harmonicinterval.py:223
-#: solfege/exercises/melodicinterval.py:190
+#: solfege/exercises/harmonicinterval.py:232
+#: solfege/exercises/melodicinterval.py:191
 msgid "Ignoring intervals greater than major tenth."
 msgstr "Intervalle größer als große Dezime ingnorieren."
 
-#: solfege/exercises/harmonicinterval.py:227
-#: solfege/exercises/harmonicinterval.py:321
-#: solfege/exercises/melodicinterval.py:178
-#: solfege/exercises/melodicinterval.py:274
+#: solfege/exercises/harmonicinterval.py:236
+#: solfege/exercises/harmonicinterval.py:332
+#: solfege/exercises/melodicinterval.py:179
+#: solfege/exercises/melodicinterval.py:277
 msgid "Click 'New interval' to begin."
 msgstr "'Neues Intervall' klicken, um zu beginnen."
 
-#: solfege/exercises/harmonicinterval.py:298
+#: solfege/exercises/harmonicinterval.py:307
 msgid "You have to select some intervals to practise."
 msgstr "Zum Üben müssen Sie ein paar Intervalle auswählen."
 
-#: solfege/exercises/harmonicinterval.py:308
-#: solfege/exercises/melodicinterval.py:261
+#: solfege/exercises/harmonicinterval.py:317
+#: solfege/exercises/melodicinterval.py:262
 msgid "Identify the interval"
 msgstr "Intervall erkennen"
 
-#: solfege/exercises/harmonicinterval.py:332 solfege/exercises/idbyname.py:323
-#: solfege/exercises/melodicinterval.py:286
+#: solfege/exercises/harmonicinterval.py:343 solfege/exercises/idbyname.py:323
+#: solfege/exercises/melodicinterval.py:289
 #: solfege/exercises/singinterval.py:223
 msgid "_Start test"
 msgstr "Test _starten"
@@ -2644,16 +2681,16 @@ msgstr "Erster Ton ist %s"
 msgid "Click 'New tone' to begin."
 msgstr "'Neuer Klang' klicken, um zu beginnen."
 
-#: solfege/exercises/melodicinterval.py:118
-#: solfege/exercises/melodicinterval.py:267
+#: solfege/exercises/melodicinterval.py:119
+#: solfege/exercises/melodicinterval.py:270
 msgid "Melodic interval"
 msgstr "Melodisches Intervall"
 
-#: solfege/exercises/melodicinterval.py:187
+#: solfege/exercises/melodicinterval.py:188
 msgid "You have already identified this interval"
 msgstr "Dieses Intervall wurde bereits erkannt"
 
-#: solfege/exercises/melodicinterval.py:235
+#: solfege/exercises/melodicinterval.py:236
 msgid "The exercise has to be better configured."
 msgstr "Die Übung muss besser konfiguriert werden."
 
@@ -2678,6 +2715,11 @@ msgstr "Der von Ihnen eingegebene Rhythmus:"
 #: solfege/exercises/rhythmdictation.py:62
 msgid "The music object named «rhythm» is not a subclass of MpdParsable"
 msgstr "Das Musik-Objekt mit Namen «rhythm» ist keine Unterklasse von MpdParsable"
+
+#: solfege/exercises/rhythmdictation.py:63
+#: solfege/exercises/rhythmdictation.py:69
+msgid "Read about the «rhythm» variable in the section «Question block» in the chapter named «Extending GNU Solfege» in the user manual."
+msgstr "Bitte lesen über die «rhythm» Variable im Abschnitt «Question block» im Kapitel «Extending GNU Solfege» des Benutzerhandbuchs."
 
 #: solfege/exercises/rhythmdictation.py:68
 msgid "The music object named «music» is not a subclass of MpdParsable"
@@ -2916,7 +2958,7 @@ msgstr "Septnonakkorde (7b9 und maj79)"
 msgid "chord|maj79"
 msgstr "maj79"
 
-#: exercises/standard/lesson-files/chord-7-inv:15
+#: exercises/standard/lesson-files/chord-7-inv:17
 msgid "Dominant 7 chord with inversions"
 msgstr "Dominantseptakkord mit Umkehrungen"
 
@@ -13027,8 +13069,8 @@ msgid "Interval in a key (minor)"
 msgstr "Intervall innerhalb einer Tonart (Moll)"
 
 #: exercises/standard/lesson-files/interval_in_key_min:15
-msgid "Indetify the interval played after tonic"
-msgstr "Identifizieren Sie das Intervall, welches nach der Tonika gespielt wurde"
+msgid "Identify the interval played after tonic"
+msgstr "Identifizieren Sie das Intervall, welches nach der Tonika gespielt wird"
 
 #: exercises/standard/lesson-files/jsb-inventions:8
 msgid "Parts of 2 Bach inventions"
@@ -13109,6 +13151,10 @@ msgstr "Oktaven"
 #: exercises/standard/lesson-files/nameinterval-unison:8
 msgid "Unisons"
 msgstr "Primen"
+
+#: exercises/standard/lesson-files/polish-folk-songs:30
+msgid "Polish folk songs"
+msgstr "Polnische Volkslieder"
 
 #: exercises/standard/lesson-files/progression-1:10
 msgid "Easy harmonic progressions"
@@ -13851,10 +13897,6 @@ msgstr "Zwölf Zufallstöne singen"
 msgid "Ionian"
 msgstr "Ionisch"
 
-#: exercises/standard/lesson-files/include/sc-master:22
-msgid "Major"
-msgstr "Dur"
-
 #: exercises/standard/lesson-files/include/sc-master:23
 msgid "Diatonic"
 msgstr "Diatonisch"
@@ -13926,10 +13968,6 @@ msgstr "Hypoionisch"
 #: exercises/standard/lesson-files/include/sc-master:210
 msgid "Aeolian"
 msgstr "Aeolisch"
-
-#: exercises/standard/lesson-files/include/sc-master:211
-msgid "Natural Minor"
-msgstr "Natürlich Moll"
 
 #: exercises/standard/lesson-files/include/sc-master:212
 msgid "Ancient Minor"
@@ -14095,10 +14133,6 @@ msgstr "Lokrisch b4"
 #: exercises/standard/lesson-files/include/sc-master:547
 msgid "Melodic Minor A-D"
 msgstr "Melodisch Moll A-D"
-
-#: exercises/standard/lesson-files/include/sc-master:562
-msgid "Harmonic Minor"
-msgstr "Harmonisch Moll"
 
 #: exercises/standard/lesson-files/include/sc-master:563
 msgid "Mohammedan"
@@ -15757,10 +15791,6 @@ msgstr "Töne hören"
 #, fuzzy
 #~ msgid "Lesson collection"
 #~ msgstr "Übung"
-
-#, fuzzy
-#~ msgid "Harmonic interval test"
-#~ msgstr "harmonische Intervalle"
 
 #, fuzzy
 #~ msgid "C_ompare intervals"

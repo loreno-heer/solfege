@@ -1,18 +1,19 @@
 # Norwegian translations for GNU Solfege.
 # vim: set filetype=po :
-# Copyright (C) 2001, 2002, 2003, 2005, 2008, 2010  Tom Cato Amundsen.
+# Copyright (C) 2001, 2002, 2003, 2005, 2008, 2010, 2012  Tom Cato Amundsen.
 # This file is distributed under the same license as the solfege package.
 #
-# Tom Cato Amundsen <tca@gnu.org>, 2008, 2009, 2010.
+# Tom Cato Amundsen <tca@gnu.org>, 2008, 2009, 2010, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: solfege 3.19.7\n"
+"Project-Id-Version: solfege 3.22.1-pre1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-24 23:22+0200\n"
-"PO-Revision-Date: 2011-05-13 22:32+0200\n"
+"POT-Creation-Date: 2013-09-07 23:35+0200\n"
+"PO-Revision-Date: 2013-09-14 22:14+0200\n"
 "Last-Translator: Tom Cato Amundsen <tca@gnu.org>\n"
 "Language-Team: Norwegian Bokmaal <i18n-nb@lister.ping.uio.no>\n"
 "Language: \n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,103 +21,124 @@ msgstr ""
 "X-Poedit-Country: NORWAY\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: solfege/abstract.py:103
+#: solfege/abstract.py:102
 msgid "The lessonfile contain potentially dangerous code because it run external programs. Run anyway?"
 msgstr "Leksjonsfilen inneholder potensielt farlig kode siden den kjører eksterne programmer. Kjør likevel?"
 
-#: solfege/abstract.py:359 solfege/configwindow.py:483 solfege/mainwin.py:692
-#: exercises/standard/learningtree.txt:283
+#: solfege/abstract.py:123
+msgid "The exercise has to be better configured."
+msgstr "Denne øvelsen må bli bedre konfigurert."
+
+#: solfege/abstract.py:128
+#, python-format
+msgid "No intervals selected for interval number %i."
+msgstr "Ingen intervaller er valgt for intervall nummer %i."
+
+#: solfege/abstract.py:199
+#, python-format
+msgid "Failed to select random interval number %i because of the configuration of the exercise. Either you have enabled intervals only if one direction, or none of the intervals belong to the key selected when you enabled «Lock to key»."
+msgstr ""
+
+#: solfege/abstract.py:204
+#, python-format
+msgid "Failed to select random interval number %i because of the configuration of the exercise. You should select some intervals going in both directions."
+msgstr ""
+
+#: solfege/abstract.py:380 solfege/configwindow.py:483 solfege/mainwin.py:725
+#: exercises/standard/learningtree.txt:290
 msgid "Practise"
 msgstr "Øv"
 
-#: solfege/abstract.py:360
+#: solfege/abstract.py:381
 msgid "Config"
 msgstr "Konfigurasjon"
 
-#: solfege/abstract.py:362
+#: solfege/abstract.py:383
 msgid "_Cancel test"
 msgstr "_Avbryt prøve"
 
-#: solfege/abstract.py:389 solfege/exercises/idbyname.py:332
-#: solfege/exercises/idproperty.py:284 solfege/exercises/nameinterval.py:138
-#: solfege/exercises/singanswer.py:45 solfege/exercises/singchord.py:45
-#: solfege/exercises/twelvetone.py:68
+#: solfege/abstract.py:413 solfege/exercises/idbyname.py:334
+#: solfege/exercises/idproperty.py:282 solfege/exercises/nameinterval.py:153
+#: solfege/exercises/singanswer.py:47 solfege/exercises/singchord.py:47
+#: solfege/exercises/twelvetone.py:69
 msgid "_New"
 msgstr "_Ny"
 
-#: solfege/abstract.py:390 solfege/exercises/harmonicinterval.py:341
-#: solfege/exercises/melodicinterval.py:294
-#: solfege/exercises/singinterval.py:106 solfege/exercises/singinterval.py:232
+#: solfege/abstract.py:414 solfege/exercises/harmonicinterval.py:350
+#: solfege/exercises/melodicinterval.py:296
+#: solfege/exercises/singinterval.py:108 solfege/exercises/singinterval.py:234
 msgid "_New interval"
 msgstr "_Nytt intervall"
 
-#: solfege/abstract.py:391 solfege/lessonfile.py:1640
-#: solfege/exercises/chord.py:96
+#: solfege/abstract.py:415 solfege/lessonfile.py:1637
+#: solfege/exercises/chord.py:99
 msgid "_New chord"
 msgstr "_Ny akkord"
 
-#: solfege/abstract.py:392
+#: solfege/abstract.py:416
 msgid "_New tone"
 msgstr "_Ny tone"
 
-#: solfege/abstract.py:393 solfege/trainingsetdlg.py:104
-#: solfege/exercises/chord.py:98 solfege/exercises/singanswer.py:46
+#: solfege/abstract.py:417 solfege/trainingsetdlg.py:105
+#: solfege/exercises/chord.py:101 solfege/exercises/singanswer.py:48
 msgid "_Repeat"
 msgstr "_Repeter"
 
-#: solfege/abstract.py:394 solfege/exercises/chord.py:101
-#: solfege/exercises/singanswer.py:49
+#: solfege/abstract.py:418 solfege/exercises/chord.py:104
+#: solfege/exercises/singanswer.py:51
 msgid "Repeat _arpeggio"
 msgstr "Repeter _arpeggio"
 
-#: solfege/abstract.py:395
+#: solfege/abstract.py:419
 msgid "Repeat _slowly"
 msgstr "Repeter _langsomt"
 
-#: solfege/abstract.py:396
+#: solfege/abstract.py:420
 msgid "Repeat _melodic"
 msgstr "Repeter _melodisk"
 
-#: solfege/abstract.py:397
-#, fuzzy
+#: solfege/abstract.py:421
 msgid "Repeat first"
-msgstr "_Repeter første tone"
+msgstr "_Repeter den første"
 
-#: solfege/abstract.py:398
-#, fuzzy
+#: solfege/abstract.py:422
 msgid "Repeat last"
-msgstr "Repeter"
+msgstr "Repeter den siste"
 
-#: solfege/abstract.py:399
+#: solfege/abstract.py:423
 msgid "Play _tonic"
 msgstr "Spill tonika"
 
-#: solfege/abstract.py:400
+#: solfege/abstract.py:424
 msgid "P_lay music"
 msgstr "_Spill musikken"
 
-#: solfege/abstract.py:401 solfege/exercises/singanswer.py:52
-#: solfege/exercises/singchord.py:47 solfege/exercises/singinterval.py:113
+#: solfege/abstract.py:425 solfege/exercises/singanswer.py:54
+#: solfege/exercises/singchord.py:49 solfege/exercises/singinterval.py:115
 msgid "_Play answer"
 msgstr "_Spill svar"
 
-#: solfege/abstract.py:402
+#: solfege/abstract.py:426
 msgid "Guess _answer"
 msgstr "G_jett svar"
 
-#: solfege/abstract.py:403
+#: solfege/abstract.py:427
 msgid "_Display music"
 msgstr "Vis _musikken"
 
-#: solfege/abstract.py:409 solfege/exercises/dictation.py:69
+#: solfege/abstract.py:433 solfege/exercises/dictation.py:69
 msgid "_Show"
 msgstr "V_is"
 
-#: solfege/abstract.py:410 solfege/exercises/chord.py:103
+#: solfege/abstract.py:434 solfege/exercises/chord.py:106
 msgid "_Give up"
 msgstr "_Gi opp"
 
-#: solfege/abstract.py:532
+#: solfege/abstract.py:435
+msgid "Backspace"
+msgstr "Tilbakeslag"
+
+#: solfege/abstract.py:562
 #, python-format
 msgid ""
 "Test completed!\n"
@@ -127,7 +149,7 @@ msgstr ""
 "Andel korrekt: %(score).1f%%.\n"
 "Kravet var %(requirement).1f%%."
 
-#: solfege/abstract.py:534
+#: solfege/abstract.py:564
 #, python-format
 msgid ""
 "Test failed.\n"
@@ -138,29 +160,29 @@ msgstr ""
 "Du klarte %(score).1f%%.\n"
 "Kravet var %(requirement).1f%%."
 
-#: solfege/abstract.py:567
+#: solfege/abstract.py:614
 msgid "Statistics is disabled. Either because you selected a “Configure yourself” exercise, or because “Expert mode” is selected in the preferences window."
 msgstr "Statistikken er slått av. Dette er enten fordi du har valgt en «Konfigurer selv»-øvelse eller fordi «Ekspertmodus» er valgt i brukervalgvinduet."
 
-#: solfege/abstract.py:586 solfege/configwindow.py:500
-#: solfege/configwindow.py:511 solfege/exercises/identifybpm.py:146
+#: solfege/abstract.py:633 solfege/configwindow.py:500
+#: solfege/configwindow.py:511 solfege/exercises/identifybpm.py:145
 msgid "Statistics"
 msgstr "Statistikk"
 
-#: solfege/abstract.py:601
+#: solfege/abstract.py:648
 msgid "Delay (seconds):"
 msgstr "Forsinkelse (sekunder):"
 
-#: solfege/abstract.py:607
+#: solfege/abstract.py:654
 msgid "_New question automatically."
 msgstr "_Nytt spørsmål automatisk."
 
-#: solfege/abstract.py:617
+#: solfege/abstract.py:664
 #, python-format
 msgid "Please check question number %(idx)i in the lesson file \"%(lf)s\"."
 msgstr "Vennligst kontroller spørsmål nummer %(idx)i i leksjonsfilen \"%(lf)s\"."
 
-#: solfege/abstract.py:624 solfege/abstract.py:638 solfege/gu.py:1064
+#: solfege/abstract.py:671 solfege/abstract.py:685 solfege/gu.py:1113
 #, python-format
 msgid ""
 "The exception was caught in\n"
@@ -169,82 +191,96 @@ msgstr ""
 "En feil ble oppdaget i\n"
 "\"%(filename)s\", linje %(lineno)i."
 
-#: solfege/abstract.py:630
+#: solfege/abstract.py:677
 #, python-format
 msgid "Failed to parse the music in the variable \"%(varname)s\" in question number %(idx)i in the lesson file \"%(lf)s\"."
 msgstr "Klarte ikke å analysere musikken i variabelen \"%(varname)s\" i spørsmål nummer %(idx)i i \"%(lf)s.\""
 
-#: solfege/abstract.py:635
+#: solfege/abstract.py:682
 #, python-format
 msgid "Failed to parse the music for question number %(idx)i in the lesson file \"%(lf)s\"."
 msgstr "Klarte ikke å analysere musikken for spørsmål nummer %(idx)i i leksjonsfilen '%(lf)s'."
 
-#: solfege/abstract.py:695
+#: solfege/abstract.py:742
 msgid "Rhythms to use in question"
 msgstr "Rytmer til å bruke i spørsmål"
 
-#: solfege/abstract.py:704
+#: solfege/abstract.py:751
 msgid "Number of beats in question:"
 msgstr "Antall slag i spørsmålet:"
 
-#: solfege/abstract.py:715
+#: solfege/abstract.py:762
 msgid "Count in before question:"
 msgstr "Opptelling før spørsmålet:"
 
-#: solfege/abstract.py:793
+#: solfege/abstract.py:840
 msgid "Input interface:"
 msgstr "Inputgrensesnitt:"
 
-#: solfege/abstract.py:806
+#: solfege/abstract.py:853
 msgid "_Disable unused buttons"
 msgstr "Gjør ubrukte knapper ubrukelige"
 
-#: solfege/abstract.py:830 solfege/inputwidgets.py:657
-msgid "Buttons"
-msgstr "Knapper"
+#: solfege/abstract.py:863
+msgid "Lock intervals to key:"
+msgstr "Lås intervallene til toneart:"
 
-#: solfege/abstract.py:863 solfege/lessonfile_editor_main.py:222
+#: solfege/abstract.py:871 solfege/utils.py:186
+#: exercises/standard/lesson-files/toneincontext:12
+#: exercises/standard/lesson-files/include/sc-master:22
+msgid "Major"
+msgstr "Dur"
+
+#: solfege/abstract.py:926 solfege/lessonfile_editor_main.py:221
 msgid "Random transpose:"
 msgstr "Tilfeldig transponering:"
 
-#: solfege/abstract.py:871
+#: solfege/abstract.py:934
 msgid "Change ..."
 msgstr "Endre..."
 
-#: solfege/abstract.py:881 solfege/specialwidgets.py:186
+#: solfege/abstract.py:944 solfege/specialwidgets.py:186
 msgid "Yes"
 msgstr "Ja"
 
-#: solfege/abstract.py:883 solfege/specialwidgets.py:183
+#: solfege/abstract.py:946 solfege/specialwidgets.py:183
 msgid "No"
 msgstr "Nei"
 
-#: solfege/application.py:217
-msgid "The pyalsa python module is missing"
+#: solfege/abstract_solmisation_addon.py:141
+msgid "Choose tones"
+msgstr "Velg toner"
+
+#: solfege/abstract_solmisation_addon.py:151
+msgid "Number of tones:"
+msgstr "Antall toner:"
+
+#: solfege/application.py:223
+msgid "The pyalsa Python module is missing"
 msgstr "Python-modulen pyalsa manger"
 
-#: solfege/application.py:219
-msgid "Solfege was configured to the Python modules from www.alsa-project.org, but the modules was not found. You must reconfigure sound in the preferences window (Ctrl-F12) or restart Solfege in a way that it finds the module."
+#: solfege/application.py:225
+msgid "Solfege was configured to use the Python modules from www.alsa-project.org, but the modules were not found. You must reconfigure sound in the preferences window (Ctrl-F12) or restart Solfege in a way that it finds the modules."
 msgstr "Solfege er satt opp til å bruke python-modulene fra www.alsa-project.org, men programmet finner dem ikke. Du må sette opp lyden i brukervalgvinduet (Ctrl-F12) eller restarte programmet på en måte som gjør at det finner modulen."
 
-#: solfege/application.py:241
+#: solfege/application.py:247
 msgid "MIDI setup"
 msgstr "Midi-oppsett"
 
-#: solfege/application.py:241
+#: solfege/application.py:247
 #, python-format
 msgid "MIDI Device %(olddev)i not available. Will use device %(newdev)i."
 msgstr "MIDI-enhet nr %(olddev)i er ikke tilgjengelig. Vil bruke nr %(newdev)i."
 
-#: solfege/application.py:249
+#: solfege/application.py:255
 msgid "You should configure sound from the 'Sound' page of the preferences window."
 msgstr "Nå bør du konfigurere lyd fra brukervalgvinduet."
 
-#: solfege/application.py:281
+#: solfege/application.py:287
 msgid "You should configure sound from the preferences window, and try to use an external midi player. Or try to recompile the program and check for error messages to see why the module is not built."
 msgstr "Du bør forsøke å bruke et eksternt midispilleprogram. Du kan velge dette i brukervalgvinduet. Eller du kan prøve å rekompilere programmet og se etter feilmeldinger som sier hvorfor modulen ikke har blitt bygd."
 
-#: solfege/application.py:374 solfege/mainwin.py:346 solfege/mainwin.py:539
+#: solfege/application.py:385 solfege/mainwin.py:349 solfege/mainwin.py:550
 msgid "Error opening web browser"
 msgstr "Feil ved start av nettleser"
 
@@ -272,7 +308,8 @@ msgstr "A_rpeggio:"
 msgid "BPM"
 msgstr ""
 
-#: solfege/configwindow.py:138 exercises/standard/lesson-files/bpm:6
+#: solfege/configwindow.py:138 solfege/exercises/identifybpm.py:108
+#: exercises/standard/lesson-files/bpm:6
 msgid "Beats per minute"
 msgstr "Slag per minutt"
 
@@ -359,6 +396,10 @@ msgstr "CSound:"
 #: solfege/configwindow.py:293
 msgid "Lilypond-book:"
 msgstr "Lilypond-book:"
+
+#: solfege/configwindow.py:296
+msgid "Text editor:"
+msgstr ""
 
 #: solfege/configwindow.py:308
 msgid "Not found. Much of GNU Solfege will run fine without this program. You will get a message when the program is required, and the user manual will explain what you need it for."
@@ -463,8 +504,8 @@ msgstr "Skriv navnet til programmet. En absolutt sti er bare nødvendig hvis pro
 msgid "The command line options required. Write %s where you want the name of the file to be played. Or omit it to have it added to the end of the string."
 msgstr "Kommandolinjevalgene som trengs. Skriv %s der du vil ha navnet til filen som skal spilles, eller utelat det for å plassere filnavnet sist."
 
-#: solfege/configwindow.py:608 solfege/configwindow.py:703
-#: solfege/configwindow.py:746
+#: solfege/configwindow.py:608 solfege/configwindow.py:709
+#: solfege/configwindow.py:752
 msgid "_Test"
 msgstr "_Test"
 
@@ -472,754 +513,396 @@ msgstr "_Test"
 msgid "This button is clickable only if the binary is found."
 msgstr "Denne knappen kan bare klikkes hvis programfilen finnes."
 
-#: solfege/configwindow.py:638 solfege/configwindow.py:705
+#: solfege/configwindow.py:640 solfege/configwindow.py:711
 msgid "Sound Setup"
 msgstr "Lydoppsett"
 
-#: solfege/configwindow.py:643 solfege/configwindow.py:715
+#: solfege/configwindow.py:645 solfege/configwindow.py:721
 msgid "_No sound"
 msgstr "_Ingen lyd"
 
-#: solfege/configwindow.py:649
+#: solfege/configwindow.py:652
 msgid "Use ALSA _device"
 msgstr "Bruk _ALSA-enhet"
 
-#: solfege/configwindow.py:674
+#: solfege/configwindow.py:680
 msgid "Use OSS _device"
 msgstr "Bruk _OSS-enhet"
 
-#: solfege/configwindow.py:691 solfege/configwindow.py:736
+#: solfege/configwindow.py:697 solfege/configwindow.py:742
 msgid "Use _external MIDI player"
 msgstr "Bruk eksternt _midiprogram"
 
-#: solfege/configwindow.py:709
+#: solfege/configwindow.py:715
 msgid "Solfege has two ways to play MIDI files. It is recommended to use Windows multimedia output. An external MIDI player can be useful if your soundcard lacks a hardware synth, in which case you have to use a program like timidity to play the music."
 msgstr "Solfege har to måter å spille MIDI-filer. Det anbefales å bruke Windows multimedia output. Eksternt midiprogram er bare nyttig hvis lydkortet ditt mangler maskinvaresynth. Du må da bruke et program for for eksempel timidity for å spille musikken."
 
-#: solfege/configwindow.py:720
+#: solfege/configwindow.py:726
 msgid "_Windows multimedia output:"
 msgstr ""
 
-#: solfege/configwindow.py:848
+#: solfege/configwindow.py:857 solfege/statisticsviewer.py:303
 msgid "Delete statistics and test results?"
 msgstr "Slette statistikk og prøveresultater?"
 
-#: solfege/configwindow.py:849
+#: solfege/configwindow.py:858
 #, python-format
 msgid "This will delete and recreate the file «%s»."
 msgstr "Dette vil slette og gjenskape filen «%s»"
 
-#: solfege/configwindow.py:862
+#: solfege/configwindow.py:871
 msgid "Delete obsolete statistics?"
 msgstr "Slett utdatert statistikk"
 
-#: solfege/configwindow.py:863
+#: solfege/configwindow.py:872
 #, python-format
 msgid "This will delete the directory «%s»."
 msgstr "Dette vil slette mappen «%s»."
 
-#: solfege/configwindow.py:878
+#: solfege/configwindow.py:887
 #, python-format
 msgid "You have %i files and directories storing statistics in the old format that only Solfege 3.14 and older will use. These files are not useful any more unless you want to downgrade to Solfege 3.14."
 msgstr "Du har %i filer og mapper lagret i det gamle formatet som bare Solfege 3.14 og eldre kan lese. Disse filene vil ikke blir brukt igjen hvis du ikke nedgraderer til Solfege 3.14"
 
-#: solfege/configwindow.py:880
+#: solfege/configwindow.py:889
 msgid "No obsolete statistics found."
 msgstr "Ingen utdatert statistikk ble funnet."
 
-#: solfege/configwindow.py:883
+#: solfege/configwindow.py:892
 #, python-format
 msgid "Statistics of %(practise_count)i practise sessions and %(test_count)i tests from %(exercises)i different exercises."
 msgstr "Statistikk fra %(practise_count)i øveøkter og %(test_count)i prøver fra %(exercises)i forskjellige øvelser."
 
-#: solfege/dataparser.py:155
-#, python-format
-msgid "Unknown name \"%(name)s\" in line %(line)i of file \"%(filename)s\":"
-msgstr "Ukjent navn \"%(name)s\" i linje %(line)i i filen \"%(filename)s\":"
-
-#: solfege/dataparser.py:166
-#, python-format
-msgid "Wrong argument count in line %(line)i of file \"%(filename)s\":"
-msgstr "Feil antall parametre i linje %(line)i i filen \"%(filename)s\":"
-
-#: solfege/dataparser.py:176
+#: solfege/dataparser.py:169
 #, python-format
 msgid "Syntax error in file \"%(filename)s\". %(expected)s"
 msgstr "Syntaxfeil i filen \"%(filename)s\". %(expected)s"
 
-#: solfege/dataparser.py:183
+#: solfege/dataparser.py:176
 #, python-format
 msgid "Assignment to the reserved word \"%(word)s\""
 msgstr "Tilordning til det reserverte ordet «%(word)s»"
 
-#: solfege/dataparser.py:190
+#: solfege/dataparser.py:183
 #, python-format
-msgid "Cannot translate lists using in-file translations (ex var[no]=...). See the variable \"%(variable)s\" in the file \"%(filename)s\""
+msgid "We can only translate strings using in-file translations (ex var[no]=...). See the variable \"%(variable)s\" in the file \"%(filename)s\""
 msgstr ""
 
-#: solfege/dataparser.py:209
+#: solfege/dataparser.py:202
 #, python-format
 msgid "Unable to tokenize line %(lineno)i of the file \"%(filename)s\""
 msgstr "Kunne ikke dele opp linje nr %(lineno)i i filen «%(filename)s»"
 
-#: solfege/dataparser.py:307
+#: solfege/dataparser.py:320
 #, python-format
 msgid "Token \"%(nottoken)s\" not found, found \"%(foundtoken)s\" of type %(type)s."
 msgstr ""
 
-#: solfege/esel.py:148
+#: solfege/esel.py:156
 msgid "Search"
 msgstr "Søk"
 
-#: solfege/esel.py:233 solfege/fpeditor.py:358
+#: solfege/esel.py:249 solfege/fpeditor.py:356
 #, python-format
 msgid "«%s» was not found"
 msgstr "«%s» ble ikke funnet"
 
-#: solfege/esel.py:236
+#: solfege/esel.py:252
 #, python-format
 msgid "Failed to parse «%s»"
 msgstr "Kunne ikke lese «%s»"
 
-#: solfege/esel.py:258
+#: solfege/esel.py:274
 #, python-format
 msgid "passed, %.1f%%"
 msgstr "bestårr, %.1f%%"
 
-#: solfege/esel.py:260
+#: solfege/esel.py:276
 #, python-format
 msgid "failed, %.1f%%"
 msgstr "ikke bestått, %.1f%%"
 
-#: solfege/esel.py:282
+#: solfege/esel.py:300
 #, python-format
 msgid "Search results for “%s”:"
 msgstr "Søkeresultater for «%s»:"
 
-#: solfege/esel.py:285
+#: solfege/esel.py:303
 #, python-format
 msgid "C-locale search results for “%s”:"
 msgstr "Engelskspråklig søkeresultat for «%s»:"
 
-#: solfege/esel.py:339
+#: solfege/esel.py:362
 msgid "Search untranslated lesson titles"
 msgstr "Søk i uoversatte leksjonstitler."
 
-#: solfege/esel.py:341 solfege/esel.py:358
+#: solfege/esel.py:364 solfege/esel.py:382
 msgid "Too few matches?"
 msgstr "For få treff?"
 
-#: solfege/fpeditor.py:106
+#: solfege/fpeditor.py:101
 msgid "Select lesson file"
 msgstr "Velg leksjonsfil"
 
-#: solfege/fpeditor.py:121
+#: solfege/fpeditor.py:116
 msgid "Search for exercises. Each exercise you click will be added to the section of the front page."
 msgstr "Søk etter øvelser. Hver øvelse du klikker på blir lagt til avsnittet på forsiden."
 
-#: solfege/fpeditor.py:281
+#: solfege/fpeditor.py:279
 msgid "Add link to new page"
 msgstr "Legg til lenke til ny side"
 
-#: solfege/fpeditor.py:284
+#: solfege/fpeditor.py:282
 msgid "Add link to exercise"
 msgstr "Legg til lenke til øvelse"
 
-#: solfege/fpeditor.py:287
+#: solfege/fpeditor.py:285
 msgid "Add link by searching for exercises"
 msgstr "Legg til lenke ved å søke etter en øvelse"
 
-#: solfege/fpeditor.py:336 solfege/fpeditor.py:515 solfege/fpeditor.py:673
-#: solfege/frontpage.py:252 solfege/gu.py:651
+#: solfege/fpeditor.py:334 solfege/fpeditor.py:513 solfege/fpeditor.py:671
+#: solfege/gu.py:696
 #, python-format
 msgid "Untitled%s"
 msgstr "Uten navn%s"
 
-#: solfege/fpeditor.py:494
+#: solfege/fpeditor.py:492
 msgid "Add section"
 msgstr "Legg til avsnitt"
 
-#: solfege/fpeditor.py:661
+#: solfege/fpeditor.py:659
 msgid "Front page title:"
 msgstr "Forsidetittel:"
 
-#: solfege/fpeditor.py:757 solfege/lessonfile_editor_main.py:291
+#: solfege/fpeditor.py:756 solfege/lessonfile_editor_main.py:290
 #, python-format
 msgid "Loading file '%(filename)s' failed: %(msg)s"
 msgstr "Mislyktes i å laste filen '%(filename)s': %(msg)s"
 
-#: solfege/fpeditor.py:770
+#: solfege/fpeditor.py:769
 msgid "The front page file is write protected in your install. This is normal. If you want to edit a front page file, you have to select one of the files stored in .solfege/exercises/*/ in your home directory."
 msgstr ""
 
-#: solfege/fpeditor.py:817
+#: solfege/fpeditor.py:816
 msgid "<b>IMPORTANT:</b> Your front page file <b>must</b> be saved in a subdirectory below the directory named exercises. See the user manual for details."
 msgstr "<b>VIKTIG:</b> Forsidefilen <b>må</b> lagres i en undermappe av mappen som heter «exercises». Se brukermanualen for flere detaljer."
 
-#: solfege/gu.py:687
+#: solfege/gu.py:732
 #, python-format
 msgid "Save changes to \"%s\" before closing?"
 msgstr "Lagre endringer til «%s» for du avslutter?"
 
-#: solfege/gu.py:690
+#: solfege/gu.py:735
 #, python-format
 msgid "If you don't save, changes from the past %i seconds will be permanently lost."
 msgstr "Hvis du ikke lagrer vil endringene fra de siste %i sekunder bli tapt."
 
-#: solfege/gu.py:692
+#: solfege/gu.py:737
 #, python-format
 msgid "If you don't save, changes from the past %i minutes will be permanently lost."
 msgstr "Hvis du ikke lagrer vil endringene fra de siste %i minuttene gå tapt."
 
-#: solfege/gu.py:694
+#: solfege/gu.py:739
 msgid "_Close without Saving"
 msgstr "Lukk _uten å lagre"
 
-#: solfege/gu.py:753
+#: solfege/gu.py:802
 msgid "Save As..."
 msgstr "Lagre som..."
 
-#: solfege/gu.py:778
+#: solfege/gu.py:827
 msgid "File exists. Overwrite?"
 msgstr "Filen finnes fra før. Vil du skrive over den?"
 
-#: solfege/gu.py:788 solfege/gu.py:807
+#: solfege/gu.py:837 solfege/gu.py:856
 msgid "Error saving file"
 msgstr "Feil ved lagring av fil"
 
-#: solfege/gu.py:820
+#: solfege/gu.py:869
 msgid "Select an empty directory, since we want to fill it with files."
 msgstr "Velg en tom katalog siden vi skal fylle den med filer."
 
-#: solfege/gu.py:996
+#: solfege/gu.py:1045
 msgid "Visit http://www.solfege.org/support if you need help."
 msgstr "Besøk http://www.solfege.org/support hvis du trenger help."
 
-#: solfege/gu.py:1062
+#: solfege/gu.py:1111
 #, python-format
 msgid "Please check the lesson file %s."
 msgstr "Vennligst kontroller leksjonsfilen «%s»."
 
-#: solfege/inputwidgets.py:232 solfege/mpd/interval.py:39
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-min2-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-min2-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-min2-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-min2-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-min2-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-min2-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-min2-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-min2-8cent:10
-#: exercises/standard/csound-tree.txt:5 exercises/standard/csound-tree.txt:7
-#: exercises/standard/csound-tree.txt:219
-#: exercises/standard/csound-tree.txt:221
-msgid "Minor Second"
-msgstr "Liten sekund"
+#: solfege/inputwidgets.py:649
+msgid "Buttons"
+msgstr "Knapper"
 
-#: solfege/inputwidgets.py:233 solfege/mpd/interval.py:40
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj2-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj2-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj2-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj2-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj2-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj2-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj2-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj2-8cent:10
-#: exercises/standard/csound-tree.txt:19 exercises/standard/csound-tree.txt:21
-#: exercises/standard/csound-tree.txt:233
-#: exercises/standard/csound-tree.txt:235
-msgid "Major Second"
-msgstr "Stor sekund"
+#: solfege/inputwidgets.py:650
+#, python-format
+msgid "Buttons %i"
+msgstr "Knapper %i"
 
-#: solfege/inputwidgets.py:234 solfege/mpd/interval.py:44
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-min3-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-min3-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-min3-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-min3-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-min3-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-min3-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-min3-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-min3-8cent:10
-#: exercises/standard/csound-tree.txt:33 exercises/standard/csound-tree.txt:35
-#: exercises/standard/csound-tree.txt:247
-#: exercises/standard/csound-tree.txt:249
-msgid "Minor Third"
-msgstr "Liten ters"
-
-#: solfege/inputwidgets.py:235 solfege/mpd/interval.py:45
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj3-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj3-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj3-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj3-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj3-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj3-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj3-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj3-8cent:10
-#: exercises/standard/csound-tree.txt:47 exercises/standard/csound-tree.txt:49
-#: exercises/standard/csound-tree.txt:261
-#: exercises/standard/csound-tree.txt:263
-msgid "Major Third"
-msgstr "Stor ters"
-
-#: solfege/inputwidgets.py:236 solfege/mpd/interval.py:49
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-p4-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-p4-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-p4-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-p4-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-p4-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-p4-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-p4-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-p4-8cent:10
-#: exercises/standard/csound-tree.txt:61 exercises/standard/csound-tree.txt:63
-#: exercises/standard/csound-tree.txt:275
-#: exercises/standard/csound-tree.txt:277
-msgid "Perfect Fourth"
-msgstr "Ren kvart"
-
-#: solfege/inputwidgets.py:237
-msgid "Tritone"
-msgstr "Tritonus"
-
-#: solfege/inputwidgets.py:238 solfege/mpd/interval.py:53
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-p5-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-p5-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-p5-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-p5-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-p5-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-p5-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-p5-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-p5-8cent:10
-#: exercises/standard/csound-tree.txt:75 exercises/standard/csound-tree.txt:77
-#: exercises/standard/csound-tree.txt:289
-#: exercises/standard/csound-tree.txt:291
-msgid "Perfect Fifth"
-msgstr "Ren kvint"
-
-#: solfege/inputwidgets.py:239 solfege/mpd/interval.py:57
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-min6-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-min6-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-min6-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-min6-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-min6-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-min6-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-min6-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-min6-8cent:10
-#: exercises/standard/csound-tree.txt:89 exercises/standard/csound-tree.txt:91
-#: exercises/standard/csound-tree.txt:303
-#: exercises/standard/csound-tree.txt:305
-msgid "Minor Sixth"
-msgstr "Liten sekst"
-
-#: solfege/inputwidgets.py:240 solfege/mpd/interval.py:58
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj6-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj6-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj6-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj6-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj6-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj6-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj6-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj6-8cent:10
-#: exercises/standard/csound-tree.txt:103
-#: exercises/standard/csound-tree.txt:105
-#: exercises/standard/csound-tree.txt:317
-#: exercises/standard/csound-tree.txt:319
-msgid "Major Sixth"
-msgstr "Stor sekst"
-
-#: solfege/inputwidgets.py:241 solfege/mpd/interval.py:62
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-min7-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-min7-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-min7-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-min7-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-min7-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-min7-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-min7-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-min7-8cent:10
-#: exercises/standard/csound-tree.txt:117
-#: exercises/standard/csound-tree.txt:119
-#: exercises/standard/csound-tree.txt:331
-#: exercises/standard/csound-tree.txt:333
-msgid "Minor Seventh"
-msgstr "Liten septim"
-
-#: solfege/inputwidgets.py:242 solfege/mpd/interval.py:63
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj7-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj7-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj7-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj7-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj7-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj7-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj7-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj7-8cent:10
-#: exercises/standard/csound-tree.txt:131
-#: exercises/standard/csound-tree.txt:133
-#: exercises/standard/csound-tree.txt:345
-#: exercises/standard/csound-tree.txt:347
-msgid "Major Seventh"
-msgstr "Stor septim"
-
-#: solfege/inputwidgets.py:243 solfege/mpd/interval.py:67
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-p8-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-p8-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-p8-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-p8-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-p8-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-p8-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-p8-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-p8-8cent:10
-#: exercises/standard/csound-tree.txt:145
-#: exercises/standard/csound-tree.txt:147
-#: exercises/standard/csound-tree.txt:359
-#: exercises/standard/csound-tree.txt:361
-msgid "Perfect Octave"
-msgstr "Ren oktav"
-
-#. translators: Only translate the word after interval| , and don't include
-#. interval| in the translated string. So for Norwegians, translate
-#. "interval|Diminished" to "Forminsket". Do similar for all strings
-#. that are preceded with "interval|"
-#: solfege/inputwidgets.py:244 solfege/mpd/interval.py:73
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-min9-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-min9-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-min9-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-min9-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-min9-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-min9-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-min9-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-min9-8cent:10
-#: exercises/standard/csound-tree.txt:159
-#: exercises/standard/csound-tree.txt:161
-#: exercises/standard/csound-tree.txt:373
-#: exercises/standard/csound-tree.txt:375
-msgid "Minor Ninth"
-msgstr "Liten none"
-
-#: solfege/inputwidgets.py:245 solfege/mpd/interval.py:74
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj9-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj9-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj9-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj9-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj9-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj9-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj9-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj9-8cent:10
-#: exercises/standard/csound-tree.txt:173
-#: exercises/standard/csound-tree.txt:175
-#: exercises/standard/csound-tree.txt:387
-#: exercises/standard/csound-tree.txt:389
-msgid "Major Ninth"
-msgstr "Stor none"
-
-#: solfege/inputwidgets.py:246 solfege/mpd/interval.py:75
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-min10-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-min10-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-min10-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-min10-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-min10-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-min10-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-min10-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-min10-8cent:10
-#: exercises/standard/csound-tree.txt:187
-#: exercises/standard/csound-tree.txt:189
-#: exercises/standard/csound-tree.txt:401
-#: exercises/standard/csound-tree.txt:403
-msgid "Minor Tenth"
-msgstr "Liten desim"
-
-#: solfege/inputwidgets.py:247 solfege/mpd/interval.py:76
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj10-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj10-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj10-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj10-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj10-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj10-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj10-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj10-8cent:10
-#: exercises/standard/csound-tree.txt:201
-#: exercises/standard/csound-tree.txt:203
-#: exercises/standard/csound-tree.txt:415
-#: exercises/standard/csound-tree.txt:417
-msgid "Major Tenth"
-msgstr "Stor desim"
-
-#: solfege/inputwidgets.py:658 solfege/inputwidgets.py:664
+#: solfege/inputwidgets.py:651
 msgid "Piano"
 msgstr "Piano"
 
-#: solfege/inputwidgets.py:658 solfege/inputwidgets.py:672
+#: solfege/inputwidgets.py:651
 msgid "Guitar"
 msgstr "Gitar"
 
-#: solfege/inputwidgets.py:658 solfege/inputwidgets.py:675
+#: solfege/inputwidgets.py:651
 msgid "Bass"
 msgstr "Bass"
 
-#: solfege/inputwidgets.py:659 solfege/inputwidgets.py:678
+#: solfege/inputwidgets.py:652
 msgid "5 string bass"
 msgstr "5-strengs bass"
 
-#: solfege/inputwidgets.py:659 solfege/inputwidgets.py:682
+#: solfege/inputwidgets.py:652
 msgid "6 string bass"
 msgstr "6-strengs bass"
 
-#: solfege/inputwidgets.py:660 solfege/inputwidgets.py:666
+#: solfege/inputwidgets.py:653
 msgid "Accordion B griff"
 msgstr "Akkordion (norsk)"
 
-#: solfege/inputwidgets.py:660 solfege/inputwidgets.py:668
+#: solfege/inputwidgets.py:653
 msgid "Accordion C griff"
 msgstr "Akkordion (svensk)"
 
-#: solfege/inputwidgets.py:661 solfege/inputwidgets.py:670
+#: solfege/inputwidgets.py:654
 msgid "Accordion (system used in Finland)"
 msgstr "Akkordion (system brukt i Finland)"
 
-#: solfege/instrumentselector.py:121
+#: solfege/inputwidgets.py:655
+msgid "Accordion (Belgian Charleroi do2)"
+msgstr "Akkordion (Belgisk Charleroi do2)"
+
+#: solfege/instrumentselector.py:120
 msgid "Highest:"
 msgstr "Høyest:"
 
-#: solfege/instrumentselector.py:124
+#: solfege/instrumentselector.py:123
 msgid "Middle:"
 msgstr "Midterst:"
 
-#: solfege/instrumentselector.py:129
+#: solfege/instrumentselector.py:128
 msgid "Lowest:"
 msgstr "Lavest:"
 
-#: solfege/lessonfile_editor_main.py:35 solfege/lessonfile_editor_main.py:98
+#: solfege/lessonfile_editor_main.py:34 solfege/lessonfile_editor_main.py:97
 msgid "Add noteheads"
 msgstr "Legg til hode"
 
-#: solfege/lessonfile_editor_main.py:36 solfege/lessonfile_editor_main.py:100
+#: solfege/lessonfile_editor_main.py:35 solfege/lessonfile_editor_main.py:99
 msgid "Add sharps"
 msgstr "Legg til kryss"
 
-#: solfege/lessonfile_editor_main.py:37 solfege/lessonfile_editor_main.py:102
+#: solfege/lessonfile_editor_main.py:36 solfege/lessonfile_editor_main.py:101
 msgid "Add double-sharps"
 msgstr "Legg til dobbeltkryss"
 
-#: solfege/lessonfile_editor_main.py:38 solfege/lessonfile_editor_main.py:104
+#: solfege/lessonfile_editor_main.py:37 solfege/lessonfile_editor_main.py:103
 msgid "Remove accidentals"
 msgstr "Fjern fortegn"
 
-#: solfege/lessonfile_editor_main.py:39 solfege/lessonfile_editor_main.py:106
+#: solfege/lessonfile_editor_main.py:38 solfege/lessonfile_editor_main.py:105
 msgid "Add flats"
 msgstr "Legg til b"
 
-#: solfege/lessonfile_editor_main.py:40 solfege/lessonfile_editor_main.py:108
+#: solfege/lessonfile_editor_main.py:39 solfege/lessonfile_editor_main.py:107
 msgid "Add double-flats"
 msgstr "Legg til dobbelt-b"
 
-#: solfege/lessonfile_editor_main.py:41 solfege/lessonfile_editor_main.py:110
+#: solfege/lessonfile_editor_main.py:40 solfege/lessonfile_editor_main.py:109
 msgid "Delete tones"
 msgstr "Slett toner"
 
-#: solfege/lessonfile_editor_main.py:48
+#: solfege/lessonfile_editor_main.py:47
 msgid "GNU Solfege lesson file editor"
 msgstr "GNU Solfege - leksjonsfileditor"
 
-#: solfege/lessonfile_editor_main.py:76 solfege/mainwin.py:209
+#: solfege/lessonfile_editor_main.py:75 solfege/mainwin.py:208
 msgid "_File"
 msgstr "_Fil"
 
-#: solfege/lessonfile_editor_main.py:82 solfege/mainwin.py:227
+#: solfege/lessonfile_editor_main.py:81 solfege/mainwin.py:226
 msgid "_Help"
 msgstr "_Hjelp"
 
-#: solfege/lessonfile_editor_main.py:84
+#: solfege/lessonfile_editor_main.py:83
 msgid "_About"
 msgstr "_Om"
 
-#: solfege/lessonfile_editor_main.py:88
+#: solfege/lessonfile_editor_main.py:87
 msgid "Go to the first question"
 msgstr "Gå til det første spørsmålet"
 
-#: solfege/lessonfile_editor_main.py:90
+#: solfege/lessonfile_editor_main.py:89
 msgid "Go to the previous question"
 msgstr "Gå til det forrige spørsmålet"
 
-#: solfege/lessonfile_editor_main.py:92
+#: solfege/lessonfile_editor_main.py:91
 msgid "Go to the next question"
 msgstr "Gå til det neste spørsmålet"
 
-#: solfege/lessonfile_editor_main.py:94
+#: solfege/lessonfile_editor_main.py:93
 msgid "Go to the last question"
 msgstr "Gå til det siste spørsmålet"
 
-#: solfege/lessonfile_editor_main.py:96
+#: solfege/lessonfile_editor_main.py:95
 msgid "Add a new question"
 msgstr "Legg til et spørsmål"
 
-#: solfege/lessonfile_editor_main.py:189
+#: solfege/lessonfile_editor_main.py:188
 msgid "Questions"
 msgstr "Spørsmål"
 
-#: solfege/lessonfile_editor_main.py:190
+#: solfege/lessonfile_editor_main.py:189
 msgid "Enter new chords using the mouse"
 msgstr "Legg inn akkorder ved å bruke musen"
 
-#: solfege/lessonfile_editor_main.py:200
+#: solfege/lessonfile_editor_main.py:199
 msgid "Question title:"
 msgstr "Spørsmålets tittel:"
 
-#: solfege/lessonfile_editor_main.py:207
+#: solfege/lessonfile_editor_main.py:206
 msgid "Lessonfile header"
 msgstr "Leksjonsfilhode"
 
-#: solfege/lessonfile_editor_main.py:211
+#: solfege/lessonfile_editor_main.py:210
 msgid "File title:"
 msgstr "Filens tittel:"
 
-#: solfege/lessonfile_editor_main.py:220
+#: solfege/lessonfile_editor_main.py:219
 msgid "Content:"
 msgstr "Innhold:"
 
-#: solfege/lessonfile_editor_main.py:232
+#: solfege/lessonfile_editor_main.py:231
 msgid "You have unsaved data. Proceed anyway?"
 msgstr "Du har ulagrede data. Fortsett likevel?"
 
-#: solfege/lessonfile_editor_main.py:251
+#: solfege/lessonfile_editor_main.py:250
 msgid "No file"
 msgstr "Ingen fil"
 
-#: solfege/lessonfile_editor_main.py:252
+#: solfege/lessonfile_editor_main.py:251
 #, python-format
 msgid "question %(idx)i of %(count)i"
 msgstr "spørsmål %(idx)i av %(count)i"
 
-#: solfege/lessonfile_editor_main.py:272
+#: solfege/lessonfile_editor_main.py:271
 #, python-format
 msgid "The exercise module '%s' is not supported yet. Cannot edit this file."
 msgstr "Øvelsesmodulen '%s' støttes ikke ennå. Kan ikke redigere denne filen."
 
-#: solfege/lessonfile_editor_main.py:278
+#: solfege/lessonfile_editor_main.py:277
 msgid "Open..."
 msgstr "Åpne..."
 
-#: solfege/lessonfile_editor_main.py:305
+#: solfege/lessonfile_editor_main.py:304
 msgid "Save as..."
 msgstr "Lagre som..."
 
-#: solfege/lessonfile_editor_main.py:318
+#: solfege/lessonfile_editor_main.py:317
 msgid "Save..."
 msgstr "Lagre..."
 
@@ -1240,21 +923,22 @@ msgstr "Ingen spørsmål er valgt"
 msgid "You can select questions on the config page of the exercise."
 msgstr "Du kan velge spørsmål på konfigurasjonssiden til øvelsen."
 
-#: solfege/lessonfile.py:1372
+#: solfege/lessonfile.py:1366
 #, python-format
 msgid "Discarding question %(questionidx)i from the lessonfile \"%(filename)s\" because it is missing the \"name\" variable. All questions in lesson files of this type must have a name variable."
 msgstr "Dropper spørsmål nr %(questionidx)i i leksjonsfilen «%(filename)s» fordi den mangler variabelen «navn». Alle spørsmål i leksjonsfiler av denne typen emå ha en «navn»-variabel."
 
-#: solfege/lessonfile.py:1599
+#: solfege/lessonfile.py:1596
 #, python-format
 msgid "Question number %(index)i in the lesson file \"%(filename)s\" is missing the \"question_text\" variable."
 msgstr ""
 "Spørsmål nummer %(index)i i leksjonsfilen \"%(filename)s\" mangler\n"
 "variabelen \"question_text\"."
 
-#: solfege/lessonfile.py:1642 solfege/exercises/chord.py:201
+#: solfege/lessonfile.py:1639 solfege/exercises/chord.py:204
 #: exercises/standard/lesson-files/altered-1:14
 #: exercises/standard/lesson-files/chord-7b9-maj79:13
+#: exercises/standard/lesson-files/chord-all-root:12
 #: exercises/standard/lesson-files/chord-dim-aug:13
 #: exercises/standard/lesson-files/chord-dim-aug-min-major:10
 #: exercises/standard/lesson-files/chord-m7-7:13
@@ -1267,38 +951,40 @@ msgstr ""
 msgid "Identify the chord"
 msgstr "Identifiser akkorden"
 
-#: solfege/lessonfile.py:1646 solfege/exercises/chordvoicing.py:166
+#: solfege/lessonfile.py:1643 solfege/exercises/chordvoicing.py:164
 msgid "Chord type"
 msgstr "Akkordtype"
 
-#: solfege/lessonfile.py:1647
+#: solfege/lessonfile.py:1644
 msgid "Inversion"
 msgstr "Omvending"
 
-#: solfege/lessonfile.py:1648
+#: solfege/lessonfile.py:1645
 msgid "Toptone"
 msgstr "Øverste note"
 
-#: solfege/lessonfile.py:1650
+#: solfege/lessonfile.py:1647
 #, python-format
 msgid "Missing qprops variable in the lesson file %s."
 msgstr "Variabelen «qprops» mangler i leksjonsiflen «%s»."
 
-#: solfege/lessonfile.py:1658
+#: solfege/lessonfile.py:1655
 #, python-format
 msgid "Error in the lesson file header of \"%(filename)s\". The variables qprops and qprop_labels must have the same length."
 msgstr "Feil i filhodet i filen «%(filename)s». Variabelen «qprops» og «qprop_labels» må ha samme lengde."
 
-#: solfege/lessonfile.py:1671
+#: solfege/lessonfile.py:1668 exercises/standard/lesson-files/chord-7-inv:21
 msgid "root position"
 msgstr "grunnstilling"
 
-#: solfege/lessonfile.py:1676
+#: solfege/lessonfile.py:1673 exercises/standard/lesson-files/chord-7-inv:25
+#: exercises/standard/lesson-files/chord-7-inv:29
+#: exercises/standard/lesson-files/chord-7-inv:34
 #, python-format
 msgid "%i. inversion"
 msgstr "%i. omvending"
 
-#: solfege/lessonfile.py:1699
+#: solfege/lessonfile.py:1696
 #, python-format
 msgid "Discarding question %(questionidx)i from the lesson file \"%(filename)s\" because of a missing variable: %(var)s"
 msgid_plural "Discarding question %(questionidx)i from the lesson file \"%(filename)s\" because of some missing variables: %(var)s"
@@ -1312,168 +998,168 @@ msgstr[1] ""
 msgid "Starting GNU Solfege %s"
 msgstr "Starter GNU Solfege %s"
 
-#: solfege/mainwin.py:104
+#: solfege/mainwin.py:102
 msgid "Close"
 msgstr "Lukk"
 
-#: solfege/mainwin.py:202
+#: solfege/mainwin.py:201
 #, python-format
 msgid "Loading front page '%s' failed. Using default page."
 msgstr "Kunne ikke laster forsidefilen «%s». Bruker standardside."
 
-#: solfege/mainwin.py:213 exercises/standard/learningtree.txt:181
+#: solfege/mainwin.py:212 exercises/standard/learningtree.txt:185
 msgid "The_ory"
 msgstr "_Teori"
 
-#: solfege/mainwin.py:214
+#: solfege/mainwin.py:213
 msgid "Sele_ct Front Page"
 msgstr "Velg f_orside"
 
-#: solfege/mainwin.py:215 exercises/standard/learningtree.txt:4
+#: solfege/mainwin.py:214 exercises/standard/learningtree.txt:4
 msgid "_Intervals"
 msgstr "_Intervaller"
 
-#: solfege/mainwin.py:217
+#: solfege/mainwin.py:216
 msgid "_Edit Front Page"
 msgstr "_Rediger forside"
 
-#: solfege/mainwin.py:219
+#: solfege/mainwin.py:218
 msgid "E_xport Exercises to Audio Files…"
 msgstr "_Eksporter øvelser til lydfiler…"
 
-#: solfege/mainwin.py:221
+#: solfege/mainwin.py:220
 msgid "Ear Training Test Pri_ntout…"
 msgstr "_Utskrift av gehørsprøve…"
 
-#: solfege/mainwin.py:223
+#: solfege/mainwin.py:222
 msgid "Profile _Manager"
 msgstr ""
 
-#: solfege/mainwin.py:228
+#: solfege/mainwin.py:227
 msgid "_Search Exercises"
 msgstr "_Søk etter øvelser"
 
-#: solfege/mainwin.py:230
+#: solfege/mainwin.py:229
 msgid "_Front Page"
 msgstr "_Forside"
 
-#: solfege/mainwin.py:232
+#: solfege/mainwin.py:231
 msgid "_Tests Page"
 msgstr "Side med _prøver"
 
-#: solfege/mainwin.py:234
+#: solfege/mainwin.py:233
 msgid "_Recent Exercises"
 msgstr "Nylig brukte øvelser"
 
-#: solfege/mainwin.py:236
+#: solfege/mainwin.py:235
 msgid "_Recent Tests"
 msgstr "Nylig brukte prøver"
 
-#: solfege/mainwin.py:238
+#: solfege/mainwin.py:237
 msgid "_User Exercises"
 msgstr "Brukergenererte _øvelser"
 
-#: solfege/mainwin.py:240
+#: solfege/mainwin.py:239
 msgid "Download and compile ALSA modules"
 msgstr "Last ned og bygg ALSA-modulene"
 
-#: solfege/mainwin.py:241
+#: solfege/mainwin.py:240
 msgid "_Help on the current exercise"
 msgstr "_Hjelp om denne øvelsen"
 
-#: solfege/mainwin.py:243
+#: solfege/mainwin.py:242
 msgid "_Music theory on the current exercise"
 msgstr "_Musikkteori om denne øvelsen"
 
-#: solfege/mainwin.py:244
+#: solfege/mainwin.py:243
 msgid "_User manual"
 msgstr "_Brukermanual"
 
-#: solfege/mainwin.py:246 solfege/mainwin.py:394 solfege/mainwin.py:398
+#: solfege/mainwin.py:245 solfege/mainwin.py:397 solfege/mainwin.py:406
 msgid "_File locations"
 msgstr "_Plassering av filer"
 
-#: solfege/mainwin.py:248
+#: solfege/mainwin.py:247
 msgid "_Mailing lists, web page etc."
 msgstr "_Epostlister, vebbsider etc."
 
-#: solfege/mainwin.py:250
+#: solfege/mainwin.py:249
 msgid "_Donate"
 msgstr "_Doner"
 
-#: solfege/mainwin.py:252
+#: solfege/mainwin.py:251
 msgid "Reporting _bugs"
 msgstr "_Rapportere feil"
 
-#: solfege/mainwin.py:255
+#: solfege/mainwin.py:254
 msgid "_See your bug reports"
 msgstr "_Se dine feilrapporter"
 
-#: solfege/mainwin.py:322
+#: solfege/mainwin.py:325
 msgid "Question"
 msgstr "Spørsmål"
 
-#: solfege/mainwin.py:329
+#: solfege/mainwin.py:332
 msgid "Please enter the email used when you submitted the bugs:"
 msgstr "Vennligst skriv inn epostadressen du brukte da du sendte feilrapporten:"
 
-#: solfege/mainwin.py:404
+#: solfege/mainwin.py:412
 msgid "Solfege application data:"
 msgstr "Programdata for Solfege:"
 
-#: solfege/mainwin.py:405
+#: solfege/mainwin.py:413
 msgid "Solfege user data:"
 msgstr "Brukerdata for Solfege:"
 
-#: solfege/mainwin.py:406
+#: solfege/mainwin.py:414
 msgid "Solfege config file:"
 msgstr "Konfigurasjonsfil for Solfege:"
 
-#: solfege/mainwin.py:407
+#: solfege/mainwin.py:415
 msgid "Solfege installation directory:"
 msgstr "Installasjonkatalog:"
 
-#: solfege/mainwin.py:408
+#: solfege/mainwin.py:416
 msgid "User manual in HTML format:"
 msgstr "Brukermanual i HTML-format:"
 
-#: solfege/mainwin.py:423 solfege/mainwin.py:448
+#: solfege/mainwin.py:431 solfege/mainwin.py:456
 msgid "SOLFEGETRANSLATORS"
 msgstr "Tom Cato Amundsen"
 
-#: solfege/mainwin.py:434 solfege/mainwin.py:435
+#: solfege/mainwin.py:442 solfege/mainwin.py:443
 msgid "(some lessonfiles)"
 msgstr "(noen leksjonsfiler)"
 
-#: solfege/mainwin.py:436
+#: solfege/mainwin.py:444
 msgid "(sound code for the MS Windows port)"
 msgstr "(lydkode for MS Windows)"
 
-#: solfege/mainwin.py:437
+#: solfege/mainwin.py:445
 msgid "(ported winmidi.c to gcc)"
 msgstr ""
 
-#: solfege/mainwin.py:438
+#: solfege/mainwin.py:446
 msgid "(spec file for SuSE 8.2)"
 msgstr ""
 
-#: solfege/mainwin.py:439
+#: solfege/mainwin.py:447
 msgid "(spec file cleanup)"
 msgstr ""
 
-#: solfege/mainwin.py:440
+#: solfege/mainwin.py:448
 msgid "(testing and portability fixes for FreeBSD)"
 msgstr ""
 
-#: solfege/mainwin.py:441 solfege/mainwin.py:442
+#: solfege/mainwin.py:449 solfege/mainwin.py:450
 msgid "(the music font from Lilypond)"
 msgstr "(musikkfonten fra Lilypond)"
 
-#: solfege/mainwin.py:443
+#: solfege/mainwin.py:451
 msgid "(scale exercises)"
 msgstr "(skalaøvelser)"
 
-#: solfege/mainwin.py:473
+#: solfege/mainwin.py:481
 #, python-format
 msgid ""
 "In Solfege 3.9.0, the location where Solfege look for lesson files you have created was changed. The files has to be moved from \"%(old)s\" and into the folder \"%(gnu)s\" in your \"%(doc)s\" folder.\n"
@@ -1482,7 +1168,7 @@ msgstr ""
 "I Solfege 3.9.0 endret vi hvilken mappe Solfege ser etter leksjonsfilene du har laget. Filene må flyttes fra «%(old)s» til «%(gnu)s» i mappen «%(doc)s».\n"
 "Vil du at filene skal flyttes automatisk?"
 
-#: solfege/mainwin.py:484
+#: solfege/mainwin.py:492
 #, python-format
 msgid ""
 "Error while copying directory:\n"
@@ -1491,52 +1177,70 @@ msgstr ""
 "Feil under kopiering av katalog:\n"
 "%s"
 
-#: solfege/mainwin.py:486
+#: solfege/mainwin.py:494
 msgid "Files copied. The old files has been left behind. Please delete them when you have verified that all files was copied correctly."
 msgstr "Filene ble kopiert. De gamle filene er ikke fjernet. Slett dem når du har kontrollert at alle filer ble korrekt kopiert."
 
-#: solfege/mainwin.py:493
+#: solfege/mainwin.py:501
 msgid "Migrated old language setup. You might have to restart the program all translated messages to show up."
 msgstr "Flyttet det gamle språkoppsettet. Du må kanskje restarte programmet for at oversatte meldinger skal vises."
 
-#: solfege/mainwin.py:542
+#: solfege/mainwin.py:527
+msgid "Cannot load front page file"
+msgstr "Kan ikke laste forsidefilen"
+
+#: solfege/mainwin.py:528
+#, python-format
+msgid "The file «%s» is saved in an old file format. The file can be converted by editing and saving it with an older version of Solfege. Versions from 3.16.0 to 3.20.4 should do the job."
+msgstr ""
+
+#: solfege/mainwin.py:553
 msgid "User exercises"
 msgstr "Brukerøvelser"
 
-#: solfege/mainwin.py:575 solfege/mainwin.py:577
+#: solfege/mainwin.py:565
+#, python-format
+msgid "You really should move the following directory to a directory below <span font_family=\"monospace\">%s</span>. Future versions of GNU Solfege will not display files in the old location. The user manual have details on where to place the files."
+msgstr "Du bør flytte den følgende katalogen til en katalog under <span font_family=\"monospace\">%s</span>. Fremtidige versjoner av GNU Solfege vil ikke vise filene som er lagret på den gamle plasseringen. Brukermanualen har detaljer om hvor du plasserer filene."
+
+#: solfege/mainwin.py:577 solfege/mainwin.py:579
 msgid "Recent exercises"
 msgstr "Nylig brukte øvelser"
 
-#: solfege/mainwin.py:582 solfege/mainwin.py:584
+#: solfege/mainwin.py:584 solfege/mainwin.py:586
 msgid "Recent tests"
 msgstr "Nylig brukte øvelser"
 
-#: solfege/mainwin.py:681
+#: solfege/mainwin.py:607
+msgid "Search the exercise titles of all lesson files found by the program, not just the active front page with sub pages."
+msgstr ""
+
+#: solfege/mainwin.py:714
 #, python-format
 msgid "The '%s' exercise module does not support test yet."
 msgstr ""
 
-#: solfege/multipleintervalconfigwidget.py:95
+#: solfege/multipleintervalconfigwidget.py:94
 msgid "Number of intervals:"
 msgstr "Antall intervaller:"
 
-#: solfege/multipleintervalconfigwidget.py:102
+#: solfege/multipleintervalconfigwidget.py:101
 msgid "Configure all intervals in this exercise like this"
 msgstr "Konfigurer alle intervaller i denne oppgaven som dette"
 
-#: solfege/multipleintervalconfigwidget.py:110
+#: solfege/multipleintervalconfigwidget.py:109
 msgid "Toggle buttons are for interval number:"
 msgstr "Veksleknappen er for intervall nummer:"
 
-#: solfege/multipleintervalconfigwidget.py:120
+#: solfege/multipleintervalconfigwidget.py:119
 msgid "Up:"
 msgstr "Opp:"
 
-#: solfege/multipleintervalconfigwidget.py:136
+#: solfege/multipleintervalconfigwidget.py:135
 msgid "Down:"
 msgstr "Ned:"
 
-#: solfege/multipleintervalconfigwidget.py:152
+#: solfege/multipleintervalconfigwidget.py:151
 msgid "Reset to default values"
 msgstr "Tilbakestill til standardverdier"
 
@@ -1581,6 +1285,10 @@ msgstr ""
 msgid "Start with <profile>. Create the profile if it does not exist."
 msgstr "Start med profilen <profile>. Lag profilen hvis den ikke finnes."
 
+#: solfege/optionparser.py:55
+msgid "Create or update the screenshots for the user manual. Intended for developers of this program."
+msgstr ""
+
 #: solfege/osutils.py:59
 #, python-format
 msgid "Running the command %s failed."
@@ -1598,7 +1306,7 @@ msgid ""
 "\n"
 "\t%(exception)s\n"
 "\n"
-"Please check that the program is installed. If you did not supply the full path to the program in the preferences window (Ctrl-12), you must make sure the program is on your PATH."
+"Please check that the program is installed. If you did not supply the full path to the program in the preferences window (Ctrl-F12), you must make sure the program is on your PATH."
 msgstr ""
 
 #: solfege/osutils.py:85
@@ -1616,171 +1324,168 @@ msgstr "Mislyktes å kjøre mediaspiller for %s-filer"
 msgid "Failed to execute binary to convert from %(from)s to %(to)s"
 msgstr "Mislyktes å kjøre programmet for å omforme fra %(from)s til %(to)s"
 
-#: solfege/practisesheetdlg.py:300
+#: solfege/practisesheetdlg.py:319
 msgid "Output format:"
 msgstr "Utformat:"
 
-#: solfege/practisesheetdlg.py:309
+#: solfege/practisesheetdlg.py:328
 msgid "Title:"
 msgstr "Tittel:"
 
-#: solfege/practisesheetdlg.py:344
+#: solfege/practisesheetdlg.py:363
 msgid "Section title:"
 msgstr ""
 
-#: solfege/practisesheetdlg.py:352
+#: solfege/practisesheetdlg.py:371
 msgid "Name the music"
 msgstr ""
 
-#: solfege/practisesheetdlg.py:353
+#: solfege/practisesheetdlg.py:372
 msgid "Write the music, first tone given"
 msgstr "Skriv musikken. Første tone er gitt."
 
-#: solfege/practisesheetdlg.py:356
+#: solfege/practisesheetdlg.py:375
 msgid "Type of question:"
 msgstr "Type spørsmål:"
 
-#: solfege/practisesheetdlg.py:360
+#: solfege/practisesheetdlg.py:379
 msgid "Intervals:"
 msgstr "Intervaller:"
 
-#: solfege/practisesheetdlg.py:369
+#: solfege/practisesheetdlg.py:388
 msgid "Questions per line:"
 msgstr "Spørsmål pr linje:"
 
-#: solfege/practisesheetdlg.py:375
+#: solfege/practisesheetdlg.py:394
 msgid "Number of questions:"
 msgstr "Antall spørsmål:"
 
-#: solfege/practisesheetdlg.py:423 solfege/trainingsetdlg.py:295
+#: solfege/practisesheetdlg.py:447 solfege/trainingsetdlg.py:293
 msgid "Select where to export the files"
 msgstr "Velg hvor filene skal eksporteres"
 
-#: solfege/practisesheetdlg.py:483
+#: solfege/practisesheetdlg.py:506
 #, python-format
 msgid "Not all music types are supported. This file contain %(ok)i supported questions and %(not_ok)i that are not supported. The unsupported questions will be ignored. Add any way?"
 msgstr ""
 
-#: solfege/practisesheetdlg.py:485
+#: solfege/practisesheetdlg.py:508
 msgid "Could not add the lesson file. It has no questions with a music object with supported music type."
 msgstr "Kunne ikke legge til leksjonsfilen. Den har ingen spørsmål med musikkobjekter av riktig type."
 
-#: solfege/practisesheetdlg.py:606
+#: solfege/practisesheetdlg.py:569 solfege/trainingsetdlg.py:228
+msgid "Cannot read old file format"
+msgstr ""
+
+#: solfege/practisesheetdlg.py:570 solfege/trainingsetdlg.py:229
+msgid "To convert the file to the new file format, you must open and save it in an older version of Solfege. Versions from 3.16.0 to 3.20.4 should do the job."
+msgstr ""
+
+#: solfege/practisesheetdlg.py:623 solfege/trainingsetdlg.py:251
 #, python-format
 msgid "«%s» not found"
 msgstr "«%s» ble ikke funnet"
 
-#: solfege/practisesheetdlg.py:654
-msgid "Create sheet"
+#: solfege/practisesheetdlg.py:671
+msgid "Create Sheet"
 msgstr "Lag ark"
 
-#: solfege/profilemanager.py:33 solfege/profilemanager.py:138
+#: solfege/practisesheetdlg.py:672
+msgid "Randomize"
+msgstr "Gjør tilfeldig"
+
+#: solfege/presetup.py:51
+#, python-format
+msgid "Parsing %s failed"
+msgstr ""
+
+#: solfege/presetup.py:52
+#, python-format
+msgid "We cannot recover from this, we can rename the corrupt file to %s and then start the program."
+msgstr ""
+
+#: solfege/profilemanager.py:32 solfege/profilemanager.py:137
 msgid "_Create profile…"
 msgstr "_Opprett profil…"
 
-#: solfege/profilemanager.py:39
+#: solfege/profilemanager.py:38
 msgid "Enter the name of the new folder:"
 msgstr "Skriv navnet til den nye mappen:"
 
-#: solfege/profilemanager.py:48
+#: solfege/profilemanager.py:47
 msgid "Your profile data will be stored in:"
 msgstr "Dine profildata lagres i:"
 
-#: solfege/profilemanager.py:66
+#: solfege/profilemanager.py:65
 msgid "New Profile"
 msgstr "Ny profil"
 
-#: solfege/profilemanager.py:73 solfege/profilemanager.py:113
+#: solfege/profilemanager.py:72 solfege/profilemanager.py:112
 #, python-format
 msgid "The profile «%s» already exists."
 msgstr "Profilen «%s» eksisterer allerede."
 
-#: solfege/profilemanager.py:84 solfege/profilemanager.py:142
+#: solfege/profilemanager.py:83 solfege/profilemanager.py:141
 msgid "_Rename profile…"
 msgstr "_Endre navn på profil…"
 
-#: solfege/profilemanager.py:90
+#: solfege/profilemanager.py:89
 #, python-format
 msgid "Rename the profile «%s» to:"
 msgstr "Endre navnet på profilen «%s» til:"
 
-#: solfege/profilemanager.py:122
+#: solfege/profilemanager.py:121
 msgid "GNU Solfege - Choose User Profile"
 msgstr "GNU Solfege - velg brukerprofil"
 
-#: solfege/profilemanager.py:128
+#: solfege/profilemanager.py:127
 msgid "Solfege will save your statistics and test results in the user profile. By adding additional user profiles to Solfege, multiple users can share a user account on the operating system."
-msgstr ""
+msgstr "Solfege lagrer statistikk og prøveresultater i brukerprofilen. Ved å legge til flere brukerprofiler direkte i programmet kan flere brukere delen en konto i operativsystemet."
 
-#: solfege/profilemanager.py:146
+#: solfege/profilemanager.py:145
 msgid "_Delete profile…"
 msgstr "S_lett profil…"
 
-#: solfege/profilemanager.py:152
+#: solfege/profilemanager.py:151
 msgid "Standard profile"
 msgstr "Standardprofil"
 
-#: solfege/profilemanager.py:172
+#: solfege/profilemanager.py:171
 msgid "D_on't ask at startup"
 msgstr "Ikke spør ved oppstart"
 
-#: solfege/profilemanager.py:217
+#: solfege/profilemanager.py:216
 #, python-format
 msgid "Permanently delete the user profile «%s»?"
 msgstr "Slette profilen «%s» permanent?"
 
-#: solfege/profilemanager.py:249
+#: solfege/profilemanager.py:248
 msgid "_Start GNU Solfege"
 msgstr "_Start GNU Solfege"
 
-#: solfege/reportbug.py:38
-msgid "Bug report"
-msgstr "Feilrapport"
-
-#: solfege/reportbug.py:40 solfege/reportbug.py:59
-msgid "_Send"
-msgstr "_Send"
-
-#: solfege/reportbug.py:55
+#: solfege/reportbug.py:36
 msgid "Make bug report"
 msgstr "Lag feilrapport"
 
-#: solfege/reportbug.py:58
-msgid "See complete _report"
-msgstr "Se _hele feilrapporten"
+#: solfege/reportbug.py:39
+msgid "_Send"
+msgstr "_Send"
 
-#: solfege/reportbug.py:64
+#: solfege/reportbug.py:42
+msgid "Information about the version of GNU Solfege, your operating system and Python version, and the Python traceback (error message) will be sent to the crash database. Your email will not be published or shared, but we might contact you by email if we have further questions about your crash report."
+msgstr ""
+
+#: solfege/reportbug.py:48
 msgid "_Email:"
 msgstr "_Epost:"
 
-#: solfege/reportbug.py:68
-msgid "Mangled email address:"
-msgstr "Kamuflert epostadresse"
-
-#: solfege/reportbug.py:74
+#: solfege/reportbug.py:54
 msgid "S_hort description:"
 msgstr "_Kort beskrivelse"
 
-#: solfege/reportbug.py:76
+#: solfege/reportbug.py:56
 msgid "_Describe how to produce the error message:"
 msgstr "_Beskriv hvordan man kan reprodusere denne feilmeldingen:"
-
-#. translators, please notice that the word NO_DESCRIPTION must not be
-#. translated in this string.
-#: solfege/reportbug.py:85
-msgid ""
-"Describe as exactly as you can what you did when this error occurred. If you give no description at all, you make it very difficult to track down this bug. You should replace this text with your description, and also remove the \"bug-tag\" in the bottom of this text so that this bug is not automatically sorted among the bug reports with no description.\n"
-"\n"
-"(bug-tag: NO_DESCRIPTION)"
-msgstr ""
-
-#: solfege/rhythmwidget.py:105 solfege/rhythmwidget.py:112
-msgid "insert-overwrite|INSRT"
-msgstr ""
-
-#: solfege/rhythmwidget.py:113
-msgid "insert-overwrite|OVER"
-msgstr ""
 
 #: solfege/specialwidgets.py:168
 msgid "Set transposition"
@@ -1810,15 +1515,11 @@ msgstr "Transponer noter uten å endre toneart"
 msgid "Semitones"
 msgstr "Halvtoner"
 
-#: solfege/startup.py:140
-msgid "Importing old statistics"
-msgstr "Importerer gammel statistikk"
-
-#: solfege/startup.py:145
+#: solfege/startup.py:144
 msgid "Opening statistics database"
 msgstr "Åpner statistikkdatabasen"
 
-#: solfege/startup.py:150
+#: solfege/startup.py:149
 #, python-format
 msgid ""
 "Failed to open the statistics database:\n"
@@ -1827,47 +1528,48 @@ msgstr ""
 "Mislyktes i å åpne statistikkdatabasen:\n"
 "«%s»"
 
-#: solfege/startup.py:150
+#: solfege/startup.py:149
 msgid "Click OK to exit the program. Then try to quit all other instances of the program, or reboot the computer. You can only run one instance of GNU Solfege at once."
 msgstr "Klikk OK for å avslutte programmet. Så må du avslutte alle andre utgaver av programmet eller restarte datamaskinen. Du kan bare kjøre en utgave av GNU Solfege om gangen."
 
-#: solfege/startup.py:154
+#: solfege/startup.py:153
 msgid "Creating application window"
 msgstr "Lager programvindu"
 
-#: solfege/statistics.py:171 solfege/statistics.py:279
-#, python-format
-msgid "Files read: %i"
-msgstr "Antall filer lest: %i"
-
-#: solfege/statisticsviewer.py:99 solfege/statisticsviewer.py:232
+#: solfege/statisticsviewer.py:130 solfege/statisticsviewer.py:271
 msgid "Session"
 msgstr "Sesjon"
 
-#: solfege/statisticsviewer.py:99 solfege/statisticsviewer.py:236
+#: solfege/statisticsviewer.py:130 solfege/statisticsviewer.py:272
 msgid "Today"
 msgstr "Idag"
 
-#: solfege/statisticsviewer.py:100 solfege/statisticsviewer.py:240
+#: solfege/statisticsviewer.py:131 solfege/statisticsviewer.py:273
 msgid "Last 7 days"
 msgstr "Siste 7 dager"
 
-#: solfege/statisticsviewer.py:100 solfege/statisticsviewer.py:244
+#: solfege/statisticsviewer.py:131 solfege/statisticsviewer.py:151
+#: solfege/statisticsviewer.py:274
 msgid "Total"
 msgstr "Totalt"
 
-#: solfege/statisticsviewer.py:109
+#: solfege/statisticsviewer.py:147
 msgid "Percent"
 msgstr "Prosent"
 
-#: solfege/statisticsviewer.py:110 solfege/trainingsetdlg.py:98
+#: solfege/statisticsviewer.py:149 solfege/trainingsetdlg.py:99
 msgid "Count"
 msgstr "Antall"
 
-#: solfege/statisticsviewer.py:191 solfege/statisticsviewer.py:253
+#: solfege/statisticsviewer.py:238 solfege/statisticsviewer.py:245
 #, python-format
 msgid "Test dated %(date)s: %(percent).1f%%"
 msgstr "Prøve fra %(date)s: %(percent).1f%%"
+
+#: solfege/statisticsviewer.py:304
+#, python-format
+msgid "This exercise have statistics from %(count)s practise sessions, from %(first)s to %(last)s"
+msgstr ""
 
 #: solfege/tracebackwindow.py:32
 msgid "GNU Solfege message window"
@@ -1892,62 +1594,77 @@ msgid ""
 "Are you willing to do that?"
 msgstr ""
 
-#: solfege/trainingsetdlg.py:62
+#: solfege/trainingsetdlg.py:63
 msgid "MIDI"
 msgstr "MIDI"
 
-#: solfege/trainingsetdlg.py:63
+#: solfege/trainingsetdlg.py:64
 msgid "WAV"
 msgstr "WAV"
 
-#: solfege/trainingsetdlg.py:64
+#: solfege/trainingsetdlg.py:65
 msgid "MP3"
 msgstr "MP3"
 
-#: solfege/trainingsetdlg.py:65
+#: solfege/trainingsetdlg.py:66
 msgid "OGG"
 msgstr "OGG"
 
-#: solfege/trainingsetdlg.py:69
+#: solfege/trainingsetdlg.py:70
 msgid "Preferred output format:"
 msgstr "Foretrukket utformat"
 
-#: solfege/trainingsetdlg.py:74
+#: solfege/trainingsetdlg.py:75
 msgid "Name files by questions"
 msgstr "Gi filene navn fra spørsmålene"
 
-#: solfege/trainingsetdlg.py:88
+#: solfege/trainingsetdlg.py:89
 msgid "Title"
 msgstr "Tittel"
 
-#: solfege/trainingsetdlg.py:110
+#: solfege/trainingsetdlg.py:111
 msgid "Delay"
 msgstr "Forsinkelse"
 
-#: solfege/trainingsetdlg.py:168
+#: solfege/trainingsetdlg.py:169
 msgid "This lesson file cannot be exported because some of the music in the file are not parsable by the mpd module."
 msgstr "Denne leksjonsfilen kan ikke eksporteres fordi noe av musikken i filen ikke kan leses av mpd-modulen."
 
-#: solfege/trainingsetdlg.py:184
+#: solfege/trainingsetdlg.py:185
 msgid "Export"
 msgstr "Eksporter"
 
-#: solfege/trainingsetdlg.py:245
+#: solfege/trainingsetdlg.py:243
 #, python-format
 msgid "«<b>%s</b>» was not found"
 msgstr "«<b>%s</b>» ble ikke funnet"
 
-#: solfege/trainingsetdlg.py:253
-#, python-format
-msgid "Unknown lesson_id: <b>%s</b>"
-msgstr ""
-
-#: solfege/trainingsetdlg.py:298
+#: solfege/trainingsetdlg.py:296
 msgid "Exporting training set"
 msgstr ""
 
-#: solfege/trainingsetdlg.py:302
+#: solfege/trainingsetdlg.py:300
 msgid "Export training set"
+msgstr ""
+
+#: solfege/utils.py:99
+msgid "No random interval can be selected within the allowed range of tones."
+msgstr ""
+
+#: solfege/utils.py:174
+msgid "None of the selected intervals can be created in the selected key."
+msgstr ""
+
+#: solfege/utils.py:188 exercises/standard/lesson-files/include/sc-master:211
+msgid "Natural Minor"
+msgstr "Ren moll"
+
+#: solfege/utils.py:190 exercises/standard/lesson-files/include/sc-master:562
+msgid "Harmonic Minor"
+msgstr "Harmonisk moll"
+
+#: solfege/utils.py:192 exercises/standard/lesson-files/include/sc-master:2159
+msgid "Whole Tone"
 msgstr ""
 
 #: solfege/mpd/interval.py:34
@@ -1966,6 +1683,52 @@ msgstr "Forstørret unison"
 msgid "Diminished Second"
 msgstr "Forminsket sekund"
 
+#: solfege/mpd/interval.py:39
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-min2-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-min2-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-min2-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-min2-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-min2-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-min2-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-min2-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-min2-8cent:10
+#: exercises/standard/csound-tree.txt:5 exercises/standard/csound-tree.txt:7
+#: exercises/standard/csound-tree.txt:219
+#: exercises/standard/csound-tree.txt:221
+msgid "Minor Second"
+msgstr "Liten sekund"
+
+#: solfege/mpd/interval.py:40
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj2-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj2-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj2-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj2-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj2-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj2-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj2-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj2-8cent:10
+#: exercises/standard/csound-tree.txt:19 exercises/standard/csound-tree.txt:21
+#: exercises/standard/csound-tree.txt:233
+#: exercises/standard/csound-tree.txt:235
+msgid "Major Second"
+msgstr "Stor sekund"
+
 #: solfege/mpd/interval.py:41
 msgid "Augmented Second"
 msgstr "Forstørret sekund"
@@ -1973,6 +1736,52 @@ msgstr "Forstørret sekund"
 #: solfege/mpd/interval.py:43
 msgid "Diminished Third"
 msgstr "Forminsket ters"
+
+#: solfege/mpd/interval.py:44
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-min3-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-min3-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-min3-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-min3-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-min3-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-min3-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-min3-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-min3-8cent:10
+#: exercises/standard/csound-tree.txt:33 exercises/standard/csound-tree.txt:35
+#: exercises/standard/csound-tree.txt:247
+#: exercises/standard/csound-tree.txt:249
+msgid "Minor Third"
+msgstr "Liten ters"
+
+#: solfege/mpd/interval.py:45
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj3-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj3-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj3-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj3-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj3-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj3-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj3-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj3-8cent:10
+#: exercises/standard/csound-tree.txt:47 exercises/standard/csound-tree.txt:49
+#: exercises/standard/csound-tree.txt:261
+#: exercises/standard/csound-tree.txt:263
+msgid "Major Third"
+msgstr "Stor ters"
 
 #: solfege/mpd/interval.py:46
 msgid "Augmented Third"
@@ -1982,6 +1791,29 @@ msgstr "Forstørret ters"
 msgid "Diminished Fourth"
 msgstr "Forminsket kvart"
 
+#: solfege/mpd/interval.py:49
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-p4-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-p4-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-p4-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-p4-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-p4-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-p4-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-p4-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-p4-8cent:10
+#: exercises/standard/csound-tree.txt:61 exercises/standard/csound-tree.txt:63
+#: exercises/standard/csound-tree.txt:275
+#: exercises/standard/csound-tree.txt:277
+msgid "Perfect Fourth"
+msgstr "Ren kvart"
+
 #: solfege/mpd/interval.py:50
 msgid "Augmented Fourth"
 msgstr "Forstørret kvart"
@@ -1989,6 +1821,29 @@ msgstr "Forstørret kvart"
 #: solfege/mpd/interval.py:52
 msgid "Diminished Fifth"
 msgstr "Forminsket kvint"
+
+#: solfege/mpd/interval.py:53
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-p5-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-p5-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-p5-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-p5-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-p5-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-p5-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-p5-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-p5-8cent:10
+#: exercises/standard/csound-tree.txt:75 exercises/standard/csound-tree.txt:77
+#: exercises/standard/csound-tree.txt:289
+#: exercises/standard/csound-tree.txt:291
+msgid "Perfect Fifth"
+msgstr "Ren kvint"
 
 #: solfege/mpd/interval.py:54
 msgid "Augmented Fifth"
@@ -1998,6 +1853,53 @@ msgstr "Forstørret kvint"
 msgid "Diminished Sixth"
 msgstr "Forminsket sekst"
 
+#: solfege/mpd/interval.py:57
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-min6-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-min6-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-min6-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-min6-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-min6-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-min6-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-min6-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-min6-8cent:10
+#: exercises/standard/csound-tree.txt:89 exercises/standard/csound-tree.txt:91
+#: exercises/standard/csound-tree.txt:303
+#: exercises/standard/csound-tree.txt:305
+msgid "Minor Sixth"
+msgstr "Liten sekst"
+
+#: solfege/mpd/interval.py:58
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj6-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj6-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj6-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj6-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj6-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj6-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj6-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj6-8cent:10
+#: exercises/standard/csound-tree.txt:103
+#: exercises/standard/csound-tree.txt:105
+#: exercises/standard/csound-tree.txt:317
+#: exercises/standard/csound-tree.txt:319
+msgid "Major Sixth"
+msgstr "Stor sekst"
+
 #: solfege/mpd/interval.py:59
 msgid "Augmented Sixth"
 msgstr "Forstørret sekst"
@@ -2005,6 +1907,54 @@ msgstr "Forstørret sekst"
 #: solfege/mpd/interval.py:61
 msgid "Diminished Seventh"
 msgstr "Forminsket septim"
+
+#: solfege/mpd/interval.py:62
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-min7-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-min7-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-min7-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-min7-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-min7-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-min7-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-min7-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-min7-8cent:10
+#: exercises/standard/csound-tree.txt:117
+#: exercises/standard/csound-tree.txt:119
+#: exercises/standard/csound-tree.txt:331
+#: exercises/standard/csound-tree.txt:333
+msgid "Minor Seventh"
+msgstr "Liten septim"
+
+#: solfege/mpd/interval.py:63
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj7-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj7-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj7-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj7-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj7-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj7-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj7-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj7-8cent:10
+#: exercises/standard/csound-tree.txt:131
+#: exercises/standard/csound-tree.txt:133
+#: exercises/standard/csound-tree.txt:345
+#: exercises/standard/csound-tree.txt:347
+msgid "Major Seventh"
+msgstr "Stor septim"
 
 #: solfege/mpd/interval.py:64
 msgid "Augmented Seventh"
@@ -2014,9 +1964,133 @@ msgstr "Forstørret septim"
 msgid "Diminished Octave"
 msgstr "Forminsket oktav"
 
+#: solfege/mpd/interval.py:67
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-p8-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-p8-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-p8-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-p8-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-p8-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-p8-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-p8-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-p8-8cent:10
+#: exercises/standard/csound-tree.txt:145
+#: exercises/standard/csound-tree.txt:147
+#: exercises/standard/csound-tree.txt:359
+#: exercises/standard/csound-tree.txt:361
+msgid "Perfect Octave"
+msgstr "Ren oktav"
+
 #: solfege/mpd/interval.py:68
 msgid "Augmented Octave"
 msgstr "Forstørret oktav"
+
+#. translators: Only translate the word after interval| , and don't include
+#. interval| in the translated string. So for Norwegians, translate
+#. "interval|Diminished" to "Forminsket". Do similar for all strings
+#. that are preceded with "interval|"
+#: solfege/mpd/interval.py:73
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-min9-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-min9-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-min9-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-min9-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-min9-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-min9-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-min9-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-min9-8cent:10
+#: exercises/standard/csound-tree.txt:159
+#: exercises/standard/csound-tree.txt:161
+#: exercises/standard/csound-tree.txt:373
+#: exercises/standard/csound-tree.txt:375
+msgid "Minor Ninth"
+msgstr "Liten none"
+
+#: solfege/mpd/interval.py:74
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj9-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj9-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj9-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj9-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj9-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj9-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj9-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj9-8cent:10
+#: exercises/standard/csound-tree.txt:173
+#: exercises/standard/csound-tree.txt:175
+#: exercises/standard/csound-tree.txt:387
+#: exercises/standard/csound-tree.txt:389
+msgid "Major Ninth"
+msgstr "Stor none"
+
+#: solfege/mpd/interval.py:75
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-min10-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-min10-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-min10-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-min10-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-min10-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-min10-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-min10-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-min10-8cent:10
+#: exercises/standard/csound-tree.txt:187
+#: exercises/standard/csound-tree.txt:189
+#: exercises/standard/csound-tree.txt:401
+#: exercises/standard/csound-tree.txt:403
+msgid "Minor Tenth"
+msgstr "Liten desim"
+
+#: solfege/mpd/interval.py:76
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj10-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj10-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj10-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj10-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj10-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj10-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj10-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj10-8cent:10
+#: exercises/standard/csound-tree.txt:201
+#: exercises/standard/csound-tree.txt:203
+#: exercises/standard/csound-tree.txt:415
+#: exercises/standard/csound-tree.txt:417
+msgid "Major Tenth"
+msgstr "Stor desim"
 
 #: solfege/mpd/interval.py:77
 msgid "interval|Unison"
@@ -2086,75 +2160,137 @@ msgstr "Dobbeltforminsket"
 msgid "interval|Doubly-augmented"
 msgstr "Dobbeltforstørret"
 
-#: solfege/mpd/interval.py:96
-msgid "interval|u"
-msgstr "u"
+#. translators: Sorry for changing a few of these interval names.
+#. I want to follow the naming used by wikipedia an others.
+#. See http://www.solfege.org/translate for important details
+#. These strings are used as button labels for the check buttons
+#. selecting which intervals to ask for.
+#: solfege/mpd/interval.py:106
+msgid "interval|P1"
+msgstr "R1"
 
-#: solfege/mpd/interval.py:97
+#. translators: m2 is a short version of minor second
+#: solfege/mpd/interval.py:108
 msgid "interval|m2"
 msgstr "l2"
 
-#: solfege/mpd/interval.py:97
+#. translators: M2 is a short string for major second
+#: solfege/mpd/interval.py:110
 msgid "interval|M2"
 msgstr "s2"
 
-#: solfege/mpd/interval.py:98
+#. translators: m3 is a short string for minor third
+#: solfege/mpd/interval.py:112
 msgid "interval|m3"
 msgstr "l3"
 
-#: solfege/mpd/interval.py:98
+#. translators: M3 is a short string for major third
+#: solfege/mpd/interval.py:114
 msgid "interval|M3"
 msgstr "s3"
 
-#: solfege/mpd/interval.py:99
+#. translators: 4 is a short string for perfect fourth
+#: solfege/mpd/interval.py:116
 msgid "interval|4"
 msgstr "4"
 
-#: solfege/mpd/interval.py:99
-msgid "interval|tt"
-msgstr "tt"
+#. translators: TT is a short string for tritone
+#: solfege/mpd/interval.py:118
+msgid "interval|TT"
+msgstr "TT"
 
-#: solfege/mpd/interval.py:100
-msgid "interval|5"
-msgstr "5"
+#. translators: 5 is a short string for perfect fifth
+#: solfege/mpd/interval.py:120
+msgid "interval|P5"
+msgstr "P5"
 
-#: solfege/mpd/interval.py:101
+#. translators: m6 is a short string for minor sixth
+#: solfege/mpd/interval.py:122
 msgid "interval|m6"
 msgstr "l6"
 
-#: solfege/mpd/interval.py:101
+#. translators: M6 is a short string for major sixth
+#: solfege/mpd/interval.py:124
 msgid "interval|M6"
 msgstr "s6"
 
-#: solfege/mpd/interval.py:102
+#. translators: m7 is a short string for minor seventh
+#: solfege/mpd/interval.py:126
 msgid "interval|m7"
 msgstr "l7"
 
-#: solfege/mpd/interval.py:102
+#. translators: M7 is a short string for major seventh
+#: solfege/mpd/interval.py:128
 msgid "interval|M7"
 msgstr "s7"
 
-#: solfege/mpd/interval.py:103
-msgid "interval|8"
-msgstr "8"
+#. translators: 8 is a short string for perfect octave
+#: solfege/mpd/interval.py:130
+msgid "interval|P8"
+msgstr "R8"
 
-#: solfege/mpd/interval.py:104
+#. translators: m9 is a short string for minor ninth
+#: solfege/mpd/interval.py:132
 msgid "interval|m9"
 msgstr "l9"
 
-#: solfege/mpd/interval.py:104
+#. translators: M9 is a short string for major ninth
+#: solfege/mpd/interval.py:134
 msgid "interval|M9"
 msgstr "s9"
 
-#: solfege/mpd/interval.py:105
+#. translators: m10 is a short string for minor tenth
+#: solfege/mpd/interval.py:136
 msgid "interval|m10"
 msgstr "l10"
 
-#: solfege/mpd/interval.py:105
+#. translators: M10 is a short string for major tenth
+#: solfege/mpd/interval.py:138
 msgid "interval|M10"
 msgstr "s10"
 
-#: solfege/mpd/interval.py:128
+#. translators: P11 is a short string for perfect 11th (octave + fourth)
+#: solfege/mpd/interval.py:140
+msgid "interval|P11"
+msgstr "R11"
+
+#. translators: d12 is a short string for octave + tritone
+#. I considered the name TT8 (tritone+octave), but rejected it.
+#: solfege/mpd/interval.py:143
+msgid "interval|d12"
+msgstr "fm12"
+
+#. translators: P12 is a short string for perfect 12th (octave + fifth)
+#: solfege/mpd/interval.py:145
+msgid "interval|P12"
+msgstr "R12"
+
+#. translators: m13 is a short string for minor 13th (octave + m6)
+#: solfege/mpd/interval.py:147
+msgid "interval|m13"
+msgstr "l13"
+
+#. translators: M13 is a short string for major 13th (octave + M6)
+#: solfege/mpd/interval.py:149
+msgid "interval|M13"
+msgstr "S13"
+
+#. translators: m14 is a short string for minor 14th (octave + m7)
+#: solfege/mpd/interval.py:151
+msgid "interval|m14"
+msgstr "l14"
+
+#. translators: M14 is a short string for major 14th (octave + M7)
+#: solfege/mpd/interval.py:153
+msgid "interval|M14"
+msgstr "S14"
+
+#. translators: P15 is a short string for perfect double octave
+#: solfege/mpd/interval.py:155
+msgid "interval|P15"
+msgstr "R15"
+
+#: solfege/mpd/interval.py:184
 #, python-format
 msgid "Invalid interval name: %s"
 msgstr "Ugyldig intervalnavn: %s"
@@ -2304,96 +2440,112 @@ msgstr "hx"
 msgid "Invalid notename: %s"
 msgstr "Ugyldig notenavn: %s"
 
-#: solfege/mpd/musicalpitch.py:353
+#: solfege/mpd/musicalpitch.py:359
 #, no-python-format
 msgid "notenameformat|%(notename)s"
 msgstr "%(notename)s"
 
-#: solfege/mpd/musicalpitch.py:356
+#: solfege/mpd/musicalpitch.py:362
 #, no-python-format
 msgid "notenameformat|%(notename)s%(oct)s"
 msgstr "%(suboct2)s%(notename2)s%(supoct)s"
+
+#: solfege/mpd/rhythmwidget.py:116 solfege/mpd/rhythmwidget.py:123
+msgid "insert-overwrite|INSRT"
+msgstr ""
+
+#: solfege/mpd/rhythmwidget.py:124
+msgid "insert-overwrite|OVER"
+msgstr ""
 
 #: solfege/soundcard/winsynth.py:32
 msgid "No MIDI output devices available."
 msgstr "Ingen MIDI-ut-enheter er tilgjengelige."
 
-#: solfege/exercises/chord.py:113 solfege/exercises/idproperty.py:110
+#: solfege/exercises/chord.py:116 solfege/exercises/idproperty.py:114
 msgid "Chord types to ask"
 msgstr "Akkordtyper å spørre etter"
 
-#: solfege/exercises/chord.py:210 solfege/exercises/chordvoicing.py:261
-#: solfege/exercises/compareintervals.py:260
-#: solfege/exercises/elembuilder.py:149
-#: solfege/exercises/harmonicinterval.py:236
-#: solfege/exercises/harmonicprogressiondictation.py:92
-#: solfege/exercises/idbyname.py:242 solfege/exercises/idproperty.py:197
-#: solfege/exercises/idtone.py:244 solfege/exercises/melodicinterval.py:208
-#: solfege/exercises/nameinterval.py:192
-#: solfege/exercises/rhythmdictation2.py:121
-#: solfege/exercises/rhythmdictation.py:148 solfege/exercises/rhythm.py:147
+#: solfege/exercises/chord.py:213 solfege/exercises/chordvoicing.py:259
+#: solfege/exercises/compareintervals.py:263
+#: solfege/exercises/elembuilder.py:156
+#: solfege/exercises/harmonicinterval.py:249
+#: solfege/exercises/harmonicprogressiondictation.py:94
+#: solfege/exercises/idbyname.py:245 solfege/exercises/idproperty.py:201
+#: solfege/exercises/idtone.py:235 solfege/exercises/melodicinterval.py:211
+#: solfege/exercises/nameinterval.py:207
+#: solfege/exercises/rhythmdictation2.py:116
+#: solfege/exercises/rhythmdictation.py:142 solfege/exercises/rhythm.py:146
+#: solfege/exercises/solmisation.py:153 solfege/exercises/toneincontext.py:245
 msgid "Correct"
 msgstr "Korrekt"
 
-#: solfege/exercises/chord.py:219 solfege/exercises/chordvoicing.py:249
-#: solfege/exercises/chordvoicing.py:266
-#: solfege/exercises/compareintervals.py:265
-#: solfege/exercises/elembuilder.py:73 solfege/exercises/elembuilder.py:156
-#: solfege/exercises/harmonicinterval.py:239
-#: solfege/exercises/harmonicprogressiondictation.py:95
-#: solfege/exercises/idbyname.py:247 solfege/exercises/identifybpm.py:197
-#: solfege/exercises/idproperty.py:206 solfege/exercises/idtone.py:251
-#: solfege/exercises/melodicinterval.py:212
-#: solfege/exercises/nameinterval.py:194
-#: solfege/exercises/rhythmdictation2.py:124
-#: solfege/exercises/rhythmdictation.py:151 solfege/exercises/rhythm.py:135
+#: solfege/exercises/chord.py:222 solfege/exercises/chordvoicing.py:247
+#: solfege/exercises/chordvoicing.py:264
+#: solfege/exercises/compareintervals.py:268
+#: solfege/exercises/elembuilder.py:84 solfege/exercises/elembuilder.py:163
+#: solfege/exercises/harmonicinterval.py:252
+#: solfege/exercises/harmonicprogressiondictation.py:97
+#: solfege/exercises/idbyname.py:250 solfege/exercises/identifybpm.py:196
+#: solfege/exercises/idproperty.py:210 solfege/exercises/idtone.py:242
+#: solfege/exercises/melodicinterval.py:215
+#: solfege/exercises/nameinterval.py:209
+#: solfege/exercises/rhythmdictation2.py:119
+#: solfege/exercises/rhythmdictation.py:145 solfege/exercises/rhythm.py:134
+#: solfege/exercises/solmisation.py:141
 msgid "Wrong"
 msgstr "Feil"
 
-#: solfege/exercises/chord.py:232 solfege/exercises/chordvoicing.py:213
-#: solfege/exercises/idbyname.py:199 solfege/exercises/idbyname.py:293
-#: solfege/exercises/idproperty.py:219
+#: solfege/exercises/chord.py:235 solfege/exercises/chordvoicing.py:211
+#: solfege/exercises/idbyname.py:202 solfege/exercises/idbyname.py:295
+#: solfege/exercises/idproperty.py:223
 msgid "Right click is not allowed for this lesson file."
 msgstr "Det er ikke tillatt å høyreklikke i denne øvelsen."
 
-#: solfege/exercises/chord.py:295 solfege/exercises/chord.py:300
-#: solfege/exercises/chordvoicing.py:216 solfege/exercises/chordvoicing.py:241
-#: solfege/exercises/chordvoicing.py:310
+#: solfege/exercises/chord.py:296 solfege/exercises/chord.py:301
+#: solfege/exercises/chordvoicing.py:214 solfege/exercises/chordvoicing.py:239
+#: solfege/exercises/chordvoicing.py:307
 msgid "Click 'New chord' to begin."
 msgstr "Klikk på 'Ny akkord' for å begynne."
 
-#: solfege/exercises/chordvoicing.py:110
+#: solfege/exercises/chordvoicing.py:111
 msgid "Identify chord type"
 msgstr "Identifiser akkordtype"
 
-#: solfege/exercises/chordvoicing.py:119
+#: solfege/exercises/chordvoicing.py:120
 msgid "Chord voicing"
 msgstr "Akkordbygging"
 
-#: solfege/exercises/chordvoicing.py:169 solfege/exercises/chordvoicing.py:306
-#: solfege/exercises/compareintervals.py:318
-#: solfege/exercises/compareintervals.py:352
-#: solfege/exercises/harmonicinterval.py:292
-#: solfege/exercises/melodicinterval.py:254 solfege/exercises/rhythm.py:299
-#: solfege/exercises/rhythmtapping.py:182
+#: solfege/exercises/chordvoicing.py:167 solfege/exercises/chordvoicing.py:303
+#: solfege/exercises/compareintervals.py:321
+#: solfege/exercises/compareintervals.py:356
+#: solfege/exercises/harmonicinterval.py:305
+#: solfege/exercises/melodicinterval.py:244 solfege/exercises/rhythm.py:296
+#: solfege/exercises/rhythmtapping.py:189 solfege/exercises/solmisation.py:315
 msgid "You have to solve this question first."
 msgstr "Du må løse besvare dette spørsmålet først."
 
-#: solfege/exercises/chordvoicing.py:219 solfege/exercises/idbyname.py:207
-#: solfege/exercises/idbyname.py:211 solfege/exercises/idbyname.py:294
-#: solfege/exercises/idbyname.py:295
+#: solfege/exercises/chordvoicing.py:217 solfege/exercises/idbyname.py:210
+#: solfege/exercises/idbyname.py:214 solfege/exercises/idbyname.py:296
+#: solfege/exercises/idbyname.py:297
 msgid "You should try to guess before right-clicking."
 msgstr "Du må prøve å gjette før du høyreklikker."
 
-#: solfege/exercises/chordvoicing.py:245
+#: solfege/exercises/chordvoicing.py:243
 msgid "Correct, now stack the tones"
 msgstr "Korrekt. Nå må du stable tonene"
 
-#: solfege/exercises/chordvoicing.py:251 solfege/exercises/chordvoicing.py:307
+#: solfege/exercises/chordvoicing.py:249 solfege/exercises/chordvoicing.py:304
 msgid "Type is already solved, now specify voicing."
 msgstr "Akkordtype er allerede løst. Nå må du vise stemmeføring."
 
-#: solfege/exercises/compareintervals.py:149
+#: solfege/exercises/compareintervals.py:133
+#: exercises/standard/lesson-files/compare-intervals:6
+#: exercises/standard/learningtree.txt:109
+msgid "Compare intervals"
+msgstr "Sammenligne intervaller"
+
+#: solfege/exercises/compareintervals.py:152
 msgid ""
 "F_irst interval\n"
 "is largest"
@@ -2401,7 +2553,7 @@ msgstr ""
 "Det før_ste\n"
 "intervallet er størst"
 
-#: solfege/exercises/compareintervals.py:152
+#: solfege/exercises/compareintervals.py:155
 msgid ""
 "The intervals\n"
 "are _equal"
@@ -2409,7 +2561,7 @@ msgstr ""
 "Intervallene er\n"
 "_like store"
 
-#: solfege/exercises/compareintervals.py:155
+#: solfege/exercises/compareintervals.py:158
 msgid ""
 "_Last interval\n"
 "is largest"
@@ -2417,84 +2569,90 @@ msgstr ""
 "Det s_iste\n"
 "intervallet er størst"
 
-#: solfege/exercises/compareintervals.py:175
-#: exercises/standard/learningtree.txt:107
+#: solfege/exercises/compareintervals.py:178
+#: exercises/standard/learningtree.txt:111
 msgid "Harmonic"
 msgstr "Harmonisk"
 
-#: solfege/exercises/compareintervals.py:178
-#: exercises/standard/learningtree.txt:125
+#: solfege/exercises/compareintervals.py:181
+#: exercises/standard/learningtree.txt:129
 msgid "Melodic"
 msgstr "Melodisk"
 
-#: solfege/exercises/compareintervals.py:185
+#: solfege/exercises/compareintervals.py:188
 msgid "First interval:"
 msgstr "Første intervall:"
 
-#: solfege/exercises/compareintervals.py:196
+#: solfege/exercises/compareintervals.py:199
 msgid "Last interval:"
 msgstr "Siste intervall:"
 
-#: solfege/exercises/compareintervals.py:252
-#: solfege/exercises/harmonicinterval.py:231
-#: solfege/exercises/harmonicprogressiondictation.py:87
-#: solfege/exercises/idbyname.py:237 solfege/exercises/idbyname.py:296
-#: solfege/exercises/idtone.py:239 solfege/exercises/idtone.py:280
-#: solfege/exercises/nameinterval.py:163 solfege/exercises/nameinterval.py:179
-#: solfege/exercises/nameinterval.py:217
-#: solfege/exercises/rhythmdictation2.py:116
-#: solfege/exercises/rhythmdictation.py:143
+#: solfege/exercises/compareintervals.py:255
+#: solfege/exercises/harmonicinterval.py:244
+#: solfege/exercises/harmonicprogressiondictation.py:89
+#: solfege/exercises/idbyname.py:240 solfege/exercises/idbyname.py:298
+#: solfege/exercises/idtone.py:230 solfege/exercises/idtone.py:271
+#: solfege/exercises/nameinterval.py:178 solfege/exercises/nameinterval.py:194
+#: solfege/exercises/nameinterval.py:229
+#: solfege/exercises/rhythmdictation2.py:111
+#: solfege/exercises/rhythmdictation.py:137
+#: solfege/exercises/toneincontext.py:240
+#: solfege/exercises/toneincontext.py:284
 msgid "Correct, but you have already solved this question"
 msgstr "Korrekt, men du har allerede løst dette spørsmålet"
 
-#: solfege/exercises/compareintervals.py:254
-#: solfege/exercises/harmonicinterval.py:233
-#: solfege/exercises/harmonicprogressiondictation.py:89
-#: solfege/exercises/idbyname.py:239 solfege/exercises/idbyname.py:297
-#: solfege/exercises/idtone.py:241 solfege/exercises/idtone.py:281
-#: solfege/exercises/nameinterval.py:165 solfege/exercises/nameinterval.py:181
-#: solfege/exercises/nameinterval.py:218
-#: solfege/exercises/rhythmdictation2.py:118
-#: solfege/exercises/rhythmdictation.py:145
+#: solfege/exercises/compareintervals.py:257
+#: solfege/exercises/harmonicinterval.py:246
+#: solfege/exercises/harmonicprogressiondictation.py:91
+#: solfege/exercises/idbyname.py:242 solfege/exercises/idbyname.py:299
+#: solfege/exercises/idtone.py:232 solfege/exercises/idtone.py:272
+#: solfege/exercises/nameinterval.py:180 solfege/exercises/nameinterval.py:196
+#: solfege/exercises/nameinterval.py:230
+#: solfege/exercises/rhythmdictation2.py:113
+#: solfege/exercises/rhythmdictation.py:139
+#: solfege/exercises/toneincontext.py:242
+#: solfege/exercises/toneincontext.py:285
 msgid "Wrong, but you have already solved this question"
 msgstr "Feil, men du har allerede løst dette spørsmålet"
 
-#: solfege/exercises/compareintervals.py:277
-#: solfege/exercises/compareintervals.py:350
+#: solfege/exercises/compareintervals.py:280
+#: solfege/exercises/compareintervals.py:354
 msgid "Last interval is largest"
 msgstr "Det siste intervallet er størst"
 
-#: solfege/exercises/compareintervals.py:279
+#: solfege/exercises/compareintervals.py:282
 msgid "The intervals are equal"
 msgstr "Intervallene er like store"
 
-#: solfege/exercises/compareintervals.py:281
-#: solfege/exercises/compareintervals.py:351
+#: solfege/exercises/compareintervals.py:284
+#: solfege/exercises/compareintervals.py:355
 msgid "First interval is largest"
 msgstr "Det første intervallet er størst"
 
-#: solfege/exercises/compareintervals.py:282
-#: solfege/exercises/compareintervals.py:350
-#: solfege/exercises/compareintervals.py:351
-#: solfege/exercises/harmonicinterval.py:204 solfege/exercises/idtone.py:267
+#: solfege/exercises/compareintervals.py:285
+#: solfege/exercises/compareintervals.py:354
+#: solfege/exercises/compareintervals.py:355
+#: solfege/exercises/harmonicinterval.py:217 solfege/exercises/idtone.py:258
+#: solfege/exercises/toneincontext.py:233
 #, python-format
 msgid "The answer is: %s"
 msgstr "Svaret er: %s"
 
-#: solfege/exercises/compareintervals.py:321
-#: solfege/exercises/compareintervals.py:353
+#: solfege/exercises/compareintervals.py:324
+#: solfege/exercises/compareintervals.py:357
 msgid "You have to configure the exercise properly"
 msgstr "Du må konfigurere denne øvelsen ordentlig."
 
-#: solfege/exercises/compareintervals.py:356
-#: solfege/exercises/elembuilder.py:145 solfege/exercises/elembuilder.py:238
-#: solfege/exercises/idbyname.py:204 solfege/exercises/idbyname.py:232
-#: solfege/exercises/idbyname.py:309 solfege/exercises/nameinterval.py:159
-#: solfege/exercises/nameinterval.py:175 solfege/exercises/nameinterval.py:221
-#: solfege/exercises/rhythmdictation2.py:149
-#: solfege/exercises/rhythmdictation.py:180 solfege/exercises/rhythm.py:263
-#: solfege/exercises/rhythm.py:342 solfege/exercises/singanswer.py:112
-#: solfege/exercises/singanswer.py:115
+#: solfege/exercises/compareintervals.py:360
+#: solfege/exercises/elembuilder.py:152 solfege/exercises/elembuilder.py:259
+#: solfege/exercises/idbyname.py:207 solfege/exercises/idbyname.py:235
+#: solfege/exercises/idbyname.py:311 solfege/exercises/nameinterval.py:174
+#: solfege/exercises/nameinterval.py:190 solfege/exercises/nameinterval.py:233
+#: solfege/exercises/rhythmdictation2.py:144
+#: solfege/exercises/rhythmdictation.py:174 solfege/exercises/rhythm.py:261
+#: solfege/exercises/rhythm.py:335 solfege/exercises/singanswer.py:115
+#: solfege/exercises/singanswer.py:118 solfege/exercises/solmisation.py:277
+#: solfege/exercises/solmisation.py:383 solfege/exercises/toneincontext.py:282
 msgid "Click 'New' to begin."
 msgstr "Klikk på 'Ny' for å begynne."
 
@@ -2502,60 +2660,58 @@ msgstr "Klikk på 'Ny' for å begynne."
 msgid "_Play the whole music"
 msgstr "_Spill hele musikken"
 
-#: solfege/exercises/dictation.py:199
+#: solfege/exercises/dictation.py:195
 #, python-format
 msgid "The lesson file '%s' contains no questions."
 msgstr "Leksjonsfilen '%s' inneholder ingen spørsmål."
 
-#: solfege/exercises/elembuilder.py:108 solfege/exercises/rhythm.py:206
-msgid "_Backspace"
-msgstr "_Tilbakeslag"
-
-#: solfege/exercises/elembuilder.py:115
-msgid "elembuilder"
-msgstr ""
-
-#: solfege/exercises/elembuilder.py:143
-#: solfege/exercises/harmonicinterval.py:216
-#: solfege/exercises/harmonicinterval.py:318 solfege/exercises/idbyname.py:230
-#: solfege/exercises/idbyname.py:306 solfege/exercises/melodicinterval.py:173
-#: solfege/exercises/melodicinterval.py:271
+#: solfege/exercises/elembuilder.py:150
+#: solfege/exercises/harmonicinterval.py:229
+#: solfege/exercises/harmonicinterval.py:327 solfege/exercises/idbyname.py:233
+#: solfege/exercises/idbyname.py:308 solfege/exercises/melodicinterval.py:176
+#: solfege/exercises/melodicinterval.py:272
 msgid "Click 'Start test' to begin."
 msgstr "Klikk på 'Start prøve' for å begynne."
 
-#: solfege/exercises/harmonicinterval.py:171
-msgid "Ask for these intervals"
-msgstr "Spør etter disse intervallene"
+#: solfege/exercises/harmonicinterval.py:104
+#: solfege/exercises/melodicinterval.py:240
+#: solfege/exercises/singinterval.py:140
+msgid "Exercise configuration problem"
+msgstr ""
 
-#: solfege/exercises/harmonicinterval.py:200
-#: solfege/exercises/harmonicinterval.py:314
-msgid "Harmonic interval"
-msgstr "Harmonisk intervall"
-
-#: solfege/exercises/harmonicinterval.py:223
-#: solfege/exercises/melodicinterval.py:190
-msgid "Ignoring intervals greater than major tenth."
-msgstr "Ignorerer intervaller som er større en stor desim."
-
-#: solfege/exercises/harmonicinterval.py:227
-#: solfege/exercises/harmonicinterval.py:321
-#: solfege/exercises/melodicinterval.py:178
-#: solfege/exercises/melodicinterval.py:274
-msgid "Click 'New interval' to begin."
-msgstr "Trykk 'Nytt intervall' for å begynne."
-
-#: solfege/exercises/harmonicinterval.py:298
-msgid "You have to select some intervals to practise."
-msgstr "Du må velge noen intervaller å trene på."
-
-#: solfege/exercises/harmonicinterval.py:308
-#: solfege/exercises/melodicinterval.py:261
+#: solfege/exercises/harmonicinterval.py:168
+#: solfege/exercises/melodicinterval.py:100
 msgid "Identify the interval"
 msgstr "Identifiser intervallet"
 
-#: solfege/exercises/harmonicinterval.py:332 solfege/exercises/idbyname.py:323
-#: solfege/exercises/melodicinterval.py:286
-#: solfege/exercises/singinterval.py:223
+#: solfege/exercises/harmonicinterval.py:182
+msgid "Ask for these intervals"
+msgstr "Spør etter disse intervallene"
+
+#: solfege/exercises/harmonicinterval.py:213
+#: solfege/exercises/harmonicinterval.py:323
+msgid "Harmonic interval"
+msgstr "Harmonisk intervall"
+
+#: solfege/exercises/harmonicinterval.py:236
+#: solfege/exercises/melodicinterval.py:193
+msgid "Ignoring intervals greater than double octave."
+msgstr "Ignorerer intervaller som er større enn dobbel oktav."
+
+#: solfege/exercises/harmonicinterval.py:240
+#: solfege/exercises/harmonicinterval.py:330
+#: solfege/exercises/melodicinterval.py:181
+#: solfege/exercises/melodicinterval.py:275
+msgid "Click 'New interval' to begin."
+msgstr "Trykk 'Nytt intervall' for å begynne."
+
+#: solfege/exercises/harmonicinterval.py:311
+msgid "You have to select some intervals to practise."
+msgstr "Du må velge noen intervaller å trene på."
+
+#: solfege/exercises/harmonicinterval.py:341 solfege/exercises/idbyname.py:325
+#: solfege/exercises/melodicinterval.py:288
+#: solfege/exercises/singinterval.py:225
 msgid "_Start test"
 msgstr "_Start prøve"
 
@@ -2563,165 +2719,171 @@ msgstr "_Start prøve"
 msgid "Harmonic progression dictation"
 msgstr "Diktat med harmonisk progresjon"
 
-#: solfege/exercises/idbyname.py:128
+#: solfege/exercises/idbyname.py:134
 msgid "Questions to ask"
 msgstr "Spørsmål å trene på"
 
-#: solfege/exercises/idbyname.py:141
+#: solfege/exercises/idbyname.py:147
 msgid "Identify by name"
 msgstr "Identifiser via navn"
 
-#: solfege/exercises/idbyname.py:187
-#, fuzzy
+#: solfege/exercises/idbyname.py:190
 msgid "The answer is: {answer}"
-msgstr "Svaret er: %s"
+msgstr "Svaret er: {answer}"
 
-#: solfege/exercises/idbyname.py:298
+#: solfege/exercises/idbyname.py:300
 msgid "You have to select some questions to practise."
 msgstr "Du må velge noen spørsmål å øve på."
 
-#: solfege/exercises/identifybpm.py:143
+#: solfege/exercises/identifybpm.py:142
 msgid "Bpm"
 msgstr "Slag pr minutt"
 
-#: solfege/exercises/identifybpm.py:171
+#: solfege/exercises/identifybpm.py:170
 msgid "You have to select some tempos to practise."
 msgstr "Du må velge noen tempoer å øve på."
 
-#: solfege/exercises/identifybpm.py:191 solfege/exercises/identifybpm.py:201
+#: solfege/exercises/identifybpm.py:190 solfege/exercises/identifybpm.py:201
 msgid "Click 'New tempo' to begin."
 msgstr "Klikk på 'Nytt tempo' for å begynne."
 
-#: solfege/exercises/identifybpm.py:194
+#: solfege/exercises/identifybpm.py:193
 #, python-format
 msgid "Correct, it is %i"
 msgstr "Korrekt, det er %i"
 
-#: solfege/exercises/idproperty.py:288 solfege/exercises/idproperty.py:293
+#: solfege/exercises/idproperty.py:286 solfege/exercises/idproperty.py:291
 #, python-format
 msgid "Click '%s' to begin."
 msgstr "Klikk på '%s' for å begynne."
 
-#: solfege/exercises/idtone.py:151
+#: solfege/exercises/idtone.py:143
 msgid "Weight"
 msgstr "Vekt"
 
-#: solfege/exercises/idtone.py:174
+#: solfege/exercises/idtone.py:166
 msgid "Octave:"
 msgstr "Oktav:"
 
-#: solfege/exercises/idtone.py:182
+#: solfege/exercises/idtone.py:174
 msgid "Hide _piano keyboard shortcuts"
 msgstr "Skjul hurtigtastene på pianoklaviaturet"
 
-#: solfege/exercises/idtone.py:188
+#: solfege/exercises/idtone.py:180
 msgid "When you guess wrong"
 msgstr "Når du gjetter feil"
 
-#: solfege/exercises/idtone.py:193
+#: solfege/exercises/idtone.py:185
 msgid "Play warning sound"
 msgstr "Spill lydsignal"
 
-#: solfege/exercises/idtone.py:200 solfege/exercises/idtone.py:308
-#: exercises/standard/learningtree.txt:491
-#: exercises/standard/learningtree.txt:493
+#: solfege/exercises/idtone.py:192 solfege/exercises/idtone.py:317
+#: exercises/standard/learningtree.txt:499
+#: exercises/standard/learningtree.txt:501
 msgid "Identify tone"
 msgstr "Identifiser tone"
 
-#: solfege/exercises/idtone.py:214
+#: solfege/exercises/idtone.py:205
 msgid "You have to select some tones practise. Do this on the config page by setting the weight of tones to a value greater than zero."
 msgstr "Du må velge ut noen toner å øve på. Gjør dette på konfigurasjonssidenved å sette vekten til tonene til en verdi større enn null."
 
-#: solfege/exercises/idtone.py:231
+#: solfege/exercises/idtone.py:222
 #, python-format
 msgid "First tone is %s"
 msgstr "Første tone er %s"
 
-#: solfege/exercises/idtone.py:235 solfege/exercises/idtone.py:279
-#: solfege/exercises/idtone.py:311
+#: solfege/exercises/idtone.py:226 solfege/exercises/idtone.py:270
+#: solfege/exercises/idtone.py:320
 msgid "Click 'New tone' to begin."
 msgstr "Klikk på 'Nytt tone' for å begynne."
 
-#: solfege/exercises/melodicinterval.py:118
-#: solfege/exercises/melodicinterval.py:267
+#: solfege/exercises/melodicinterval.py:121
+#: solfege/exercises/melodicinterval.py:268
 msgid "Melodic interval"
 msgstr "Melodisk intervall"
 
-#: solfege/exercises/melodicinterval.py:187
+#: solfege/exercises/melodicinterval.py:190
 msgid "You have already identified this interval"
 msgstr "Du har allerede identifisert dette intervallet"
 
-#: solfege/exercises/melodicinterval.py:235
-msgid "The exercise has to be better configured."
-msgstr "Denne øvelsen må bli bedre konfigurert."
-
-#: solfege/exercises/nameinterval.py:153
-msgid "Could not satisfy the constraints in the lesson header."
-msgstr ""
-
-#: solfege/exercises/nameinterval.py:200
+#: solfege/exercises/nameinterval.py:140
 msgid "Name the interval"
 msgstr "Gi navn til intervallet"
 
-#: solfege/exercises/rhythmdictation2.py:136
-#: solfege/exercises/rhythmdictation.py:167
+#: solfege/exercises/nameinterval.py:168
+msgid "Could not satisfy the constraints in the lesson header."
+msgstr ""
+
+#: solfege/exercises/rhythmdictation2.py:131
+#: solfege/exercises/rhythmdictation.py:161
 msgid "The music played:"
 msgstr "Musikken som ble spillt:"
 
-#: solfege/exercises/rhythmdictation2.py:137
-#: solfege/exercises/rhythmdictation.py:168
+#: solfege/exercises/rhythmdictation2.py:132
+#: solfege/exercises/rhythmdictation.py:162
 msgid "The rhythm you entered:"
 msgstr "Rytmen du skrev inn:"
 
-#: solfege/exercises/rhythmdictation.py:71
+#: solfege/exercises/rhythmdictation.py:62
 msgid "The music object named «rhythm» is not a subclass of MpdParsable"
 msgstr ""
 
-#: solfege/exercises/rhythmdictation.py:77
+#: solfege/exercises/rhythmdictation.py:63
+#: solfege/exercises/rhythmdictation.py:69
+msgid "Read about the «rhythm» variable in the section «Question block» in the chapter named «Extending GNU Solfege» in the user manual."
+msgstr ""
+
+#: solfege/exercises/rhythmdictation.py:68
 msgid "The music object named «music» is not a subclass of MpdParsable"
 msgstr ""
 
-#: solfege/exercises/rhythm.py:187
-msgid "Play"
-msgstr "Spill"
-
-#: solfege/exercises/rhythm.py:226
-msgid "Don't start the question with a rest"
-msgstr "Ikke start spørsmålet med en pause"
-
-#: solfege/exercises/rhythm.py:229
-msgid "Beats per minute:"
-msgstr "Slag per minutt:"
-
-#: solfege/exercises/rhythm.py:303 solfege/exercises/rhythmtapping.py:186
-msgid "You have to configure this exercise properly"
-msgstr "Du må konfigurere denne øvelsen ordentlig."
-
-#: solfege/exercises/rhythm.py:338
+#: solfege/exercises/rhythm.py:179
 msgid "Identify the rhythm"
 msgstr "Identifiser rytmen"
 
-#: solfege/exercises/rhythmtapping.py:123
+#: solfege/exercises/rhythm.py:187 solfege/exercises/solmisation.py:195
+msgid "Play"
+msgstr "Spill"
+
+#: solfege/exercises/rhythm.py:224
+msgid "Don't start the question with a rest"
+msgstr "Ikke start spørsmålet med en pause"
+
+#: solfege/exercises/rhythm.py:227 solfege/exercises/solmisation.py:230
+msgid "Beats per minute:"
+msgstr "Slag per minutt:"
+
+#: solfege/exercises/rhythm.py:300 solfege/exercises/rhythmtapping.py:193
+#: solfege/exercises/solmisation.py:319
+msgid "You have to configure this exercise properly"
+msgstr "Du må konfigurere denne øvelsen ordentlig."
+
+#: solfege/exercises/rhythmtapping2.py:48
+#: solfege/exercises/rhythmtapping.py:130
 msgid "Please tap the rhythm."
 msgstr "Vennligst bank denne rytmen."
 
-#: solfege/exercises/rhythmtapping.py:130
+#: solfege/exercises/rhythmtapping.py:137
 msgid "Tap here"
 msgstr "Bank her"
 
-#: solfege/exercises/rhythmtapping.py:142
+#: solfege/exercises/rhythmtapping.py:149
 msgid "Accuracy required:"
 msgstr "Påkrevet nøyaktighet:"
 
-#: solfege/exercises/rhythmtapping.py:196
+#: solfege/exercises/rhythmtapping.py:203
 msgid "Tapping in progress..."
 msgstr "Banking pågår..."
 
-#: solfege/exercises/singchord.py:46
+#: solfege/exercises/singchord.py:48
 msgid "440h_z"
 msgstr "440 h_z"
 
-#: solfege/exercises/singinterval.py:102
+#: solfege/exercises/singinterval.py:93
+msgid "Sing the interval"
+msgstr "Syng intervallet"
+
+#: solfege/exercises/singinterval.py:104
 msgid ""
 "_New interval,\n"
 "last was correct"
@@ -2729,7 +2891,7 @@ msgstr ""
 "_Nytt intervall,\n"
 "siste var korrekt"
 
-#: solfege/exercises/singinterval.py:104
+#: solfege/exercises/singinterval.py:106
 msgid ""
 "New interval,\n"
 "last was _wrong"
@@ -2737,19 +2899,19 @@ msgstr ""
 "Nytt intervall,\n"
 "siste var f_eil"
 
-#: solfege/exercises/singinterval.py:109
+#: solfege/exercises/singinterval.py:111
 msgid "_Repeat first tone"
 msgstr "_Repeter første tone"
 
-#: solfege/exercises/singinterval.py:117
+#: solfege/exercises/singinterval.py:119
 msgid "Play _last tone"
 msgstr "Spill s_iste tone"
 
-#: solfege/exercises/singinterval.py:132 solfege/exercises/singinterval.py:181
+#: solfege/exercises/singinterval.py:134 solfege/exercises/singinterval.py:183
 msgid "Sing interval"
 msgstr "Syng intervall"
 
-#: solfege/exercises/singinterval.py:148
+#: solfege/exercises/singinterval.py:154
 msgid ""
 "The exercise has to be better configured.\n"
 "Click 'Reset to default values' on the config\n"
@@ -2760,19 +2922,65 @@ msgstr ""
 "siden for konfigurasjon hvis du ikke vet\n"
 "hvordan du kan gjøre dette."
 
-#: solfege/exercises/singinterval.py:175
-msgid "Sing the interval"
-msgstr "Syng intervallet"
+#: solfege/exercises/solmisation.py:186
+#: exercises/standard/lesson-files/solmisation:7
+msgid "Solmisation Diktat"
+msgstr ""
 
-#: solfege/exercises/twelvetone.py:69
+#: solfege/exercises/solmisation.py:238
+msgid "Show the first tone"
+msgstr "Vis den første tonen"
+
+#: solfege/exercises/solmisation.py:241
+msgid "Play cadence"
+msgstr "Spill kadens"
+
+#: solfege/exercises/toneincontext.py:171
+#: exercises/standard/learningtree.txt:580
+msgid "Tone in context"
+msgstr "Tone i sammenheng"
+
+#: solfege/exercises/toneincontext.py:191
+msgid "Random transpose"
+msgstr "Tilfeldig transponering"
+
+#: solfege/exercises/toneincontext.py:195
+msgid "Tones"
+msgstr "Toner"
+
+#: solfege/exercises/toneincontext.py:201
+#: exercises/standard/lesson-files/cadense-1:15
+#: exercises/standard/learningtree.txt:573
+#: exercises/standard/learningtree.txt:575
+msgid "Cadences"
+msgstr "Kadenser"
+
+#: solfege/exercises/toneincontext.py:215
+msgid "Tone in cadence"
+msgstr "Tone i kadens"
+
+#: solfege/exercises/toneincontext.py:227
+msgid "No cadences selected"
+msgstr "Ingen kadenser er valgt"
+
+#: solfege/exercises/toneincontext.py:265
+msgid "Unnamed"
+msgstr "Uten navn"
+
+#: solfege/exercises/twelvetone.py:61
+#: exercises/standard/lesson-files/twelvetone:7
+msgid "Sing twelve random tones"
+msgstr "Syng tolvtonerekke"
+
+#: solfege/exercises/twelvetone.py:70
 msgid "_Play first note"
 msgstr "_Spill første tone"
 
-#: solfege/exercises/twelvetone.py:71
+#: solfege/exercises/twelvetone.py:72
 msgid "Play _last note"
 msgstr "Spill s_iste tone"
 
-#: solfege/exercises/twelvetone.py:73
+#: solfege/exercises/twelvetone.py:74
 msgid "Play _all"
 msgstr "Spill _alle"
 
@@ -2881,12 +3089,6 @@ msgstr "Norske barnesanger"
 msgid "simple tonal chords"
 msgstr "enkle tonale akkorder"
 
-#: exercises/standard/lesson-files/cadense-1:15
-#: exercises/standard/learningtree.txt:565
-#: exercises/standard/learningtree.txt:567
-msgid "Cadences"
-msgstr "Kadenser"
-
 #: exercises/standard/lesson-files/cadense-1:29
 msgid "Perfect authentic cadence"
 msgstr "Fullkommen autentisk kadense"
@@ -2914,6 +3116,14 @@ msgstr "7b9 og maj79-akkorder"
 #: exercises/standard/lesson-files/chord-7b9-maj79:18
 msgid "chord|maj79"
 msgstr ""
+
+#: exercises/standard/lesson-files/chord-7-inv:17
+msgid "Dominant 7 chord with inversions"
+msgstr "Dominantseptimakkorder med omvendinger"
+
+#: exercises/standard/lesson-files/chord-all-root:11
+msgid "Lots of chords"
+msgstr "Mange akkoder"
 
 #: exercises/standard/lesson-files/chord-dim-aug:12
 msgid "Diminished and augmented chords"
@@ -3048,11 +3258,6 @@ msgstr "Dur/moll i tett og spredt leie"
 msgid "Altered chords (chord voicing)"
 msgstr "Altererte akkorder (chord voicing)"
 
-#: exercises/standard/lesson-files/compare-intervals:6
-#: exercises/standard/learningtree.txt:105
-msgid "Compare intervals"
-msgstr "Sammenligne intervaller"
-
 #: exercises/standard/lesson-files/compare-intervals-harmonic:7
 #: exercises/standard/lesson-files/compare-intervals-melodic:7
 #: exercises/standard/lesson-files/harmonic-intervals:8
@@ -3061,7 +3266,7 @@ msgstr "Sammenligne intervaller"
 #: exercises/standard/lesson-files/melodic-intervals-up:8
 #: exercises/standard/lesson-files/sing-intervals:10
 msgid "Second to tenth"
-msgstr "Sekund til oktav"
+msgstr "Sekund til desim"
 
 #: exercises/standard/lesson-files/compare-intervals-harmonic-10:6
 #: exercises/standard/lesson-files/compare-intervals-melodic-10:7
@@ -3107,7 +3312,6 @@ msgstr "Sekund til oktav"
 
 #: exercises/standard/lesson-files/compare-intervals-harmonic-3:6
 #: exercises/standard/lesson-files/compare-intervals-melodic-3:7
-#: exercises/standard/lesson-files/compare-intervals-melodic-3~:6
 #: exercises/standard/lesson-files/harmonic-intervals-3:8
 #: exercises/standard/lesson-files/hear-tones-1:7
 #: exercises/standard/lesson-files/melodic-intervals-3:8
@@ -3120,7 +3324,6 @@ msgstr "Terser"
 
 #: exercises/standard/lesson-files/compare-intervals-harmonic-4-5:6
 #: exercises/standard/lesson-files/compare-intervals-melodic-4-5:7
-#: exercises/standard/lesson-files/compare-intervals-melodic-4-5~:6
 #: exercises/standard/lesson-files/harmonic-intervals-4-5:8
 #: exercises/standard/lesson-files/hear-tones-3:7
 #: exercises/standard/lesson-files/melodic-intervals-4-5:8
@@ -12506,10 +12709,17 @@ msgstr "Diatoniske akkorder"
 msgid "Diatonic chords & inversions"
 msgstr "Diatoniske akkorder og omvendinger"
 
+#: exercises/standard/lesson-files/harmonic-intervals-2-to-15:7
+#: exercises/standard/lesson-files/melodic-intervals-2-to-15:7
+#: exercises/standard/lesson-files/melodic-intervals-down-2-to-15:7
+#: exercises/standard/lesson-files/melodic-intervals-up-2-to-15:7
+msgid "Second to 15th"
+msgstr "Sekund til dobbeloktav"
+
 #: exercises/standard/lesson-files/harmonic-intervals-self-config:6
 #: exercises/standard/csound-tree.txt:218
-#: exercises/standard/learningtree.txt:65
-#: exercises/standard/learningtree.txt:67
+#: exercises/standard/learningtree.txt:68
+#: exercises/standard/learningtree.txt:70
 msgid "Harmonic intervals"
 msgstr "Harmoniske intervaller"
 
@@ -12884,6 +13094,8 @@ msgid "C to B, C#, D#, F# and G#"
 msgstr "C til B, C#, D#, F# og G#"
 
 #: exercises/standard/lesson-files/id-tone-cde-12:8
+#: exercises/standard/lesson-files/toneincontext-major:6
+#: exercises/standard/lesson-files/toneincontext-minor:6
 msgid "All"
 msgstr "Alle"
 
@@ -13022,7 +13234,7 @@ msgid "Interval in a key (minor)"
 msgstr ""
 
 #: exercises/standard/lesson-files/interval_in_key_min:15
-msgid "Indetify the interval played after tonic"
+msgid "Identify the interval played after tonic"
 msgstr "Identifiser intervallet som blir spillt etter tonika"
 
 #: exercises/standard/lesson-files/jsb-inventions:8
@@ -13030,8 +13242,8 @@ msgid "Parts of 2 Bach inventions"
 msgstr "Deler av to Bach-invensjoner"
 
 #: exercises/standard/lesson-files/melodic-intervals-self-config:6
-#: exercises/standard/csound-tree.txt:4 exercises/standard/learningtree.txt:45
-#: exercises/standard/learningtree.txt:47
+#: exercises/standard/csound-tree.txt:4 exercises/standard/learningtree.txt:47
+#: exercises/standard/learningtree.txt:49
 msgid "Melodic intervals"
 msgstr "Melodiske intervaller"
 
@@ -13050,8 +13262,8 @@ msgstr ""
 #: exercises/standard/lesson-files/mma-7-C:11
 #: exercises/standard/lesson-files/mma-7-harmonic-minor:11
 #: exercises/standard/lesson-files/mma-7-natural-minor:12
-#: exercises/standard/lesson-files/progression-1:11
-#: exercises/standard/lesson-files/progression-2:12
+#: exercises/standard/lesson-files/progression-1:10
+#: exercises/standard/lesson-files/progression-2:11
 #: exercises/standard/lesson-files/progression-atte:32
 #: exercises/standard/lesson-files/three-prog-root:10
 msgid "Enter the harmonic progression"
@@ -13105,11 +13317,15 @@ msgstr "Oktaver"
 msgid "Unisons"
 msgstr "Unisoner"
 
-#: exercises/standard/lesson-files/progression-1:10
+#: exercises/standard/lesson-files/polish-folk-songs:30
+msgid "Polish folk songs"
+msgstr ""
+
+#: exercises/standard/lesson-files/progression-1:9
 msgid "Easy harmonic progressions"
 msgstr "Enkle harmoniske progresjoner"
 
-#: exercises/standard/lesson-files/progression-2:11
+#: exercises/standard/lesson-files/progression-2:10
 msgid "Easy harmonic progressions, including inverted chords"
 msgstr "Enkle harmoniske progresjoner, inkludert akkorder i omvending"
 
@@ -13181,8 +13397,8 @@ msgstr "Skalaer med 8 toner"
 
 #: exercises/standard/lesson-files/sc-beb:12
 #: exercises/standard/lesson-files/sc-beb-name:12
-#: exercises/standard/learningtree.txt:421
-#: exercises/standard/learningtree.txt:423
+#: exercises/standard/learningtree.txt:428
+#: exercises/standard/learningtree.txt:430
 msgid "Bebop Scales"
 msgstr "Bebopskalaer"
 
@@ -13222,8 +13438,8 @@ msgstr ""
 
 #: exercises/standard/lesson-files/sc-dha:12
 #: exercises/standard/lesson-files/sc-dha-name:12
-#: exercises/standard/learningtree.txt:348
-#: exercises/standard/learningtree.txt:350
+#: exercises/standard/learningtree.txt:355
+#: exercises/standard/learningtree.txt:357
 msgid "Double Harmonic Scale and its modes"
 msgstr ""
 
@@ -13285,8 +13501,8 @@ msgstr ""
 
 #: exercises/standard/lesson-files/sc-ham:12
 #: exercises/standard/lesson-files/sc-ham-name:12
-#: exercises/standard/learningtree.txt:333
-#: exercises/standard/learningtree.txt:335
+#: exercises/standard/learningtree.txt:340
+#: exercises/standard/learningtree.txt:342
 msgid "Harmonic Major Scale and its modes"
 msgstr ""
 
@@ -13324,8 +13540,8 @@ msgstr ""
 
 #: exercises/standard/lesson-files/sc-har:12
 #: exercises/standard/lesson-files/sc-har-name:12
-#: exercises/standard/learningtree.txt:318
-#: exercises/standard/learningtree.txt:320
+#: exercises/standard/learningtree.txt:325
+#: exercises/standard/learningtree.txt:327
 msgid "Harmonic Minor Scale and its modes"
 msgstr ""
 
@@ -13367,8 +13583,8 @@ msgstr ""
 
 #: exercises/standard/lesson-files/sc-hun:12
 #: exercises/standard/lesson-files/sc-hun-name:12
-#: exercises/standard/learningtree.txt:394
-#: exercises/standard/learningtree.txt:396
+#: exercises/standard/learningtree.txt:401
+#: exercises/standard/learningtree.txt:403
 msgid "Hungarian Scale and its modes"
 msgstr ""
 
@@ -13406,8 +13622,8 @@ msgstr ""
 
 #: exercises/standard/lesson-files/sc-maj:12
 #: exercises/standard/lesson-files/sc-maj-name:12
-#: exercises/standard/learningtree.txt:286
-#: exercises/standard/learningtree.txt:288
+#: exercises/standard/learningtree.txt:293
+#: exercises/standard/learningtree.txt:295
 msgid "Major Scale and its modes"
 msgstr ""
 
@@ -13461,8 +13677,8 @@ msgstr ""
 
 #: exercises/standard/lesson-files/sc-mel:12
 #: exercises/standard/lesson-files/sc-mel-name:12
-#: exercises/standard/learningtree.txt:303
-#: exercises/standard/learningtree.txt:305
+#: exercises/standard/learningtree.txt:310
+#: exercises/standard/learningtree.txt:312
 msgid "Melodic Minor Scale and its modes"
 msgstr ""
 
@@ -13512,8 +13728,8 @@ msgstr ""
 
 #: exercises/standard/lesson-files/sc-nea:12
 #: exercises/standard/lesson-files/sc-nea-name:12
-#: exercises/standard/learningtree.txt:364
-#: exercises/standard/learningtree.txt:366
+#: exercises/standard/learningtree.txt:371
+#: exercises/standard/learningtree.txt:373
 msgid "Neapolitan Scale and its modes"
 msgstr ""
 
@@ -13588,8 +13804,8 @@ msgstr ""
 
 #: exercises/standard/lesson-files/sc-pen:12
 #: exercises/standard/lesson-files/sc-pen-name:12
-#: exercises/standard/learningtree.txt:409
-#: exercises/standard/learningtree.txt:411
+#: exercises/standard/learningtree.txt:416
+#: exercises/standard/learningtree.txt:418
 msgid "Pentatonic Major Scale and its modes"
 msgstr ""
 
@@ -13667,42 +13883,43 @@ msgid "All the questions from the singchord exercises"
 msgstr "Alle spørsmålene fra 'Syng akkord'-øvelsene"
 
 #: exercises/standard/lesson-files/sing-intervals-self-config:8
-#: exercises/standard/learningtree.txt:85
-#: exercises/standard/learningtree.txt:87
+#: exercises/standard/learningtree.txt:89
+#: exercises/standard/learningtree.txt:91
 msgid "Sing intervals"
 msgstr "Syng intervaller"
 
 #: exercises/standard/lesson-files/sing-the-fifth:9
-#: exercises/standard/lesson-files/sing-the-fifth:15
-#: exercises/standard/lesson-files/sing-the-fifth:20
+#: exercises/standard/lesson-files/sing-the-fifth:16
+#: exercises/standard/lesson-files/sing-the-fifth:21
 msgid "Sing the fifth of the chord"
 msgstr "Syng kvinten i akkorden"
 
 #: exercises/standard/lesson-files/sing-the-root:9
-#: exercises/standard/lesson-files/sing-the-root:15
-#: exercises/standard/lesson-files/sing-the-root:20
+#: exercises/standard/lesson-files/sing-the-root:16
+#: exercises/standard/lesson-files/sing-the-root:21
 msgid "Sing the root of the chord"
 msgstr "Syng grunntonen i akkorden"
 
 #: exercises/standard/lesson-files/sing-the-seventh:9
-#: exercises/standard/lesson-files/sing-the-seventh:15
-#: exercises/standard/lesson-files/sing-the-seventh:20
-#: exercises/standard/lesson-files/sing-the-seventh-inv:16
-#: exercises/standard/lesson-files/sing-the-seventh-inv:21
-#: exercises/standard/lesson-files/sing-the-seventh-inv:27
-#: exercises/standard/lesson-files/sing-the-seventh-inv:32
-#: exercises/standard/lesson-files/sing-the-seventh-inv:38
-#: exercises/standard/lesson-files/sing-the-seventh-inv:43
-#: exercises/standard/lesson-files/sing-the-seventh-inv:49
-#: exercises/standard/lesson-files/sing-the-seventh-inv:54
-#: exercises/standard/lesson-files/sing-the-seventh-inv:61
-#: exercises/standard/lesson-files/sing-the-seventh-inv:66
-#: exercises/standard/lesson-files/sing-the-seventh-inv:72
-#: exercises/standard/lesson-files/sing-the-seventh-inv:77
-#: exercises/standard/lesson-files/sing-the-seventh-inv:83
-#: exercises/standard/lesson-files/sing-the-seventh-inv:88
-#: exercises/standard/lesson-files/sing-the-seventh-inv:94
-#: exercises/standard/lesson-files/sing-the-seventh-inv:99
+#: exercises/standard/lesson-files/sing-the-seventh:16
+#: exercises/standard/lesson-files/sing-the-seventh:21
+#: exercises/standard/lesson-files/sing-the-seventh-inv:10
+#: exercises/standard/lesson-files/sing-the-seventh-inv:17
+#: exercises/standard/lesson-files/sing-the-seventh-inv:22
+#: exercises/standard/lesson-files/sing-the-seventh-inv:28
+#: exercises/standard/lesson-files/sing-the-seventh-inv:33
+#: exercises/standard/lesson-files/sing-the-seventh-inv:39
+#: exercises/standard/lesson-files/sing-the-seventh-inv:44
+#: exercises/standard/lesson-files/sing-the-seventh-inv:50
+#: exercises/standard/lesson-files/sing-the-seventh-inv:55
+#: exercises/standard/lesson-files/sing-the-seventh-inv:62
+#: exercises/standard/lesson-files/sing-the-seventh-inv:67
+#: exercises/standard/lesson-files/sing-the-seventh-inv:73
+#: exercises/standard/lesson-files/sing-the-seventh-inv:78
+#: exercises/standard/lesson-files/sing-the-seventh-inv:84
+#: exercises/standard/lesson-files/sing-the-seventh-inv:89
+#: exercises/standard/lesson-files/sing-the-seventh-inv:95
+#: exercises/standard/lesson-files/sing-the-seventh-inv:100
 msgid "Sing the seventh of the chord"
 msgstr "Syng septimen i akkorden"
 
@@ -13711,8 +13928,8 @@ msgid "Sing the seventh of the chord. Inversions."
 msgstr "Syng septimen i akkorden. Omvendinger."
 
 #: exercises/standard/lesson-files/sing-the-third:9
-#: exercises/standard/lesson-files/sing-the-third:15
-#: exercises/standard/lesson-files/sing-the-third:20
+#: exercises/standard/lesson-files/sing-the-third:16
+#: exercises/standard/lesson-files/sing-the-third:21
 msgid "Sing the third of the chord"
 msgstr "Syng tersen i akkorden"
 
@@ -13838,17 +14055,59 @@ msgstr ""
 msgid "Three chords, root position"
 msgstr "Tre akkorder, i grunnstilling"
 
-#: exercises/standard/lesson-files/twelvetone:7
-msgid "Sing twelve random tones"
-msgstr "Syng tolvtonerekke"
+#: exercises/standard/lesson-files/tone-after-dominant:6
+msgid "Find the last played tone's step in the final dominant chord."
+msgstr ""
+
+#: exercises/standard/lesson-files/tone-after-dominant:7
+#: exercises/standard/lesson-files/toneincontext:6
+#: exercises/standard/learningtree.txt:523
+#: exercises/standard/learningtree.txt:525
+msgid "Configure yourself"
+msgstr "Konfigurer selv"
+
+#: exercises/standard/lesson-files/tone-after-dominant:13
+msgid "Dominant 7"
+msgstr "dominantseptim"
+
+#: exercises/standard/lesson-files/toneincontext:17
+msgid "Minor"
+msgstr "Moll"
+
+#: exercises/standard/lesson-files/toneincontext-major-cr:6
+#: exercises/standard/lesson-files/toneincontext-minor-cr:6
+msgid "Cromatic"
+msgstr "Kromatisk"
+
+#: exercises/standard/lesson-files/toneincontext-major-cr-f6:6
+#: exercises/standard/lesson-files/toneincontext-minor-cr-f6:6
+msgid "Cromatic - first 6 tones"
+msgstr "Kromatisk - de første 6 tonene"
+
+#: exercises/standard/lesson-files/toneincontext-major-cr-l6:6
+#: exercises/standard/lesson-files/toneincontext-minor-cr-l6:6
+msgid "Cromatic - last 6 tones"
+msgstr "Kromatisk - de siste 6 tonene"
+
+#: exercises/standard/lesson-files/toneincontext-major-f4:6
+msgid "First 4 scale tones"
+msgstr "De første 4 skalatonene"
+
+#: exercises/standard/lesson-files/toneincontext-major-l4:6
+msgid "Last 4 scale tones"
+msgstr "De siste 4 skalatonene"
+
+#: exercises/standard/lesson-files/toneincontext-minor-f4:6
+msgid "First 4 tones"
+msgstr "De første 4 tonene"
+
+#: exercises/standard/lesson-files/toneincontext-minor-l4:6
+msgid "Last 4 tones"
+msgstr "De siste 4 tonene"
 
 #: exercises/standard/lesson-files/include/sc-master:21
 msgid "Ionian"
 msgstr "Ionisk"
-
-#: exercises/standard/lesson-files/include/sc-master:22
-msgid "Major"
-msgstr "Dur"
 
 #: exercises/standard/lesson-files/include/sc-master:23
 msgid "Diatonic"
@@ -13921,10 +14180,6 @@ msgstr ""
 #: exercises/standard/lesson-files/include/sc-master:210
 msgid "Aeolian"
 msgstr "Eolisk"
-
-#: exercises/standard/lesson-files/include/sc-master:211
-msgid "Natural Minor"
-msgstr ""
 
 #: exercises/standard/lesson-files/include/sc-master:212
 msgid "Ancient Minor"
@@ -14089,10 +14344,6 @@ msgstr ""
 
 #: exercises/standard/lesson-files/include/sc-master:547
 msgid "Melodic Minor A-D"
-msgstr ""
-
-#: exercises/standard/lesson-files/include/sc-master:562
-msgid "Harmonic Minor"
 msgstr ""
 
 #: exercises/standard/lesson-files/include/sc-master:563
@@ -14591,10 +14842,6 @@ msgstr ""
 msgid "Halfstep-Wholestep"
 msgstr ""
 
-#: exercises/standard/lesson-files/include/sc-master:2159
-msgid "Whole Tone"
-msgstr ""
-
 #: exercises/standard/lesson-files/include/sc-master:2160
 msgid "Exatonic"
 msgstr ""
@@ -14671,128 +14918,161 @@ msgstr "Standard forside"
 msgid "Ascending melodic intervals"
 msgstr "Stigende melodiske intervaller"
 
-#: exercises/standard/learningtree.txt:25
-#: exercises/standard/learningtree.txt:27
+#: exercises/standard/learningtree.txt:26
+#: exercises/standard/learningtree.txt:28
 msgid "Descending melodic intervals"
 msgstr "Fallende melodiske intervaller"
 
-#: exercises/standard/learningtree.txt:144
-#: exercises/standard/learningtree.txt:145
-#: exercises/standard/learningtree.txt:147
+#: exercises/standard/learningtree.txt:148
+#: exercises/standard/learningtree.txt:149
+#: exercises/standard/learningtree.txt:151
 msgid "Rhythm"
 msgstr "Rytme"
 
-#: exercises/standard/learningtree.txt:155
-#: exercises/standard/learningtree.txt:157
+#: exercises/standard/learningtree.txt:159
+#: exercises/standard/learningtree.txt:161
 msgid "Tap generated rhythm"
 msgstr "Bank generert rytme"
 
-#: exercises/standard/learningtree.txt:164
-#: exercises/standard/learningtree.txt:166
+#: exercises/standard/learningtree.txt:168
+#: exercises/standard/learningtree.txt:170
 msgid "Rhythm dictation"
 msgstr "Rythmediktat"
 
-#: exercises/standard/learningtree.txt:169
-#, fuzzy
+#: exercises/standard/learningtree.txt:173
 msgid "Generated rhythms"
-msgstr "Bank generert rytme"
+msgstr "Genererte rytmer"
 
-#: exercises/standard/learningtree.txt:182
-#: exercises/standard/learningtree.txt:184
+#: exercises/standard/learningtree.txt:186
+#: exercises/standard/learningtree.txt:188
 msgid "Name intervals"
 msgstr "Gi navn til intervaller"
 
-#: exercises/standard/learningtree.txt:198
-#: exercises/standard/learningtree.txt:200
+#: exercises/standard/learningtree.txt:202
+#: exercises/standard/learningtree.txt:204
 msgid "Name Scales"
 msgstr "Gi navn til skalaer"
 
-#: exercises/standard/learningtree.txt:215
-#: exercises/standard/learningtree.txt:217
+#: exercises/standard/learningtree.txt:219
+#: exercises/standard/learningtree.txt:221
 msgid "Solfa syllables"
 msgstr ""
 
-#: exercises/standard/learningtree.txt:228
+#: exercises/standard/learningtree.txt:233
 msgid "Chords"
 msgstr "Akkorder"
 
-#: exercises/standard/learningtree.txt:229
-#: exercises/standard/learningtree.txt:231
+#: exercises/standard/learningtree.txt:234
+#: exercises/standard/learningtree.txt:236
 msgid "Chords in root position"
 msgstr "Akkorder i grunnstilling"
 
-#: exercises/standard/learningtree.txt:245
-#: exercises/standard/learningtree.txt:247
+#: exercises/standard/learningtree.txt:251
+#: exercises/standard/learningtree.txt:253
 msgid "Inversions of chords"
 msgstr "Akkorder i omvending"
 
-#: exercises/standard/learningtree.txt:257
-#: exercises/standard/learningtree.txt:259
+#: exercises/standard/learningtree.txt:264
+#: exercises/standard/learningtree.txt:266
 msgid "Sing chord"
 msgstr "Syng akkord"
 
-#: exercises/standard/learningtree.txt:270
-#: exercises/standard/learningtree.txt:272
+#: exercises/standard/learningtree.txt:277
+#: exercises/standard/learningtree.txt:279
 msgid "Sing chord tone"
 msgstr "Syng akkordtone"
 
-#: exercises/standard/learningtree.txt:282
-#: exercises/standard/learningtree.txt:285
+#: exercises/standard/learningtree.txt:289
+#: exercises/standard/learningtree.txt:292
 msgid "Scales"
 msgstr "Skalaer"
 
-#: exercises/standard/learningtree.txt:379
-#: exercises/standard/learningtree.txt:381
+#: exercises/standard/learningtree.txt:386
+#: exercises/standard/learningtree.txt:388
 msgid "Neapolitan Minor scale and its modes"
 msgstr ""
 
-#: exercises/standard/learningtree.txt:432
-#: exercises/standard/learningtree.txt:434
+#: exercises/standard/learningtree.txt:439
+#: exercises/standard/learningtree.txt:441
 msgid "Symmetric Scales"
 msgstr ""
 
-#: exercises/standard/learningtree.txt:443
-#: exercises/standard/learningtree.txt:445
+#: exercises/standard/learningtree.txt:450
+#: exercises/standard/learningtree.txt:452
 msgid "Scales Collections"
 msgstr ""
 
-#: exercises/standard/learningtree.txt:467
+#: exercises/standard/learningtree.txt:474
 msgid "Misc"
 msgstr "Forskjellig"
 
-#: exercises/standard/learningtree.txt:468
-#: exercises/standard/learningtree.txt:470
+#: exercises/standard/learningtree.txt:475
+#: exercises/standard/learningtree.txt:477
 msgid "Intonation (require CSound)"
 msgstr "Intonasjon (krever CSound)"
 
-#: exercises/standard/learningtree.txt:481
-#: exercises/standard/learningtree.txt:483
+#: exercises/standard/learningtree.txt:488
+#: exercises/standard/learningtree.txt:490
 msgid "Dictation"
 msgstr "Diktat"
 
-#: exercises/standard/learningtree.txt:507
-#: exercises/standard/learningtree.txt:509
+#: exercises/standard/learningtree.txt:515
+#: exercises/standard/learningtree.txt:517
 msgid "Misc exercises"
 msgstr "Diverse øvelser"
 
-#: exercises/standard/learningtree.txt:515
-#: exercises/standard/learningtree.txt:517
-msgid "Configure yourself"
-msgstr "Konfigurer selv"
-
-#: exercises/standard/learningtree.txt:530
-#: exercises/standard/learningtree.txt:532
+#: exercises/standard/learningtree.txt:538
+#: exercises/standard/learningtree.txt:540
 msgid "Harmonic progressions"
 msgstr "Harmoniske progresjoner"
 
-#: exercises/standard/learningtree.txt:537
+#: exercises/standard/learningtree.txt:545
 msgid "These progressions require MMA"
 msgstr "Disse progresjonene krever MMA"
 
-#: exercises/standard/learningtree.txt:550
-#: exercises/standard/learningtree.txt:552
+#: exercises/standard/learningtree.txt:558
+#: exercises/standard/learningtree.txt:560
 msgid "Hear tones"
 msgstr "Hør toner"
+
+#: exercises/standard/learningtree.txt:582
+msgid "Tone in context - cadence major"
+msgstr ""
+
+#: exercises/standard/learningtree.txt:591
+msgid "Tone in dominant chord"
+msgstr "Tone i dominant akkord"
+
+#: exercises/standard/learningtree.txt:596
+msgid "Tone in context - cadence minor"
+msgstr ""
+
+#~ msgid "Unknown name \"%(name)s\" in line %(line)i of file \"%(filename)s\":"
+#~ msgstr "Ukjent navn \"%(name)s\" i linje %(line)i i filen \"%(filename)s\":"
+
+#~ msgid "Wrong argument count in line %(line)i of file \"%(filename)s\":"
+#~ msgstr "Feil antall parametre i linje %(line)i i filen \"%(filename)s\":"
+
+#~ msgid "Tritone"
+#~ msgstr "Tritonus"
+
+#~ msgid "Importing old statistics"
+#~ msgstr "Importerer gammel statistikk"
+
+#~ msgid "Files read: %i"
+#~ msgstr "Antall filer lest: %i"
+
+#~ msgid "interval|tt"
+#~ msgstr "tt"
+
+#~ msgid "Bug report"
+#~ msgstr "Feilrapport"
+
+#~ msgid "See complete _report"
+#~ msgstr "Se _hele feilrapporten"
+
+#~ msgid "Mangled email address:"
+#~ msgstr "Kamuflert epostadresse"
 
 #~ msgid "The executable string should contain zero or one '%s'."
 #~ msgstr "Kommandolinjen må inneholde ingen eller en «%s»."
@@ -14823,9 +15103,6 @@ msgstr "Hør toner"
 
 #~ msgid "Importing application modules"
 #~ msgstr "Importerer program-moduler"
-
-#~ msgid "interval|d5"
-#~ msgstr "fm5"
 
 #~ msgid "Accidentals"
 #~ msgstr "Fortegn"
@@ -15075,9 +15352,6 @@ msgstr "Hør toner"
 #, fuzzy
 #~ msgid "Failed to load learning tree"
 #~ msgstr "Lag ny meny"
-
-#~ msgid "name"
-#~ msgstr "navn"
 
 #~ msgid "%s (passed)"
 #~ msgstr "%s (bestått)"
@@ -15381,9 +15655,6 @@ msgstr "Hør toner"
 
 #~ msgid "GNU Solfege"
 #~ msgstr "GNU Solfege"
-
-#~ msgid "Table of contents"
-#~ msgstr "Innholdsfortegnelse"
 
 #~ msgid "Extending and translating Solfege"
 #~ msgstr "Utvide og oversette Solfege"

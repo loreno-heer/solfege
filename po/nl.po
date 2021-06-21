@@ -6,127 +6,128 @@
 # Tom Eykens <info@muziekzetter.be>, 2005.
 # Mark Van den Borre <mark@markvdb.be>, 2005.
 # Dennis van Zoerlandt <dennisvz@gmail.com>, 2006.
-# Erwin Poeze <erwin.poeze@gmail.com>, 2008, 2009, 2010, 2011.
+# Erwin Poeze <erwin.poeze@gmail.com>, 2008, 2009, 2010, 2011, 2012, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: solfege-3.20.0\n"
+"Project-Id-Version: solfege-3.21.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-06-08 23:44+0200\n"
-"PO-Revision-Date: 2011-06-23 07:51+0200\n"
+"POT-Creation-Date: 2012-03-17 20:26+0100\n"
+"PO-Revision-Date: 2013-03-11 18:38+0100\n"
 "Last-Translator: Erwin Poeze <erwin.poeze@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: solfege/abstract.py:103
+#: solfege/abstract.py:95
 msgid "The lessonfile contain potentially dangerous code because it run external programs. Run anyway?"
-msgstr "Mogelijk bevat het lesbestand schadelijke programmainstructies omdat het externe programma's uitvoert. Toch uitvoeren?"
+msgstr "Mogelijk bevat het lesbestand schadelijke programmainstructies omdat het externe programma's gebruikt. Toch uitvoeren?"
 
-#: solfege/abstract.py:359 solfege/configwindow.py:483 solfege/mainwin.py:690
+#: solfege/abstract.py:377 solfege/configwindow.py:483 solfege/mainwin.py:723
 #: exercises/standard/learningtree.txt:284
 msgid "Practise"
 msgstr "Oefenen"
 
-#: solfege/abstract.py:360
+#: solfege/abstract.py:378
 msgid "Config"
 msgstr "Configuratie"
 
-#: solfege/abstract.py:362
+#: solfege/abstract.py:380
 msgid "_Cancel test"
 msgstr "_Test annuleren"
 
-#: solfege/abstract.py:389 solfege/exercises/idbyname.py:332
-#: solfege/exercises/idproperty.py:284 solfege/exercises/nameinterval.py:138
-#: solfege/exercises/singanswer.py:45 solfege/exercises/singchord.py:45
-#: solfege/exercises/twelvetone.py:68
+#: solfege/abstract.py:410 solfege/exercises/idbyname.py:334
+#: solfege/exercises/idproperty.py:282 solfege/exercises/nameinterval.py:153
+#: solfege/exercises/singanswer.py:47 solfege/exercises/singchord.py:47
+#: solfege/exercises/twelvetone.py:69
 msgid "_New"
 msgstr "_Nieuw"
 
-#: solfege/abstract.py:390 solfege/exercises/harmonicinterval.py:341
+#: solfege/abstract.py:411 solfege/exercises/harmonicinterval.py:349
 #: solfege/exercises/melodicinterval.py:294
-#: solfege/exercises/singinterval.py:106 solfege/exercises/singinterval.py:232
+#: solfege/exercises/singinterval.py:107 solfege/exercises/singinterval.py:229
 msgid "_New interval"
 msgstr "_Nieuw interval"
 
-#: solfege/abstract.py:391 solfege/lessonfile.py:1667
-#: solfege/exercises/chord.py:96
+#: solfege/abstract.py:412 solfege/lessonfile.py:1670
+#: solfege/exercises/chord.py:99
 msgid "_New chord"
 msgstr "_Nieuw akkoord"
 
-#: solfege/abstract.py:392
+#: solfege/abstract.py:413
 msgid "_New tone"
 msgstr "_Nieuwe toon"
 
-#: solfege/abstract.py:393 solfege/trainingsetdlg.py:104
-#: solfege/exercises/chord.py:98 solfege/exercises/singanswer.py:46
+#: solfege/abstract.py:414 solfege/trainingsetdlg.py:105
+#: solfege/exercises/chord.py:101 solfege/exercises/singanswer.py:48
 msgid "_Repeat"
 msgstr "_Herhalen"
 
-#: solfege/abstract.py:394 solfege/exercises/chord.py:101
-#: solfege/exercises/singanswer.py:49
+#: solfege/abstract.py:415 solfege/exercises/chord.py:104
+#: solfege/exercises/singanswer.py:51
 msgid "Repeat _arpeggio"
 msgstr "Herhaal in _arpeggio"
 
-#: solfege/abstract.py:395
+#: solfege/abstract.py:416
 msgid "Repeat _slowly"
 msgstr "L_angzaam herhalen"
 
-#: solfege/abstract.py:396
+#: solfege/abstract.py:417
 msgid "Repeat _melodic"
 msgstr "Herhaal _melodisch"
 
-#: solfege/abstract.py:397
+#: solfege/abstract.py:418
 msgid "Repeat first"
 msgstr "_Eerste herhalen"
 
-#: solfege/abstract.py:398
+#: solfege/abstract.py:419
 msgid "Repeat last"
 msgstr "Laatste herhalen"
 
-#: solfege/abstract.py:399
+#: solfege/abstract.py:420
 msgid "Play _tonic"
 msgstr "Speel de _tonica"
 
-#: solfege/abstract.py:400
+#: solfege/abstract.py:421
 msgid "P_lay music"
 msgstr "Muziek afs_pelen"
 
-#: solfege/abstract.py:401 solfege/exercises/singanswer.py:52
-#: solfege/exercises/singchord.py:47 solfege/exercises/singinterval.py:113
+#: solfege/abstract.py:422 solfege/exercises/singanswer.py:54
+#: solfege/exercises/singchord.py:49 solfege/exercises/singinterval.py:114
 msgid "_Play answer"
 msgstr "_Antwoord spelen"
 
-#: solfege/abstract.py:402
+#: solfege/abstract.py:423
 msgid "Guess _answer"
 msgstr "_Antwoord raden"
 
-#: solfege/abstract.py:403
+#: solfege/abstract.py:424
 msgid "_Display music"
 msgstr "Muziek _tonen"
 
-#: solfege/abstract.py:409 solfege/exercises/dictation.py:69
+#: solfege/abstract.py:430 solfege/exercises/dictation.py:69
 msgid "_Show"
 msgstr "_Weergeven"
 
-#: solfege/abstract.py:410 solfege/exercises/chord.py:103
+#: solfege/abstract.py:431 solfege/exercises/chord.py:106
 msgid "_Give up"
 msgstr "_Opgeven"
 
-#: solfege/abstract.py:532
+#: solfege/abstract.py:554
 #, python-format
 msgid ""
 "Test completed!\n"
 "Your score was %(score).1f%%.\n"
 "The test requirement was %(requirement).1f%%."
 msgstr ""
-"Test voltooid!\n"
+"Test is voltooid!\n"
 "Uw score is %(score).1f%%.\n"
 "De vereiste minimumscore is %(requirement).1f%%."
 
-#: solfege/abstract.py:534
+#: solfege/abstract.py:556
 #, python-format
 msgid ""
 "Test failed.\n"
@@ -137,29 +138,29 @@ msgstr ""
 "Uw score is %(score).1f%%.\n"
 "De vereiste minimumscore is %(requirement).1f%%."
 
-#: solfege/abstract.py:567
+#: solfege/abstract.py:604
 msgid "Statistics is disabled. Either because you selected a “Configure yourself” exercise, or because “Expert mode” is selected in the preferences window."
-msgstr "Gebruiksgegevens zijn uitgeschakeld. Dit heeft u zelf gedaan via een oefening \"Zelf instellen\" of omdat de \"Expertmodus\" in onder voorkeuren is geselecteerd."
+msgstr "Gebruiksgegevens zijn uitgeschakeld. Dit heeft u zelf gedaan via een oefening \"Zelf instellen\" of omdat de \"Expertmodus\" onder voorkeuren is geselecteerd."
 
-#: solfege/abstract.py:586 solfege/configwindow.py:500
-#: solfege/configwindow.py:511 solfege/exercises/identifybpm.py:145
+#: solfege/abstract.py:623 solfege/configwindow.py:500
+#: solfege/configwindow.py:511 solfege/exercises/identifybpm.py:146
 msgid "Statistics"
 msgstr "Gebruiksgegevens"
 
-#: solfege/abstract.py:601
+#: solfege/abstract.py:638
 msgid "Delay (seconds):"
 msgstr "Vertraging (seconden)"
 
-#: solfege/abstract.py:607
+#: solfege/abstract.py:644
 msgid "_New question automatically."
 msgstr "_Automatisch een nieuwe vraag stellen"
 
-#: solfege/abstract.py:617
+#: solfege/abstract.py:654
 #, python-format
 msgid "Please check question number %(idx)i in the lesson file \"%(lf)s\"."
 msgstr "Controleer a.u.b. vraagnummer %(idx)i in lesbestand \"%(lf)s\"."
 
-#: solfege/abstract.py:624 solfege/abstract.py:638 solfege/gu.py:1064
+#: solfege/abstract.py:661 solfege/abstract.py:675 solfege/gu.py:1105
 #, python-format
 msgid ""
 "The exception was caught in\n"
@@ -168,82 +169,102 @@ msgstr ""
 "Uitzondering opgetreden in\n"
 "\"%(filename)s\", regel %(lineno)i."
 
-#: solfege/abstract.py:630
+#: solfege/abstract.py:667
 #, python-format
 msgid "Failed to parse the music in the variable \"%(varname)s\" in question number %(idx)i in the lesson file \"%(lf)s\"."
 msgstr "Kan de muziek in variabele \"%(varname)s\" uit vraagnummer %(idx)i in lesbestand \"%(lf)s\" niet ontleden."
 
-#: solfege/abstract.py:635
+#: solfege/abstract.py:672
 #, python-format
 msgid "Failed to parse the music for question number %(idx)i in the lesson file \"%(lf)s\"."
 msgstr "Kan de muziek voor vraagnummer %(idx)i in lesbestand \"%(lf)s\" niet ontleden."
 
-#: solfege/abstract.py:695
+#: solfege/abstract.py:732
 msgid "Rhythms to use in question"
 msgstr "Ritmes die in een vraag gebruikt worden"
 
-#: solfege/abstract.py:704
+#: solfege/abstract.py:741
 msgid "Number of beats in question:"
 msgstr "Aantal tellen in de vraag:"
 
-#: solfege/abstract.py:715
+#: solfege/abstract.py:752
 msgid "Count in before question:"
-msgstr "Aantal tellen vooraf aan de vraag:"
+msgstr "Aantal tellen voorafgaande aan de vraag:"
 
-#: solfege/abstract.py:793
+#: solfege/abstract.py:830
 msgid "Input interface:"
 msgstr "Invoerinterface:"
 
-#: solfege/abstract.py:806
+#: solfege/abstract.py:843
 msgid "_Disable unused buttons"
 msgstr "Ongebruikte knoppen _uitschakelen"
 
-#: solfege/abstract.py:830 solfege/inputwidgets.py:657
+#: solfege/abstract.py:853
+msgid "Lock intervals to key:"
+msgstr "Koppel intervallen aan toets:"
+
+#: solfege/abstract.py:861 solfege/abstract.py:862
+#: exercises/standard/lesson-files/toneincontext:12
+#: exercises/standard/lesson-files/include/sc-master:22
+msgid "Major"
+msgstr "Majeur"
+
+#: solfege/abstract.py:862
+#: exercises/standard/lesson-files/include/sc-master:211
+msgid "Natural Minor"
+msgstr "Oorspronkelijk mineur"
+
+#: solfege/abstract.py:862
+#: exercises/standard/lesson-files/include/sc-master:562
+msgid "Harmonic Minor"
+msgstr "Klein harmonisch"
+
+#: solfege/abstract.py:889 solfege/inputwidgets.py:622
 msgid "Buttons"
 msgstr "Knoppen"
 
-#: solfege/abstract.py:863 solfege/lessonfile_editor_main.py:221
+#: solfege/abstract.py:922 solfege/lessonfile_editor_main.py:221
 msgid "Random transpose:"
 msgstr "Willekeurig transponeren:"
 
-#: solfege/abstract.py:871
+#: solfege/abstract.py:930
 msgid "Change ..."
 msgstr "Wijzigen..."
 
-#: solfege/abstract.py:881 solfege/specialwidgets.py:186
+#: solfege/abstract.py:940 solfege/specialwidgets.py:186
 msgid "Yes"
 msgstr "Ja"
 
-#: solfege/abstract.py:883 solfege/specialwidgets.py:183
+#: solfege/abstract.py:942 solfege/specialwidgets.py:183
 msgid "No"
 msgstr "Nee"
 
-#: solfege/application.py:216
-msgid "The pyalsa python module is missing"
+#: solfege/application.py:218
+msgid "The pyalsa Python module is missing"
 msgstr "De Python-module pyalsa ontbreekt"
 
-#: solfege/application.py:218
-msgid "Solfege was configured to the Python modules from www.alsa-project.org, but the modules was not found. You must reconfigure sound in the preferences window (Ctrl-F12) or restart Solfege in a way that it finds the module."
-msgstr "Solfege is ingesteld voor het gebruik van de Python-modules van www.alsa-project.org, maar deze zijn niet aangetroffen. Stel de geluidsopties in het voorkeurvenster (ctrl-F12) opnieuw in of herstart Solfege zodat het de module kan vinden."
+#: solfege/application.py:220
+msgid "Solfege was configured to use the Python modules from www.alsa-project.org, but the modules were not found. You must reconfigure sound in the preferences window (Ctrl-F12) or restart Solfege in a way that it finds the modules."
+msgstr "Solfege is ingesteld voor het gebruik van de Python-modules van www.alsa-project.org, maar deze zijn niet aangetroffen. Stel de geluidsopties in het voorkeurvenster (ctrl-F12) opnieuw in of herstart Solfege zodanig dat het de module kan vinden."
 
-#: solfege/application.py:240
+#: solfege/application.py:242
 msgid "MIDI setup"
 msgstr "MIDI-instellingen"
 
-#: solfege/application.py:240
+#: solfege/application.py:242
 #, python-format
 msgid "MIDI Device %(olddev)i not available. Will use device %(newdev)i."
 msgstr "MIDI-apparaat %(olddev)i is niet beschikbaar. Apparaat %(newdev)i wordt nu gebruikt."
 
-#: solfege/application.py:248
+#: solfege/application.py:250
 msgid "You should configure sound from the 'Sound' page of the preferences window."
 msgstr "U dient het geluid in de 'Geluidpagina' van het voorkeurenscherm in te stellen."
 
-#: solfege/application.py:280
+#: solfege/application.py:282
 msgid "You should configure sound from the preferences window, and try to use an external midi player. Or try to recompile the program and check for error messages to see why the module is not built."
 msgstr "Het geluid moet u instellen in het voorkeurenscherm en probeer een externe MIDI-speler te gebruiken. Of u compileert het programma opnieuw en controleert daarbij de foutmeldingen om te achterhalen waarom de module niet opgebouwd wordt. "
 
-#: solfege/application.py:373 solfege/mainwin.py:344 solfege/mainwin.py:537
+#: solfege/application.py:386 solfege/mainwin.py:349 solfege/mainwin.py:550
 msgid "Error opening web browser"
 msgstr "Fout bij het openen van de browser"
 
@@ -271,7 +292,8 @@ msgstr "_Arpeggio:"
 msgid "BPM"
 msgstr "SPM"
 
-#: solfege/configwindow.py:138 exercises/standard/lesson-files/bpm:6
+#: solfege/configwindow.py:138 solfege/exercises/identifybpm.py:109
+#: exercises/standard/lesson-files/bpm:6
 msgid "Beats per minute"
 msgstr "Tempo"
 
@@ -358,6 +380,10 @@ msgstr "CSound:"
 #: solfege/configwindow.py:293
 msgid "Lilypond-book:"
 msgstr "Lilypond-book:"
+
+#: solfege/configwindow.py:296
+msgid "Text editor:"
+msgstr "Tekstverwerker:"
 
 #: solfege/configwindow.py:308
 msgid "Not found. Much of GNU Solfege will run fine without this program. You will get a message when the program is required, and the user manual will explain what you need it for."
@@ -462,8 +488,8 @@ msgstr "Voer de naam van het programma in. Een volledige pad is alleen noodzakel
 msgid "The command line options required. Write %s where you want the name of the file to be played. Or omit it to have it added to the end of the string."
 msgstr "De vereiste opdrachtregelopties. Gebruik %s waar de naam van het af te spelen bestand moet komen. Of laat het achterwege zodat het aan het einde van de string wordt toegevoegd. "
 
-#: solfege/configwindow.py:608 solfege/configwindow.py:703
-#: solfege/configwindow.py:746
+#: solfege/configwindow.py:608 solfege/configwindow.py:709
+#: solfege/configwindow.py:752
 msgid "_Test"
 msgstr "_Testen"
 
@@ -471,140 +497,130 @@ msgstr "_Testen"
 msgid "This button is clickable only if the binary is found."
 msgstr "Deze knop is alleen klikbaar als er een binair bestand is aangetroffen. "
 
-#: solfege/configwindow.py:638 solfege/configwindow.py:705
+#: solfege/configwindow.py:640 solfege/configwindow.py:711
 msgid "Sound Setup"
 msgstr "Geluidsinstellingen"
 
-#: solfege/configwindow.py:643 solfege/configwindow.py:715
+#: solfege/configwindow.py:645 solfege/configwindow.py:721
 msgid "_No sound"
 msgstr "_Geen geluid"
 
-#: solfege/configwindow.py:649
+#: solfege/configwindow.py:652
 msgid "Use ALSA _device"
 msgstr "Gebruik ALSA _apparaat"
 
-#: solfege/configwindow.py:674
+#: solfege/configwindow.py:680
 msgid "Use OSS _device"
 msgstr "Gebruik OSS _apparaat"
 
-#: solfege/configwindow.py:691 solfege/configwindow.py:736
+#: solfege/configwindow.py:697 solfege/configwindow.py:742
 msgid "Use _external MIDI player"
 msgstr "_Externe MIDI-speler gebruiken"
 
-#: solfege/configwindow.py:709
+#: solfege/configwindow.py:715
 msgid "Solfege has two ways to play MIDI files. It is recommended to use Windows multimedia output. An external MIDI player can be useful if your soundcard lacks a hardware synth, in which case you have to use a program like timidity to play the music."
 msgstr "Solfege kan op twee manieren MIDI-geluid afspelen. Het wordt aanbevolen de Windows multimedia-uitvoer te gebruiken. Indien uw geluidskaart geen hardware-synthesizer heeft, is een externe MIDI-speler het alternatief. In dat geval kunt u een programma zoals timitidy gebruiken om de muziek af te spelen."
 
-#: solfege/configwindow.py:720
+#: solfege/configwindow.py:726
 msgid "_Windows multimedia output:"
 msgstr "_Windows multimedia-uitvoer:"
 
-#: solfege/configwindow.py:848
+#: solfege/configwindow.py:857 solfege/statisticsviewer.py:243
 msgid "Delete statistics and test results?"
 msgstr "Statistieken en testresultaten verwijderen?"
 
-#: solfege/configwindow.py:849
+#: solfege/configwindow.py:858
 #, python-format
 msgid "This will delete and recreate the file «%s»."
 msgstr "Dit zal het bestand «%s» verwijderen en het opnieuw aanmaken."
 
-#: solfege/configwindow.py:862
+#: solfege/configwindow.py:871
 msgid "Delete obsolete statistics?"
 msgstr "Verouderde statistieken verwijderen?"
 
-#: solfege/configwindow.py:863
+#: solfege/configwindow.py:872
 #, python-format
 msgid "This will delete the directory «%s»."
 msgstr "Dit zal de map «%s» verwijderen."
 
-#: solfege/configwindow.py:878
+#: solfege/configwindow.py:887
 #, python-format
 msgid "You have %i files and directories storing statistics in the old format that only Solfege 3.14 and older will use. These files are not useful any more unless you want to downgrade to Solfege 3.14."
 msgstr "U heeft %i bestanden en mappen die statistieken bevatten die alleen Solfege versie 3.14 en ouder zullen gebruiken. Deze bestanden zijn niet meer nuttig, tenzij u de oude versie 3.14 wilt gebruiken."
 
-#: solfege/configwindow.py:880
+#: solfege/configwindow.py:889
 msgid "No obsolete statistics found."
 msgstr "Geen verouderde statistieken gevonden."
 
-#: solfege/configwindow.py:883
+#: solfege/configwindow.py:892
 #, python-format
 msgid "Statistics of %(practise_count)i practise sessions and %(test_count)i tests from %(exercises)i different exercises."
 msgstr "Statistieken van %(practise_count)i oefensessies en %(test_count)i testen uit %(exercises)i verschillende oefeningen."
 
-#: solfege/dataparser.py:167
-#, python-format
-msgid "Unknown name \"%(name)s\" in line %(line)i of file \"%(filename)s\":"
-msgstr "Onbekende naam \"%(name)s\" in regel %(line)i van bestand \"%(filename)s\":"
-
-#: solfege/dataparser.py:178
-#, python-format
-msgid "Wrong argument count in line %(line)i of file \"%(filename)s\":"
-msgstr "Onjuist aantal argumenten in regel %(line)i van bestand \"%(filename)s\":"
-
-#: solfege/dataparser.py:188
+#: solfege/dataparser.py:169
 #, python-format
 msgid "Syntax error in file \"%(filename)s\". %(expected)s"
 msgstr "Syntaxfout in bestand \"%(filename)s\". %(expected)s"
 
-#: solfege/dataparser.py:195
+#: solfege/dataparser.py:176
 #, python-format
 msgid "Assignment to the reserved word \"%(word)s\""
 msgstr "Toekenning aan het gereserveerde woord \"%(word)s\""
 
-#: solfege/dataparser.py:202
+#: solfege/dataparser.py:183
 #, python-format
-msgid "Cannot translate lists using in-file translations (ex var[no]=...). See the variable \"%(variable)s\" in the file \"%(filename)s\""
-msgstr "Kan lijsten niet vertalen met inbestandvertalingen (ex var[no]=...). Zie de variabele \"%(variable)s\" in bestand \"%(filename)s\""
+msgid "We can only translate strings using in-file translations (ex var[no]=...). See the variable \"%(variable)s\" in the file \"%(filename)s\""
+msgstr "Vertalen is alleen mogelijk met inbestandvertalingen (ex var[no]=...). Zie de variabele \"%(variable)s\" in bestand \"%(filename)s\""
 
-#: solfege/dataparser.py:221
+#: solfege/dataparser.py:202
 #, python-format
 msgid "Unable to tokenize line %(lineno)i of the file \"%(filename)s\""
 msgstr "Kan regel %(lineno)i van bestand \"%(filename)s\" niet in stukken delen"
 
-#: solfege/dataparser.py:319
+#: solfege/dataparser.py:320
 #, python-format
 msgid "Token \"%(nottoken)s\" not found, found \"%(foundtoken)s\" of type %(type)s."
 msgstr "Deel \"%(nottoken)s\" niet aangetroffen, maar wel \"%(foundtoken)s\" van het soort %(type)s."
 
-#: solfege/esel.py:147
+#: solfege/esel.py:156
 msgid "Search"
 msgstr "Zoeken"
 
-#: solfege/esel.py:233 solfege/fpeditor.py:356
+#: solfege/esel.py:249 solfege/fpeditor.py:356
 #, python-format
 msgid "«%s» was not found"
 msgstr "«%s» is niet gevonden"
 
-#: solfege/esel.py:236
+#: solfege/esel.py:252
 #, python-format
 msgid "Failed to parse «%s»"
 msgstr "Ontleden van «%s» is mislukt"
 
-#: solfege/esel.py:258
+#: solfege/esel.py:274
 #, python-format
 msgid "passed, %.1f%%"
 msgstr "geslaagd, %.1f%%"
 
-#: solfege/esel.py:260
+#: solfege/esel.py:276
 #, python-format
 msgid "failed, %.1f%%"
 msgstr "mislukt, %.1f%%"
 
-#: solfege/esel.py:282
+#: solfege/esel.py:300
 #, python-format
 msgid "Search results for “%s”:"
 msgstr "Zoekresultaten voor “%s”:"
 
-#: solfege/esel.py:285
+#: solfege/esel.py:303
 #, python-format
 msgid "C-locale search results for “%s”:"
 msgstr "C-locale-zoekresultaten voor “%s”:"
 
-#: solfege/esel.py:339
+#: solfege/esel.py:362
 msgid "Search untranslated lesson titles"
 msgstr "_Zoek naar onvertaalde lessen"
 
-#: solfege/esel.py:341 solfege/esel.py:358
+#: solfege/esel.py:364 solfege/esel.py:382
 msgid "Too few matches?"
 msgstr "Te weinig overeenkomsten?"
 
@@ -629,7 +645,7 @@ msgid "Add link by searching for exercises"
 msgstr "Koppeling toevoegen door te zoeken naar oefeningen"
 
 #: solfege/fpeditor.py:334 solfege/fpeditor.py:513 solfege/fpeditor.py:671
-#: solfege/frontpage.py:249 solfege/gu.py:651
+#: solfege/gu.py:688
 #, python-format
 msgid "Untitled%s"
 msgstr "Titelloos%s"
@@ -655,46 +671,46 @@ msgstr "De standaard beginpagina is beschermd tegen veranderingen, wat normaal i
 msgid "<b>IMPORTANT:</b> Your front page file <b>must</b> be saved in a subdirectory below the directory named exercises. See the user manual for details."
 msgstr "<b>BELANGRIJK:</b> uw startpaginabestand <b>moet</b> opgeslagen worden in een submap onder de map genaamd 'exercises'. Meer informatie vindt u in de gebruikershandleiding."
 
-#: solfege/gu.py:687
+#: solfege/gu.py:724
 #, python-format
 msgid "Save changes to \"%s\" before closing?"
 msgstr "Veranderingen in \"%s\" bewaren vóór het afsluiten?"
 
-#: solfege/gu.py:690
+#: solfege/gu.py:727
 #, python-format
 msgid "If you don't save, changes from the past %i seconds will be permanently lost."
 msgstr "Als u niets opslaat, gaan veranderingen van de afgelopen %i seconden definitief verloren."
 
-#: solfege/gu.py:692
+#: solfege/gu.py:729
 #, python-format
 msgid "If you don't save, changes from the past %i minutes will be permanently lost."
 msgstr "Als u niets opslaat, gaan veranderingen van de afgelopen %i minuten definitief verloren."
 
-#: solfege/gu.py:694
+#: solfege/gu.py:731
 msgid "_Close without Saving"
 msgstr "_Sluiten zonder opslaan"
 
-#: solfege/gu.py:753
+#: solfege/gu.py:794
 msgid "Save As..."
 msgstr "Opslaan als..."
 
-#: solfege/gu.py:778
+#: solfege/gu.py:819
 msgid "File exists. Overwrite?"
 msgstr "Bestand bestaat al. Overschrijven?"
 
-#: solfege/gu.py:788 solfege/gu.py:807
+#: solfege/gu.py:829 solfege/gu.py:848
 msgid "Error saving file"
 msgstr "Bestand opslaan ging fout"
 
-#: solfege/gu.py:820
+#: solfege/gu.py:861
 msgid "Select an empty directory, since we want to fill it with files."
 msgstr "Selecteer een lege map die gevuld mag worden met bestanden."
 
-#: solfege/gu.py:996
+#: solfege/gu.py:1037
 msgid "Visit http://www.solfege.org/support if you need help."
 msgstr "Bezoek http://www.solfege.org/support als u hulp nodig heeft."
 
-#: solfege/gu.py:1062
+#: solfege/gu.py:1103
 #, python-format
 msgid "Please check the lesson file %s."
 msgstr "Controleer a.u.b. lesbestand %s."
@@ -1060,37 +1076,41 @@ msgstr "Kleine decime"
 msgid "Major Tenth"
 msgstr "Grote decime"
 
-#: solfege/inputwidgets.py:658 solfege/inputwidgets.py:664
+#: solfege/inputwidgets.py:623 solfege/inputwidgets.py:630
 msgid "Piano"
 msgstr "Piano"
 
-#: solfege/inputwidgets.py:658 solfege/inputwidgets.py:672
+#: solfege/inputwidgets.py:623 solfege/inputwidgets.py:640
 msgid "Guitar"
 msgstr "Gitaar"
 
-#: solfege/inputwidgets.py:658 solfege/inputwidgets.py:675
+#: solfege/inputwidgets.py:623 solfege/inputwidgets.py:643
 msgid "Bass"
 msgstr "Basgitaar"
 
-#: solfege/inputwidgets.py:659 solfege/inputwidgets.py:678
+#: solfege/inputwidgets.py:624 solfege/inputwidgets.py:646
 msgid "5 string bass"
 msgstr "5-snarige basgitaar"
 
-#: solfege/inputwidgets.py:659 solfege/inputwidgets.py:682
+#: solfege/inputwidgets.py:624 solfege/inputwidgets.py:650
 msgid "6 string bass"
 msgstr "6-snarige basgitaar"
 
-#: solfege/inputwidgets.py:660 solfege/inputwidgets.py:666
+#: solfege/inputwidgets.py:625 solfege/inputwidgets.py:632
 msgid "Accordion B griff"
 msgstr "Accordeon B griff"
 
-#: solfege/inputwidgets.py:660 solfege/inputwidgets.py:668
+#: solfege/inputwidgets.py:625 solfege/inputwidgets.py:634
 msgid "Accordion C griff"
 msgstr "Accordeon C griff"
 
-#: solfege/inputwidgets.py:661 solfege/inputwidgets.py:670
+#: solfege/inputwidgets.py:626 solfege/inputwidgets.py:636
 msgid "Accordion (system used in Finland)"
 msgstr "Accordeon (Fins systeem)"
+
+#: solfege/inputwidgets.py:627 solfege/inputwidgets.py:638
+msgid "Accordion (Belgian Charleroi do2)"
+msgstr "Accordeon (Belgisch Charleroi do2)"
 
 #: solfege/instrumentselector.py:120
 msgid "Highest:"
@@ -1136,11 +1156,11 @@ msgstr "Tonen verwijderen"
 msgid "GNU Solfege lesson file editor"
 msgstr "GNU Solfege-bewerker van lesbestanden"
 
-#: solfege/lessonfile_editor_main.py:75 solfege/mainwin.py:207
+#: solfege/lessonfile_editor_main.py:75 solfege/mainwin.py:208
 msgid "_File"
 msgstr "_Bestand"
 
-#: solfege/lessonfile_editor_main.py:81 solfege/mainwin.py:225
+#: solfege/lessonfile_editor_main.py:81 solfege/mainwin.py:226
 msgid "_Help"
 msgstr "_Hulp"
 
@@ -1222,20 +1242,20 @@ msgstr "Opslaan als..."
 msgid "Save..."
 msgstr "Opslaan..."
 
-#: solfege/lessonfile.py:98
+#: solfege/lessonfile.py:100
 msgid "The lesson file contains no questions"
 msgstr "Het lesbestand bevat geen vragen."
 
-#: solfege/lessonfile.py:102
+#: solfege/lessonfile.py:104
 #, python-format
 msgid "The external file '%s' was not found"
 msgstr "Het externe bestand '%s' is niet aangetroffen."
 
-#: solfege/lessonfile.py:111
+#: solfege/lessonfile.py:113
 msgid "No questions selected"
 msgstr "Geen vragen geselecteerd"
 
-#: solfege/lessonfile.py:112
+#: solfege/lessonfile.py:114
 msgid "You can select questions on the config page of the exercise."
 msgstr "U kunt vragen selecteren op het tabblad Configuratie van deze oefening."
 
@@ -1244,12 +1264,12 @@ msgstr "U kunt vragen selecteren op het tabblad Configuratie van deze oefening."
 msgid "Discarding question %(questionidx)i from the lessonfile \"%(filename)s\" because it is missing the \"name\" variable. All questions in lesson files of this type must have a name variable."
 msgstr "Vraag %(questionidx)i uit lesbestand \"%(filename)s\" verwijderen omdat de \"naam\"variabele ontbreekt. Alle vragen in lesbestanden van dit soort moeten een naamvariabele hebben."
 
-#: solfege/lessonfile.py:1626
+#: solfege/lessonfile.py:1629
 #, python-format
 msgid "Question number %(index)i in the lesson file \"%(filename)s\" is missing the \"question_text\" variable."
 msgstr "De \"question_text\"-variabele ontbreekt in vraagnummer %(index)i van lesbestand \"%(filename)s\"."
 
-#: solfege/lessonfile.py:1669 solfege/exercises/chord.py:201
+#: solfege/lessonfile.py:1672 solfege/exercises/chord.py:204
 #: exercises/standard/lesson-files/altered-1:14
 #: exercises/standard/lesson-files/chord-7b9-maj79:13
 #: exercises/standard/lesson-files/chord-dim-aug:13
@@ -1264,40 +1284,40 @@ msgstr "De \"question_text\"-variabele ontbreekt in vraagnummer %(index)i van le
 msgid "Identify the chord"
 msgstr "Noem het akkoordtype"
 
-#: solfege/lessonfile.py:1673 solfege/exercises/chordvoicing.py:166
+#: solfege/lessonfile.py:1676 solfege/exercises/chordvoicing.py:164
 msgid "Chord type"
 msgstr "Akkoordtype"
 
-#: solfege/lessonfile.py:1674
+#: solfege/lessonfile.py:1677
 msgid "Inversion"
 msgstr "Omkering"
 
-#: solfege/lessonfile.py:1675
+#: solfege/lessonfile.py:1678
 msgid "Toptone"
 msgstr "Hoogste toon"
 
-#: solfege/lessonfile.py:1677
+#: solfege/lessonfile.py:1680
 #, python-format
 msgid "Missing qprops variable in the lesson file %s."
 msgstr "De qprops-variabele ontbreekt in lesbestand %s."
 
-#: solfege/lessonfile.py:1685
+#: solfege/lessonfile.py:1688
 #, python-format
 msgid "Error in the lesson file header of \"%(filename)s\". The variables qprops and qprop_labels must have the same length."
 msgstr "Fout in de kop van lesbestand  \"%(filename)s\". De variabele qprops en qprop_labels moeten dezelfde lengte hebben."
 
-#: solfege/lessonfile.py:1698 exercises/standard/lesson-files/chord-7-inv:19
+#: solfege/lessonfile.py:1701 exercises/standard/lesson-files/chord-7-inv:21
 msgid "root position"
 msgstr "grondligging"
 
-#: solfege/lessonfile.py:1703 exercises/standard/lesson-files/chord-7-inv:23
-#: exercises/standard/lesson-files/chord-7-inv:27
-#: exercises/standard/lesson-files/chord-7-inv:32
+#: solfege/lessonfile.py:1706 exercises/standard/lesson-files/chord-7-inv:25
+#: exercises/standard/lesson-files/chord-7-inv:29
+#: exercises/standard/lesson-files/chord-7-inv:34
 #, python-format
 msgid "%i. inversion"
 msgstr "%i. omkering"
 
-#: solfege/lessonfile.py:1726
+#: solfege/lessonfile.py:1729
 #, python-format
 msgid "Discarding question %(questionidx)i from the lesson file \"%(filename)s\" because of a missing variable: %(var)s"
 msgid_plural "Discarding question %(questionidx)i from the lesson file \"%(filename)s\" because of some missing variables: %(var)s"
@@ -1313,128 +1333,128 @@ msgstr "GNU Solfege %s starten"
 msgid "Close"
 msgstr "Sluiten"
 
-#: solfege/mainwin.py:200
+#: solfege/mainwin.py:201
 #, python-format
 msgid "Loading front page '%s' failed. Using default page."
 msgstr "Laden van startpagina '%s' is mislukt. De standaardpagina wordt nu gebruikt."
 
-#: solfege/mainwin.py:211 exercises/standard/learningtree.txt:181
+#: solfege/mainwin.py:212 exercises/standard/learningtree.txt:181
 msgid "The_ory"
 msgstr "T_heorie"
 
-#: solfege/mainwin.py:212
+#: solfege/mainwin.py:213
 msgid "Sele_ct Front Page"
 msgstr "Kies _startpagina:"
 
-#: solfege/mainwin.py:213 exercises/standard/learningtree.txt:4
+#: solfege/mainwin.py:214 exercises/standard/learningtree.txt:4
 msgid "_Intervals"
 msgstr "_Intervallen"
 
-#: solfege/mainwin.py:215
+#: solfege/mainwin.py:216
 msgid "_Edit Front Page"
 msgstr "Startpagina _bewerken"
 
-#: solfege/mainwin.py:217
+#: solfege/mainwin.py:218
 msgid "E_xport Exercises to Audio Files…"
 msgstr "Oefeningen naar geluidsbestanden e_xporteren…"
 
-#: solfege/mainwin.py:219
+#: solfege/mainwin.py:220
 msgid "Ear Training Test Pri_ntout…"
 msgstr "Uitvoer van gehoortrainingstesten…"
 
-#: solfege/mainwin.py:221
+#: solfege/mainwin.py:222
 msgid "Profile _Manager"
 msgstr "Profiel_beheer"
 
-#: solfege/mainwin.py:226
+#: solfege/mainwin.py:227
 msgid "_Search Exercises"
 msgstr "_Zoek oefeningen"
 
-#: solfege/mainwin.py:228
+#: solfege/mainwin.py:229
 msgid "_Front Page"
 msgstr "_Startpagina"
 
-#: solfege/mainwin.py:230
+#: solfege/mainwin.py:231
 msgid "_Tests Page"
 msgstr "_Testenpagina"
 
-#: solfege/mainwin.py:232
+#: solfege/mainwin.py:233
 msgid "_Recent Exercises"
 msgstr "_Recente oefeningen"
 
-#: solfege/mainwin.py:234
+#: solfege/mainwin.py:235
 msgid "_Recent Tests"
 msgstr "_Recente testen"
 
-#: solfege/mainwin.py:236
+#: solfege/mainwin.py:237
 msgid "_User Exercises"
 msgstr "_Gebruikersoefeningen"
 
-#: solfege/mainwin.py:238
+#: solfege/mainwin.py:239
 msgid "Download and compile ALSA modules"
 msgstr "ALSA-modules downloaden en compileren"
 
-#: solfege/mainwin.py:239
+#: solfege/mainwin.py:240
 msgid "_Help on the current exercise"
 msgstr "_Hulp bij huidige oefening"
 
-#: solfege/mainwin.py:241
+#: solfege/mainwin.py:242
 msgid "_Music theory on the current exercise"
 msgstr "_Muziektheorie van de huidige oefening"
 
-#: solfege/mainwin.py:242
+#: solfege/mainwin.py:243
 msgid "_User manual"
 msgstr "_Gebruikershandleiding"
 
-#: solfege/mainwin.py:244 solfege/mainwin.py:392 solfege/mainwin.py:396
+#: solfege/mainwin.py:245 solfege/mainwin.py:397 solfege/mainwin.py:406
 msgid "_File locations"
 msgstr "_Bestandslocaties"
 
-#: solfege/mainwin.py:246
+#: solfege/mainwin.py:247
 msgid "_Mailing lists, web page etc."
 msgstr "_Mailinglijsten, webpagina's enz."
 
-#: solfege/mainwin.py:248
+#: solfege/mainwin.py:249
 msgid "_Donate"
 msgstr "_Doneren"
 
-#: solfege/mainwin.py:250
+#: solfege/mainwin.py:251
 msgid "Reporting _bugs"
 msgstr "_Fouten melden"
 
-#: solfege/mainwin.py:253
+#: solfege/mainwin.py:254
 msgid "_See your bug reports"
 msgstr "_Bekijk uw foutrapporten"
 
-#: solfege/mainwin.py:320
+#: solfege/mainwin.py:325
 msgid "Question"
 msgstr "Vraag"
 
-#: solfege/mainwin.py:327
+#: solfege/mainwin.py:332
 msgid "Please enter the email used when you submitted the bugs:"
 msgstr "Onder welk e-mailadres heeft u de fouten gemeld?"
 
-#: solfege/mainwin.py:402
+#: solfege/mainwin.py:412
 msgid "Solfege application data:"
 msgstr "Solfege-programmagegevens:"
 
-#: solfege/mainwin.py:403
+#: solfege/mainwin.py:413
 msgid "Solfege user data:"
 msgstr "Solfege-gebruikersgegevens:"
 
-#: solfege/mainwin.py:404
+#: solfege/mainwin.py:414
 msgid "Solfege config file:"
 msgstr "Solfege-configuratiebestand:"
 
-#: solfege/mainwin.py:405
+#: solfege/mainwin.py:415
 msgid "Solfege installation directory:"
 msgstr "Solfege-installatiemap:"
 
-#: solfege/mainwin.py:406
+#: solfege/mainwin.py:416
 msgid "User manual in HTML format:"
 msgstr "Gebruikershandleiding in HTML:"
 
-#: solfege/mainwin.py:421 solfege/mainwin.py:446
+#: solfege/mainwin.py:431 solfege/mainwin.py:456
 msgid "SOLFEGETRANSLATORS"
 msgstr ""
 "F(r)eddy SpierenBU(r)G\n"
@@ -1443,39 +1463,39 @@ msgstr ""
 "Dennis van Zoerlandt\n"
 "Erwin Poeze"
 
-#: solfege/mainwin.py:432 solfege/mainwin.py:433
+#: solfege/mainwin.py:442 solfege/mainwin.py:443
 msgid "(some lessonfiles)"
 msgstr "(enkele lesbestanden)"
 
-#: solfege/mainwin.py:434
+#: solfege/mainwin.py:444
 msgid "(sound code for the MS Windows port)"
 msgstr "(geluidsbroncode voor de Windows-versie)"
 
-#: solfege/mainwin.py:435
+#: solfege/mainwin.py:445
 msgid "(ported winmidi.c to gcc)"
 msgstr "(winmidi.c naar gcc overgezet)"
 
-#: solfege/mainwin.py:436
+#: solfege/mainwin.py:446
 msgid "(spec file for SuSE 8.2)"
 msgstr "(spec-bestand voor SuSE 8.2)"
 
-#: solfege/mainwin.py:437
+#: solfege/mainwin.py:447
 msgid "(spec file cleanup)"
 msgstr "(spec-bestanden opgeruimd)"
 
-#: solfege/mainwin.py:438
+#: solfege/mainwin.py:448
 msgid "(testing and portability fixes for FreeBSD)"
 msgstr "(testen en verbeteringen voor FreeBSD)"
 
-#: solfege/mainwin.py:439 solfege/mainwin.py:440
+#: solfege/mainwin.py:449 solfege/mainwin.py:450
 msgid "(the music font from Lilypond)"
 msgstr "(het muzieklettertype uit Lilypond)"
 
-#: solfege/mainwin.py:441
+#: solfege/mainwin.py:451
 msgid "(scale exercises)"
 msgstr "(toonladderoefeningen)"
 
-#: solfege/mainwin.py:471
+#: solfege/mainwin.py:481
 #, python-format
 msgid ""
 "In Solfege 3.9.0, the location where Solfege look for lesson files you have created was changed. The files has to be moved from \"%(old)s\" and into the folder \"%(gnu)s\" in your \"%(doc)s\" folder.\n"
@@ -1484,7 +1504,7 @@ msgstr ""
 "In solfege 3.9.0 is de locatie veranderd waar Solfege uw lesbestanden verwacht. Deze bestanden moet verplaatst worden van \"%(old)s\" naar de map \"%(gnu)s\" in uw \"%(doc)s\"-map.\n"
 "Mogen deze bestanden nu automatisch verplaatst worden?"
 
-#: solfege/mainwin.py:482
+#: solfege/mainwin.py:492
 #, python-format
 msgid ""
 "Error while copying directory:\n"
@@ -1493,27 +1513,45 @@ msgstr ""
 "Kopiëren van map is mislukt:\n"
 "%s"
 
-#: solfege/mainwin.py:484
+#: solfege/mainwin.py:494
 msgid "Files copied. The old files has been left behind. Please delete them when you have verified that all files was copied correctly."
 msgstr "Bestanden zijn gekopieerd. De oude bestanden zijn ongewijzigd. Nadat u gecontroleerd heeft dat alle bestanden juiste gekopieerd zijn, kunt u de oude verwijderen."
 
-#: solfege/mainwin.py:491
+#: solfege/mainwin.py:501
 msgid "Migrated old language setup. You might have to restart the program all translated messages to show up."
 msgstr "Oude taaldefinitie is gemigreerd. Mogelijk is een herstart van het programma nodig om alle vertalingen actief te maken."
 
-#: solfege/mainwin.py:540
+#: solfege/mainwin.py:527
+msgid "Cannot load front page file"
+msgstr "Laden van de beginpagina is mislukt"
+
+#: solfege/mainwin.py:528
+#, python-format
+msgid "The file «%s» is saved in an old file format. The file can be converted by editing and saving it with an older version of Solfege. Versions from 3.16.0 to 3.20.4 should do the job."
+msgstr "Het bestand `%s' is gemaakt met een oudere versie van Solfege. Het bestand kan geschikt gemaakt worden voor nieuwere versies. Open en bewaar het bestand met een Solfege-versie tussen 3.16.0 en 3.20.4."
+
+#: solfege/mainwin.py:553
 msgid "User exercises"
 msgstr "Gebruikersoefeningen"
 
-#: solfege/mainwin.py:573 solfege/mainwin.py:575
+#: solfege/mainwin.py:565
+#, python-format
+msgid "You really should move the following directory to a directory below <span font_family=\"monospace\">%s</span>. Future versions of GNU Solfege will not display files in the old location. The user manual have details on where to place the files."
+msgstr "Het is wenselijk dat de volgende map naar een map onder <span font_family=\"monospace\">%s</span> wordt verplaatst. Toekomstige versies van GNU Solfege zullen geen bestanden op de oude locatie tonen. De gebruikershandleiding bevat aanwijzingen waar de bestanden geplaatst kunnen worden."
+
+#: solfege/mainwin.py:577 solfege/mainwin.py:579
 msgid "Recent exercises"
 msgstr "Recente oefeningen"
 
-#: solfege/mainwin.py:580 solfege/mainwin.py:582
+#: solfege/mainwin.py:584 solfege/mainwin.py:586
 msgid "Recent tests"
 msgstr "Recente testen"
 
-#: solfege/mainwin.py:679
+#: solfege/mainwin.py:607
+msgid "Search the exercise titles of all lesson files found by the program, not just the active front page with sub pages."
+msgstr "Doorzoek de oefeningtitels van alle lesbestanden die door het programma gevonden zijn, niet alleen de actieve startpagina met haar nevenpagina's."
+
+#: solfege/mainwin.py:712
 #, python-format
 msgid "The '%s' exercise module does not support test yet."
 msgstr "Oefenmodule '%s' ondersteunt nog geen testen."
@@ -1584,7 +1622,7 @@ msgid "Start with <profile>. Create the profile if it does not exist."
 msgstr "Begin met <profile>. Maak het profiel aan als het nog niet bestaat."
 
 #: solfege/optionparser.py:55
-msgid "Create or update the screenshots for the users manual. Intended for developers of this program."
+msgid "Create or update the screenshots for the user manual. Intended for developers of this program."
 msgstr "Schermafdrukken voor de gebruikershandleiding aanmaken of bijwerken. Bedoeld voor ontwikkelaars van dit programma."
 
 #: solfege/osutils.py:59
@@ -1604,7 +1642,7 @@ msgid ""
 "\n"
 "\t%(exception)s\n"
 "\n"
-"Please check that the program is installed. If you did not supply the full path to the program in the preferences window (Ctrl-12), you must make sure the program is on your PATH."
+"Please check that the program is installed. If you did not supply the full path to the program in the preferences window (Ctrl-F12), you must make sure the program is on your PATH."
 msgstr ""
 "Geprobeerd `%(bin)s`:\n"
 "\n"
@@ -1663,7 +1701,7 @@ msgstr "Aantal vragen per regel:"
 msgid "Number of questions:"
 msgstr "Aantal vragen:"
 
-#: solfege/practisesheetdlg.py:447 solfege/trainingsetdlg.py:295
+#: solfege/practisesheetdlg.py:447 solfege/trainingsetdlg.py:293
 msgid "Select where to export the files"
 msgstr "Selecteer een locatie voor export van de bestanden"
 
@@ -1676,18 +1714,36 @@ msgstr "Niet alle soorten muziek zijn ondersteund. Dit bestand bevat %(ok)i onde
 msgid "Could not add the lesson file. It has no questions with a music object with supported music type."
 msgstr "Het lesbestand kan niet toegevoegd worden. Het bevat geen vragen met een muziekobject van een muzieksoort dat wordt ondersteund."
 
-#: solfege/practisesheetdlg.py:629
+#: solfege/practisesheetdlg.py:569 solfege/trainingsetdlg.py:228
+msgid "Cannot read old file format"
+msgstr "Kan dit bestand, afkomstig van een oudere Solfege versie, niet openen"
+
+#: solfege/practisesheetdlg.py:570 solfege/trainingsetdlg.py:229
+msgid "To convert the file to the new file format, you must open and save it in an older version of Solfege. Versions from 3.16.0 to 3.20.4 should do the job."
+msgstr "Om een bestand om te zetten naar de nieuwe bestandsindeling, kunt u het openen in een oudere versie van Solfege en opnieuw opslaan. Hiervoor kunt u een versie tussen 3.16.0 en 3.20.4 gebruiken."
+
+#: solfege/practisesheetdlg.py:623 solfege/trainingsetdlg.py:251
 #, python-format
 msgid "«%s» not found"
 msgstr "«%s» niet gevonden"
 
-#: solfege/practisesheetdlg.py:677
+#: solfege/practisesheetdlg.py:671
 msgid "Create Sheet"
 msgstr "Nieuw blad aanmaken"
 
-#: solfege/practisesheetdlg.py:678
+#: solfege/practisesheetdlg.py:672
 msgid "Randomize"
 msgstr "Willekeurige volgorde"
+
+#: solfege/presetup.py:51
+#, python-format
+msgid "Parsing %s failed"
+msgstr "Ontleden van %s is mislukt"
+
+#: solfege/presetup.py:52
+#, python-format
+msgid "We cannot recover from this, we can rename the corrupt file to %s and then start the program."
+msgstr "Dit kan niet hersteld worden. Het verminkte bestand kan worden hernoemd naar %s en het programma opnieuw gestart."
 
 #: solfege/profilemanager.py:32 solfege/profilemanager.py:137
 msgid "_Create profile…"
@@ -1757,7 +1813,7 @@ msgid "_Send"
 msgstr "_Versturen"
 
 #: solfege/reportbug.py:42
-msgid "Information about the version of GNU Solfege, your operating system and Python version, and the python traceback (error message) will be send to the crash database. Your email will not be published or shared, but we might contact you by email if we have follow questions to your crash report."
+msgid "Information about the version of GNU Solfege, your operating system and Python version, and the Python traceback (error message) will be sent to the crash database. Your email will not be published or shared, but we might contact you by email if we have further questions about your crash report."
 msgstr "Informatie over de versie van GNU Solfege, uw besturingssysteem en de Python-versie, en de foutmeldingen van Python zullen naar de 'crash'-database verzonden worden. Uw e-mailadres wordt niet gepubliceerd of gedeeld, maar mogelijk nemen we via e-mail contact met u op als we vragen over uw melding hebben."
 
 #: solfege/reportbug.py:48
@@ -1800,15 +1856,11 @@ msgstr "Noten transponeren zonder de toonsoort te veranderen"
 msgid "Semitones"
 msgstr "Halve tonen"
 
-#: solfege/startup.py:142
-msgid "Importing old statistics"
-msgstr "Oude gebruiksgegevens importeren"
-
-#: solfege/startup.py:147
+#: solfege/startup.py:144
 msgid "Opening statistics database"
 msgstr "Statistiekdatabase openen"
 
-#: solfege/startup.py:152
+#: solfege/startup.py:149
 #, python-format
 msgid ""
 "Failed to open the statistics database:\n"
@@ -1817,44 +1869,45 @@ msgstr ""
 "Openen van de statistiekdatabase is mislukt:\n"
 "«%s»"
 
-#: solfege/startup.py:152
+#: solfege/startup.py:149
 msgid "Click OK to exit the program. Then try to quit all other instances of the program, or reboot the computer. You can only run one instance of GNU Solfege at once."
 msgstr "Klik OK om het programma te verlaten. Probeer vervolgens alle andere exemplaren van het programma te stoppen of herstart de computer. U kunt slechts één exemplaar van GNU Solfege gelijktijdig uitvoeren."
 
-#: solfege/startup.py:156
+#: solfege/startup.py:153
 msgid "Creating application window"
 msgstr "Programmagegevens aanmaken"
 
-#: solfege/statistics.py:171 solfege/statistics.py:279
-#, python-format
-msgid "Files read: %i"
-msgstr "Gelezen bestanden: %i"
-
-#: solfege/statisticsviewer.py:99 solfege/statisticsviewer.py:232
+#: solfege/statisticsviewer.py:130 solfege/statisticsviewer.py:308
 msgid "Session"
 msgstr "Sessie"
 
-#: solfege/statisticsviewer.py:99 solfege/statisticsviewer.py:236
+#: solfege/statisticsviewer.py:130 solfege/statisticsviewer.py:312
 msgid "Today"
 msgstr "Vandaag"
 
-#: solfege/statisticsviewer.py:100 solfege/statisticsviewer.py:240
+#: solfege/statisticsviewer.py:131 solfege/statisticsviewer.py:316
 msgid "Last 7 days"
 msgstr "Laatste 7 dagen"
 
-#: solfege/statisticsviewer.py:100 solfege/statisticsviewer.py:244
+#: solfege/statisticsviewer.py:131 solfege/statisticsviewer.py:151
+#: solfege/statisticsviewer.py:320
 msgid "Total"
 msgstr "Totaal"
 
-#: solfege/statisticsviewer.py:109
+#: solfege/statisticsviewer.py:147
 msgid "Percent"
 msgstr "Procent"
 
-#: solfege/statisticsviewer.py:110 solfege/trainingsetdlg.py:98
+#: solfege/statisticsviewer.py:149 solfege/trainingsetdlg.py:99
 msgid "Count"
 msgstr "Aantal"
 
-#: solfege/statisticsviewer.py:191 solfege/statisticsviewer.py:253
+#: solfege/statisticsviewer.py:244
+#, python-format
+msgid "This exercise have statistics from %(count)s practise sessions, from %(first)s to %(last)s"
+msgstr "Deze oefening bevat statistieken van %(count)s oefensessies, afkomstig van %(first)s tot %(last)s"
+
+#: solfege/statisticsviewer.py:277 solfege/statisticsviewer.py:329
 #, python-format
 msgid "Test dated %(date)s: %(percent).1f%%"
 msgstr "Test gedateerd %(date)s: %(percent).1f%%"
@@ -1889,61 +1942,56 @@ msgstr ""
 "\n"
 "Bedankt voor de moeite."
 
-#: solfege/trainingsetdlg.py:62
+#: solfege/trainingsetdlg.py:63
 msgid "MIDI"
 msgstr "MIDI"
 
-#: solfege/trainingsetdlg.py:63
+#: solfege/trainingsetdlg.py:64
 msgid "WAV"
 msgstr "WAV"
 
-#: solfege/trainingsetdlg.py:64
+#: solfege/trainingsetdlg.py:65
 msgid "MP3"
 msgstr "MP3"
 
-#: solfege/trainingsetdlg.py:65
+#: solfege/trainingsetdlg.py:66
 msgid "OGG"
 msgstr "OGG"
 
-#: solfege/trainingsetdlg.py:69
+#: solfege/trainingsetdlg.py:70
 msgid "Preferred output format:"
 msgstr "Gewenste uitvoer:"
 
-#: solfege/trainingsetdlg.py:74
+#: solfege/trainingsetdlg.py:75
 msgid "Name files by questions"
 msgstr "Bestanden naar vragen vernoemen"
 
-#: solfege/trainingsetdlg.py:88
+#: solfege/trainingsetdlg.py:89
 msgid "Title"
 msgstr "Titel"
 
-#: solfege/trainingsetdlg.py:110
+#: solfege/trainingsetdlg.py:111
 msgid "Delay"
 msgstr "Vertraging"
 
-#: solfege/trainingsetdlg.py:168
+#: solfege/trainingsetdlg.py:169
 msgid "This lesson file cannot be exported because some of the music in the file are not parsable by the mpd module."
 msgstr "Dit lesbestand kan niet worden geëxporteerd omdat sommige delen niet door de mpd-module ontleed kunnen worden."
 
-#: solfege/trainingsetdlg.py:184
+#: solfege/trainingsetdlg.py:185
 msgid "Export"
 msgstr "Exporteren"
 
-#: solfege/trainingsetdlg.py:245
+#: solfege/trainingsetdlg.py:243
 #, python-format
 msgid "«<b>%s</b>» was not found"
 msgstr "«<b>%s</b>» is niet gevonden"
 
-#: solfege/trainingsetdlg.py:253
-#, python-format
-msgid "Unknown lesson_id: <b>%s</b>"
-msgstr "Onbekende lesson_id: <b>%s</b>"
-
-#: solfege/trainingsetdlg.py:298
+#: solfege/trainingsetdlg.py:296
 msgid "Exporting training set"
 msgstr "De oefeningen wordt geëxporteerd"
 
-#: solfege/trainingsetdlg.py:302
+#: solfege/trainingsetdlg.py:300
 msgid "Export training set"
 msgstr "Exporteer de oefeningen"
 
@@ -2301,21 +2349,21 @@ msgstr "bx"
 msgid "Invalid notename: %s"
 msgstr "Ongeldige nootnaam: %s"
 
-#: solfege/mpd/musicalpitch.py:353
+#: solfege/mpd/musicalpitch.py:359
 #, no-python-format
 msgid "notenameformat|%(notename)s"
 msgstr "%(notename)s"
 
-#: solfege/mpd/musicalpitch.py:356
+#: solfege/mpd/musicalpitch.py:362
 #, no-python-format
 msgid "notenameformat|%(notename)s%(oct)s"
 msgstr "%(notename)s%(oct)s"
 
-#: solfege/mpd/rhythmwidget.py:117 solfege/mpd/rhythmwidget.py:124
+#: solfege/mpd/rhythmwidget.py:116 solfege/mpd/rhythmwidget.py:123
 msgid "insert-overwrite|INSRT"
 msgstr "invoegen-overschrijven|INV"
 
-#: solfege/mpd/rhythmwidget.py:125
+#: solfege/mpd/rhythmwidget.py:124
 msgid "insert-overwrite|OVER"
 msgstr "invoegen-overschrijven|OVER"
 
@@ -2323,82 +2371,89 @@ msgstr "invoegen-overschrijven|OVER"
 msgid "No MIDI output devices available."
 msgstr "Geen MIDI-uitvoerapparaten beschikbaar."
 
-#: solfege/exercises/chord.py:113 solfege/exercises/idproperty.py:110
+#: solfege/exercises/chord.py:116 solfege/exercises/idproperty.py:114
 msgid "Chord types to ask"
 msgstr "Akkoordtype"
 
-#: solfege/exercises/chord.py:210 solfege/exercises/chordvoicing.py:261
-#: solfege/exercises/compareintervals.py:260
-#: solfege/exercises/elembuilder.py:149
-#: solfege/exercises/harmonicinterval.py:236
-#: solfege/exercises/harmonicprogressiondictation.py:92
-#: solfege/exercises/idbyname.py:242 solfege/exercises/idproperty.py:197
-#: solfege/exercises/idtone.py:244 solfege/exercises/melodicinterval.py:208
-#: solfege/exercises/nameinterval.py:192
-#: solfege/exercises/rhythmdictation2.py:113
-#: solfege/exercises/rhythmdictation.py:139 solfege/exercises/rhythm.py:147
+#: solfege/exercises/chord.py:213 solfege/exercises/chordvoicing.py:259
+#: solfege/exercises/compareintervals.py:263
+#: solfege/exercises/elembuilder.py:159
+#: solfege/exercises/harmonicinterval.py:246
+#: solfege/exercises/harmonicprogressiondictation.py:94
+#: solfege/exercises/idbyname.py:245 solfege/exercises/idproperty.py:201
+#: solfege/exercises/idtone.py:235 solfege/exercises/melodicinterval.py:210
+#: solfege/exercises/nameinterval.py:207
+#: solfege/exercises/rhythmdictation2.py:116
+#: solfege/exercises/rhythmdictation.py:142 solfege/exercises/rhythm.py:148
+#: solfege/exercises/toneincontext.py:245
 msgid "Correct"
 msgstr "Goed"
 
-#: solfege/exercises/chord.py:219 solfege/exercises/chordvoicing.py:249
-#: solfege/exercises/chordvoicing.py:266
-#: solfege/exercises/compareintervals.py:265
-#: solfege/exercises/elembuilder.py:73 solfege/exercises/elembuilder.py:156
-#: solfege/exercises/harmonicinterval.py:239
-#: solfege/exercises/harmonicprogressiondictation.py:95
-#: solfege/exercises/idbyname.py:247 solfege/exercises/identifybpm.py:196
-#: solfege/exercises/idproperty.py:206 solfege/exercises/idtone.py:251
-#: solfege/exercises/melodicinterval.py:212
-#: solfege/exercises/nameinterval.py:194
-#: solfege/exercises/rhythmdictation2.py:116
-#: solfege/exercises/rhythmdictation.py:142 solfege/exercises/rhythm.py:135
+#: solfege/exercises/chord.py:222 solfege/exercises/chordvoicing.py:247
+#: solfege/exercises/chordvoicing.py:264
+#: solfege/exercises/compareintervals.py:268
+#: solfege/exercises/elembuilder.py:84 solfege/exercises/elembuilder.py:166
+#: solfege/exercises/harmonicinterval.py:249
+#: solfege/exercises/harmonicprogressiondictation.py:97
+#: solfege/exercises/idbyname.py:250 solfege/exercises/identifybpm.py:197
+#: solfege/exercises/idproperty.py:210 solfege/exercises/idtone.py:242
+#: solfege/exercises/melodicinterval.py:214
+#: solfege/exercises/nameinterval.py:209
+#: solfege/exercises/rhythmdictation2.py:119
+#: solfege/exercises/rhythmdictation.py:145 solfege/exercises/rhythm.py:136
 msgid "Wrong"
 msgstr "Fout"
 
-#: solfege/exercises/chord.py:232 solfege/exercises/chordvoicing.py:213
-#: solfege/exercises/idbyname.py:199 solfege/exercises/idbyname.py:293
-#: solfege/exercises/idproperty.py:219
+#: solfege/exercises/chord.py:235 solfege/exercises/chordvoicing.py:211
+#: solfege/exercises/idbyname.py:202 solfege/exercises/idbyname.py:295
+#: solfege/exercises/idproperty.py:223
 msgid "Right click is not allowed for this lesson file."
 msgstr "Rechtsklikken is niet mogelijk in dit lesbestand."
 
-#: solfege/exercises/chord.py:295 solfege/exercises/chord.py:300
-#: solfege/exercises/chordvoicing.py:216 solfege/exercises/chordvoicing.py:241
-#: solfege/exercises/chordvoicing.py:310
+#: solfege/exercises/chord.py:296 solfege/exercises/chord.py:301
+#: solfege/exercises/chordvoicing.py:214 solfege/exercises/chordvoicing.py:239
+#: solfege/exercises/chordvoicing.py:307
 msgid "Click 'New chord' to begin."
 msgstr "Klik op 'Nieuw akkoord' om te beginnen."
 
-#: solfege/exercises/chordvoicing.py:110
+#: solfege/exercises/chordvoicing.py:111
 msgid "Identify chord type"
 msgstr "Noem het type akkoord"
 
-#: solfege/exercises/chordvoicing.py:119
+#: solfege/exercises/chordvoicing.py:120
 msgid "Chord voicing"
 msgstr "Akkoordligging"
 
-#: solfege/exercises/chordvoicing.py:169 solfege/exercises/chordvoicing.py:306
-#: solfege/exercises/compareintervals.py:318
-#: solfege/exercises/compareintervals.py:352
-#: solfege/exercises/harmonicinterval.py:292
-#: solfege/exercises/melodicinterval.py:254 solfege/exercises/rhythm.py:299
-#: solfege/exercises/rhythmtapping.py:182
+#: solfege/exercises/chordvoicing.py:167 solfege/exercises/chordvoicing.py:303
+#: solfege/exercises/compareintervals.py:321
+#: solfege/exercises/compareintervals.py:356
+#: solfege/exercises/harmonicinterval.py:302
+#: solfege/exercises/melodicinterval.py:256 solfege/exercises/rhythm.py:301
+#: solfege/exercises/rhythmtapping.py:189
 msgid "You have to solve this question first."
 msgstr "U dient deze vraag eerst te beantwoorden."
 
-#: solfege/exercises/chordvoicing.py:219 solfege/exercises/idbyname.py:207
-#: solfege/exercises/idbyname.py:211 solfege/exercises/idbyname.py:294
-#: solfege/exercises/idbyname.py:295
+#: solfege/exercises/chordvoicing.py:217 solfege/exercises/idbyname.py:210
+#: solfege/exercises/idbyname.py:214 solfege/exercises/idbyname.py:296
+#: solfege/exercises/idbyname.py:297
 msgid "You should try to guess before right-clicking."
 msgstr "Probeer eerst te antwoorden voor u rechtsklikt."
 
-#: solfege/exercises/chordvoicing.py:245
+#: solfege/exercises/chordvoicing.py:243
 msgid "Correct, now stack the tones"
 msgstr "Goed, stapel nu de tonen."
 
-#: solfege/exercises/chordvoicing.py:251 solfege/exercises/chordvoicing.py:307
+#: solfege/exercises/chordvoicing.py:249 solfege/exercises/chordvoicing.py:304
 msgid "Type is already solved, now specify voicing."
 msgstr "Het type is al gevonden, nu nog de ligging."
 
-#: solfege/exercises/compareintervals.py:149
+#: solfege/exercises/compareintervals.py:133
+#: exercises/standard/lesson-files/compare-intervals:6
+#: exercises/standard/learningtree.txt:105
+msgid "Compare intervals"
+msgstr "Vergelijk intervallen"
+
+#: solfege/exercises/compareintervals.py:152
 msgid ""
 "F_irst interval\n"
 "is largest"
@@ -2406,7 +2461,7 @@ msgstr ""
 "Het _eerste interval\n"
 "is het grootst"
 
-#: solfege/exercises/compareintervals.py:152
+#: solfege/exercises/compareintervals.py:155
 msgid ""
 "The intervals\n"
 "are _equal"
@@ -2414,7 +2469,7 @@ msgstr ""
 "De intervallen\n"
 "zijn _gelijk"
 
-#: solfege/exercises/compareintervals.py:155
+#: solfege/exercises/compareintervals.py:158
 msgid ""
 "_Last interval\n"
 "is largest"
@@ -2422,84 +2477,89 @@ msgstr ""
 "Het _laatste interval\n"
 "is het grootst"
 
-#: solfege/exercises/compareintervals.py:175
+#: solfege/exercises/compareintervals.py:178
 #: exercises/standard/learningtree.txt:107
 msgid "Harmonic"
 msgstr "Harmonisch"
 
-#: solfege/exercises/compareintervals.py:178
+#: solfege/exercises/compareintervals.py:181
 #: exercises/standard/learningtree.txt:125
 msgid "Melodic"
 msgstr "Melodisch"
 
-#: solfege/exercises/compareintervals.py:185
+#: solfege/exercises/compareintervals.py:188
 msgid "First interval:"
 msgstr "Eerste interval:"
 
-#: solfege/exercises/compareintervals.py:196
+#: solfege/exercises/compareintervals.py:199
 msgid "Last interval:"
 msgstr "Laatste interval:"
 
-#: solfege/exercises/compareintervals.py:252
-#: solfege/exercises/harmonicinterval.py:231
-#: solfege/exercises/harmonicprogressiondictation.py:87
-#: solfege/exercises/idbyname.py:237 solfege/exercises/idbyname.py:296
-#: solfege/exercises/idtone.py:239 solfege/exercises/idtone.py:280
-#: solfege/exercises/nameinterval.py:163 solfege/exercises/nameinterval.py:179
-#: solfege/exercises/nameinterval.py:217
-#: solfege/exercises/rhythmdictation2.py:108
-#: solfege/exercises/rhythmdictation.py:134
+#: solfege/exercises/compareintervals.py:255
+#: solfege/exercises/harmonicinterval.py:241
+#: solfege/exercises/harmonicprogressiondictation.py:89
+#: solfege/exercises/idbyname.py:240 solfege/exercises/idbyname.py:298
+#: solfege/exercises/idtone.py:230 solfege/exercises/idtone.py:271
+#: solfege/exercises/nameinterval.py:178 solfege/exercises/nameinterval.py:194
+#: solfege/exercises/nameinterval.py:229
+#: solfege/exercises/rhythmdictation2.py:111
+#: solfege/exercises/rhythmdictation.py:137
+#: solfege/exercises/toneincontext.py:240
+#: solfege/exercises/toneincontext.py:284
 msgid "Correct, but you have already solved this question"
 msgstr "Het antwoord is goed, maar u hebt deze vraag al beantwoord"
 
-#: solfege/exercises/compareintervals.py:254
-#: solfege/exercises/harmonicinterval.py:233
-#: solfege/exercises/harmonicprogressiondictation.py:89
-#: solfege/exercises/idbyname.py:239 solfege/exercises/idbyname.py:297
-#: solfege/exercises/idtone.py:241 solfege/exercises/idtone.py:281
-#: solfege/exercises/nameinterval.py:165 solfege/exercises/nameinterval.py:181
-#: solfege/exercises/nameinterval.py:218
-#: solfege/exercises/rhythmdictation2.py:110
-#: solfege/exercises/rhythmdictation.py:136
+#: solfege/exercises/compareintervals.py:257
+#: solfege/exercises/harmonicinterval.py:243
+#: solfege/exercises/harmonicprogressiondictation.py:91
+#: solfege/exercises/idbyname.py:242 solfege/exercises/idbyname.py:299
+#: solfege/exercises/idtone.py:232 solfege/exercises/idtone.py:272
+#: solfege/exercises/nameinterval.py:180 solfege/exercises/nameinterval.py:196
+#: solfege/exercises/nameinterval.py:230
+#: solfege/exercises/rhythmdictation2.py:113
+#: solfege/exercises/rhythmdictation.py:139
+#: solfege/exercises/toneincontext.py:242
+#: solfege/exercises/toneincontext.py:285
 msgid "Wrong, but you have already solved this question"
 msgstr "Het antwoord is fout, maar u hebt deze vraag al beantwoord"
 
-#: solfege/exercises/compareintervals.py:277
-#: solfege/exercises/compareintervals.py:350
+#: solfege/exercises/compareintervals.py:280
+#: solfege/exercises/compareintervals.py:354
 msgid "Last interval is largest"
 msgstr "het laatste interval is het grootst"
 
-#: solfege/exercises/compareintervals.py:279
+#: solfege/exercises/compareintervals.py:282
 msgid "The intervals are equal"
 msgstr "de intervallen zijn gelijk"
 
-#: solfege/exercises/compareintervals.py:281
-#: solfege/exercises/compareintervals.py:351
+#: solfege/exercises/compareintervals.py:284
+#: solfege/exercises/compareintervals.py:355
 msgid "First interval is largest"
 msgstr "het eerste interval is het grootst"
 
-#: solfege/exercises/compareintervals.py:282
-#: solfege/exercises/compareintervals.py:350
-#: solfege/exercises/compareintervals.py:351
-#: solfege/exercises/harmonicinterval.py:204 solfege/exercises/idtone.py:267
+#: solfege/exercises/compareintervals.py:285
+#: solfege/exercises/compareintervals.py:354
+#: solfege/exercises/compareintervals.py:355
+#: solfege/exercises/harmonicinterval.py:214 solfege/exercises/idtone.py:258
+#: solfege/exercises/toneincontext.py:233
 #, python-format
 msgid "The answer is: %s"
 msgstr "Antwoord: %s"
 
-#: solfege/exercises/compareintervals.py:321
-#: solfege/exercises/compareintervals.py:353
+#: solfege/exercises/compareintervals.py:324
+#: solfege/exercises/compareintervals.py:357
 msgid "You have to configure the exercise properly"
 msgstr "U moet deze oefening goed configureren"
 
-#: solfege/exercises/compareintervals.py:356
-#: solfege/exercises/elembuilder.py:145 solfege/exercises/elembuilder.py:238
-#: solfege/exercises/idbyname.py:204 solfege/exercises/idbyname.py:232
-#: solfege/exercises/idbyname.py:309 solfege/exercises/nameinterval.py:159
-#: solfege/exercises/nameinterval.py:175 solfege/exercises/nameinterval.py:221
-#: solfege/exercises/rhythmdictation2.py:141
-#: solfege/exercises/rhythmdictation.py:171 solfege/exercises/rhythm.py:263
-#: solfege/exercises/rhythm.py:342 solfege/exercises/singanswer.py:112
-#: solfege/exercises/singanswer.py:115
+#: solfege/exercises/compareintervals.py:360
+#: solfege/exercises/elembuilder.py:155 solfege/exercises/elembuilder.py:258
+#: solfege/exercises/idbyname.py:207 solfege/exercises/idbyname.py:235
+#: solfege/exercises/idbyname.py:311 solfege/exercises/nameinterval.py:174
+#: solfege/exercises/nameinterval.py:190 solfege/exercises/nameinterval.py:233
+#: solfege/exercises/rhythmdictation2.py:144
+#: solfege/exercises/rhythmdictation.py:174 solfege/exercises/rhythm.py:265
+#: solfege/exercises/rhythm.py:340 solfege/exercises/singanswer.py:115
+#: solfege/exercises/singanswer.py:118 solfege/exercises/toneincontext.py:282
 msgid "Click 'New' to begin."
 msgstr "Klik op 'Nieuw' om te beginnen."
 
@@ -2507,60 +2567,60 @@ msgstr "Klik op 'Nieuw' om te beginnen."
 msgid "_Play the whole music"
 msgstr "_Speel de muziek in zijn geheel"
 
-#: solfege/exercises/dictation.py:199
+#: solfege/exercises/dictation.py:195
 #, python-format
 msgid "The lesson file '%s' contains no questions."
 msgstr "Het lesbestand '%s' bevat geen vragen."
 
-#: solfege/exercises/elembuilder.py:108 solfege/exercises/rhythm.py:206
+#: solfege/exercises/elembuilder.py:118 solfege/exercises/rhythm.py:208
 msgid "_Backspace"
 msgstr "_Wissen"
 
-#: solfege/exercises/elembuilder.py:115
+#: solfege/exercises/elembuilder.py:125
 msgid "elembuilder"
 msgstr "elembuilder"
 
-#: solfege/exercises/elembuilder.py:143
-#: solfege/exercises/harmonicinterval.py:216
-#: solfege/exercises/harmonicinterval.py:318 solfege/exercises/idbyname.py:230
-#: solfege/exercises/idbyname.py:306 solfege/exercises/melodicinterval.py:173
+#: solfege/exercises/elembuilder.py:153
+#: solfege/exercises/harmonicinterval.py:226
+#: solfege/exercises/harmonicinterval.py:326 solfege/exercises/idbyname.py:233
+#: solfege/exercises/idbyname.py:308 solfege/exercises/melodicinterval.py:175
 #: solfege/exercises/melodicinterval.py:271
 msgid "Click 'Start test' to begin."
 msgstr "Klik op 'Test starten' om te beginnen."
 
-#: solfege/exercises/harmonicinterval.py:171
+#: solfege/exercises/harmonicinterval.py:165
+#: solfege/exercises/melodicinterval.py:99
+msgid "Identify the interval"
+msgstr "Benoem het interval"
+
+#: solfege/exercises/harmonicinterval.py:179
 msgid "Ask for these intervals"
 msgstr "Vraag naar deze intervallen"
 
-#: solfege/exercises/harmonicinterval.py:200
-#: solfege/exercises/harmonicinterval.py:314
+#: solfege/exercises/harmonicinterval.py:210
+#: solfege/exercises/harmonicinterval.py:322
 msgid "Harmonic interval"
 msgstr "Harmonisch interval"
 
-#: solfege/exercises/harmonicinterval.py:223
-#: solfege/exercises/melodicinterval.py:190
+#: solfege/exercises/harmonicinterval.py:233
+#: solfege/exercises/melodicinterval.py:192
 msgid "Ignoring intervals greater than major tenth."
 msgstr "Negeer intervallen groter dan een grote decime."
 
-#: solfege/exercises/harmonicinterval.py:227
-#: solfege/exercises/harmonicinterval.py:321
-#: solfege/exercises/melodicinterval.py:178
+#: solfege/exercises/harmonicinterval.py:237
+#: solfege/exercises/harmonicinterval.py:329
+#: solfege/exercises/melodicinterval.py:180
 #: solfege/exercises/melodicinterval.py:274
 msgid "Click 'New interval' to begin."
 msgstr "Klik op 'Nieuw interval' om te beginnen."
 
-#: solfege/exercises/harmonicinterval.py:298
+#: solfege/exercises/harmonicinterval.py:308
 msgid "You have to select some intervals to practise."
 msgstr "U moet een interval selecteren om te oefenen."
 
-#: solfege/exercises/harmonicinterval.py:308
-#: solfege/exercises/melodicinterval.py:261
-msgid "Identify the interval"
-msgstr "Benoem het interval"
-
-#: solfege/exercises/harmonicinterval.py:332 solfege/exercises/idbyname.py:323
+#: solfege/exercises/harmonicinterval.py:340 solfege/exercises/idbyname.py:325
 #: solfege/exercises/melodicinterval.py:286
-#: solfege/exercises/singinterval.py:223
+#: solfege/exercises/singinterval.py:220
 msgid "_Start test"
 msgstr "Test _starten"
 
@@ -2568,112 +2628,112 @@ msgstr "Test _starten"
 msgid "Harmonic progression dictation"
 msgstr "Harmonische progressie dictaat"
 
-#: solfege/exercises/idbyname.py:128
+#: solfege/exercises/idbyname.py:134
 msgid "Questions to ask"
 msgstr "Selecteer de vragen"
 
-#: solfege/exercises/idbyname.py:141
+#: solfege/exercises/idbyname.py:147
 msgid "Identify by name"
 msgstr "Noem de naam"
 
-#: solfege/exercises/idbyname.py:187
+#: solfege/exercises/idbyname.py:190
 msgid "The answer is: {answer}"
 msgstr "Antwoord: {answer}"
 
-#: solfege/exercises/idbyname.py:298
+#: solfege/exercises/idbyname.py:300
 msgid "You have to select some questions to practise."
 msgstr "U moet enkele vragen selecteren om te oefenen."
 
-#: solfege/exercises/identifybpm.py:142
+#: solfege/exercises/identifybpm.py:143
 msgid "Bpm"
 msgstr "Tempo"
 
-#: solfege/exercises/identifybpm.py:170
+#: solfege/exercises/identifybpm.py:171
 msgid "You have to select some tempos to practise."
 msgstr "U moet enkele tempi selecteren om te oefenen."
 
-#: solfege/exercises/identifybpm.py:190 solfege/exercises/identifybpm.py:200
+#: solfege/exercises/identifybpm.py:191 solfege/exercises/identifybpm.py:202
 msgid "Click 'New tempo' to begin."
 msgstr "Klik op 'Nieuw tempo' om te beginnen."
 
-#: solfege/exercises/identifybpm.py:193
+#: solfege/exercises/identifybpm.py:194
 #, python-format
 msgid "Correct, it is %i"
 msgstr "Juist, het is %i"
 
-#: solfege/exercises/idproperty.py:288 solfege/exercises/idproperty.py:293
+#: solfege/exercises/idproperty.py:286 solfege/exercises/idproperty.py:291
 #, python-format
 msgid "Click '%s' to begin."
 msgstr "Klik op '%s' om te beginnen."
 
-#: solfege/exercises/idtone.py:151
+#: solfege/exercises/idtone.py:143
 msgid "Weight"
 msgstr "Gewicht"
 
-#: solfege/exercises/idtone.py:174
+#: solfege/exercises/idtone.py:166
 msgid "Octave:"
 msgstr "Octaaf:"
 
-#: solfege/exercises/idtone.py:182
+#: solfege/exercises/idtone.py:174
 msgid "Hide _piano keyboard shortcuts"
 msgstr "_piano sneltoetsen verbergen"
 
-#: solfege/exercises/idtone.py:188
+#: solfege/exercises/idtone.py:180
 msgid "When you guess wrong"
 msgstr "Bij een fout antwoord"
 
-#: solfege/exercises/idtone.py:193
+#: solfege/exercises/idtone.py:185
 msgid "Play warning sound"
 msgstr "Waarschuwingsgeluid spelen"
 
-#: solfege/exercises/idtone.py:200 solfege/exercises/idtone.py:308
+#: solfege/exercises/idtone.py:192 solfege/exercises/idtone.py:317
 #: exercises/standard/learningtree.txt:493
 #: exercises/standard/learningtree.txt:495
 msgid "Identify tone"
 msgstr "Benoem de toon"
 
-#: solfege/exercises/idtone.py:214
+#: solfege/exercises/idtone.py:205
 msgid "You have to select some tones practise. Do this on the config page by setting the weight of tones to a value greater than zero."
 msgstr "U moet enkele tonen selecteren om te oefenen. Doe dit in het tabblad Configuratie door aan iedere toon een gewicht toe te kennen (groter dan nul)."
 
-#: solfege/exercises/idtone.py:231
+#: solfege/exercises/idtone.py:222
 #, python-format
 msgid "First tone is %s"
 msgstr "De eerste toon is %s"
 
-#: solfege/exercises/idtone.py:235 solfege/exercises/idtone.py:279
-#: solfege/exercises/idtone.py:311
+#: solfege/exercises/idtone.py:226 solfege/exercises/idtone.py:270
+#: solfege/exercises/idtone.py:320
 msgid "Click 'New tone' to begin."
 msgstr "Klik op 'Nieuwe toon' om te beginnen."
 
-#: solfege/exercises/melodicinterval.py:118
+#: solfege/exercises/melodicinterval.py:120
 #: solfege/exercises/melodicinterval.py:267
 msgid "Melodic interval"
 msgstr "Melodisch interval"
 
-#: solfege/exercises/melodicinterval.py:187
+#: solfege/exercises/melodicinterval.py:189
 msgid "You have already identified this interval"
 msgstr "U heeft dit interval al benoemd"
 
-#: solfege/exercises/melodicinterval.py:235
+#: solfege/exercises/melodicinterval.py:237
 msgid "The exercise has to be better configured."
 msgstr "Deze oefening dient nauwkeuriger geconfigureerd te worden."
 
-#: solfege/exercises/nameinterval.py:153
-msgid "Could not satisfy the constraints in the lesson header."
-msgstr "Kan niet aan de voorwaarden in de leskop voldoen."
-
-#: solfege/exercises/nameinterval.py:200
+#: solfege/exercises/nameinterval.py:140
 msgid "Name the interval"
 msgstr "Benoem het interval"
 
-#: solfege/exercises/rhythmdictation2.py:128
-#: solfege/exercises/rhythmdictation.py:158
+#: solfege/exercises/nameinterval.py:168
+msgid "Could not satisfy the constraints in the lesson header."
+msgstr "Kan niet aan de voorwaarden in de leskop voldoen."
+
+#: solfege/exercises/rhythmdictation2.py:131
+#: solfege/exercises/rhythmdictation.py:161
 msgid "The music played:"
 msgstr "De afgespeelde muziek:"
 
-#: solfege/exercises/rhythmdictation2.py:129
-#: solfege/exercises/rhythmdictation.py:159
+#: solfege/exercises/rhythmdictation2.py:132
+#: solfege/exercises/rhythmdictation.py:162
 msgid "The rhythm you entered:"
 msgstr "Het ritme dat u invoerde:"
 
@@ -2681,51 +2741,61 @@ msgstr "Het ritme dat u invoerde:"
 msgid "The music object named «rhythm» is not a subclass of MpdParsable"
 msgstr "Het muziekobject genaamd «rhythm» is geen subklasse van MpdParsable"
 
+#: solfege/exercises/rhythmdictation.py:63
+#: solfege/exercises/rhythmdictation.py:69
+msgid "Read about the «rhythm» variable in the section «Question block» in the chapter named «Extending GNU Solfege» in the user manual."
+msgstr "Meer over de variabele «rhythm» leest u in de paragraaf «Question block» in het hoofdstuk getiteld «Extending GNU Solfege» in de gebruikershandleiding."
+
 #: solfege/exercises/rhythmdictation.py:68
 msgid "The music object named «music» is not a subclass of MpdParsable"
 msgstr "Het muziekobject genaamd «music» is geen subklasse van MpdParsable"
 
-#: solfege/exercises/rhythm.py:187
-msgid "Play"
-msgstr "Afspelen"
-
-#: solfege/exercises/rhythm.py:226
-msgid "Don't start the question with a rest"
-msgstr "De vraag niet beginnen met een rust"
-
-#: solfege/exercises/rhythm.py:229
-msgid "Beats per minute:"
-msgstr "Tempo:"
-
-#: solfege/exercises/rhythm.py:303 solfege/exercises/rhythmtapping.py:186
-msgid "You have to configure this exercise properly"
-msgstr "U moet deze oefening goed configureren"
-
-#: solfege/exercises/rhythm.py:338
+#: solfege/exercises/rhythm.py:181
 msgid "Identify the rhythm"
 msgstr "Noteer het ritme"
 
-#: solfege/exercises/rhythmtapping.py:123
+#: solfege/exercises/rhythm.py:189
+msgid "Play"
+msgstr "Afspelen"
+
+#: solfege/exercises/rhythm.py:228
+msgid "Don't start the question with a rest"
+msgstr "De vraag niet beginnen met een rust"
+
+#: solfege/exercises/rhythm.py:231
+msgid "Beats per minute:"
+msgstr "Tempo:"
+
+#: solfege/exercises/rhythm.py:305 solfege/exercises/rhythmtapping.py:193
+msgid "You have to configure this exercise properly"
+msgstr "U moet deze oefening goed configureren"
+
+#: solfege/exercises/rhythmtapping2.py:48
+#: solfege/exercises/rhythmtapping.py:130
 msgid "Please tap the rhythm."
 msgstr "Tik het ritme."
 
-#: solfege/exercises/rhythmtapping.py:130
+#: solfege/exercises/rhythmtapping.py:137
 msgid "Tap here"
 msgstr "Tik hier"
 
-#: solfege/exercises/rhythmtapping.py:142
+#: solfege/exercises/rhythmtapping.py:149
 msgid "Accuracy required:"
 msgstr "Vereiste nauwkeurigheid:"
 
-#: solfege/exercises/rhythmtapping.py:196
+#: solfege/exercises/rhythmtapping.py:203
 msgid "Tapping in progress..."
 msgstr "Tikkend..."
 
-#: solfege/exercises/singchord.py:46
+#: solfege/exercises/singchord.py:48
 msgid "440h_z"
 msgstr "440_Hz"
 
-#: solfege/exercises/singinterval.py:102
+#: solfege/exercises/singinterval.py:92
+msgid "Sing the interval"
+msgstr "Zing het interval"
+
+#: solfege/exercises/singinterval.py:103
 msgid ""
 "_New interval,\n"
 "last was correct"
@@ -2733,7 +2803,7 @@ msgstr ""
 "_Nieuw interval,\n"
 "vorige was goed"
 
-#: solfege/exercises/singinterval.py:104
+#: solfege/exercises/singinterval.py:105
 msgid ""
 "New interval,\n"
 "last was _wrong"
@@ -2741,19 +2811,19 @@ msgstr ""
 "Nieuw interval, \n"
 "vorige was _fout"
 
-#: solfege/exercises/singinterval.py:109
+#: solfege/exercises/singinterval.py:110
 msgid "_Repeat first tone"
 msgstr "_Eerste toon herhalen"
 
-#: solfege/exercises/singinterval.py:117
+#: solfege/exercises/singinterval.py:118
 msgid "Play _last tone"
 msgstr "_Laatste toon spelen"
 
-#: solfege/exercises/singinterval.py:132 solfege/exercises/singinterval.py:181
+#: solfege/exercises/singinterval.py:133 solfege/exercises/singinterval.py:178
 msgid "Sing interval"
 msgstr "Zing het interval"
 
-#: solfege/exercises/singinterval.py:148
+#: solfege/exercises/singinterval.py:149
 msgid ""
 "The exercise has to be better configured.\n"
 "Click 'Reset to default values' on the config\n"
@@ -2763,19 +2833,52 @@ msgstr ""
 "Klik op 'Herstel de standaardinstellingen' in het tabblad\n"
 "Configuratie als u niet weet hoe dit moet."
 
-#: solfege/exercises/singinterval.py:175
-msgid "Sing the interval"
-msgstr "Zing het interval"
+#: solfege/exercises/toneincontext.py:171
+#: exercises/standard/learningtree.txt:574
+msgid "Tone in context"
+msgstr "Tonen in context"
 
-#: solfege/exercises/twelvetone.py:69
+#: solfege/exercises/toneincontext.py:191
+msgid "Random transpose"
+msgstr "Willekeurig transponeren"
+
+#: solfege/exercises/toneincontext.py:195
+msgid "Tones"
+msgstr "Tonen"
+
+#: solfege/exercises/toneincontext.py:201
+#: exercises/standard/lesson-files/cadense-1:15
+#: exercises/standard/learningtree.txt:567
+#: exercises/standard/learningtree.txt:569
+msgid "Cadences"
+msgstr "Cadensen"
+
+#: solfege/exercises/toneincontext.py:215
+msgid "Tone in cadence"
+msgstr "Toon in cadans"
+
+#: solfege/exercises/toneincontext.py:227
+msgid "No cadences selected"
+msgstr "Geen cadans geselecteerd"
+
+#: solfege/exercises/toneincontext.py:265
+msgid "Unnamed"
+msgstr "Onbenoemd"
+
+#: solfege/exercises/twelvetone.py:61
+#: exercises/standard/lesson-files/twelvetone:7
+msgid "Sing twelve random tones"
+msgstr "Zing de twaalf willekeurige tonen"
+
+#: solfege/exercises/twelvetone.py:70
 msgid "_Play first note"
 msgstr "Eerste noot _spelen"
 
-#: solfege/exercises/twelvetone.py:71
+#: solfege/exercises/twelvetone.py:72
 msgid "Play _last note"
 msgstr "_Laatste noot spelen"
 
-#: solfege/exercises/twelvetone.py:73
+#: solfege/exercises/twelvetone.py:74
 msgid "Play _all"
 msgstr "_Alles spelen"
 
@@ -2884,12 +2987,6 @@ msgstr "Noorse kinderliedjes"
 msgid "simple tonal chords"
 msgstr "Eenvoudige tonale akkoorden"
 
-#: exercises/standard/lesson-files/cadense-1:15
-#: exercises/standard/learningtree.txt:567
-#: exercises/standard/learningtree.txt:569
-msgid "Cadences"
-msgstr "Cadensen"
-
 #: exercises/standard/lesson-files/cadense-1:29
 msgid "Perfect authentic cadence"
 msgstr "Volledige authentieke cadens"
@@ -2918,7 +3015,7 @@ msgstr "7b9- en maj79-akkoorden"
 msgid "chord|maj79"
 msgstr "maj79"
 
-#: exercises/standard/lesson-files/chord-7-inv:15
+#: exercises/standard/lesson-files/chord-7-inv:17
 msgid "Dominant 7 chord with inversions"
 msgstr "Dominantseptiemakkoorden met omkeringen"
 
@@ -3054,11 +3151,6 @@ msgstr "Mineur/majeur in enge en wijde ligging"
 #: exercises/standard/lesson-files/chord-voicing-test:8
 msgid "Altered chords (chord voicing)"
 msgstr "Gealtereerde akkoorden (stemvoering)"
-
-#: exercises/standard/lesson-files/compare-intervals:6
-#: exercises/standard/learningtree.txt:105
-msgid "Compare intervals"
-msgstr "Vergelijk intervallen"
 
 #: exercises/standard/lesson-files/compare-intervals-harmonic:7
 #: exercises/standard/lesson-files/compare-intervals-melodic:7
@@ -12891,6 +12983,8 @@ msgid "C to B, C#, D#, F# and G#"
 msgstr "C naar B, C#, D#, F# en G#"
 
 #: exercises/standard/lesson-files/id-tone-cde-12:8
+#: exercises/standard/lesson-files/toneincontext-major:6
+#: exercises/standard/lesson-files/toneincontext-minor:6
 msgid "All"
 msgstr "Alles"
 
@@ -13029,8 +13123,8 @@ msgid "Interval in a key (minor)"
 msgstr "Interval in een toonsoort (mineur)"
 
 #: exercises/standard/lesson-files/interval_in_key_min:15
-msgid "Indetify the interval played after tonic"
-msgstr "Benoem het interval dat na de tonica wordt gespeeld."
+msgid "Identify the interval played after tonic"
+msgstr "Benoem het interval dat na de tonica wordt gespeeld"
 
 #: exercises/standard/lesson-files/jsb-inventions:8
 msgid "Parts of 2 Bach inventions"
@@ -13057,8 +13151,8 @@ msgstr "Harmonische progressies met MMA"
 #: exercises/standard/lesson-files/mma-7-C:11
 #: exercises/standard/lesson-files/mma-7-harmonic-minor:11
 #: exercises/standard/lesson-files/mma-7-natural-minor:12
-#: exercises/standard/lesson-files/progression-1:11
-#: exercises/standard/lesson-files/progression-2:12
+#: exercises/standard/lesson-files/progression-1:10
+#: exercises/standard/lesson-files/progression-2:11
 #: exercises/standard/lesson-files/progression-atte:32
 #: exercises/standard/lesson-files/three-prog-root:10
 msgid "Enter the harmonic progression"
@@ -13112,11 +13206,15 @@ msgstr "Octaven"
 msgid "Unisons"
 msgstr "Primen"
 
-#: exercises/standard/lesson-files/progression-1:10
+#: exercises/standard/lesson-files/polish-folk-songs:30
+msgid "Polish folk songs"
+msgstr "Poolse volksliedjes"
+
+#: exercises/standard/lesson-files/progression-1:9
 msgid "Easy harmonic progressions"
 msgstr "Eenvoudige harmonische progressie"
 
-#: exercises/standard/lesson-files/progression-2:11
+#: exercises/standard/lesson-files/progression-2:10
 msgid "Easy harmonic progressions, including inverted chords"
 msgstr "Eenvoudige harmonische progressie, inclusief omgekeerde akkoorden"
 
@@ -13680,36 +13778,37 @@ msgid "Sing intervals"
 msgstr "Interval zingen"
 
 #: exercises/standard/lesson-files/sing-the-fifth:9
-#: exercises/standard/lesson-files/sing-the-fifth:15
-#: exercises/standard/lesson-files/sing-the-fifth:20
+#: exercises/standard/lesson-files/sing-the-fifth:16
+#: exercises/standard/lesson-files/sing-the-fifth:21
 msgid "Sing the fifth of the chord"
 msgstr "Zing de kwint van het akkoord"
 
 #: exercises/standard/lesson-files/sing-the-root:9
-#: exercises/standard/lesson-files/sing-the-root:15
-#: exercises/standard/lesson-files/sing-the-root:20
+#: exercises/standard/lesson-files/sing-the-root:16
+#: exercises/standard/lesson-files/sing-the-root:21
 msgid "Sing the root of the chord"
 msgstr "Zing de grondtoon van het akkoord"
 
 #: exercises/standard/lesson-files/sing-the-seventh:9
-#: exercises/standard/lesson-files/sing-the-seventh:15
-#: exercises/standard/lesson-files/sing-the-seventh:20
-#: exercises/standard/lesson-files/sing-the-seventh-inv:16
-#: exercises/standard/lesson-files/sing-the-seventh-inv:21
-#: exercises/standard/lesson-files/sing-the-seventh-inv:27
-#: exercises/standard/lesson-files/sing-the-seventh-inv:32
-#: exercises/standard/lesson-files/sing-the-seventh-inv:38
-#: exercises/standard/lesson-files/sing-the-seventh-inv:43
-#: exercises/standard/lesson-files/sing-the-seventh-inv:49
-#: exercises/standard/lesson-files/sing-the-seventh-inv:54
-#: exercises/standard/lesson-files/sing-the-seventh-inv:61
-#: exercises/standard/lesson-files/sing-the-seventh-inv:66
-#: exercises/standard/lesson-files/sing-the-seventh-inv:72
-#: exercises/standard/lesson-files/sing-the-seventh-inv:77
-#: exercises/standard/lesson-files/sing-the-seventh-inv:83
-#: exercises/standard/lesson-files/sing-the-seventh-inv:88
-#: exercises/standard/lesson-files/sing-the-seventh-inv:94
-#: exercises/standard/lesson-files/sing-the-seventh-inv:99
+#: exercises/standard/lesson-files/sing-the-seventh:16
+#: exercises/standard/lesson-files/sing-the-seventh:21
+#: exercises/standard/lesson-files/sing-the-seventh-inv:10
+#: exercises/standard/lesson-files/sing-the-seventh-inv:17
+#: exercises/standard/lesson-files/sing-the-seventh-inv:22
+#: exercises/standard/lesson-files/sing-the-seventh-inv:28
+#: exercises/standard/lesson-files/sing-the-seventh-inv:33
+#: exercises/standard/lesson-files/sing-the-seventh-inv:39
+#: exercises/standard/lesson-files/sing-the-seventh-inv:44
+#: exercises/standard/lesson-files/sing-the-seventh-inv:50
+#: exercises/standard/lesson-files/sing-the-seventh-inv:55
+#: exercises/standard/lesson-files/sing-the-seventh-inv:62
+#: exercises/standard/lesson-files/sing-the-seventh-inv:67
+#: exercises/standard/lesson-files/sing-the-seventh-inv:73
+#: exercises/standard/lesson-files/sing-the-seventh-inv:78
+#: exercises/standard/lesson-files/sing-the-seventh-inv:84
+#: exercises/standard/lesson-files/sing-the-seventh-inv:89
+#: exercises/standard/lesson-files/sing-the-seventh-inv:95
+#: exercises/standard/lesson-files/sing-the-seventh-inv:100
 msgid "Sing the seventh of the chord"
 msgstr "Zing de septiem van het akkoord"
 
@@ -13718,8 +13817,8 @@ msgid "Sing the seventh of the chord. Inversions."
 msgstr "Zing de septiem van het akkoord. Omkeringen."
 
 #: exercises/standard/lesson-files/sing-the-third:9
-#: exercises/standard/lesson-files/sing-the-third:15
-#: exercises/standard/lesson-files/sing-the-third:20
+#: exercises/standard/lesson-files/sing-the-third:16
+#: exercises/standard/lesson-files/sing-the-third:21
 msgid "Sing the third of the chord"
 msgstr "Zing de terts van het akkoord"
 
@@ -13845,17 +13944,65 @@ msgstr "%s lettergrepen in C majeur"
 msgid "Three chords, root position"
 msgstr "Drie akkoorden in grondligging"
 
-#: exercises/standard/lesson-files/twelvetone:7
-msgid "Sing twelve random tones"
-msgstr "Zing de twaalf willekeurige tonen"
+#: exercises/standard/lesson-files/tone-after-dominant:6
+msgid "Find the last played tone's step in the final dominant chord."
+msgstr "Zoek de laatst gespeelde toonstap in het afsluitende dominant akkoord."
+
+#: exercises/standard/lesson-files/tone-after-dominant:7
+#: exercises/standard/lesson-files/toneincontext:6
+#: exercises/standard/learningtree.txt:517
+#: exercises/standard/learningtree.txt:519
+msgid "Configure yourself"
+msgstr "Zelf configureren"
+
+#: exercises/standard/lesson-files/tone-after-dominant:13
+msgid "Dominant 7"
+msgstr "Dominant septiem"
+
+#: exercises/standard/lesson-files/toneincontext:17
+msgid "Minor"
+msgstr "Mineur"
+
+#: exercises/standard/lesson-files/toneincontext-major-cr:6
+#: exercises/standard/lesson-files/toneincontext-minor-cr:6
+msgid "Cromatic"
+msgstr "Chromatisch"
+
+#: exercises/standard/lesson-files/toneincontext-major-cr-f6:6
+msgid "Cromatic -first 6 tones"
+msgstr "Chromatisch - eerste zes tonen"
+
+#: exercises/standard/lesson-files/toneincontext-major-cr-l6:6
+msgid "Cromatic -last 6 tones"
+msgstr "Chromatisch - laatste zes tonen"
+
+#: exercises/standard/lesson-files/toneincontext-major-f4:6
+msgid "First 4 scale tones"
+msgstr "Eerste vier tonen van de ladder"
+
+#: exercises/standard/lesson-files/toneincontext-major-l4:6
+msgid "Last 4 scale tones"
+msgstr "Laatste vier tonen van de ladder"
+
+#: exercises/standard/lesson-files/toneincontext-minor-cr-f6:6
+msgid "Cromatic -first 4 tones"
+msgstr "Chromatisch - eerste vier tonen"
+
+#: exercises/standard/lesson-files/toneincontext-minor-cr-l6:6
+msgid "Cromatic -last 4 tones"
+msgstr "Chromatisch - laatste vier tonen"
+
+#: exercises/standard/lesson-files/toneincontext-minor-f4:6
+msgid "First 4 tones"
+msgstr "Eerste vier tonen"
+
+#: exercises/standard/lesson-files/toneincontext-minor-l4:6
+msgid "Last 4 tones"
+msgstr "Laatste vier tonen"
 
 #: exercises/standard/lesson-files/include/sc-master:21
 msgid "Ionian"
 msgstr "Ionisch"
-
-#: exercises/standard/lesson-files/include/sc-master:22
-msgid "Major"
-msgstr "Majeur"
 
 #: exercises/standard/lesson-files/include/sc-master:23
 msgid "Diatonic"
@@ -13928,10 +14075,6 @@ msgstr "Hypoionisch"
 #: exercises/standard/lesson-files/include/sc-master:210
 msgid "Aeolian"
 msgstr "Aeolisch"
-
-#: exercises/standard/lesson-files/include/sc-master:211
-msgid "Natural Minor"
-msgstr "Oorspronkelijk mineur"
 
 #: exercises/standard/lesson-files/include/sc-master:212
 msgid "Ancient Minor"
@@ -14097,10 +14240,6 @@ msgstr "Locrisch b4"
 #: exercises/standard/lesson-files/include/sc-master:547
 msgid "Melodic Minor A-D"
 msgstr "Klein melodisch A-D"
-
-#: exercises/standard/lesson-files/include/sc-master:562
-msgid "Harmonic Minor"
-msgstr "Klein harmonisch"
 
 #: exercises/standard/lesson-files/include/sc-master:563
 msgid "Mohammedan"
@@ -14781,11 +14920,6 @@ msgstr "Dictee"
 msgid "Misc exercises"
 msgstr "Diverse oefeningen"
 
-#: exercises/standard/learningtree.txt:517
-#: exercises/standard/learningtree.txt:519
-msgid "Configure yourself"
-msgstr "Zelf configureren"
-
 #: exercises/standard/learningtree.txt:532
 #: exercises/standard/learningtree.txt:534
 msgid "Harmonic progressions"
@@ -14799,6 +14933,33 @@ msgstr "Deze progressies vereisen MMA"
 #: exercises/standard/learningtree.txt:554
 msgid "Hear tones"
 msgstr "Tonen horen"
+
+#: exercises/standard/learningtree.txt:576
+msgid "Tone in context - cadense major"
+msgstr "Toon in context - cadansmajeur"
+
+#: exercises/standard/learningtree.txt:585
+msgid "Tone in dominant chord"
+msgstr "Toon in dominantakkoord"
+
+#: exercises/standard/learningtree.txt:590
+msgid "Tone in context - cadense minor"
+msgstr "Toon in context - cadansmineur"
+
+#~ msgid "Unknown name \"%(name)s\" in line %(line)i of file \"%(filename)s\":"
+#~ msgstr "Onbekende naam \"%(name)s\" in regel %(line)i van bestand \"%(filename)s\":"
+
+#~ msgid "Wrong argument count in line %(line)i of file \"%(filename)s\":"
+#~ msgstr "Onjuist aantal argumenten in regel %(line)i van bestand \"%(filename)s\":"
+
+#~ msgid "Importing old statistics"
+#~ msgstr "Oude gebruiksgegevens importeren"
+
+#~ msgid "Files read: %i"
+#~ msgstr "Gelezen bestanden: %i"
+
+#~ msgid "Unknown lesson_id: <b>%s</b>"
+#~ msgstr "Onbekende lesson_id: <b>%s</b>"
 
 #~ msgid "Test"
 #~ msgstr "Testen"
@@ -15129,9 +15290,6 @@ msgstr "Tonen horen"
 
 #~ msgid "Ignoring the file \"%(filename)s\" because of this error: %(error)s"
 #~ msgstr "Ignoring the file \"%(filename)s\" because of this error: %(error)s"
-
-#~ msgid "name"
-#~ msgstr "naam"
 
 #~ msgid "%s (passed)"
 #~ msgstr "%s (geslaagd)"

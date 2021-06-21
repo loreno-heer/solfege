@@ -1,154 +1,189 @@
 # Vietnamese translation for Solfege.
-# Copyright © 2010 Free Software Foundation, Inc.
+# Copyright © 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the solfege package.
 # Clytie Siddall <clytie@riverland.net.au>, 2007-2010.
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2012-2013.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: solfege 3.18.1\n"
+"Project-Id-Version: solfege 3.22.1-pre1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-04 22:30+0200\n"
-"PO-Revision-Date: 2010-10-08 15:51+1030\n"
-"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
-"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"POT-Creation-Date: 2013-09-07 23:35+0200\n"
+"PO-Revision-Date: 2013-09-09 07:47+0700\n"
+"Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
+"Language-Team: Vietnamese <translation-team-vi@lists.sourceforge.net>\n"
+"Language: vi\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Team-Website: <http://translationproject.org/team/vi.html>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: LocFactoryEditor 1.8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
-#: solfege/abstract.py:101
+#: solfege/abstract.py:102
 msgid "The lessonfile contain potentially dangerous code because it run external programs. Run anyway?"
-msgstr "Tập tin bài học này chứa mã có thể nguy hiểm vì nó chạy chương trình bên ngoài. Vẫn còn chạy không?"
+msgstr "Tập tin bài học này chứa mã có thể nguy hiểm vì nó chạy chương trình bên ngoài. Vẫn chạy chứ?"
 
-#: solfege/abstract.py:358 solfege/configwindow.py:378
-#: solfege/configwindow.py:379 solfege/mainwin.py:680
-#: exercises/standard/learningtree.txt:264
+#: solfege/abstract.py:123
+msgid "The exercise has to be better configured."
+msgstr "Bài tập này phải được cấu hình tốt hơn."
+
+#: solfege/abstract.py:128
+#, python-format
+msgid "No intervals selected for interval number %i."
+msgstr "Chưa chọn thời gian cho nhịp số %i."
+
+#: solfege/abstract.py:199
+#, python-format
+msgid "Failed to select random interval number %i because of the configuration of the exercise. Either you have enabled intervals only if one direction, or none of the intervals belong to the key selected when you enabled «Lock to key»."
+msgstr "Gặp lỗi khi chọn số cho khoảng nhịp ngẫu nhiên %i bởi vì cấu hình của bài học. Hoặc là bạn phải bật khoảng nhịp cho một hướng, hoặc là không khoảng nhịp thuộc về phím đã chọn khi bạn bật `Khóa vào phím'."
+
+#: solfege/abstract.py:204
+#, python-format
+msgid "Failed to select random interval number %i because of the configuration of the exercise. You should select some intervals going in both directions."
+msgstr "Gặp lỗi khi chọn số cho khoảng nhịp ngẫu nhiên %i bởi vì cấu hình của bài học. Bạn phải chọn một số khoảng nhịp đi cùng với cả hai hướng."
+
+#: solfege/abstract.py:380 solfege/configwindow.py:483 solfege/mainwin.py:725
+#: exercises/standard/learningtree.txt:290
 msgid "Practise"
-msgstr "Thức hành"
+msgstr "Thực hành"
 
-#: solfege/abstract.py:359
+#: solfege/abstract.py:381
 msgid "Config"
 msgstr "Cấu hình"
 
-#: solfege/abstract.py:361
+#: solfege/abstract.py:383
 msgid "_Cancel test"
-msgstr "_Thôi phép thử"
+msgstr "_Hủy kiểm tra"
 
-#: solfege/abstract.py:388 solfege/exercises/idbyname.py:330
-#: solfege/exercises/idproperty.py:284 solfege/exercises/nameinterval.py:138
-#: solfege/exercises/singanswer.py:45 solfege/exercises/singchord.py:45
-#: solfege/exercises/twelvetone.py:68
+#: solfege/abstract.py:413 solfege/exercises/idbyname.py:334
+#: solfege/exercises/idproperty.py:282 solfege/exercises/nameinterval.py:153
+#: solfege/exercises/singanswer.py:47 solfege/exercises/singchord.py:47
+#: solfege/exercises/twelvetone.py:69
 msgid "_New"
 msgstr "_Mới"
 
-#: solfege/abstract.py:389 solfege/exercises/harmonicinterval.py:341
-#: solfege/exercises/melodicinterval.py:294
-#: solfege/exercises/singinterval.py:96 solfege/exercises/singinterval.py:221
+#: solfege/abstract.py:414 solfege/exercises/harmonicinterval.py:350
+#: solfege/exercises/melodicinterval.py:296
+#: solfege/exercises/singinterval.py:108 solfege/exercises/singinterval.py:234
 msgid "_New interval"
-msgstr "Khoả_ng mới"
+msgstr "_Quãng mới"
 
-#: solfege/abstract.py:390 solfege/lessonfile.py:1685
-#: solfege/exercises/chord.py:96
+#: solfege/abstract.py:415 solfege/lessonfile.py:1637
+#: solfege/exercises/chord.py:99
 msgid "_New chord"
-msgstr "Hợp âm &mới"
+msgstr "Hợp âm _mới"
 
-#: solfege/abstract.py:391
+#: solfege/abstract.py:416
 msgid "_New tone"
-msgstr "Âm _mới"
+msgstr "Tông _mới"
 
-#: solfege/abstract.py:392 solfege/exercises/chord.py:98
-#: solfege/exercises/singanswer.py:46
+#: solfege/abstract.py:417 solfege/trainingsetdlg.py:105
+#: solfege/exercises/chord.py:101 solfege/exercises/singanswer.py:48
 msgid "_Repeat"
 msgstr "_Lặp lại"
 
-#: solfege/abstract.py:393 solfege/exercises/chord.py:101
-#: solfege/exercises/singanswer.py:49
+#: solfege/abstract.py:418 solfege/exercises/chord.py:104
+#: solfege/exercises/singanswer.py:51
 msgid "Repeat _arpeggio"
-msgstr "Lặp lại hợp âm &rải"
+msgstr "Lặp lại hợp âm _rải"
 
-#: solfege/abstract.py:394
+#: solfege/abstract.py:419
 msgid "Repeat _slowly"
-msgstr "Lặp lại _chậm"
+msgstr "Lặp _chậm"
 
-#: solfege/abstract.py:395
+#: solfege/abstract.py:420
 msgid "Repeat _melodic"
-msgstr "Lặp lại _giai điệu"
+msgstr "Lặp _giai điệu"
 
-#: solfege/abstract.py:396
+#: solfege/abstract.py:421
+msgid "Repeat first"
+msgstr "Lặp lại âm đầu"
+
+#: solfege/abstract.py:422
+msgid "Repeat last"
+msgstr "Lặp lại âm cuối"
+
+#: solfege/abstract.py:423
 msgid "Play _tonic"
 msgstr "Phát âm _chủ"
 
-#: solfege/abstract.py:397
+#: solfege/abstract.py:424
 msgid "P_lay music"
 msgstr "Phát â_m nhạc"
 
-#: solfege/abstract.py:398 solfege/exercises/singanswer.py:52
-#: solfege/exercises/singchord.py:47 solfege/exercises/singinterval.py:103
+#: solfege/abstract.py:425 solfege/exercises/singanswer.py:54
+#: solfege/exercises/singchord.py:49 solfege/exercises/singinterval.py:115
 msgid "_Play answer"
-msgstr "_Phát giải đáp"
+msgstr "_Phát lời giải"
 
-#: solfege/abstract.py:399
+#: solfege/abstract.py:426
 msgid "Guess _answer"
-msgstr "Đ_oán giải đáp"
+msgstr "Gợi ý câu t_rả lời"
 
-#: solfege/abstract.py:400
+#: solfege/abstract.py:427
 msgid "_Display music"
 msgstr "_Hiển thị âm nhạc"
 
-#: solfege/abstract.py:406 solfege/exercises/dictation.py:69
+#: solfege/abstract.py:433 solfege/exercises/dictation.py:69
 msgid "_Show"
 msgstr "_Hiện"
 
-#: solfege/abstract.py:407 solfege/exercises/chord.py:103
+#: solfege/abstract.py:434 solfege/exercises/chord.py:106
 msgid "_Give up"
 msgstr "Chị_u thua"
 
-#: solfege/abstract.py:529
+#: solfege/abstract.py:435
+msgid "Backspace"
+msgstr "Backspace"
+
+#: solfege/abstract.py:562
 #, python-format
 msgid ""
 "Test completed!\n"
 "Your score was %(score).1f%%.\n"
 "The test requirement was %(requirement).1f%%."
 msgstr ""
-"Phép thử hoàn tất.\n"
-"Bạn đã được điểm %(score).1f%%.\n"
-"Phép thử đòi hỏi %(requirement).1f%%."
+"Bài kiểm tra đã hoàn tất!\n"
+"Bạn đã đạt điểm %(score).1f%%.\n"
+"Bài kiểm tra đòi hỏi %(requirement).1f%%."
 
-#: solfege/abstract.py:531
+#: solfege/abstract.py:564
 #, python-format
 msgid ""
 "Test failed.\n"
 "Your score was %(score).1f%%.\n"
 "The test requirement was %(requirement).1f%%."
 msgstr ""
-"Phép thử bị trượt.\n"
+"Bài kiểm tra không đạt.\n"
 "Bạn đã được điểm %(score).1f%%.\n"
-"Phép thử đòi hỏi %(requirement).1f%%."
+"Bài kiểm  tra đòi hỏi %(requirement).1f%%."
 
-#: solfege/abstract.py:562
+#: solfege/abstract.py:614
 msgid "Statistics is disabled. Either because you selected a “Configure yourself” exercise, or because “Expert mode” is selected in the preferences window."
-msgstr "Chức năng thống kê bị tắt, hoặc vì bạn đã chọn một bài tập « Tự cấu hình », hoặc vì « Chế độ cấp cao » được chọn trong cửa sổ Tùy thích."
+msgstr "Chức năng thống kê bị tắt, hoặc vì bạn đã chọn một bài tập “Tự cấu hình”, hoặc vì “Chế độ cấp cao” được chọn trong cửa sổ `Cá nhân hóa'."
 
-#: solfege/abstract.py:581 solfege/configwindow.py:405
-#: solfege/configwindow.py:416 solfege/exercises/identifybpm.py:146
+#: solfege/abstract.py:633 solfege/configwindow.py:500
+#: solfege/configwindow.py:511 solfege/exercises/identifybpm.py:145
 msgid "Statistics"
 msgstr "Thống kê"
 
-#: solfege/abstract.py:596
+#: solfege/abstract.py:648
 msgid "Delay (seconds):"
-msgstr "Hoãn (giây):"
+msgstr "Trễ (giây):"
 
-#: solfege/abstract.py:602
+#: solfege/abstract.py:654
 msgid "_New question automatically."
-msgstr "Tự động _hỏi câu kế"
+msgstr "Tự độ_ng hỏi câu kế"
 
-#: solfege/abstract.py:612
+#: solfege/abstract.py:664
 #, python-format
 msgid "Please check question number %(idx)i in the lesson file \"%(lf)s\"."
-msgstr "Hãy kiểm tra câu hỏi số %(idx)i trong tập tin bài học « %(lf)s »."
+msgstr "Hãy kiểm tra câu hỏi số %(idx)i trong tập tin bài học “%(lf)s”."
 
-#: solfege/abstract.py:619 solfege/abstract.py:633 solfege/gu.py:1010
+#: solfege/abstract.py:671 solfege/abstract.py:685 solfege/gu.py:1113
 #, python-format
 msgid ""
 "The exception was caught in\n"
@@ -157,514 +192,1513 @@ msgstr ""
 "Ngoài lệ bị bắt trong\n"
 "\"%(filename)s\", dòng %(lineno)i."
 
-#: solfege/abstract.py:625
+#: solfege/abstract.py:677
 #, python-format
 msgid "Failed to parse the music in the variable \"%(varname)s\" in question number %(idx)i in the lesson file \"%(lf)s\"."
-msgstr "Lỗi phân tách âm nhạc trong biến « %(varname)s » trong câu hỏi số %(idx)i trong tập tin bài học « %(lf)s »."
+msgstr "Lỗi phân tách âm nhạc trong biến “%(varname)s” trong câu hỏi số %(idx)i trong tập tin bài học “%(lf)s”."
 
-#: solfege/abstract.py:630
+#: solfege/abstract.py:682
 #, python-format
 msgid "Failed to parse the music for question number %(idx)i in the lesson file \"%(lf)s\"."
-msgstr "Lỗi phân tách âm nhạc cho câu hỏi số %(idx)i trong tập tin bài học « %(lf)s »."
+msgstr "Lỗi phân tách âm nhạc cho câu hỏi số %(idx)i trong tập tin bài học “%(lf)s”."
 
-#: solfege/abstract.py:690
+#: solfege/abstract.py:742
 msgid "Rhythms to use in question"
 msgstr "Các nhịp điệu cần dùng trong câu hỏi"
 
-#: solfege/abstract.py:699
+#: solfege/abstract.py:751
 msgid "Number of beats in question:"
 msgstr "Số nhịp trong câu hỏi:"
 
-#: solfege/abstract.py:710
+#: solfege/abstract.py:762
 msgid "Count in before question:"
 msgstr "Đếm vào trước câu hỏi:"
 
-#: solfege/abstract.py:788
+#: solfege/abstract.py:840
 msgid "Input interface:"
-msgstr "Giao diện nhập vào :"
+msgstr "Giao diện đầu vào:"
 
-#: solfege/abstract.py:801
+#: solfege/abstract.py:853
 msgid "_Disable unused buttons"
 msgstr "Tắt các nút không _dùng"
 
-#: solfege/abstract.py:825 solfege/inputwidgets.py:657
-msgid "Buttons"
-msgstr "Nút"
+#: solfege/abstract.py:863
+msgid "Lock intervals to key:"
+msgstr "Khóa quãng vào phím:"
 
-#: solfege/abstract.py:858 solfege/lessonfile_editor_main.py:222
+#: solfege/abstract.py:871 solfege/utils.py:186
+#: exercises/standard/lesson-files/toneincontext:12
+#: exercises/standard/lesson-files/include/sc-master:22
+msgid "Major"
+msgstr "Trưởng"
+
+#: solfege/abstract.py:926 solfege/lessonfile_editor_main.py:221
 msgid "Random transpose:"
-msgstr "Chuyển vị ngẫu nhiên:"
+msgstr "Xáo trộn ngẫu nhiên:"
 
-#: solfege/abstract.py:866
+#: solfege/abstract.py:934
 msgid "Change ..."
-msgstr "Đổi..."
+msgstr "Đổi ..."
 
-#: solfege/abstract.py:876 solfege/specialwidgets.py:186
+#: solfege/abstract.py:944 solfege/specialwidgets.py:186
 msgid "Yes"
 msgstr "Có"
 
-#: solfege/abstract.py:878 solfege/specialwidgets.py:183
+#: solfege/abstract.py:946 solfege/specialwidgets.py:183
 msgid "No"
 msgstr "Không"
 
-#: solfege/application.py:212
-msgid "MIDI setup"
-msgstr "Thiết lập MIDI"
+#: solfege/abstract_solmisation_addon.py:141
+msgid "Choose tones"
+msgstr "Chọn tông"
 
-#: solfege/application.py:212
+#: solfege/abstract_solmisation_addon.py:151
+msgid "Number of tones:"
+msgstr "Số lượng tông:"
+
+#: solfege/application.py:223
+msgid "The pyalsa Python module is missing"
+msgstr "Thiếu mô-đun pyalsa Python"
+
+#: solfege/application.py:225
+msgid "Solfege was configured to use the Python modules from www.alsa-project.org, but the modules were not found. You must reconfigure sound in the preferences window (Ctrl-F12) or restart Solfege in a way that it finds the modules."
+msgstr "Solfege được cấu hình dùng cho mô-đun Python từ www.alsa-project.org, nhưng lại không tìm thấy nó. Bạn phải cấu hình lại âm thanh từ cửa sổ `Cá nhân hóa' (Ctrl-F12) hay khởi động lại Solfege để nó có thể tìm thấy mô-đun."
+
+#: solfege/application.py:247
+msgid "MIDI setup"
+msgstr "Cài đặt MIDI"
+
+#: solfege/application.py:247
 #, python-format
 msgid "MIDI Device %(olddev)i not available. Will use device %(newdev)i."
 msgstr "Thiết bị MIDI %(olddev)i không sẵn sàng nên dùng thiết bị %(newdev)i."
 
-#: solfege/application.py:221
+#: solfege/application.py:255
 msgid "You should configure sound from the 'Sound' page of the preferences window."
-msgstr "Bạn nên cấu hình âm thanh trong trang « Âm thanh » của cửa sổ Tùy thích."
+msgstr "Bạn nên cấu hình âm thanh trong trang “Âm thanh” của cửa sổ `Cá nhân hóa'."
 
-#: solfege/application.py:253
+#: solfege/application.py:287
 msgid "You should configure sound from the preferences window, and try to use an external midi player. Or try to recompile the program and check for error messages to see why the module is not built."
-msgstr "Bạn nên cấu hình âm thanh trong cửa sổ Tùy thích, và thử sử dụng bộ phát MIDI bên ngoài. Hoặc thử biên dịch lại chương trình này, và kiểm tra có thông điệp lỗi không, để tìm biết tại sao mô-đun không được xây dựng."
+msgstr "Bạn nên cấu hình âm thanh trong cửa sổ `Cá nhân hóa', và thử sử dụng bộ phát MIDI bên ngoài. Hoặc thử biên dịch lại chương trình này, và kiểm tra có thông điệp lỗi không, để tìm biết tại sao mô-đun không được xây dựng."
 
-#: solfege/application.py:346 solfege/mainwin.py:339 solfege/mainwin.py:527
+#: solfege/application.py:385 solfege/mainwin.py:349 solfege/mainwin.py:550
 msgid "Error opening web browser"
 msgstr "Gặp lỗi khi mở trình duyệt Web"
 
-#: solfege/configwindow.py:55
+#: solfege/configwindow.py:61
 msgid "GNU Solfege Preferences"
-msgstr "Tùy thích Solfege GNU"
+msgstr "Cá nhân hóa Solfege GNU"
 
-#: solfege/configwindow.py:71
+#: solfege/configwindow.py:118
 msgid "Instruments"
 msgstr "Phối nhạc"
 
-#: solfege/configwindow.py:73
+#: solfege/configwindow.py:119
 msgid "Tempo"
 msgstr "Nhịp độ"
 
-#: solfege/configwindow.py:82
+#: solfege/configwindow.py:128
 msgid "_Default:"
 msgstr "_Mặc định:"
 
-#: solfege/configwindow.py:83
+#: solfege/configwindow.py:129
 msgid "A_rpeggio:"
-msgstr "Hợp âm &rải:"
+msgstr "Hợp âm _rải:"
 
-#: solfege/configwindow.py:90
+#: solfege/configwindow.py:136
 msgid "BPM"
-msgstr "BPM"
+msgstr "NMP"
 
-#: solfege/configwindow.py:92 exercises/standard/lesson-files/bpm:6
+#: solfege/configwindow.py:138 solfege/exercises/identifybpm.py:108
+#: exercises/standard/lesson-files/bpm:6
 msgid "Beats per minute"
-msgstr "Nhịp mỗi phút"
+msgstr "Nhịp gõ mỗi phút"
 
-#: solfege/configwindow.py:96
+#: solfege/configwindow.py:142
 msgid "Preferred Instrument"
 msgstr "Phối nhạc ưa thích"
 
-#: solfege/configwindow.py:102
+#: solfege/configwindow.py:148
 msgid "Chord Instruments"
 msgstr "Phối nhạc hợp âm"
 
-#: solfege/configwindow.py:106
+#: solfege/configwindow.py:152
 msgid "Use different instruments for chords and harmonic intervals"
 msgstr "Dùng phối nhạc khác nhau cho hợp âm và quãng hoà âm"
 
-#: solfege/configwindow.py:109
+#: solfege/configwindow.py:155
 msgid "Percussion Instruments"
 msgstr "Nhạc cụ kích phát"
 
-#: solfege/configwindow.py:112
+#: solfege/configwindow.py:158
 msgid "Count in:"
-msgstr "Đếm theo :"
+msgstr "Đếm theo:"
 
-#: solfege/configwindow.py:116
+#: solfege/configwindow.py:162
 msgid "Rhythm:"
-msgstr "Nhịp điệu :"
+msgstr "Nhịp điệu:"
 
-#: solfege/configwindow.py:123
+#: solfege/configwindow.py:166
 msgid "User"
 msgstr "Người dùng"
 
-#: solfege/configwindow.py:125
+#: solfege/configwindow.py:167
 msgid "User's Vocal Range"
-msgstr "Tầm cữ tiếng của người dùng"
+msgstr "Âm vực của người dùng"
 
-#: solfege/configwindow.py:131
+#: solfege/configwindow.py:173
 msgid "Highest pitch:"
 msgstr "Âm vực cao nhất:"
 
-#: solfege/configwindow.py:138
+#: solfege/configwindow.py:180
 msgid "Lowest pitch:"
 msgstr "Âm vực thấp nhất:"
 
-#: solfege/configwindow.py:148
+#: solfege/configwindow.py:190
 msgid "Sex"
 msgstr "Giới tính"
 
-#: solfege/configwindow.py:150
+#: solfege/configwindow.py:192
 msgid "_Male"
 msgstr "Na_m"
 
-#: solfege/configwindow.py:153
+#: solfege/configwindow.py:195
 msgid "_Female or child"
 msgstr "_Nữ hay trẻ con"
 
-#: solfege/configwindow.py:162
+#: solfege/configwindow.py:201
 msgid "External Programs"
-msgstr "Chương trình bên ngoài"
+msgstr "Chương trình ngoài"
 
-#: solfege/configwindow.py:164
+#: solfege/configwindow.py:202
 msgid "Converters"
 msgstr "Bộ chuyển đổi"
 
-#: solfege/configwindow.py:178
+#: solfege/configwindow.py:216
 msgid "MIDI to WAV:"
 msgstr "MIDI sang WAV:"
 
-#: solfege/configwindow.py:202
+#: solfege/configwindow.py:240
 msgid "WAV to MP3:"
 msgstr "WAV sang MP3:"
 
-#: solfege/configwindow.py:226
+#: solfege/configwindow.py:264
 msgid "WAV to OGG:"
 msgstr "WAV sang OGG:"
 
-#: solfege/configwindow.py:247
+#: solfege/configwindow.py:285
 msgid "Miscellaneous"
 msgstr "Linh tinh"
 
-#: solfege/configwindow.py:252
+#: solfege/configwindow.py:290
 msgid "CSound:"
 msgstr "CSound:"
 
-#: solfege/configwindow.py:255
+#: solfege/configwindow.py:293
 msgid "Lilypond-book:"
 msgstr "Sách Lilypond:"
 
-#: solfege/configwindow.py:270
-msgid "Not found. Much of GNU Solfege will run fine without this program. You will get a message when the program is required, and the user manual will explain what you need it for."
-msgstr "Không tìm thấy. Phần lớn chương trình GNU Solfege vẫn còn chạy được mà không có phần mềm này. Khi yêu cầu thì bạn được thông báo, và sổ tay người dùng cũng giải thích yêu cầu đó."
+#: solfege/configwindow.py:296
+msgid "Text editor:"
+msgstr "Phần mềm soạn thảo văn bản:"
 
-#: solfege/configwindow.py:285 solfege/configwindow.py:287
+#: solfege/configwindow.py:308
+msgid "Not found. Much of GNU Solfege will run fine without this program. You will get a message when the program is required, and the user manual will explain what you need it for."
+msgstr "Không tìm thấy. Chương trình GNU Solfege vẫn chạy được mà không có phần mềm này. Khi yêu cầu thì bạn được thông báo, và sổ tay người dùng cũng giải thích yêu cầu đó."
+
+#: solfege/configwindow.py:319
 msgid "Interface"
 msgstr "Giao diện"
 
-#: solfege/configwindow.py:291
+#: solfege/configwindow.py:322
 msgid "_Resizeable main window"
 msgstr "Cửa _sổ chính có thể thay đổi cỡ"
 
-#: solfege/configwindow.py:298
+#: solfege/configwindow.py:329
 msgid "Select _language:"
-msgstr "Chọn _ngôn ngữ :"
+msgstr "Chọn _ngôn ngữ:"
 
-#: solfege/configwindow.py:335
+#: solfege/configwindow.py:366
 msgid "You have to restart the program for the language change to take effect."
 msgstr "Bạn cần phải khởi chạy lại chương trình để thay đổi ngôn ngữ có tác động."
 
-#: solfege/configwindow.py:339
+#: solfege/configwindow.py:373
 msgid "Identify tone keyboard accelerators"
 msgstr "Nhận ra phím tắt âm"
 
-#: solfege/configwindow.py:352
+#: solfege/configwindow.py:384
 msgid "Note name"
-msgstr "Tên nốt"
+msgstr "Tên nút"
 
-#: solfege/configwindow.py:364
+#: solfege/configwindow.py:396
 #, python-format
 msgid "The accelerator in use for the tone “%s”. You have to choose another key."
-msgstr "Phím tắt này đang được dùng cho âm « %s ». Hãy chọn một tổ hợp phím khác."
+msgstr "Phím tắt này đang được dùng cho âm “%s”. Hãy chọn một tổ hợp phím khác."
 
 # Chỉ nên dịch phần đằng sau ký hiệu ống dẫn « | ».
-#: solfege/configwindow.py:371
+#: solfege/configwindow.py:403 solfege/configwindow.py:459
 msgid "keyboard|Key"
 msgstr "Phím"
 
-#: solfege/configwindow.py:382
+#: solfege/configwindow.py:406 solfege/configwindow.py:464
+msgid "ASCII"
+msgstr "ASCII"
+
+#: solfege/configwindow.py:407 solfege/configwindow.py:465
+msgid "Dvorak"
+msgstr "Dvorak"
+
+#: solfege/configwindow.py:427
+msgid "Interval keyboard accelerators"
+msgstr "Phím tăng tốc quãng"
+
+#: solfege/configwindow.py:440
+msgid "Interval"
+msgstr "Nhịp"
+
+#: solfege/configwindow.py:452
+#, python-format
+msgid "The accelerator in use for “%s”. You have to choose another key."
+msgstr "Phím tăng tốc đang được dùng cho âm “%s”. Hãy chọn một tổ hợp phím khác."
+
+#: solfege/configwindow.py:484
 msgid "_Not allow new question before the old is solved"
 msgstr "Khô_ng cho phép câu hỏi kế tiếp khi câu hỏi này chưa được giải"
 
-#: solfege/configwindow.py:385
+#: solfege/configwindow.py:487
 msgid "_Repeat question if the answer was wrong"
-msgstr "_Lặp lại câu hỏi khi nhận lời giải đáp sai"
+msgstr "_Lặp lại câu hỏi khi nhận lời giải sai"
 
-#: solfege/configwindow.py:389
+#: solfege/configwindow.py:491
 msgid "E_xpert mode"
 msgstr "_Chế độ chuyên gia"
 
-#: solfege/configwindow.py:406
+#: solfege/configwindow.py:501
 msgid "Statistics from 3.15 and older"
 msgstr "Thống kê từ 3.15 về cũ hơn"
 
-#: solfege/configwindow.py:429
+#: solfege/configwindow.py:523
 msgid "Audio File Players"
-msgstr "Bộ phát tập tin âm thanh"
+msgstr "Chương trình phát tập tin âm thanh"
 
-#: solfege/configwindow.py:436
+#: solfege/configwindow.py:530
 msgid "WAV:"
 msgstr "WAV:"
 
-#: solfege/configwindow.py:452
+#: solfege/configwindow.py:546
 msgid "MIDI:"
 msgstr "MIDI:"
 
-#: solfege/configwindow.py:463
+#: solfege/configwindow.py:557
 msgid "MP3:"
 msgstr "MP3:"
 
-#: solfege/configwindow.py:473
+#: solfege/configwindow.py:567
 msgid "OGG:"
 msgstr "OGG:"
 
-#: solfege/configwindow.py:487
+#: solfege/configwindow.py:581
 msgid "Enter the name of the program. An absolute path is required only if the executable is not found on the PATH."
 msgstr "Gõ tên của chương trình. Một đường dẫn tuyệt đối được yêu cầu chỉ nếu tập tin thực thi không nằm trên đường dẫn mặc định PATH."
 
-#: solfege/configwindow.py:489
+#: solfege/configwindow.py:583
 #, python-format
 msgid "The command line options required. Write %s where you want the name of the file to be played. Or omit it to have it added to the end of the string."
-msgstr "Các tuỳ chọn dòng lệnh được yêu cầu. Ghi %s vào nơi bạn muốn xem tên của tập tin cần phát. Hoặc bỏ sót nó để làm cho nó được phụ thêm vào chuỗi."
+msgstr "Các tuỳ chọn dòng lệnh được yêu cầu. Ghi %s vào nơi bạn muốn tập tin được phát. Nếu bạn bỏ sót nó thì tên tập tin sẽ được nối vào cuối chuỗi."
 
-#: solfege/configwindow.py:514
-msgid "Test"
-msgstr "Thử"
-
-#: solfege/configwindow.py:515
-msgid "This button is clickable only if the binary is found."
-msgstr "Cái nút này cho phép bấm chỉ nếu tìm thấy tập tin nhị phân."
-
-#: solfege/configwindow.py:532 solfege/configwindow.py:536
-#: solfege/configwindow.py:581
-msgid "Sound Setup"
-msgstr "Thiết lập Âm thanh"
-
-#: solfege/configwindow.py:539 solfege/configwindow.py:589
-msgid "_No sound"
-msgstr "Khô_ng âm"
-
-#: solfege/configwindow.py:544
-msgid "Use _device"
-msgstr "_Dùng thiết bị"
-
-#: solfege/configwindow.py:561 solfege/configwindow.py:610
-msgid "Use _external MIDI player"
-msgstr "Dùng bộ phát MIDI _bên ngoài"
-
-#: solfege/configwindow.py:573 solfege/configwindow.py:620
+#: solfege/configwindow.py:608 solfege/configwindow.py:709
+#: solfege/configwindow.py:752
 msgid "_Test"
 msgstr "_Thử"
 
-#: solfege/configwindow.py:577
-msgid "MIDI Setup"
-msgstr "Thiết lập MIDI"
+#: solfege/configwindow.py:609
+msgid "This button is clickable only if the binary is found."
+msgstr "Cái nút này cho phép bấm chỉ nếu tìm thấy tập tin nhị phân."
 
-#: solfege/configwindow.py:583
+#: solfege/configwindow.py:640 solfege/configwindow.py:711
+msgid "Sound Setup"
+msgstr "Cài đặt âm thanh"
+
+#: solfege/configwindow.py:645 solfege/configwindow.py:721
+msgid "_No sound"
+msgstr "Khô_ng âm"
+
+#: solfege/configwindow.py:652
+msgid "Use ALSA _device"
+msgstr "Dùng _thiết bị ALSA"
+
+#: solfege/configwindow.py:680
+msgid "Use OSS _device"
+msgstr "Dùng _thiết bị OSS"
+
+#: solfege/configwindow.py:697 solfege/configwindow.py:742
+msgid "Use _external MIDI player"
+msgstr "Dùng bộ phát MIDI _bên ngoài"
+
+#: solfege/configwindow.py:715
 msgid "Solfege has two ways to play MIDI files. It is recommended to use Windows multimedia output. An external MIDI player can be useful if your soundcard lacks a hardware synth, in which case you have to use a program like timidity to play the music."
 msgstr "Trình Solfege hỗ trợ hai phương pháp phát tập tin MIDI. Khuyên bạn dùng kết xuất đa phương tiện Windows. Bộ phát MIDI bên ngoài có thể hữu ích nếu bo mạch âm thanh không có khả năng tổng hợp kiểu phần cứng, trong trường hợp đó bạn cần phải sử dụng chương trình như timidity để phát nhạc."
 
-#: solfege/configwindow.py:594
+#: solfege/configwindow.py:726
 msgid "_Windows multimedia output:"
 msgstr "Kết xuất đa phương tiện _Windows:"
 
-#: solfege/configwindow.py:703
+#: solfege/configwindow.py:857 solfege/statisticsviewer.py:303
 msgid "Delete statistics and test results?"
-msgstr "Xoá thống kê và kết quả thử ?"
+msgstr "Xoá thống kê và kết quả thử?"
 
-#: solfege/configwindow.py:704
+#: solfege/configwindow.py:858
 #, python-format
 msgid "This will delete and recreate the file «%s»."
-msgstr "Việc này sẽ xoá bỏ và tạo lại tập tin « %s »."
+msgstr "Việc này sẽ xoá bỏ và tạo lại tập tin «%s»."
 
-#: solfege/configwindow.py:717
+#: solfege/configwindow.py:871
 msgid "Delete obsolete statistics?"
-msgstr "Xoá thống kê quá cũ ?"
+msgstr "Xoá thống kê quá cũ?"
 
-#: solfege/configwindow.py:718
+#: solfege/configwindow.py:872
 #, python-format
 msgid "This will delete the directory «%s»."
-msgstr "Việc này sẽ xoá bỏ từ điển « %s »."
+msgstr "Việc này sẽ xoá bỏ từ điển “%s”."
 
-#: solfege/configwindow.py:733
+#: solfege/configwindow.py:887
 #, python-format
 msgid "You have %i files and directories storing statistics in the old format that only Solfege 3.14 and older will use. These files are not useful any more unless you want to downgrade to Solfege 3.14."
 msgstr "Hiện thời bạn có %i tập tin và thư mục mà cất giữ thống kê theo định dạng cũ được dùng chỉ bởi Solfege phiên bản 3.14 và cũ hơn. Những tập tin này không còn có ích, nếu bạn không muốn hạ thấp xuống Solfege 3.14."
 
-#: solfege/configwindow.py:735
+#: solfege/configwindow.py:889
 msgid "No obsolete statistics found."
 msgstr "Không tìm thấy thống kê quá cũ."
 
-#: solfege/configwindow.py:738
+#: solfege/configwindow.py:892
 #, python-format
 msgid "Statistics of %(practise_count)i practise sessions and %(test_count)i tests from %(exercises)i different exercises."
 msgstr "Thống kê về %(practise_count)i buổi hợp thực hành và %(test_count)i bài kiểm tra từ %(exercises)i bài tập khác nhau."
 
-#: solfege/dataparser.py:154
-#, python-format
-msgid "Unknown name \"%(name)s\" in line %(line)i of file \"%(filename)s\":"
-msgstr "Không nhận ra tên « %(name)s » trên dòng %(line)i của tập tin « %(filename)s »:"
-
-#: solfege/dataparser.py:165
-#, python-format
-msgid "Wrong argument count in line %(line)i of file \"%(filename)s\":"
-msgstr "Gặp số đếm đố số sai trên dòng %(line)i của tập tin « %(filename)s »:"
-
-#: solfege/dataparser.py:175
+#: solfege/dataparser.py:169
 #, python-format
 msgid "Syntax error in file \"%(filename)s\". %(expected)s"
-msgstr "Gặp lỗi cú pháp trong tập tin « %(filename)s ». %(expected)s"
+msgstr "Gặp lỗi cú pháp trong tập tin “%(filename)s”. %(expected)s"
 
-#: solfege/dataparser.py:182
+#: solfege/dataparser.py:176
 #, python-format
 msgid "Assignment to the reserved word \"%(word)s\""
-msgstr "Sự gán cho từ dành riêng « %(word)s »"
+msgstr "Sự gán cho từ dành riêng “%(word)s”"
 
-#: solfege/dataparser.py:189
+#: solfege/dataparser.py:183
 #, python-format
-msgid "Cannot translate lists using in-file translations (ex var[no]=...). See the variable \"%(variable)s\" in the file \"%(filename)s\""
-msgstr "Không thể dịch danh sách dùng bản dịch có sẵn trong tập tin (v.d. var[no]=...). Xem biến « %(variable)s » trong tập tin « %(filename)s »"
+msgid "We can only translate strings using in-file translations (ex var[no]=...). See the variable \"%(variable)s\" in the file \"%(filename)s\""
+msgstr "Chỉ có thể dịch chuỗi có sẵn trong tập tin bản dịch (v.d. var[số]=...). Xem biến “%(variable)s” trong tập tin “%(filename)s”"
 
-#: solfege/dataparser.py:208
+#: solfege/dataparser.py:202
 #, python-format
 msgid "Unable to tokenize line %(lineno)i of the file \"%(filename)s\""
-msgstr "Không thể hiệu bài hoá dòng %(lineno)i của tập tin « %(filename)s »"
+msgstr "Không thể hiệu bài hoá dòng %(lineno)i của tập tin “%(filename)s”"
 
-#: solfege/dataparser.py:303
+#: solfege/dataparser.py:320
 #, python-format
 msgid "Token \"%(nottoken)s\" not found, found \"%(foundtoken)s\" of type %(type)s."
-msgstr "Không tìm thấy hiệu bài « %(nottoken)s », tìm « %(foundtoken)s » có kiểu %(type)s."
+msgstr "Không tìm thấy hiệu bài “%(nottoken)s”, tìm “%(foundtoken)s” có kiểu %(type)s."
 
-#: solfege/esel.py:148
+#: solfege/esel.py:156
 msgid "Search"
 msgstr "Tìm kiếm"
 
-#: solfege/esel.py:224 solfege/fpeditor.py:358
+#: solfege/esel.py:249 solfege/fpeditor.py:356
 #, python-format
 msgid "«%s» was not found"
-msgstr "Không tìm thấy « %s »"
+msgstr "Không tìm thấy “%s”"
 
-#: solfege/esel.py:227
+#: solfege/esel.py:252
 #, python-format
 msgid "Failed to parse «%s»"
-msgstr "Lỗi phân tích cú pháp của « %s »"
+msgstr "Gặp lỗi khi phân tích cú pháp của “%s”"
 
-#: solfege/esel.py:249
+#: solfege/esel.py:274
 #, python-format
 msgid "passed, %.1f%%"
 msgstr "qua được, %.1f%%"
 
-#: solfege/esel.py:251
+#: solfege/esel.py:276
 #, python-format
 msgid "failed, %.1f%%"
-msgstr "đánh trượt, %.1f%%"
+msgstr "không qua, %.1f%%"
 
-#: solfege/esel.py:272
+#: solfege/esel.py:300
 #, python-format
 msgid "Search results for “%s”:"
-msgstr "Kết quả tìm kiếm « %s »:"
+msgstr "Kết quả tìm kiếm “%s”:"
 
-#: solfege/esel.py:275
+#: solfege/esel.py:303
 #, python-format
 msgid "C-locale search results for “%s”:"
-msgstr "Kết quả tìm kiếm « %s » (miền địa phương C):"
+msgstr "Kết quả tìm kiếm “%s” (miền địa phương C):"
 
-#: solfege/esel.py:329
+#: solfege/esel.py:362
 msgid "Search untranslated lesson titles"
 msgstr "Tìm tiêu đề bài học chưa dịch"
 
-#: solfege/esel.py:331 solfege/esel.py:348
+#: solfege/esel.py:364 solfege/esel.py:382
 msgid "Too few matches?"
-msgstr "Quá ít lần khớp ?"
+msgstr "Quá ít lần khớp?"
 
-#: solfege/fpeditor.py:106
+#: solfege/fpeditor.py:101
 msgid "Select lesson file"
 msgstr "Chọn tập tin bài học"
 
-#: solfege/fpeditor.py:121
+#: solfege/fpeditor.py:116
 msgid "Search for exercises. Each exercise you click will be added to the section of the front page."
 msgstr "Tìm kiếm bài tập. Mỗi bài tập được nhấn thì cũng được thêm vào phần của trang đầu."
 
-#: solfege/fpeditor.py:281
+#: solfege/fpeditor.py:279
 msgid "Add link to new page"
 msgstr "Thêm liên kết tới trang mới"
 
-#: solfege/fpeditor.py:284
+#: solfege/fpeditor.py:282
 msgid "Add link to exercise"
 msgstr "Thêm liên kết tới bài tập"
 
-#: solfege/fpeditor.py:287
+#: solfege/fpeditor.py:285
 msgid "Add link by searching for exercises"
 msgstr "Thêm liên kết bằng cách tìm kiếm bài tập"
 
-#: solfege/fpeditor.py:336 solfege/fpeditor.py:515 solfege/fpeditor.py:673
-#: solfege/frontpage.py:247 solfege/gu.py:626
+#: solfege/fpeditor.py:334 solfege/fpeditor.py:513 solfege/fpeditor.py:671
+#: solfege/gu.py:696
 #, python-format
 msgid "Untitled%s"
 msgstr "Không_tên%s"
 
-#: solfege/fpeditor.py:494
+#: solfege/fpeditor.py:492
 msgid "Add section"
 msgstr "Thêm phần"
 
-#: solfege/fpeditor.py:661
+#: solfege/fpeditor.py:659
 msgid "Front page title:"
 msgstr "Tiêu đề trang chính:"
 
-#: solfege/fpeditor.py:757 solfege/lessonfile_editor_main.py:291
+#: solfege/fpeditor.py:756 solfege/lessonfile_editor_main.py:290
 #, python-format
 msgid "Loading file '%(filename)s' failed: %(msg)s"
-msgstr "Lỗi nạp tập tin « %(filename)s »: %(msg)s"
+msgstr "Lỗi nạp tập tin “%(filename)s”: %(msg)s"
 
-#: solfege/fpeditor.py:770
-msgid "The default learning tree is write protected in your install. This is normal. If you want to edit a learning tree, you have to select one of the trees stored in .solfege/learningtrees in your home directory."
-msgstr "Cây học mặc định bị chống ghi trong bản cài đặt của bạn. Trường hợp này bình thường. Muốn sửa cây hoc thì bạn cần phải chọn một của những cây nằm trong tập tin chấm « .solfege/learningtrees » trong thư mục chính của bạn."
+#: solfege/fpeditor.py:769
+msgid "The front page file is write protected in your install. This is normal. If you want to edit a front page file, you have to select one of the files stored in .solfege/exercises/*/ in your home directory."
+msgstr "Tập tin trang chủ bị chống ghi trong bản cài đặt của bạn. Trường hợp này bình thường. Muốn sửa tập tin này, bạn cần phải chọn một tập tin “.solfege/exercises/*/” lưu trong thư mục chính của bạn."
 
-#: solfege/fpeditor.py:817
+#: solfege/fpeditor.py:816
 msgid "<b>IMPORTANT:</b> Your front page file <b>must</b> be saved in a subdirectory below the directory named exercises. See the user manual for details."
-msgstr "<b>QUAN TRỌNG</b>: tập tin trang chính phải được lưu vào một thư mục con nằm dưới thư mục tên « exercises » (bài tập). Xem sổ tay người dùng để tìm chi tiết."
+msgstr "<b>QUAN TRỌNG</b>: Tập tin trang chính phải được lưu vào một thư mục con nằm dưới thư mục “exercises” (bài tập). Xem sổ tay người dùng để tìm chi tiết."
 
-#: solfege/gu.py:662
+#: solfege/gu.py:732
 #, python-format
 msgid "Save changes to \"%s\" before closing?"
-msgstr "Lưu thay đổi của « %s » trước khi đóng không?"
+msgstr "Lưu thay đổi của “%s” trước khi đóng không?"
 
-#: solfege/gu.py:665
+#: solfege/gu.py:735
 #, python-format
 msgid "If you don't save, changes from the past %i seconds will be permanently lost."
 msgstr "Không lưu thì các thay đổi trong vòng %i giây sẽ bị mất hoàn toàn."
 
-#: solfege/gu.py:667
+#: solfege/gu.py:737
 #, python-format
 msgid "If you don't save, changes from the past %i minutes will be permanently lost."
 msgstr "Không lưu thì các thay đổi trong vòng %i phút sẽ bị mất hoàn toàn."
 
-#: solfege/gu.py:669
+#: solfege/gu.py:739
 msgid "_Close without Saving"
 msgstr "Đón_g mà không lưu"
 
-#: solfege/gu.py:728
+#: solfege/gu.py:802
 msgid "Save As..."
 msgstr "Lưu dạng..."
 
-#: solfege/gu.py:753
+#: solfege/gu.py:827
 msgid "File exists. Overwrite?"
-msgstr "Tập tin đã có. Ghi đè ?"
+msgstr "Tập tin đã có. Ghi đè?"
 
-#: solfege/gu.py:763 solfege/gu.py:782
+#: solfege/gu.py:837 solfege/gu.py:856
 msgid "Error saving file"
 msgstr "Lỗi lưu tập tin"
 
-#: solfege/gu.py:795
+#: solfege/gu.py:869
 msgid "Select an empty directory, since we want to fill it with files."
 msgstr "Chọn một thư mục rỗng, vì cần điền tập tin vào nó."
 
-#: solfege/gu.py:942
+#: solfege/gu.py:1045
 msgid "Visit http://www.solfege.org/support if you need help."
-msgstr "Muốn tìm trợ giúp thì thăm địa chỉ \"http://www.solfege.org/support\"."
+msgstr "Muốn tìm thêm trợ giúp thì truy cập địa chỉ <http://www.solfege.org/support>."
 
-#: solfege/gu.py:1008
+#: solfege/gu.py:1111
 #, python-format
 msgid "Please check the lesson file %s."
 msgstr "Hãy kiểm tra lại tập tin bài học %s."
 
-#: solfege/inputwidgets.py:232 solfege/mpd/interval.py:39
+#: solfege/inputwidgets.py:649
+msgid "Buttons"
+msgstr "Nút"
+
+#: solfege/inputwidgets.py:650
+#, python-format
+msgid "Buttons %i"
+msgstr "Nút %i"
+
+#: solfege/inputwidgets.py:651
+msgid "Piano"
+msgstr "Dương cầm"
+
+#: solfege/inputwidgets.py:651
+msgid "Guitar"
+msgstr "Ghi ta"
+
+#: solfege/inputwidgets.py:651
+msgid "Bass"
+msgstr "Ghi ta bass"
+
+#: solfege/inputwidgets.py:652
+msgid "5 string bass"
+msgstr "Ghi ta bass 5 dây"
+
+#: solfege/inputwidgets.py:652
+msgid "6 string bass"
+msgstr "Ghi ta bass 6 dây"
+
+#: solfege/inputwidgets.py:653
+msgid "Accordion B griff"
+msgstr "Đàn xếp griff B"
+
+#: solfege/inputwidgets.py:653
+msgid "Accordion C griff"
+msgstr "Đàn xếp griff C"
+
+#: solfege/inputwidgets.py:654
+msgid "Accordion (system used in Finland)"
+msgstr "Đàn xếp (hệ thống dùng ở Phần Lan)"
+
+#: solfege/inputwidgets.py:655
+msgid "Accordion (Belgian Charleroi do2)"
+msgstr "Accordion (Belgian Charleroi do2)"
+
+#: solfege/instrumentselector.py:120
+msgid "Highest:"
+msgstr "Cao nhất:"
+
+#: solfege/instrumentselector.py:123
+msgid "Middle:"
+msgstr "Vừa:"
+
+#: solfege/instrumentselector.py:128
+msgid "Lowest:"
+msgstr "Thấp nhất:"
+
+#: solfege/lessonfile_editor_main.py:34 solfege/lessonfile_editor_main.py:97
+msgid "Add noteheads"
+msgstr "Thêm đầu nốt"
+
+#: solfege/lessonfile_editor_main.py:35 solfege/lessonfile_editor_main.py:99
+msgid "Add sharps"
+msgstr "Thêm các dấu thăng"
+
+#: solfege/lessonfile_editor_main.py:36 solfege/lessonfile_editor_main.py:101
+msgid "Add double-sharps"
+msgstr "Thêm các dấu thăng đôi"
+
+#: solfege/lessonfile_editor_main.py:37 solfege/lessonfile_editor_main.py:103
+msgid "Remove accidentals"
+msgstr "Bỏ các dấu biến"
+
+#: solfege/lessonfile_editor_main.py:38 solfege/lessonfile_editor_main.py:105
+msgid "Add flats"
+msgstr "Thêm các dấu giáng"
+
+#: solfege/lessonfile_editor_main.py:39 solfege/lessonfile_editor_main.py:107
+msgid "Add double-flats"
+msgstr "Thêm các dấu giáng đôi"
+
+#: solfege/lessonfile_editor_main.py:40 solfege/lessonfile_editor_main.py:109
+msgid "Delete tones"
+msgstr "Xoá âm"
+
+#: solfege/lessonfile_editor_main.py:47
+msgid "GNU Solfege lesson file editor"
+msgstr "Phần mềm sửa tập tin bài học Solfege của GNU"
+
+#: solfege/lessonfile_editor_main.py:75 solfege/mainwin.py:208
+msgid "_File"
+msgstr "_Chính"
+
+#: solfege/lessonfile_editor_main.py:81 solfege/mainwin.py:226
+msgid "_Help"
+msgstr "Trợ g_iúp"
+
+#: solfege/lessonfile_editor_main.py:83
+msgid "_About"
+msgstr "_Giới thiệu"
+
+#: solfege/lessonfile_editor_main.py:87
+msgid "Go to the first question"
+msgstr "Về câu hỏi đầu"
+
+#: solfege/lessonfile_editor_main.py:89
+msgid "Go to the previous question"
+msgstr "Về câu hỏi kế trước"
+
+#: solfege/lessonfile_editor_main.py:91
+msgid "Go to the next question"
+msgstr "Tới câu hỏi kế tiếp"
+
+#: solfege/lessonfile_editor_main.py:93
+msgid "Go to the last question"
+msgstr "Tới câu hỏi cuối"
+
+#: solfege/lessonfile_editor_main.py:95
+msgid "Add a new question"
+msgstr "Thêm câu hỏi mới"
+
+#: solfege/lessonfile_editor_main.py:188
+msgid "Questions"
+msgstr "Câu hỏi"
+
+#: solfege/lessonfile_editor_main.py:189
+msgid "Enter new chords using the mouse"
+msgstr "Nhập vào hợp âm mới bằng chuột"
+
+#: solfege/lessonfile_editor_main.py:199
+msgid "Question title:"
+msgstr "Tiêu đề câu hỏi:"
+
+#: solfege/lessonfile_editor_main.py:206
+msgid "Lessonfile header"
+msgstr "Phần đầu tập tin bài học"
+
+#: solfege/lessonfile_editor_main.py:210
+msgid "File title:"
+msgstr "Tên tập tin:"
+
+#: solfege/lessonfile_editor_main.py:219
+msgid "Content:"
+msgstr "Nội dung:"
+
+#: solfege/lessonfile_editor_main.py:231
+msgid "You have unsaved data. Proceed anyway?"
+msgstr "Có dữ liệu chưa lưu. Vẫn tiếp tục?"
+
+#: solfege/lessonfile_editor_main.py:250
+msgid "No file"
+msgstr "Không có tập tin"
+
+#: solfege/lessonfile_editor_main.py:251
+#, python-format
+msgid "question %(idx)i of %(count)i"
+msgstr "câu hỏi %(idx)i trên %(count)i"
+
+#: solfege/lessonfile_editor_main.py:271
+#, python-format
+msgid "The exercise module '%s' is not supported yet. Cannot edit this file."
+msgstr "Chưa hỗ trợ mô-đun bài tập “%s” nên không thể sửa tập tin này."
+
+#: solfege/lessonfile_editor_main.py:277
+msgid "Open..."
+msgstr "Mở..."
+
+#: solfege/lessonfile_editor_main.py:304
+msgid "Save as..."
+msgstr "Lưu dạng..."
+
+#: solfege/lessonfile_editor_main.py:317
+msgid "Save..."
+msgstr "Lưu..."
+
+#: solfege/lessonfile.py:100
+msgid "The lesson file contains no questions"
+msgstr "Tập tin bài học không chứa câu hỏi."
+
+#: solfege/lessonfile.py:104
+#, python-format
+msgid "The external file '%s' was not found"
+msgstr "Không tìm thấy tập tin bên ngoài “%s”"
+
+#: solfege/lessonfile.py:113
+msgid "No questions selected"
+msgstr "Chưa chọn câu hỏi"
+
+#: solfege/lessonfile.py:114
+msgid "You can select questions on the config page of the exercise."
+msgstr "Bạn có thể chọn một số câu hỏi trên trang cấu hình của bài tập."
+
+#: solfege/lessonfile.py:1366
+#, python-format
+msgid "Discarding question %(questionidx)i from the lessonfile \"%(filename)s\" because it is missing the \"name\" variable. All questions in lesson files of this type must have a name variable."
+msgstr "Đang hủy câu hỏi %(questionidx)i khỏi tập tin bài học “%(filename)s” vì nó thiếu biến “name”. Trong tập tin bài học kiểu này, mỗi câu học phải có một biến “name”."
+
+#: solfege/lessonfile.py:1596
+#, python-format
+msgid "Question number %(index)i in the lesson file \"%(filename)s\" is missing the \"question_text\" variable."
+msgstr "Câu hỏi số %(index)i trong tập tin bài học “%(filename)s” thiếu biến văn bản câu hỏi “question_text”."
+
+#: solfege/lessonfile.py:1639 solfege/exercises/chord.py:204
+#: exercises/standard/lesson-files/altered-1:14
+#: exercises/standard/lesson-files/chord-7b9-maj79:13
+#: exercises/standard/lesson-files/chord-all-root:12
+#: exercises/standard/lesson-files/chord-dim-aug:13
+#: exercises/standard/lesson-files/chord-dim-aug-min-major:10
+#: exercises/standard/lesson-files/chord-m7-7:13
+#: exercises/standard/lesson-files/chord-m7-7-maj7-m7b5-dim7:13
+#: exercises/standard/lesson-files/chord-m9-9:13
+#: exercises/standard/lesson-files/chord-m9-9-7b9-maj79:13
+#: exercises/standard/lesson-files/chord-maj7-m7b5-dim7:13
+#: exercises/standard/lesson-files/chord-min-major:13
+#: exercises/standard/lesson-files/chord-min-major-7:13
+msgid "Identify the chord"
+msgstr "Định danh hợp âm"
+
+#: solfege/lessonfile.py:1643 solfege/exercises/chordvoicing.py:164
+msgid "Chord type"
+msgstr "Kiểu hợp âm"
+
+#: solfege/lessonfile.py:1644
+msgid "Inversion"
+msgstr "Đảo"
+
+#: solfege/lessonfile.py:1645
+msgid "Toptone"
+msgstr "Tông đầu"
+
+#: solfege/lessonfile.py:1647
+#, python-format
+msgid "Missing qprops variable in the lesson file %s."
+msgstr "Thiếu biến “qprops” trong tập tin bài học %s."
+
+#: solfege/lessonfile.py:1655
+#, python-format
+msgid "Error in the lesson file header of \"%(filename)s\". The variables qprops and qprop_labels must have the same length."
+msgstr "Gặp lỗi trong phần đầu tập tin bài học “%(filename)s”. Hai biến “qprops” và “qprop_labels” phải có cùng một chiều dài."
+
+#: solfege/lessonfile.py:1668 exercises/standard/lesson-files/chord-7-inv:21
+msgid "root position"
+msgstr "vị trí gốc"
+
+#: solfege/lessonfile.py:1673 exercises/standard/lesson-files/chord-7-inv:25
+#: exercises/standard/lesson-files/chord-7-inv:29
+#: exercises/standard/lesson-files/chord-7-inv:34
+#, python-format
+msgid "%i. inversion"
+msgstr "Đảo %i."
+
+#: solfege/lessonfile.py:1696
+#, python-format
+msgid "Discarding question %(questionidx)i from the lesson file \"%(filename)s\" because of a missing variable: %(var)s"
+msgid_plural "Discarding question %(questionidx)i from the lesson file \"%(filename)s\" because of some missing variables: %(var)s"
+msgstr[0] "Đang hủy câu hỏi %(questionidx)i khỏi tập tin bài học “%(filename)s” vì một biến còn thiếu: %(var)s"
+
+#: solfege/mainwin.py:66
+#, python-format
+msgid "Starting GNU Solfege %s"
+msgstr "Đang khởi chạy Solfege GNU %s"
+
+#: solfege/mainwin.py:102
+msgid "Close"
+msgstr "Đóng"
+
+#: solfege/mainwin.py:201
+#, python-format
+msgid "Loading front page '%s' failed. Using default page."
+msgstr "Lỗi nạp trang chính “%s” nên dùng trang mặc định."
+
+#: solfege/mainwin.py:212 exercises/standard/learningtree.txt:185
+msgid "The_ory"
+msgstr "Lý th_uyết"
+
+#: solfege/mainwin.py:213
+msgid "Sele_ct Front Page"
+msgstr "_Chọn trang chính"
+
+#: solfege/mainwin.py:214 exercises/standard/learningtree.txt:4
+msgid "_Intervals"
+msgstr "_Quãng"
+
+#: solfege/mainwin.py:216
+msgid "_Edit Front Page"
+msgstr "_Sửa trang chính"
+
+#: solfege/mainwin.py:218
+msgid "E_xport Exercises to Audio Files…"
+msgstr "_Xuất bài tập dạng tập tin âm thanh..."
+
+#: solfege/mainwin.py:220
+msgid "Ear Training Test Pri_ntout…"
+msgstr "Bả_n in bài luyện nghe..."
+
+#: solfege/mainwin.py:222
+msgid "Profile _Manager"
+msgstr "Quản _lý hồ sơ"
+
+#: solfege/mainwin.py:227
+msgid "_Search Exercises"
+msgstr "_Tìm bài tập"
+
+#: solfege/mainwin.py:229
+msgid "_Front Page"
+msgstr "T_rang chính"
+
+#: solfege/mainwin.py:231
+msgid "_Tests Page"
+msgstr "_Trang thử"
+
+#: solfege/mainwin.py:233
+msgid "_Recent Exercises"
+msgstr "Bài tập _vừa làm"
+
+#: solfege/mainwin.py:235
+msgid "_Recent Tests"
+msgstr "Bài kiểm tra _vừa làm"
+
+#: solfege/mainwin.py:237
+msgid "_User Exercises"
+msgstr "Bài tập người _dùng"
+
+#: solfege/mainwin.py:239
+msgid "Download and compile ALSA modules"
+msgstr "Tải về và dịch mô-đun ALSA"
+
+#: solfege/mainwin.py:240
+msgid "_Help on the current exercise"
+msgstr "Trợ g_iúp về bài tập đang làm"
+
+#: solfege/mainwin.py:242
+msgid "_Music theory on the current exercise"
+msgstr "Nhạc lý về bài tập đang làm"
+
+#: solfege/mainwin.py:243
+msgid "_User manual"
+msgstr "_Sổ tay người dùng"
+
+#: solfege/mainwin.py:245 solfege/mainwin.py:397 solfege/mainwin.py:406
+msgid "_File locations"
+msgstr "_Vị trí tập tin"
+
+#: solfege/mainwin.py:247
+msgid "_Mailing lists, web page etc."
+msgstr "Hộp thư chung, trang _Web v.v."
+
+#: solfege/mainwin.py:249
+msgid "_Donate"
+msgstr "_Quyên góp"
+
+#: solfege/mainwin.py:251
+msgid "Reporting _bugs"
+msgstr "Thông báo _lỗi"
+
+#: solfege/mainwin.py:254
+msgid "_See your bug reports"
+msgstr "_Xem báo cáo lỗi đã gửi"
+
+#: solfege/mainwin.py:325
+msgid "Question"
+msgstr "Câu hỏi"
+
+#: solfege/mainwin.py:332
+msgid "Please enter the email used when you submitted the bugs:"
+msgstr "Hãy nhập vào địa chỉ thư dùng khi bạn gửi báo cáo lỗi:"
+
+#: solfege/mainwin.py:412
+msgid "Solfege application data:"
+msgstr "Dữ liệu ứng dụng Solfege:"
+
+#: solfege/mainwin.py:413
+msgid "Solfege user data:"
+msgstr "Dữ liệu người dùng Solfege:"
+
+#: solfege/mainwin.py:414
+msgid "Solfege config file:"
+msgstr "Tập tin cấu hình Solfege:"
+
+#: solfege/mainwin.py:415
+msgid "Solfege installation directory:"
+msgstr "Thư mục cài đặt Solfege:"
+
+#: solfege/mainwin.py:416
+msgid "User manual in HTML format:"
+msgstr "Sổ tay người dùng theo định dạng HTML:"
+
+#: solfege/mainwin.py:431 solfege/mainwin.py:456
+msgid "SOLFEGETRANSLATORS"
+msgstr "Nhóm Việt hoá Phần mềm Tự do tại TranslationProject <translation-team-vi@lists.sourceforge.net>"
+
+#: solfege/mainwin.py:442 solfege/mainwin.py:443
+msgid "(some lessonfiles)"
+msgstr "(một số tập tin bài học)"
+
+#: solfege/mainwin.py:444
+msgid "(sound code for the MS Windows port)"
+msgstr "(mã âm thanh cho bản chuyển MS™ Windows)"
+
+#: solfege/mainwin.py:445
+msgid "(ported winmidi.c to gcc)"
+msgstr "(chuyển winmidi.c sang gcc)"
+
+#: solfege/mainwin.py:446
+msgid "(spec file for SuSE 8.2)"
+msgstr "(tập tin đặc tả cho SuSE 8.2)"
+
+#: solfege/mainwin.py:447
+msgid "(spec file cleanup)"
+msgstr "(làm sạch tập tin đặc tả)"
+
+#: solfege/mainwin.py:448
+msgid "(testing and portability fixes for FreeBSD)"
+msgstr "(thử và sửa khả năng khả chuyển dành cho FreeBSD)"
+
+#: solfege/mainwin.py:449 solfege/mainwin.py:450
+msgid "(the music font from Lilypond)"
+msgstr "(phông âm nhạc từ Lilypond)"
+
+#: solfege/mainwin.py:451
+msgid "(scale exercises)"
+msgstr "(bài tập gam)"
+
+#: solfege/mainwin.py:481
+#, python-format
+msgid ""
+"In Solfege 3.9.0, the location where Solfege look for lesson files you have created was changed. The files has to be moved from \"%(old)s\" and into the folder \"%(gnu)s\" in your \"%(doc)s\" folder.\n"
+"May I move the files automatically for you now?"
+msgstr ""
+"Trong Solfege phiên bản 3.9.0, vị trí ở đó Solfege tìm các tập tin bài học được bạn tạo đã thay đổi. Các tập tin phải được di chuyển từ “%(old)s” sang thư mục “%(gnu)s” trong thư mục “%(doc)s” của bạn.\n"
+"Bạn cho phép chương trình này tự động di chuyển các tập tin này ngay bây giờ không?"
+
+#: solfege/mainwin.py:492
+#, python-format
+msgid ""
+"Error while copying directory:\n"
+"%s"
+msgstr ""
+"Gặp lỗi khi sao chép thư mục:\n"
+"%s"
+
+#: solfege/mainwin.py:494
+msgid "Files copied. The old files has been left behind. Please delete them when you have verified that all files was copied correctly."
+msgstr "Những tập tin đã được sao chép. Các tập tin cũ bị để lại. Hãy xoá chúng khi bạn đã thẩm tra mỗi tập tin đã được sao chép đúng."
+
+#: solfege/mainwin.py:501
+msgid "Migrated old language setup. You might have to restart the program all translated messages to show up."
+msgstr "Cài đặt ngôn ngữ cũ đã được nâng cấp. Có lẽ bạn cần phải khởi chạy lại chương trình để xem mọi thông điệp đã dịch."
+
+#: solfege/mainwin.py:527
+msgid "Cannot load front page file"
+msgstr "Không thể tải tập tin dành cho trang chính"
+
+#: solfege/mainwin.py:528
+#, python-format
+msgid "The file «%s» is saved in an old file format. The file can be converted by editing and saving it with an older version of Solfege. Versions from 3.16.0 to 3.20.4 should do the job."
+msgstr "Tập tin `%s' được ghi ở định dạng cũ. Tập tin có thể được chuyển đổi bằng cách sửa và ghi lại nó trong chương trình Solfege ở phiên bản cũ hơn. Số hiệu phiên bản từ 3.16.0 đến 3.20.4 có thể thực hiện việc này."
+
+#: solfege/mainwin.py:553
+msgid "User exercises"
+msgstr "Bài tập người dùng"
+
+#: solfege/mainwin.py:565
+#, python-format
+msgid "You really should move the following directory to a directory below <span font_family=\"monospace\">%s</span>. Future versions of GNU Solfege will not display files in the old location. The user manual have details on where to place the files."
+msgstr "Bạn thực sự nên di chuyển thư mục sau đây vào trong thư mục <span font_family=\"monospace\">%s</span>. Phiên bản mới hơn của GNU Solfege sẽ không hiển thị các tập tin trong vị trí cũ. Trong sổ tay hướng dẫn sử dụng có mô tả chi tiết nơi mà các tập tin này được lưu trữ."
+
+#: solfege/mainwin.py:577 solfege/mainwin.py:579
+msgid "Recent exercises"
+msgstr "Bài tập vừa làm"
+
+#: solfege/mainwin.py:584 solfege/mainwin.py:586
+msgid "Recent tests"
+msgstr "Bài kiểm tra vừa làm"
+
+#: solfege/mainwin.py:607
+msgid "Search the exercise titles of all lesson files found by the program, not just the active front page with sub pages."
+msgstr "Tìm kiếm các tiêu đề của tất cả các tập tin bài học được tìm thấy bởi chương trình, không chỉ từ trang chính cùng với các trang con."
+
+#: solfege/mainwin.py:714
+#, python-format
+msgid "The '%s' exercise module does not support test yet."
+msgstr "Mô-đun bài tập “%s” chưa hỗ trợ khả năng thử."
+
+#: solfege/multipleintervalconfigwidget.py:94
+msgid "Number of intervals:"
+msgstr "Số quãng:"
+
+#: solfege/multipleintervalconfigwidget.py:101
+msgid "Configure all intervals in this exercise like this"
+msgstr "Cấu hình mọi quãng trong bài tập này như thế"
+
+#: solfege/multipleintervalconfigwidget.py:109
+msgid "Toggle buttons are for interval number:"
+msgstr "Nút bật/tắt dành cho quãng số:"
+
+#: solfege/multipleintervalconfigwidget.py:119
+msgid "Up:"
+msgstr "Lên:"
+
+#: solfege/multipleintervalconfigwidget.py:135
+msgid "Down:"
+msgstr "Xuống:"
+
+#: solfege/multipleintervalconfigwidget.py:151
+msgid "Reset to default values"
+msgstr "Đặt lại là giá trị mặc định"
+
+#: solfege/optionparser.py:27
+msgid "Show warranty and copyright."
+msgstr "Hiện bảo hành và tác quyền."
+
+#: solfege/optionparser.py:29
+msgid "Do not show the startup window."
+msgstr "Đừng hiện cửa sổ khởi chạy."
+
+#: solfege/optionparser.py:34
+msgid "Display more info about the sound setup."
+msgstr "Hiển thị thông tin thêm về cài đặt âm thanh."
+
+#: solfege/optionparser.py:37
+msgid "Do not play any sounds. Instead some data is printed to standard output. Use this for debugging and porting."
+msgstr "Đừng phát âm thanh. Thay vào đó, một số dữ liệu được in ra thiết bị xuất chuẩn. Dùng nó để gỡ lỗi và chuyển sang nền tảng khác."
+
+#: solfege/optionparser.py:39
+msgid "Include features used by the Solfege developers to debug the program."
+msgstr "Gồm có các tính năng dùng bởi nhà phát triển để gỡ lỗi chương trình."
+
+#. translators: dont transate the actual debug levels
+#: solfege/optionparser.py:42
+msgid "Valid debug values are: debug, info, warning, error, critical"
+msgstr ""
+"Các giá trị gỡ rối hợp lệ:\n"
+"  debug        gỡ rối\n"
+"  info         thông tin\n"
+"  warning      cảnh báo\n"
+"  error        lỗi\n"
+"  critical     nghiêm trọng"
+
+#: solfege/optionparser.py:45
+msgid "Disable the exception handling in Gui.standard_exception_handler."
+msgstr "Tắt khả năng quản lý ngoài lệ trong “Gui.standard_exception_handler”."
+
+#: solfege/optionparser.py:47
+msgid "For debugging only: Select questions from lesson files in sequential order."
+msgstr "Chỉ để gỡ lỗi: chọn các câu hỏi từ tập tin bài học theo thứ tự."
+
+#: solfege/optionparser.py:50
+msgid "Show GtkWarnings and PangoWarnings in the traceback window."
+msgstr "Hiện cảnh báo GtkWarnings và PangoWarnings trong cửa sổ vết lùi."
+
+#: solfege/optionparser.py:52
+msgid "Start with <profile>. Create the profile if it does not exist."
+msgstr "Bắt đầu với <hồ_sơ>. Không có thì tự động tạo hồ sơ này."
+
+#: solfege/optionparser.py:55
+msgid "Create or update the screenshots for the user manual. Intended for developers of this program."
+msgstr "Tạo hay cập nhật ảnh chụp màn hình dành cho sổ tay hướng dẫn sử dụng. Dành cho người phát triển chương trình này."
+
+#: solfege/osutils.py:59
+#, python-format
+msgid "Running the command %s failed."
+msgstr "Lỗi chạy câu lệnh %s."
+
+#: solfege/osutils.py:68
+#, python-format
+msgid "The executable '%s' does not exist."
+msgstr "Tập tin thực thi “%s” không tồn tại."
+
+#: solfege/osutils.py:74
+#, python-format
+msgid ""
+"Tried `%(bin)s`:\n"
+"\n"
+"\t%(exception)s\n"
+"\n"
+"Please check that the program is installed. If you did not supply the full path to the program in the preferences window (Ctrl-F12), you must make sure the program is on your PATH."
+msgstr ""
+"Đã thử “%(bin)s”:\n"
+"\n"
+"\t%(exception)s\n"
+"\n"
+"Hãy kiểm tra lại chương trình này đã được cài đặt chưa. Nếu bạn không cung cấp đường dẫn đầy đủ đến chương trình trong cửa sổ `Cá nhân hóa' (Ctrl-F12), thì bạn cần phải đảm bảo rằng chương trình nằm trên đường dẫn mặc định PATH của người dùng."
+
+#: solfege/osutils.py:85
+#, python-format
+msgid "Failed to execute a binary for %s"
+msgstr "Không thực hiện được một tập tin nhị phân cho %s"
+
+#: solfege/osutils.py:90
+#, python-format
+msgid "Failed to execute media player for %s files"
+msgstr "Không thực hiện được trình phát phương tiện cho tập tin %s"
+
+#: solfege/osutils.py:97
+#, python-format
+msgid "Failed to execute binary to convert from %(from)s to %(to)s"
+msgstr "Không thực hiện được tập tin nhị phân để chuyển đổi từ %(from)s sang %(to)s"
+
+#: solfege/practisesheetdlg.py:319
+msgid "Output format:"
+msgstr "Định dạng kết xuất:"
+
+#: solfege/practisesheetdlg.py:328
+msgid "Title:"
+msgstr "Tựa đề:"
+
+#: solfege/practisesheetdlg.py:363
+msgid "Section title:"
+msgstr "Tựa đề của phần phần:"
+
+#: solfege/practisesheetdlg.py:371
+msgid "Name the music"
+msgstr "Tên khúc nhạc"
+
+#: solfege/practisesheetdlg.py:372
+msgid "Write the music, first tone given"
+msgstr "Ghi khúc nhạc, âm đầu đã cho"
+
+#: solfege/practisesheetdlg.py:375
+msgid "Type of question:"
+msgstr "Kiểu câu hỏi:"
+
+#: solfege/practisesheetdlg.py:379
+msgid "Intervals:"
+msgstr "Quãng:"
+
+#: solfege/practisesheetdlg.py:388
+msgid "Questions per line:"
+msgstr "Câu hỏi từng dòng:"
+
+#: solfege/practisesheetdlg.py:394
+msgid "Number of questions:"
+msgstr "Số câu hỏi:"
+
+#: solfege/practisesheetdlg.py:447 solfege/trainingsetdlg.py:293
+msgid "Select where to export the files"
+msgstr "Chọn xuất khẩu tập tin vào đâu"
+
+#: solfege/practisesheetdlg.py:506
+#, python-format
+msgid "Not all music types are supported. This file contain %(ok)i supported questions and %(not_ok)i that are not supported. The unsupported questions will be ignored. Add any way?"
+msgstr "Không phải mọi kiểu nhạc được hỗ trợ. Tập tin này chứa %(ok)i câu hỏi được hỗ trợ, và %(not_ok)i câu hỏi không được hỗ trợ. Các câu hỏi không được hỗ trợ thì bị bỏ qua. Vẫn thêm?"
+
+#: solfege/practisesheetdlg.py:508
+msgid "Could not add the lesson file. It has no questions with a music object with supported music type."
+msgstr "Không thể thêm tập tin bài học. Nó không chứa câu hỏi có đối tượng nhạc có kiểu nhạc đã hỗ trợ."
+
+#: solfege/practisesheetdlg.py:569 solfege/trainingsetdlg.py:228
+msgid "Cannot read old file format"
+msgstr "không thể đọc tập tin với định dạng cũ"
+
+#: solfege/practisesheetdlg.py:570 solfege/trainingsetdlg.py:229
+msgid "To convert the file to the new file format, you must open and save it in an older version of Solfege. Versions from 3.16.0 to 3.20.4 should do the job."
+msgstr "Để chuyển đổi tập tin thành tập tin có định dạng mới, bạn phải mở và ghi lại nó trong một chương trình Solfege ở phiên bản cũ hơn. Số hiệu phiên bản từ 3.16.0 đến 3.20.4 có thể thực hiện việc này."
+
+#: solfege/practisesheetdlg.py:623 solfege/trainingsetdlg.py:251
+#, python-format
+msgid "«%s» not found"
+msgstr "Không tìm thấy “%s”"
+
+#: solfege/practisesheetdlg.py:671
+msgid "Create Sheet"
+msgstr "Tạo bảng"
+
+#: solfege/practisesheetdlg.py:672
+msgid "Randomize"
+msgstr "Ngẫu nhiên"
+
+#: solfege/presetup.py:51
+#, python-format
+msgid "Parsing %s failed"
+msgstr "Gặp lỗi khi phân tích %s"
+
+#: solfege/presetup.py:52
+#, python-format
+msgid "We cannot recover from this, we can rename the corrupt file to %s and then start the program."
+msgstr "Chúng tôi không thể lấy lại từ cái này, chúng tôi có thể đổi tên tập tin hỏng thành %s và bắt đầu chương trình."
+
+#: solfege/profilemanager.py:32 solfege/profilemanager.py:137
+msgid "_Create profile…"
+msgstr "Tạ_o hồ sơ..."
+
+#: solfege/profilemanager.py:38
+msgid "Enter the name of the new folder:"
+msgstr "Gõ tên của thư mục mới:"
+
+#: solfege/profilemanager.py:47
+msgid "Your profile data will be stored in:"
+msgstr "Dữ liệu hồ sơ của bạn sẽ được cất giữ trong:"
+
+#: solfege/profilemanager.py:65
+msgid "New Profile"
+msgstr "Hồ sơ mới"
+
+#: solfege/profilemanager.py:72 solfege/profilemanager.py:112
+#, python-format
+msgid "The profile «%s» already exists."
+msgstr "Hồ sơ “%s” đã có."
+
+#: solfege/profilemanager.py:83 solfege/profilemanager.py:141
+msgid "_Rename profile…"
+msgstr "Đổ_i tên hồ sơ..."
+
+#: solfege/profilemanager.py:89
+#, python-format
+msgid "Rename the profile «%s» to:"
+msgstr "Thay đổi tên của hồ sơ “%s” thành:"
+
+#: solfege/profilemanager.py:121
+msgid "GNU Solfege - Choose User Profile"
+msgstr "GNU Solfege — Chọn Hồ sơ Người dùng"
+
+#: solfege/profilemanager.py:127
+msgid "Solfege will save your statistics and test results in the user profile. By adding additional user profiles to Solfege, multiple users can share a user account on the operating system."
+msgstr "Trình Solfege sẽ lưu vào hồ sơ người dùng các thống kê và kết quả kiểm tra của bạn. Cũng có thể cho phép chia sẻ ra nhiều người dùng một tài khoản người dùng trên hệ điều hành, bằng cách thêm vào Solfege hồ sơ người dùng bổ sung."
+
+#: solfege/profilemanager.py:145
+msgid "_Delete profile…"
+msgstr "_Xoá hồ sơ..."
+
+#: solfege/profilemanager.py:151
+msgid "Standard profile"
+msgstr "Hồ sơ tiêu chuẩn"
+
+#: solfege/profilemanager.py:171
+msgid "D_on't ask at startup"
+msgstr "Đừng _hỏi khi khởi chạy"
+
+#: solfege/profilemanager.py:216
+#, python-format
+msgid "Permanently delete the user profile «%s»?"
+msgstr "Xoá bỏ vĩnh viễn hồ sơ người dùng “%s” không?"
+
+#: solfege/profilemanager.py:248
+msgid "_Start GNU Solfege"
+msgstr "Khởi chạy GNU _Solfege"
+
+#: solfege/reportbug.py:36
+msgid "Make bug report"
+msgstr "Thông báo lỗi"
+
+#: solfege/reportbug.py:39
+msgid "_Send"
+msgstr "_Gửi"
+
+#: solfege/reportbug.py:42
+msgid "Information about the version of GNU Solfege, your operating system and Python version, and the Python traceback (error message) will be sent to the crash database. Your email will not be published or shared, but we might contact you by email if we have further questions about your crash report."
+msgstr "Thông tin về phiên bản GNU Solfege, hệ điều hành  và Python, và các thông tin về lỗi Python sẽ được gửi đến cơ sở dữ liệu lỗi. Thư điện tử của bạn sẽ không được công khai hay chia sẻ cho người khác, nhưng chúng tôi có thể liên hệ với bạn bằng thư điện tử nếu chúng tôi muốn có thêm thông tin về lỗi mà bạn đã báo cáo."
+
+#: solfege/reportbug.py:48
+msgid "_Email:"
+msgstr "Đị_a chỉ thư:"
+
+#: solfege/reportbug.py:54
+msgid "S_hort description:"
+msgstr "Mô tả _ngắn:"
+
+#: solfege/reportbug.py:56
+msgid "_Describe how to produce the error message:"
+msgstr "_Diễn tả nguyên nhân của thông điệp lỗi:"
+
+#: solfege/specialwidgets.py:168
+msgid "Set transposition"
+msgstr "Tập hợp hoán vị"
+
+#: solfege/specialwidgets.py:174
+msgid "Select how to do random transposition"
+msgstr "Chọn phương pháp chuyển vị ngẫu nhiên"
+
+#: solfege/specialwidgets.py:176
+msgid "You can read about the different types of transposition in the lesson file documentation available on the Help menu."
+msgstr "Trong trình đơn Trợ giúp có tài liệu hướng dẫn về tập tin bài học mà giải thích những kiểu dịch giọng khác nhau."
+
+#: solfege/specialwidgets.py:201
+msgid "Fifths relative to C major/a minor"
+msgstr "Quãng năm tương đối với C trưởng / A thứ"
+
+#: solfege/specialwidgets.py:215
+msgid "Fifths relative to current key"
+msgstr "Quãng năm tương đối với khoá hiện thời"
+
+#: solfege/specialwidgets.py:227
+msgid "Transpose notes without changing key"
+msgstr "Chuyển cung nốt mà không thay đổi khoá"
+
+#: solfege/specialwidgets.py:239
+msgid "Semitones"
+msgstr "Nửa âm"
+
+#: solfege/startup.py:144
+msgid "Opening statistics database"
+msgstr "Mở cơ sở dữ liệu thống kê"
+
+#: solfege/startup.py:149
+#, python-format
+msgid ""
+"Failed to open the statistics database:\n"
+"«%s»"
+msgstr ""
+"Gặp lỗi khi mở cơ sở dữ liệu thống kê:\n"
+"“%s”"
+
+#: solfege/startup.py:149
+msgid "Click OK to exit the program. Then try to quit all other instances of the program, or reboot the computer. You can only run one instance of GNU Solfege at once."
+msgstr "Nhấn vào OK để thoát khỏi chương trình. Khi thử thoát ra tất cả các cửa sổ của chương trình, hay khởi động lại máy tính. Bạn chỉ cần chạy một cửa sổ ứng dụng GNU Solfege mà thôi."
+
+#: solfege/startup.py:153
+msgid "Creating application window"
+msgstr "Đang tạo cửa sổ ứng dụng"
+
+#: solfege/statisticsviewer.py:130 solfege/statisticsviewer.py:271
+msgid "Session"
+msgstr "Phiên làm việc"
+
+#: solfege/statisticsviewer.py:130 solfege/statisticsviewer.py:272
+msgid "Today"
+msgstr "Hôm nay"
+
+#: solfege/statisticsviewer.py:131 solfege/statisticsviewer.py:273
+msgid "Last 7 days"
+msgstr "7 ngày qua"
+
+#: solfege/statisticsviewer.py:131 solfege/statisticsviewer.py:151
+#: solfege/statisticsviewer.py:274
+msgid "Total"
+msgstr "Tổng"
+
+#: solfege/statisticsviewer.py:147
+msgid "Percent"
+msgstr "Phần trăm"
+
+#: solfege/statisticsviewer.py:149 solfege/trainingsetdlg.py:99
+msgid "Count"
+msgstr "Số"
+
+#: solfege/statisticsviewer.py:238 solfege/statisticsviewer.py:245
+#, python-format
+msgid "Test dated %(date)s: %(percent).1f%%"
+msgstr "Bài kiểm tra vào %(date)s: %(percent).1f%%"
+
+#: solfege/statisticsviewer.py:304
+#, python-format
+msgid "This exercise have statistics from %(count)s practise sessions, from %(first)s to %(last)s"
+msgstr "Bài học này có thống kê từ %(count)s phiên luyện tập, từ %(first)s đến %(last)s"
+
+#: solfege/tracebackwindow.py:32
+msgid "GNU Solfege message window"
+msgstr "Cửa sổ thông điệp Solfege GNU"
+
+#: solfege/tracebackwindow.py:35
+msgid "Please report this to the bug database or send an email to bug-solfege@gnu.org if the content of the message make you believe you have found a bug."
+msgstr "Hãy thông báo trường hợp này cho cơ sở dữ liệu lỗi, hoặc gửi thư đến địa chỉ <bug-solfege@gnu.org> nếu nội dung của thông điệp bạn tin rằng mình đã tìm thấy một lỗi."
+
+#: solfege/tracebackwindow.py:50
+msgid "_Make automatic bug report"
+msgstr "_Tạo báo cáo lỗi tự động"
+
+#: solfege/tracebackwindow.py:58
+msgid ""
+"Automatic bug reports are often mostly useless because people omit their email address and add very little info about what happened. Fixing bugs is difficult if we cannot contact you and ask for more information.\n"
+"\n"
+"I would prefer if you open a web browser and report your bug to the bug tracker at http://bugs.solfege.org.\n"
+"\n"
+"This will give your bug report higher priority and it will be fixed faster.\n"
+"\n"
+"Are you willing to do that?"
+msgstr ""
+"Chức năng tự động thông báo lỗi thường vô ích vì người dùng không cung cấp địa chỉ thư điện tử, và không thêm chi tiết về trường hợp gây ra lỗi. Khó sửa chữa lỗi nếu chúng tôi không thể liên lạc với bạn để yêu cầu thêm thông tin.\n"
+"\n"
+"Gặp lỗi thì xin thăm địa chỉ “http://bugs.solfege.org” trong trình duyệt Web, và thông báo lỗi ở đó.\n"
+"\n"
+"Vì thế lỗi của bạn được gán mức ưu tiên cao hơn và sẽ được sửa chữa nhanh hơn.\n"
+"\n"
+"Bạn sẽ giúp cải tiến Solfege bằng cách này không?"
+
+#: solfege/trainingsetdlg.py:63
+msgid "MIDI"
+msgstr "MIDI"
+
+#: solfege/trainingsetdlg.py:64
+msgid "WAV"
+msgstr "WAV"
+
+#: solfege/trainingsetdlg.py:65
+msgid "MP3"
+msgstr "MP3"
+
+#: solfege/trainingsetdlg.py:66
+msgid "OGG"
+msgstr "OGG"
+
+#: solfege/trainingsetdlg.py:70
+msgid "Preferred output format:"
+msgstr "Định dạng xuất ưa thích:"
+
+#: solfege/trainingsetdlg.py:75
+msgid "Name files by questions"
+msgstr "Đặt tên tập tin theo câu hỏi"
+
+#: solfege/trainingsetdlg.py:89
+msgid "Title"
+msgstr "Tựa đề"
+
+#: solfege/trainingsetdlg.py:111
+msgid "Delay"
+msgstr "Trễ"
+
+#: solfege/trainingsetdlg.py:169
+msgid "This lesson file cannot be exported because some of the music in the file are not parsable by the mpd module."
+msgstr "Tập tin bài học không xuất ra được bởi vì một phần âm nhạc trong tập tin này không thể được phân tách bởi mô-đun mpd."
+
+#: solfege/trainingsetdlg.py:185
+msgid "Export"
+msgstr "Xuất"
+
+#: solfege/trainingsetdlg.py:243
+#, python-format
+msgid "«<b>%s</b>» was not found"
+msgstr "Không tìm thấy “<b>%s</b>”"
+
+#: solfege/trainingsetdlg.py:296
+msgid "Exporting training set"
+msgstr "Sự dạy dỗ xuất khẩu đã được đặt"
+
+#: solfege/trainingsetdlg.py:300
+msgid "Export training set"
+msgstr "Sự dạy dỗ xuất khẩu đã được đặt"
+
+#: solfege/utils.py:99
+msgid "No random interval can be selected within the allowed range of tones."
+msgstr "Không có nhịp ngẫu nhiên nào được cho trong vùng tông được phép."
+
+#: solfege/utils.py:174
+msgid "None of the selected intervals can be created in the selected key."
+msgstr "Không có nhịp đã chọn nào có thể được tạo trong phím đã chọn."
+
+#: solfege/utils.py:188 exercises/standard/lesson-files/include/sc-master:211
+msgid "Natural Minor"
+msgstr "Điệu thứ nốt thường"
+
+#: solfege/utils.py:190 exercises/standard/lesson-files/include/sc-master:562
+msgid "Harmonic Minor"
+msgstr "Điệu thứ hoà âm"
+
+#: solfege/utils.py:192 exercises/standard/lesson-files/include/sc-master:2159
+msgid "Whole Tone"
+msgstr "Toàn Âm"
+
+#: solfege/mpd/interval.py:34
+msgid "Perfect Unison"
+msgstr "Đồng âm hoàn hảo"
+
+#: solfege/mpd/interval.py:35
+msgid "Diminished Unison"
+msgstr "Đồng âm giảm"
+
+#: solfege/mpd/interval.py:36
+msgid "Augmented Unison"
+msgstr "Đồng âm tăng"
+
+#: solfege/mpd/interval.py:38
+msgid "Diminished Second"
+msgstr "Quãng 2 giảm"
+
+#: solfege/mpd/interval.py:39
 #: exercises/standard/lesson-files/csound-intonation-harmonic-min2-10cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-min2-15cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-min2-20cent:10
@@ -687,7 +1721,7 @@ msgstr "Hãy kiểm tra lại tập tin bài học %s."
 msgid "Minor Second"
 msgstr "Quãng 2 thứ"
 
-#: solfege/inputwidgets.py:233 solfege/mpd/interval.py:40
+#: solfege/mpd/interval.py:40
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-10cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-15cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-20cent:10
@@ -710,7 +1744,15 @@ msgstr "Quãng 2 thứ"
 msgid "Major Second"
 msgstr "Quãng 2 trưởng"
 
-#: solfege/inputwidgets.py:234 solfege/mpd/interval.py:44
+#: solfege/mpd/interval.py:41
+msgid "Augmented Second"
+msgstr "Quãng 2 thăng"
+
+#: solfege/mpd/interval.py:43
+msgid "Diminished Third"
+msgstr "Quãng 3 giáng"
+
+#: solfege/mpd/interval.py:44
 #: exercises/standard/lesson-files/csound-intonation-harmonic-min3-10cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-min3-15cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-min3-20cent:10
@@ -733,7 +1775,7 @@ msgstr "Quãng 2 trưởng"
 msgid "Minor Third"
 msgstr "Quãng 3 thứ"
 
-#: solfege/inputwidgets.py:235 solfege/mpd/interval.py:45
+#: solfege/mpd/interval.py:45
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-10cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-15cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-20cent:10
@@ -756,7 +1798,15 @@ msgstr "Quãng 3 thứ"
 msgid "Major Third"
 msgstr "Quãng 3 trưởng"
 
-#: solfege/inputwidgets.py:236 solfege/mpd/interval.py:49
+#: solfege/mpd/interval.py:46
+msgid "Augmented Third"
+msgstr "Quãng 3 tăng"
+
+#: solfege/mpd/interval.py:48
+msgid "Diminished Fourth"
+msgstr "Quãng 4 giảm"
+
+#: solfege/mpd/interval.py:49
 #: exercises/standard/lesson-files/csound-intonation-harmonic-p4-10cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-p4-15cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-p4-20cent:10
@@ -777,13 +1827,17 @@ msgstr "Quãng 3 trưởng"
 #: exercises/standard/csound-tree.txt:275
 #: exercises/standard/csound-tree.txt:277
 msgid "Perfect Fourth"
-msgstr "Quãng 4 đúng"
+msgstr "Quãng 4 hoàn hảo"
 
-#: solfege/inputwidgets.py:237
-msgid "Tritone"
-msgstr "Quãng tam âm"
+#: solfege/mpd/interval.py:50
+msgid "Augmented Fourth"
+msgstr "Quãng 4 tăng"
 
-#: solfege/inputwidgets.py:238 solfege/mpd/interval.py:53
+#: solfege/mpd/interval.py:52
+msgid "Diminished Fifth"
+msgstr "Quãng 5 giảm"
+
+#: solfege/mpd/interval.py:53
 #: exercises/standard/lesson-files/csound-intonation-harmonic-p5-10cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-p5-15cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-p5-20cent:10
@@ -806,7 +1860,15 @@ msgstr "Quãng tam âm"
 msgid "Perfect Fifth"
 msgstr "Quãng 5 đúng"
 
-#: solfege/inputwidgets.py:239 solfege/mpd/interval.py:57
+#: solfege/mpd/interval.py:54
+msgid "Augmented Fifth"
+msgstr "Quãng 5 tăng"
+
+#: solfege/mpd/interval.py:56
+msgid "Diminished Sixth"
+msgstr "Quãng 6 giảm"
+
+#: solfege/mpd/interval.py:57
 #: exercises/standard/lesson-files/csound-intonation-harmonic-min6-10cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-min6-15cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-min6-20cent:10
@@ -829,7 +1891,7 @@ msgstr "Quãng 5 đúng"
 msgid "Minor Sixth"
 msgstr "Quãng 6 thứ"
 
-#: solfege/inputwidgets.py:240 solfege/mpd/interval.py:58
+#: solfege/mpd/interval.py:58
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-10cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-15cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-20cent:10
@@ -853,7 +1915,15 @@ msgstr "Quãng 6 thứ"
 msgid "Major Sixth"
 msgstr "Quãng 6 trưởng"
 
-#: solfege/inputwidgets.py:241 solfege/mpd/interval.py:62
+#: solfege/mpd/interval.py:59
+msgid "Augmented Sixth"
+msgstr "Quãng 6 tăng"
+
+#: solfege/mpd/interval.py:61
+msgid "Diminished Seventh"
+msgstr "Quãng 7 giảm"
+
+#: solfege/mpd/interval.py:62
 #: exercises/standard/lesson-files/csound-intonation-harmonic-min7-10cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-min7-15cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-min7-20cent:10
@@ -877,7 +1947,7 @@ msgstr "Quãng 6 trưởng"
 msgid "Minor Seventh"
 msgstr "Quãng 7 thứ"
 
-#: solfege/inputwidgets.py:242 solfege/mpd/interval.py:63
+#: solfege/mpd/interval.py:63
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-10cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-15cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-20cent:10
@@ -901,7 +1971,15 @@ msgstr "Quãng 7 thứ"
 msgid "Major Seventh"
 msgstr "Quãng 7 trưởng"
 
-#: solfege/inputwidgets.py:243 solfege/mpd/interval.py:67
+#: solfege/mpd/interval.py:64
+msgid "Augmented Seventh"
+msgstr "Quãng 7 tăng"
+
+#: solfege/mpd/interval.py:66
+msgid "Diminished Octave"
+msgstr "Quãng 8 giảm"
+
+#: solfege/mpd/interval.py:67
 #: exercises/standard/lesson-files/csound-intonation-harmonic-p8-10cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-p8-15cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-p8-20cent:10
@@ -923,13 +2001,17 @@ msgstr "Quãng 7 trưởng"
 #: exercises/standard/csound-tree.txt:359
 #: exercises/standard/csound-tree.txt:361
 msgid "Perfect Octave"
-msgstr "Quãng 8 đúng"
+msgstr "Quãng 8 hoàn hảo"
+
+#: solfege/mpd/interval.py:68
+msgid "Augmented Octave"
+msgstr "Quãng 8 tăng"
 
 #. translators: Only translate the word after interval| , and don't include
 #. interval| in the translated string. So for Norwegians, translate
 #. "interval|Diminished" to "Forminsket". Do similar for all strings
 #. that are preceded with "interval|"
-#: solfege/inputwidgets.py:244 solfege/mpd/interval.py:73
+#: solfege/mpd/interval.py:73
 #: exercises/standard/lesson-files/csound-intonation-harmonic-min9-10cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-min9-15cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-min9-20cent:10
@@ -953,7 +2035,7 @@ msgstr "Quãng 8 đúng"
 msgid "Minor Ninth"
 msgstr "Quãng 9 thứ"
 
-#: solfege/inputwidgets.py:245 solfege/mpd/interval.py:74
+#: solfege/mpd/interval.py:74
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-10cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-15cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-20cent:10
@@ -977,7 +2059,7 @@ msgstr "Quãng 9 thứ"
 msgid "Major Ninth"
 msgstr "Quãng 9 trưởng"
 
-#: solfege/inputwidgets.py:246 solfege/mpd/interval.py:75
+#: solfege/mpd/interval.py:75
 #: exercises/standard/lesson-files/csound-intonation-harmonic-min10-10cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-min10-15cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-min10-20cent:10
@@ -1001,7 +2083,7 @@ msgstr "Quãng 9 trưởng"
 msgid "Minor Tenth"
 msgstr "Quãng 10 thứ"
 
-#: solfege/inputwidgets.py:247 solfege/mpd/interval.py:76
+#: solfege/mpd/interval.py:76
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-10cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-15cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-20cent:10
@@ -1024,971 +2106,6 @@ msgstr "Quãng 10 thứ"
 #: exercises/standard/csound-tree.txt:417
 msgid "Major Tenth"
 msgstr "Quãng 10 trưởng"
-
-#: solfege/inputwidgets.py:658 solfege/inputwidgets.py:664
-msgid "Piano"
-msgstr "Dương cầm"
-
-#: solfege/inputwidgets.py:658 solfege/inputwidgets.py:672
-msgid "Guitar"
-msgstr "Ghi-ta"
-
-#: solfege/inputwidgets.py:658 solfege/inputwidgets.py:675
-msgid "Bass"
-msgstr "Ghi ta thấp"
-
-#: solfege/inputwidgets.py:659 solfege/inputwidgets.py:678
-msgid "5 string bass"
-msgstr "Ghi ta thấp 5 dây đàn"
-
-#: solfege/inputwidgets.py:659 solfege/inputwidgets.py:682
-msgid "6 string bass"
-msgstr "Ghi ta thấp 6 dây đàn"
-
-#: solfege/inputwidgets.py:660 solfege/inputwidgets.py:666
-msgid "Accordion B griff"
-msgstr "Đàn xếp griff B"
-
-#: solfege/inputwidgets.py:660 solfege/inputwidgets.py:668
-msgid "Accordion C griff"
-msgstr "Đàn xếp griff C"
-
-#: solfege/inputwidgets.py:661 solfege/inputwidgets.py:670
-msgid "Accordion (system used in Finland)"
-msgstr "Đàn xếp (hệ thống dùng ở Phần Lan)"
-
-#: solfege/instrumentselector.py:116
-msgid "Highest:"
-msgstr "Cao nhất:"
-
-#: solfege/instrumentselector.py:119
-msgid "Middle:"
-msgstr "Vừa:"
-
-#: solfege/instrumentselector.py:124
-msgid "Lowest:"
-msgstr "Thấp nhất:"
-
-#: solfege/lessonfile_editor_main.py:35 solfege/lessonfile_editor_main.py:98
-msgid "Add noteheads"
-msgstr "Thêm đầu nốt"
-
-#: solfege/lessonfile_editor_main.py:36 solfege/lessonfile_editor_main.py:100
-msgid "Add sharps"
-msgstr "Thêm các dấu thăng"
-
-#: solfege/lessonfile_editor_main.py:37 solfege/lessonfile_editor_main.py:102
-msgid "Add double-sharps"
-msgstr "Thêm các dấu thăng đôi"
-
-#: solfege/lessonfile_editor_main.py:38 solfege/lessonfile_editor_main.py:104
-msgid "Remove accidentals"
-msgstr "Bỏ các dấu biến"
-
-#: solfege/lessonfile_editor_main.py:39 solfege/lessonfile_editor_main.py:106
-msgid "Add flats"
-msgstr "Thêm các dấu giáng"
-
-#: solfege/lessonfile_editor_main.py:40 solfege/lessonfile_editor_main.py:108
-msgid "Add double-flats"
-msgstr "Thêm các dấu giáng đôi"
-
-#: solfege/lessonfile_editor_main.py:41 solfege/lessonfile_editor_main.py:110
-msgid "Delete tones"
-msgstr "Xoá âm"
-
-#: solfege/lessonfile_editor_main.py:48
-msgid "GNU Solfege lesson file editor"
-msgstr "Bộ sửa tập tin bài học Solfege của GNU"
-
-#: solfege/lessonfile_editor_main.py:76 solfege/mainwin.py:203
-msgid "_File"
-msgstr "_Tập tin"
-
-#: solfege/lessonfile_editor_main.py:82 solfege/mainwin.py:221
-msgid "_Help"
-msgstr "Trợ g_iúp"
-
-#: solfege/lessonfile_editor_main.py:84
-msgid "_About"
-msgstr "_Giới thiệu"
-
-#: solfege/lessonfile_editor_main.py:88
-msgid "Go to the first question"
-msgstr "Về câu hỏi đầu"
-
-#: solfege/lessonfile_editor_main.py:90
-msgid "Go to the previous question"
-msgstr "Về câu hỏi lùi"
-
-#: solfege/lessonfile_editor_main.py:92
-msgid "Go to the next question"
-msgstr "Tới câu hỏi kế"
-
-#: solfege/lessonfile_editor_main.py:94
-msgid "Go to the last question"
-msgstr "Tới câu hỏi cuối"
-
-#: solfege/lessonfile_editor_main.py:96
-msgid "Add a new question"
-msgstr "Thêm câu hỏi mới"
-
-#: solfege/lessonfile_editor_main.py:189
-msgid "Questions"
-msgstr "Câu hỏi"
-
-#: solfege/lessonfile_editor_main.py:190
-msgid "Enter new chords using the mouse"
-msgstr "Nhập vào hợp âm mới bằng chuột"
-
-#: solfege/lessonfile_editor_main.py:200
-msgid "Question title:"
-msgstr "Tiêu đề câu hỏi:"
-
-#: solfege/lessonfile_editor_main.py:207
-msgid "Lessonfile header"
-msgstr "Phần đầu tập tin bài học"
-
-#: solfege/lessonfile_editor_main.py:211
-msgid "File title:"
-msgstr "Tên tập tin:"
-
-#: solfege/lessonfile_editor_main.py:220
-msgid "Content:"
-msgstr "Nội dung:"
-
-#: solfege/lessonfile_editor_main.py:232
-msgid "You have unsaved data. Proceed anyway?"
-msgstr "Có dữ liệu chưa lưu. Vẫn tiếp tục?"
-
-#: solfege/lessonfile_editor_main.py:251
-msgid "No file"
-msgstr "Không có tập tin"
-
-#: solfege/lessonfile_editor_main.py:252
-#, python-format
-msgid "question %(idx)i of %(count)i"
-msgstr "câu hỏi %(idx)i trên %(count)i"
-
-#: solfege/lessonfile_editor_main.py:272
-#, python-format
-msgid "The exercise module '%s' is not supported yet. Cannot edit this file."
-msgstr "Chưa hỗ trợ mô-đun bài tập « %s » nên không thể sửa tập tin này."
-
-#: solfege/lessonfile_editor_main.py:278
-msgid "Open..."
-msgstr "Mở..."
-
-#: solfege/lessonfile_editor_main.py:305
-msgid "Save as..."
-msgstr "Lưu dạng..."
-
-#: solfege/lessonfile_editor_main.py:318
-msgid "Save..."
-msgstr "Lưu..."
-
-#: solfege/lessonfile.py:100
-msgid "The lesson file contains no questions"
-msgstr "Tập tin bài học không chứa câu hỏi."
-
-#: solfege/lessonfile.py:104
-#, python-format
-msgid "The external file '%s' was not found"
-msgstr "Không tìm thấy tập tin bên ngoài « %s »"
-
-#: solfege/lessonfile.py:113
-msgid "No questions selected"
-msgstr "Chưa chọn câu hỏi"
-
-#: solfege/lessonfile.py:114
-msgid "You can select questions on the config page of the exercise."
-msgstr "Bạn có thể chọn một số câu hỏi trên trang cấu hình của bài tập."
-
-#: solfege/lessonfile.py:1484
-#, python-format
-msgid "Discarding question %(questionidx)i from the lessonfile \"%(filename)s\" because it is missing the \"name\" variable. All questions in lesson files of this type must have a name variable."
-msgstr "Đang hủy câu hỏi %(questionidx)i khỏi tập tin bài học « %(filename)s » vì nó thiếu biến « name ». Trong tập tin bài học kiểu này, mỗi câu học phải có một biến « name »."
-
-#: solfege/lessonfile.py:1644
-#, python-format
-msgid "Question number %(index)i in the lesson file \"%(filename)s\" is missing the \"question_text\" variable."
-msgstr "Câu hỏi số %(index)i trong tập tin bài học « %(filename)s » thiếu biến văn bản câu hỏi « question_text »."
-
-#: solfege/lessonfile.py:1687 solfege/exercises/chord.py:201
-#: exercises/standard/lesson-files/altered-1:14
-#: exercises/standard/lesson-files/chord-7b9-maj79:13
-#: exercises/standard/lesson-files/chord-dim-aug:13
-#: exercises/standard/lesson-files/chord-dim-aug-min-major:10
-#: exercises/standard/lesson-files/chord-m7-7:13
-#: exercises/standard/lesson-files/chord-m7-7-maj7-m7b5-dim7:13
-#: exercises/standard/lesson-files/chord-m9-9:13
-#: exercises/standard/lesson-files/chord-m9-9-7b9-maj79:13
-#: exercises/standard/lesson-files/chord-maj7-m7b5-dim7:13
-#: exercises/standard/lesson-files/chord-min-major:13
-#: exercises/standard/lesson-files/chord-min-major-7:13
-msgid "Identify the chord"
-msgstr "Nhận ra hợp âm"
-
-#: solfege/lessonfile.py:1691 solfege/exercises/chordvoicing.py:166
-msgid "Chord type"
-msgstr "Kiểu hợp âm"
-
-#: solfege/lessonfile.py:1692
-msgid "Inversion"
-msgstr "Đảo"
-
-#: solfege/lessonfile.py:1693
-msgid "Toptone"
-msgstr "Âm đầu"
-
-#: solfege/lessonfile.py:1695
-#, python-format
-msgid "Missing qprops variable in the lesson file %s."
-msgstr "Thiếu biến « qprops » trong tập tin bài học %s."
-
-#: solfege/lessonfile.py:1703
-#, python-format
-msgid "Error in the lesson file header of \"%(filename)s\". The variables qprops and qprop_labels must have the same length."
-msgstr "Gặp lỗi trong phần đầu tập tin bài học « %(filename)s ». Hai biến « qprops » và « qprop_labels » phải có cùng một chiều dài."
-
-#: solfege/lessonfile.py:1716
-msgid "root position"
-msgstr "vị trí gốc"
-
-#: solfege/lessonfile.py:1721
-#, python-format
-msgid "%i. inversion"
-msgstr "Đảo %i."
-
-#: solfege/lessonfile.py:1744
-#, python-format
-msgid "Discarding question %(questionidx)i from the lesson file \"%(filename)s\" because of a missing variable: %(var)s"
-msgid_plural "Discarding question %(questionidx)i from the lesson file \"%(filename)s\" because of some missing variables: %(var)s"
-msgstr[0] "Đang hủy câu hỏi %(questionidx)i khỏi tập tin bài học « %(filename)s » vì một biến còn thiếu : %(var)s"
-
-#: solfege/mainwin.py:61
-#, python-format
-msgid "Starting GNU Solfege %s"
-msgstr "Đang khởi chạy Solfege GNU %s"
-
-#: solfege/mainwin.py:98
-msgid "Close"
-msgstr "Đóng"
-
-#: solfege/mainwin.py:196
-#, python-format
-msgid "Loading front page '%s' failed. Using default page."
-msgstr "Lỗi nạp trang chính « %s » nên dùng trang mặc định."
-
-#: solfege/mainwin.py:207
-msgid "The_ory"
-msgstr "Lý l_uận"
-
-#: solfege/mainwin.py:208
-msgid "Sele_ct Front Page"
-msgstr "_Chọn trang chính"
-
-#: solfege/mainwin.py:209
-msgid "_Intervals"
-msgstr "_Quãng"
-
-#: solfege/mainwin.py:211
-msgid "_Edit Front Page"
-msgstr "_Sửa trang chính"
-
-#: solfege/mainwin.py:213
-msgid "E_xport Exercises to Audio Files…"
-msgstr "_Xuất bài tập dạng tập tin âm thanh..."
-
-#: solfege/mainwin.py:215
-msgid "Ear Training Test Pri_ntout…"
-msgstr "Bản i_n phép thử dạy dỗ tai..."
-
-#: solfege/mainwin.py:217
-msgid "Profile _Manager"
-msgstr "Quản_lý_Hồ_sơ"
-
-#: solfege/mainwin.py:222
-msgid "_Search Exercises"
-msgstr "_Tìm bài tập"
-
-#: solfege/mainwin.py:224
-msgid "_Front Page"
-msgstr "T_rang chính"
-
-#: solfege/mainwin.py:226
-msgid "_Tests Page"
-msgstr "_Trang Phép thử"
-
-#: solfege/mainwin.py:228
-msgid "_Recent Exercises"
-msgstr "Bài tập _vừa làm"
-
-#: solfege/mainwin.py:230
-msgid "_Recent Tests"
-msgstr "Bài kiểm tra _vừa làm"
-
-#: solfege/mainwin.py:232
-msgid "_User Exercises"
-msgstr "Bài tập người _dùng"
-
-#: solfege/mainwin.py:234
-msgid "_Help on the current exercise"
-msgstr "Trợ g_iúp về bài tập đang làm"
-
-#: solfege/mainwin.py:236
-msgid "_Music theory on the current exercise"
-msgstr "Nhạc lý về bài tập đang làm"
-
-#: solfege/mainwin.py:237
-msgid "_User manual"
-msgstr "_Sổ tay người dùng"
-
-#: solfege/mainwin.py:239
-msgid "_File locations"
-msgstr "_Vị trí tập tin"
-
-#: solfege/mainwin.py:241
-msgid "_Mailing lists, web page etc."
-msgstr "Hộp thư chung, trang _Web v.v."
-
-#: solfege/mainwin.py:243
-msgid "_Donate"
-msgstr "_Quyên góp"
-
-#: solfege/mainwin.py:245
-msgid "Reporting _bugs"
-msgstr "Thông báo _lỗi"
-
-#: solfege/mainwin.py:248
-msgid "_See your bug reports"
-msgstr "_Xem báo cáo lỗi đã gửi"
-
-#: solfege/mainwin.py:315
-msgid "Question"
-msgstr "Câu hỏi"
-
-#: solfege/mainwin.py:322
-msgid "Please enter the email used when you submitted the bugs:"
-msgstr "Hãy nhập vào địa chỉ thư dùng khi bạn gửi báo cáo lỗi:"
-
-#: solfege/mainwin.py:387 solfege/mainwin.py:391
-msgid "File locations"
-msgstr "Vị trí tập tin"
-
-#: solfege/mainwin.py:397
-msgid "Solfege application data:"
-msgstr "Dữ liệu ứng dụng Solfege:"
-
-#: solfege/mainwin.py:398
-msgid "Solfege user data:"
-msgstr "Dữ liệu người dùng Solfege:"
-
-#: solfege/mainwin.py:399
-msgid "Solfege config file:"
-msgstr "Tập tin cấu hình Solfege:"
-
-#: solfege/mainwin.py:400
-msgid "Solfege installation directory:"
-msgstr "Thư mục cài đặt Solfege:"
-
-#: solfege/mainwin.py:401
-msgid "User manual in HTML format:"
-msgstr "Sổ tay người dùng theo định dạng HTML"
-
-#: solfege/mainwin.py:413 solfege/mainwin.py:438
-msgid "SOLFEGETRANSLATORS"
-msgstr "Nhóm Việt hoá Phần mềm Tự do <vi-VN@googlegroups.com>"
-
-#: solfege/mainwin.py:424 solfege/mainwin.py:425
-msgid "(some lessonfiles)"
-msgstr "(một số tập tin bài học)"
-
-#: solfege/mainwin.py:426
-msgid "(sound code for the MS Windows port)"
-msgstr "(mã âm thanh cho bản chuyển MS™ Windows)"
-
-#: solfege/mainwin.py:427
-msgid "(ported winmidi.c to gcc)"
-msgstr "(chuyển winmidi.c sang gcc)"
-
-#: solfege/mainwin.py:428
-msgid "(spec file for SuSE 8.2)"
-msgstr "(tập tin đặc tả cho SuSE 8.2)"
-
-#: solfege/mainwin.py:429
-msgid "(spec file cleanup)"
-msgstr "(làm sạch tập tin đặc tả)"
-
-#: solfege/mainwin.py:430
-msgid "(testing and portability fixes for FreeBSD)"
-msgstr "(thử và sửa khả năng mang theo cho FreeBSD)"
-
-#: solfege/mainwin.py:431 solfege/mainwin.py:432
-msgid "(the music font from Lilypond)"
-msgstr "(phông âm nhạc từ Lilypond)"
-
-#: solfege/mainwin.py:433
-msgid "(scale exercises)"
-msgstr "(bài tập gam)"
-
-#: solfege/mainwin.py:461
-#, python-format
-msgid ""
-"In Solfege 3.9.0, the location where Solfege look for lesson files you have created was changed. The files has to be moved from \"%(old)s\" and into the folder \"%(gnu)s\" in your \"%(doc)s\" folder.\n"
-"May I move the files automatically for you now?"
-msgstr ""
-"Trong Solfege phiên bản 3.9.0, vị trí ở đó Solfege tìm các tập tin bài học được bạn tạo đã thay đổi. Các tập tin phải được di chuyển từ « %(old)s » sang thư mục « %(gnu)s » trong thư mục « %(doc)s » của bạn.\n"
-"Bạn cho phép chương trình này tự động di chuyển các tập tin này ngay bây giờ không?"
-
-#: solfege/mainwin.py:472
-#, python-format
-msgid ""
-"Error while copying directory:\n"
-"%s"
-msgstr ""
-"Gặp lỗi khi sao chép thư mục:\n"
-"%s"
-
-#: solfege/mainwin.py:474
-msgid "Files copied. The old files has been left behind. Please delete them when you have verified that all files was copied correctly."
-msgstr "Những tập tin đã được sao chép. Các tập tin cũ bị để lại. Hãy xoá chúng khi bạn đã thẩm tra mỗi tập tin đã được sao chép đúng."
-
-#: solfege/mainwin.py:481
-msgid "Migrated old language setup. You might have to restart the program all translated messages to show up."
-msgstr "Thiết lập ngôn ngữ cũ đã được nâng cấp. Có lẽ bạn cần phải khởi chạy lại chương trình để xem mọi thông điệp đã dịch."
-
-#: solfege/mainwin.py:530
-msgid "User exercises"
-msgstr "Bài tập người dùng"
-
-#: solfege/mainwin.py:563 solfege/mainwin.py:565
-msgid "Recent exercises"
-msgstr "Bài tập vừa làm"
-
-#: solfege/mainwin.py:570 solfege/mainwin.py:572
-msgid "Recent tests"
-msgstr "Bài kiểm tra vừa làm"
-
-#: solfege/mainwin.py:669
-#, python-format
-msgid "The '%s' exercise module does not support test yet."
-msgstr "Mô-đun bài tập « %s » chưa hỗ trợ khả năng thử."
-
-#: solfege/multipleintervalconfigwidget.py:95
-msgid "Number of intervals:"
-msgstr "Số quãng:"
-
-#: solfege/multipleintervalconfigwidget.py:102
-msgid "Configure all intervals in this exercise like this"
-msgstr "Cấu hình mọi quãng trong bài tập này như thế"
-
-#: solfege/multipleintervalconfigwidget.py:110
-msgid "Toggle buttons are for interval number:"
-msgstr "Nút bật/tắt dành cho quãng số :"
-
-#: solfege/multipleintervalconfigwidget.py:120
-msgid "Up:"
-msgstr "Lên:"
-
-#: solfege/multipleintervalconfigwidget.py:136
-msgid "Down:"
-msgstr "Xuống:"
-
-#: solfege/multipleintervalconfigwidget.py:152
-msgid "Reset to default values"
-msgstr "Đặt lại là giá trị mặc định"
-
-#: solfege/optionparser.py:27
-msgid "Show warranty and copyright."
-msgstr "Hiện bảo hành và tác quyền."
-
-#: solfege/optionparser.py:29
-msgid "Do not show the startup window."
-msgstr "Đừng hiện cửa sổ khởi chạy."
-
-#: solfege/optionparser.py:34
-msgid "Display more info about the sound setup."
-msgstr "Hiển thị thông tin thêm về thiết lập âm thanh."
-
-#: solfege/optionparser.py:37
-msgid "Do not play any sounds. Instead some data is printed to standard output. Use this for debugging and porting."
-msgstr "Đừng phát âm thanh. Thay vào đó, một số dữ liệu được in ra thiết bị xuất chuẩn. Dùng nó để gỡ lỗi và chuyển sang nền tảng khác."
-
-#: solfege/optionparser.py:39
-msgid "Include features used by the Solfege developers to debug the program."
-msgstr "Gồm có các tính năng dùng bởi nhà phát triển để gỡ lỗi chương trình."
-
-#. translators: dont transate the actual debug levels
-#: solfege/optionparser.py:42
-msgid "Valid debug values are: debug, info, warning, error, critical"
-msgstr ""
-"Các giá trị gỡ rối hợp lệ:\n"
-"  debug        gỡ rối\n"
-"  info             thông tin\n"
-"  warning     cảnh báo\n"
-"  error           lỗi\n"
-"  critical        nghiệm trọng"
-
-#: solfege/optionparser.py:45
-msgid "Disable the exception handling in Gui.standard_exception_handler."
-msgstr "Tắt khả năng quản lý ngoài lệ trong « Gui.standard_exception_handler »."
-
-#: solfege/optionparser.py:47
-msgid "For debugging only: Select questions from lesson files in sequential order."
-msgstr "Chỉ để gỡ lỗi: chọn các câu hỏi từ tập tin bài học theo thứ tự."
-
-#: solfege/optionparser.py:50
-msgid "Show GtkWarnings and PangoWarnings in the traceback window."
-msgstr "Hiện cảnh báo GtkWarnings và PangoWarnings trong cửa sổ vết lùi."
-
-#: solfege/optionparser.py:52
-msgid "Start with <profile>. Create the profile if it does not exist."
-msgstr "Bắt đầu với <hồ_sơ>. Không có thì tự động tạo hồ sơ này."
-
-#: solfege/osutils.py:59
-#, python-format
-msgid "Running the command %s failed."
-msgstr "Lỗi chạy câu lệnh %s."
-
-#: solfege/osutils.py:68
-#, python-format
-msgid "The executable '%s' does not exist."
-msgstr "Tập tin thực hiện được « %s » không tồn tại."
-
-#: solfege/osutils.py:73
-#, python-format
-msgid "The executable string should contain zero or one '%s'."
-msgstr "Chuỗi thực hiện được nên chứa số không hay một « %s »."
-
-#: solfege/osutils.py:78
-#, python-format
-msgid ""
-"Tried `%(bin)s`:\n"
-"\n"
-"\t%(exception)s\n"
-"\n"
-"Please check that the program is installed. If you did not supply the full path to the program in the preferences window (Ctrl-12), you must make sure the program is on your PATH."
-msgstr ""
-"Đã thử « %(bin)s »:\n"
-"\n"
-"\t%(exception)s\n"
-"\n"
-"Hãy kiểm tra lại chương trình này đã được cài đặt. Không cung cấp đường dẫn đầy đủ đến chương trình trong cửa sổ Tùy thích (Ctrl-12), thì bạn cần phải đảm bảo rằng chương trình nằm trên đường dẫn mặc định PATH của người dùng."
-
-#: solfege/osutils.py:89
-#, python-format
-msgid "Failed to execute a binary for %s"
-msgstr "Không thực hiện được một tập tin nhị phân cho %s"
-
-#: solfege/osutils.py:94
-#, python-format
-msgid "Failed to execute media player for %s files"
-msgstr "Không thực hiện được trình phát phương tiện cho tập tin %s"
-
-#: solfege/osutils.py:101
-#, python-format
-msgid "Failed to execute binary to convert from %(from)s to %(to)s"
-msgstr "Không thực hiện được tập tin nhị phân để chuyển đổi từ %(from)s sang %(to)s"
-
-#: solfege/practisesheetdlg.py:300
-msgid "Output format:"
-msgstr "Định dạng kết xuất:"
-
-#: solfege/practisesheetdlg.py:309
-msgid "Title:"
-msgstr "Tựa đề:"
-
-#: solfege/practisesheetdlg.py:344
-msgid "Section title:"
-msgstr "Tiêu đề phần:"
-
-#: solfege/practisesheetdlg.py:352
-msgid "Name the music"
-msgstr "Nhân ra khúc nhạc"
-
-#: solfege/practisesheetdlg.py:353
-msgid "Write the music, first tone given"
-msgstr "Ghi khúc nhạc, âm đầu đã cho"
-
-#: solfege/practisesheetdlg.py:356
-msgid "Type of question:"
-msgstr "Kiểu câu hỏi:"
-
-#: solfege/practisesheetdlg.py:360
-msgid "Intervals:"
-msgstr "Quãng:"
-
-#: solfege/practisesheetdlg.py:369
-msgid "Questions per line:"
-msgstr "Câu hỏi từng dòng:"
-
-#: solfege/practisesheetdlg.py:375
-msgid "Number of questions:"
-msgstr "Số câu hỏi:"
-
-#: solfege/practisesheetdlg.py:423 solfege/trainingsetdlg.py:295
-msgid "Select where to export the files"
-msgstr "Chọn xuất khẩu tập tin vào đâu"
-
-#: solfege/practisesheetdlg.py:483
-#, python-format
-msgid "Not all music types are supported. This file contain %(ok)i supported questions and %(not_ok)i that are not supported. The unsupported questions will be ignored. Add any way?"
-msgstr "Không phải mọi kiểu nhạc được hỗ trợ. Tập tin này chứa %(ok)i câu hỏi được hỗ trợ, và %(not_ok)i câu hỏi không được hỗ trợ. Các câu hỏi không được hỗ trợ thì bị bỏ qua. Vẫn còn thêm ?"
-
-#: solfege/practisesheetdlg.py:485
-msgid "Could not add the lesson file. It has no questions with a music object with supported music type."
-msgstr "Không thể thêm tập tin bài học. Nó không chứa câu hỏi có đối tượng nhạc có kiểu nhạc đã hỗ trợ."
-
-#: solfege/practisesheetdlg.py:606
-#, python-format
-msgid "«%s» not found"
-msgstr "Không tìm thấy « %s »"
-
-#: solfege/practisesheetdlg.py:654
-msgid "Create sheet"
-msgstr "Tạo bản nhạc"
-
-#: solfege/profilemanager.py:33
-msgid "Create New Profile"
-msgstr "Tạo hồ sơ mới"
-
-#: solfege/profilemanager.py:39
-msgid "Enter the name of the new folder:"
-msgstr "Gõ tên của thư mục mới:"
-
-#: solfege/profilemanager.py:48
-msgid "Your profile data will be stored in:"
-msgstr "Dữ liệu hồ sơ của bạn sẽ được cất giữ trong:"
-
-#: solfege/profilemanager.py:66
-msgid "New Profile"
-msgstr "Hồ sơ mới"
-
-#: solfege/profilemanager.py:73 solfege/profilemanager.py:113
-#, python-format
-msgid "The profile «%s» already exists."
-msgstr "Hồ sơ « %s » đã có."
-
-#: solfege/profilemanager.py:84
-msgid "Rename Profile"
-msgstr "Thay tên hồ sơ"
-
-#: solfege/profilemanager.py:90
-#, python-format
-msgid "Rename the profile «%s» to:"
-msgstr "Thay đổi tên của hồ sơ « %s » thành:"
-
-#: solfege/profilemanager.py:122
-msgid "GNU Solfege - Choose User Profile"
-msgstr "GNU Solfege — Lựa chọn Hồ sơ Người dùng"
-
-#: solfege/profilemanager.py:128
-msgid "Solfege will save your statistics and test results in the user profile. By adding additional user profiles to Solfege, multiple users can share a user account on the operating system."
-msgstr "Trình Solfege sẽ lưu vào hồ sơ người dùng các thống kê và kết quả kiểm tra của bạn. Cũng có thể cho phép chia sẻ ra nhiều người dùng một tài khoản người dùng trên hệ điều hành, bằng cách thêm vào Solfege hồ sơ người dùng bổ sung."
-
-#: solfege/profilemanager.py:138
-msgid "_Create profile…"
-msgstr "Tạ_o hồ sơ..."
-
-#: solfege/profilemanager.py:142
-msgid "_Rename profile…"
-msgstr "Tha_y tên hồ sơ..."
-
-#: solfege/profilemanager.py:146
-msgid "_Delete profile…"
-msgstr "_Xoá hồ sơ..."
-
-#: solfege/profilemanager.py:152
-msgid "Standard profile"
-msgstr "Hồ sơ tiêu chuẩn"
-
-#: solfege/profilemanager.py:172
-msgid "D_on't ask at startup"
-msgstr "Đừng _hỏi khi khởi chạy"
-
-#: solfege/profilemanager.py:217
-#, python-format
-msgid "Permanently delete the user profile «%s»?"
-msgstr "Xoá bỏ hẳn hồ sơ người dùng « %s » không?"
-
-#: solfege/profilemanager.py:249
-msgid "_Start GNU Solfege"
-msgstr "Khởi chạy GNU _Solfege"
-
-#: solfege/reportbug.py:38
-msgid "Bug report"
-msgstr "Báo cáo lỗi"
-
-#: solfege/reportbug.py:40 solfege/reportbug.py:59
-msgid "_Send"
-msgstr "_Gửi"
-
-#: solfege/reportbug.py:55
-msgid "Make bug report"
-msgstr "Thông báo lỗi"
-
-#: solfege/reportbug.py:58
-msgid "See complete _report"
-msgstr "Xem _báo cáo hoàn toàn"
-
-#: solfege/reportbug.py:64
-msgid "_Email:"
-msgstr "Đị_a chỉ thư :"
-
-#: solfege/reportbug.py:68
-msgid "Mangled email address:"
-msgstr "Sai địa chỉ thư :"
-
-#: solfege/reportbug.py:74
-msgid "S_hort description:"
-msgstr "Mô tả _ngắn:"
-
-#: solfege/reportbug.py:76
-msgid "_Describe how to produce the error message:"
-msgstr "_Diễn tả nguyên nhân của thông điệp lỗi:"
-
-#. translators, please notice that the word NO_DESCRIPTION must not be
-#. translated in this string.
-#: solfege/reportbug.py:85
-msgid ""
-"Describe as exactly as you can what you did when this error occurred. If you give no description at all, you make it very difficult to track down this bug. You should replace this text with your description, and also remove the \"bug-tag\" in the bottom of this text so that this bug is not automatically sorted among the bug reports with no description.\n"
-"\n"
-"(bug-tag: NO_DESCRIPTION)"
-msgstr ""
-"Hãy diễn tả càng chính xác càng có thể hành động bạn đã làm khi lỗi này xảy ra. Không đưa ra mô tả này thì rất khó sửa lỗi. Bạn nên thay thế văn bản này bằng mô tả, cũng gỡ bo đoạn « bug-tag » bên dưới để tránh lỗi này được sắp xếp tự động trong những báo cáo lỗi không có mô tả.\n"
-"\n"
-"(bug-tag: NO_DESCRIPTION)"
-
-#: solfege/specialwidgets.py:168
-msgid "Set transposition"
-msgstr "Đặt sự dịch giọng"
-
-#: solfege/specialwidgets.py:174
-msgid "Select how to do random transposition"
-msgstr "Chọn phương pháp dịch giọng ngẫu nhiên"
-
-#: solfege/specialwidgets.py:176
-msgid "You can read about the different types of transposition in the lesson file documentation available on the Help menu."
-msgstr "Trong trình đơn Trợ giúp có tài liệu hướng dẫn về tập tin bài học mà giải thích những kiểu dịch giọng khác nhau."
-
-#: solfege/specialwidgets.py:201
-msgid "Fifths relative to C major/a minor"
-msgstr "Quãng năm tương đối với C trưởng / A thứ"
-
-#: solfege/specialwidgets.py:215
-msgid "Fifths relative to current key"
-msgstr "Quãng năm tương đối với khoá hiện thời"
-
-#: solfege/specialwidgets.py:227
-msgid "Transpose notes without changing key"
-msgstr "Chuyển cung nốt mà không thay đổi khoá"
-
-#: solfege/specialwidgets.py:239
-msgid "Semitones"
-msgstr "Nửa âm"
-
-#: solfege/startup.py:138
-msgid "Importing old statistics"
-msgstr "Đang nhập thống kê cũ"
-
-#: solfege/startup.py:145
-msgid "Creating application window"
-msgstr "Đang tạo cửa sổ ứng dụng"
-
-#: solfege/statistics.py:171 solfege/statistics.py:279
-#, python-format
-msgid "Files read: %i"
-msgstr "Tập tin đã đọc: %i"
-
-#: solfege/statisticsviewer.py:99 solfege/statisticsviewer.py:232
-msgid "Session"
-msgstr "Phiên chạy"
-
-#: solfege/statisticsviewer.py:99 solfege/statisticsviewer.py:236
-msgid "Today"
-msgstr "Hôm nay"
-
-#: solfege/statisticsviewer.py:100 solfege/statisticsviewer.py:240
-msgid "Last 7 days"
-msgstr "7 ngày qua"
-
-#: solfege/statisticsviewer.py:100 solfege/statisticsviewer.py:244
-msgid "Total"
-msgstr "Tổng"
-
-#: solfege/statisticsviewer.py:109
-msgid "Percent"
-msgstr "Phần trăm"
-
-#: solfege/statisticsviewer.py:110 solfege/trainingsetdlg.py:98
-msgid "Count"
-msgstr "Số"
-
-#: solfege/statisticsviewer.py:191 solfege/statisticsviewer.py:253
-#, python-format
-msgid "Test dated %(date)s: %(percent).1f%%"
-msgstr "Bài kiểm tra vào %(date)s: %(percent).1f%%"
-
-#: solfege/tracebackwindow.py:32
-msgid "GNU Solfege message window"
-msgstr "Cửa sổ thông điệp Solfege GNU"
-
-#: solfege/tracebackwindow.py:35
-msgid "Please report this to the bug database or send an email to bug-solfege@gnu.org if the content of the message make you believe you have found a bug."
-msgstr "Hãy thông báo trường hợp này cho cơ sở dữ liệu lỗi, hoặc gửi thư cho địa chỉ « bug-solfege@gnu.org » nếu nội dung của thông điệp ngụ ý lỗi riêng."
-
-#: solfege/tracebackwindow.py:50
-msgid "_Make automatic bug report"
-msgstr "_Tạo báo cáo lỗi tự động"
-
-#: solfege/tracebackwindow.py:58
-msgid ""
-"Automatic bug reports are often mostly useless because people omit their email address and add very little info about what happened. Fixing bugs is difficult if we cannot contact you and ask for more information.\n"
-"\n"
-"I would prefer if you open a web browser and report your bug to the bug tracker at http://bugs.solfege.org.\n"
-"\n"
-"This will give your bug report higher priority and it will be fixed faster.\n"
-"\n"
-"Are you willing to do that?"
-msgstr ""
-"Chức năng tự động thông báo lỗi thường vô ích vì người dùng không cung cấp địa chỉ thư điện tử, và không thêm chi tiết về trường hợp gây ra lỗi. Khó sửa chữa lỗi nếu chúng tôi không thể liên lạc với bạn để yêu cầu thêm thông tin.\n"
-"\n"
-"Gặp lỗi thì xin thăm địa chỉ \"http://bugs.solfege.org\" trong trình duyệt Web, và thông báo lỗi ở đó.\n"
-"\n"
-"Vì thế lỗi của bạn được gán mức ưu tiên cao hơn và sẽ được sửa chữa nhanh hơn.\n"
-"\n"
-"Bạn sẽ giúp cải tiến Solfege bằng cách này không?"
-
-#: solfege/trainingsetdlg.py:62
-msgid "MIDI"
-msgstr "MIDI"
-
-#: solfege/trainingsetdlg.py:63
-msgid "WAV"
-msgstr "WAV"
-
-#: solfege/trainingsetdlg.py:64
-msgid "MP3"
-msgstr "MP3"
-
-#: solfege/trainingsetdlg.py:65
-msgid "OGG"
-msgstr "OGG"
-
-#: solfege/trainingsetdlg.py:69
-msgid "Preferred output format:"
-msgstr "Định dạng xuất ưa thích:"
-
-#: solfege/trainingsetdlg.py:74
-msgid "Name files by questions"
-msgstr "Đặt tên tập tin theo câu hỏi"
-
-#: solfege/trainingsetdlg.py:88
-msgid "Title"
-msgstr "Tựa đề"
-
-#: solfege/trainingsetdlg.py:104
-msgid "Repeat"
-msgstr "Lặp lại"
-
-#: solfege/trainingsetdlg.py:110
-msgid "Delay"
-msgstr "Hoãn"
-
-#: solfege/trainingsetdlg.py:168
-msgid "This lesson file cannot be exported because some of the music in the file are not parsable by the mpd module."
-msgstr "Tập tin bài học không thể được xuất khẩu vì một phần âm nhạc trong tập tin này không thể được phân tách bởi mô-đun mpd."
-
-#: solfege/trainingsetdlg.py:184
-msgid "Export"
-msgstr "Xuất"
-
-#: solfege/trainingsetdlg.py:245
-#, python-format
-msgid "«<b>%s</b>» was not found"
-msgstr "Không tìm thấy « <b>%s</b> »"
-
-#: solfege/trainingsetdlg.py:253
-#, python-format
-msgid "Unknown lesson_id: <b>%s</b>"
-msgstr "Không nhận ra mã số bài học (lesson_id): <b>%s</b>"
-
-#: solfege/trainingsetdlg.py:298
-msgid "Exporting training set"
-msgstr "Sự dạy dỗ xuất khẩu đã được đặt"
-
-#: solfege/trainingsetdlg.py:302
-msgid "Export training set"
-msgstr "Sự dạy dỗ xuất khẩu đã được đặt"
-
-#: solfege/mpd/interval.py:34
-msgid "Perfect Unison"
-msgstr "Đồng âm đúng"
-
-#: solfege/mpd/interval.py:35
-msgid "Diminished Unison"
-msgstr "Đồng âm giảm"
-
-#: solfege/mpd/interval.py:36
-msgid "Augmented Unison"
-msgstr "Đồng âm tăng"
-
-#: solfege/mpd/interval.py:38
-msgid "Diminished Second"
-msgstr "Quãng 2 giảm"
-
-#: solfege/mpd/interval.py:41
-msgid "Augmented Second"
-msgstr "Quãng 2 tăng"
-
-#: solfege/mpd/interval.py:43
-msgid "Diminished Third"
-msgstr "Quãng 3 giảm"
-
-#: solfege/mpd/interval.py:46
-msgid "Augmented Third"
-msgstr "Quãng 3 tăng"
-
-#: solfege/mpd/interval.py:48
-msgid "Diminished Fourth"
-msgstr "Quãng 4 giảm"
-
-#: solfege/mpd/interval.py:50
-msgid "Augmented Fourth"
-msgstr "Quãng 4 tăng"
-
-#: solfege/mpd/interval.py:52
-msgid "Diminished Fifth"
-msgstr "Quãng 5 giảm"
-
-#: solfege/mpd/interval.py:54
-msgid "Augmented Fifth"
-msgstr "Quãng 5 tăng"
-
-#: solfege/mpd/interval.py:56
-msgid "Diminished Sixth"
-msgstr "Quãng 6 giảm"
-
-#: solfege/mpd/interval.py:59
-msgid "Augmented Sixth"
-msgstr "Quãng 6 tăng"
-
-#: solfege/mpd/interval.py:61
-msgid "Diminished Seventh"
-msgstr "Quãng 7 giảm"
-
-#: solfege/mpd/interval.py:64
-msgid "Augmented Seventh"
-msgstr "Quãng 7 tăng"
-
-#: solfege/mpd/interval.py:66
-msgid "Diminished Octave"
-msgstr "Quãng 8 giảm"
-
-#: solfege/mpd/interval.py:68
-msgid "Augmented Octave"
-msgstr "Quãng 8 tăng"
 
 # Chỉ nên dịch phần đằng sau dấu ống dẫn « | ».
 #: solfege/mpd/interval.py:77
@@ -2048,7 +2165,7 @@ msgstr "Giảm"
 # Chỉ nên dịch phần đằng sau dấu ống dẫn « | ».
 #: solfege/mpd/interval.py:89
 msgid "interval|Perfect"
-msgstr "Đúng"
+msgstr "Hoàn hảo"
 
 # Chỉ nên dịch phần đằng sau dấu ống dẫn « | ».
 #: solfege/mpd/interval.py:90
@@ -2075,75 +2192,137 @@ msgstr "Giảm đôi"
 msgid "interval|Doubly-augmented"
 msgstr "Tăng đôi"
 
-#: solfege/mpd/interval.py:96
-msgid "interval|u"
-msgstr "u"
+#. translators: Sorry for changing a few of these interval names.
+#. I want to follow the naming used by wikipedia an others.
+#. See http://www.solfege.org/translate for important details
+#. These strings are used as button labels for the check buttons
+#. selecting which intervals to ask for.
+#: solfege/mpd/interval.py:106
+msgid "interval|P1"
+msgstr "P1"
 
-#: solfege/mpd/interval.py:97
+#. translators: m2 is a short version of minor second
+#: solfege/mpd/interval.py:108
 msgid "interval|m2"
 msgstr "2Th"
 
-#: solfege/mpd/interval.py:97
+#. translators: M2 is a short string for major second
+#: solfege/mpd/interval.py:110
 msgid "interval|M2"
 msgstr "2Tr"
 
-#: solfege/mpd/interval.py:98
+#. translators: m3 is a short string for minor third
+#: solfege/mpd/interval.py:112
 msgid "interval|m3"
 msgstr "3Th"
 
-#: solfege/mpd/interval.py:98
+#. translators: M3 is a short string for major third
+#: solfege/mpd/interval.py:114
 msgid "interval|M3"
 msgstr "3Tr"
 
-#: solfege/mpd/interval.py:99
+#. translators: 4 is a short string for perfect fourth
+#: solfege/mpd/interval.py:116
 msgid "interval|4"
 msgstr "4"
 
-#: solfege/mpd/interval.py:99
-msgid "interval|tt"
-msgstr "qtâ"
+#. translators: TT is a short string for tritone
+#: solfege/mpd/interval.py:118
+msgid "interval|TT"
+msgstr "TT"
 
-#: solfege/mpd/interval.py:100
-msgid "interval|5"
-msgstr "5"
+#. translators: 5 is a short string for perfect fifth
+#: solfege/mpd/interval.py:120
+msgid "interval|P5"
+msgstr "P5"
 
-#: solfege/mpd/interval.py:101
+#. translators: m6 is a short string for minor sixth
+#: solfege/mpd/interval.py:122
 msgid "interval|m6"
 msgstr "6Th"
 
-#: solfege/mpd/interval.py:101
+#. translators: M6 is a short string for major sixth
+#: solfege/mpd/interval.py:124
 msgid "interval|M6"
 msgstr "6Tr"
 
-#: solfege/mpd/interval.py:102
+#. translators: m7 is a short string for minor seventh
+#: solfege/mpd/interval.py:126
 msgid "interval|m7"
 msgstr "7Th"
 
-#: solfege/mpd/interval.py:102
+#. translators: M7 is a short string for major seventh
+#: solfege/mpd/interval.py:128
 msgid "interval|M7"
 msgstr "7Tr"
 
-#: solfege/mpd/interval.py:103
-msgid "interval|8"
-msgstr "8"
+#. translators: 8 is a short string for perfect octave
+#: solfege/mpd/interval.py:130
+msgid "interval|P8"
+msgstr "P8"
 
-#: solfege/mpd/interval.py:104
+#. translators: m9 is a short string for minor ninth
+#: solfege/mpd/interval.py:132
 msgid "interval|m9"
 msgstr "9Th"
 
-#: solfege/mpd/interval.py:104
+#. translators: M9 is a short string for major ninth
+#: solfege/mpd/interval.py:134
 msgid "interval|M9"
 msgstr "9Tr"
 
-#: solfege/mpd/interval.py:105
+#. translators: m10 is a short string for minor tenth
+#: solfege/mpd/interval.py:136
 msgid "interval|m10"
 msgstr "10Th"
 
-#: solfege/mpd/interval.py:105
+#. translators: M10 is a short string for major tenth
+#: solfege/mpd/interval.py:138
 msgid "interval|M10"
 msgstr "10Tr"
 
-#: solfege/mpd/interval.py:128
+#. translators: P11 is a short string for perfect 11th (octave + fourth)
+#: solfege/mpd/interval.py:140
+msgid "interval|P11"
+msgstr "P11"
+
+#. translators: d12 is a short string for octave + tritone
+#. I considered the name TT8 (tritone+octave), but rejected it.
+#: solfege/mpd/interval.py:143
+msgid "interval|d12"
+msgstr "d12"
+
+#. translators: P12 is a short string for perfect 12th (octave + fifth)
+#: solfege/mpd/interval.py:145
+msgid "interval|P12"
+msgstr "P12"
+
+#. translators: m13 is a short string for minor 13th (octave + m6)
+#: solfege/mpd/interval.py:147
+msgid "interval|m13"
+msgstr "m13"
+
+#. translators: M13 is a short string for major 13th (octave + M6)
+#: solfege/mpd/interval.py:149
+msgid "interval|M13"
+msgstr "M13"
+
+#. translators: m14 is a short string for minor 14th (octave + m7)
+#: solfege/mpd/interval.py:151
+msgid "interval|m14"
+msgstr "m14"
+
+#. translators: M14 is a short string for major 14th (octave + M7)
+#: solfege/mpd/interval.py:153
+msgid "interval|M14"
+msgstr "M14"
+
+#. translators: P15 is a short string for perfect double octave
+#: solfege/mpd/interval.py:155
+msgid "interval|P15"
+msgstr "P15"
+
+#: solfege/mpd/interval.py:184
 #, python-format
 msgid "Invalid interval name: %s"
 msgstr "Tên quãng không hợp lệ: %s"
@@ -2154,19 +2333,19 @@ msgstr "c"
 
 #: solfege/mpd/musicalpitch.py:87
 msgid "notename|cb"
-msgstr "c♭"
+msgstr "cb"
 
 #: solfege/mpd/musicalpitch.py:88
 msgid "notename|cbb"
-msgstr "c♭♭"
+msgstr "cbb"
 
 #: solfege/mpd/musicalpitch.py:89
 msgid "notename|c#"
-msgstr "c♯"
+msgstr "c#"
 
 #: solfege/mpd/musicalpitch.py:90
 msgid "notename|cx"
-msgstr "c♯♯"
+msgstr "cx"
 
 #: solfege/mpd/musicalpitch.py:91
 msgid "notename|d"
@@ -2174,19 +2353,19 @@ msgstr "d"
 
 #: solfege/mpd/musicalpitch.py:92
 msgid "notename|db"
-msgstr "d♭"
+msgstr "db"
 
 #: solfege/mpd/musicalpitch.py:93
 msgid "notename|dbb"
-msgstr "d♭♭"
+msgstr "dbb"
 
 #: solfege/mpd/musicalpitch.py:94
 msgid "notename|d#"
-msgstr "d♯"
+msgstr "d#"
 
 #: solfege/mpd/musicalpitch.py:95
 msgid "notename|dx"
-msgstr "d♯♯"
+msgstr "dx"
 
 #: solfege/mpd/musicalpitch.py:96
 msgid "notename|e"
@@ -2194,19 +2373,19 @@ msgstr "e"
 
 #: solfege/mpd/musicalpitch.py:97
 msgid "notename|eb"
-msgstr "e♭"
+msgstr "eb"
 
 #: solfege/mpd/musicalpitch.py:98
 msgid "notename|ebb"
-msgstr "e♭♭"
+msgstr "ebb"
 
 #: solfege/mpd/musicalpitch.py:99
 msgid "notename|e#"
-msgstr "e♯"
+msgstr "e#"
 
 #: solfege/mpd/musicalpitch.py:100
 msgid "notename|ex"
-msgstr "e♯♯"
+msgstr "ex"
 
 #: solfege/mpd/musicalpitch.py:101
 msgid "notename|f"
@@ -2214,19 +2393,19 @@ msgstr "f"
 
 #: solfege/mpd/musicalpitch.py:102
 msgid "notename|fb"
-msgstr "f♭"
+msgstr "fb"
 
 #: solfege/mpd/musicalpitch.py:103
 msgid "notename|fbb"
-msgstr "f♭♭"
+msgstr "fbb"
 
 #: solfege/mpd/musicalpitch.py:104
 msgid "notename|f#"
-msgstr "f♯"
+msgstr "f#"
 
 #: solfege/mpd/musicalpitch.py:105
 msgid "notename|fx"
-msgstr "f♯♯"
+msgstr "fx"
 
 #: solfege/mpd/musicalpitch.py:106
 msgid "notename|g"
@@ -2234,19 +2413,19 @@ msgstr "g"
 
 #: solfege/mpd/musicalpitch.py:107
 msgid "notename|gb"
-msgstr "g♭"
+msgstr "gb"
 
 #: solfege/mpd/musicalpitch.py:108
 msgid "notename|gbb"
-msgstr "g♭♭"
+msgstr "gbb"
 
 #: solfege/mpd/musicalpitch.py:109
 msgid "notename|g#"
-msgstr "g♯"
+msgstr "g#"
 
 #: solfege/mpd/musicalpitch.py:110
 msgid "notename|gx"
-msgstr "g♯♯"
+msgstr "gx"
 
 #: solfege/mpd/musicalpitch.py:111
 msgid "notename|a"
@@ -2254,19 +2433,19 @@ msgstr "a"
 
 #: solfege/mpd/musicalpitch.py:112
 msgid "notename|ab"
-msgstr "a♭"
+msgstr "ab"
 
 #: solfege/mpd/musicalpitch.py:113
 msgid "notename|abb"
-msgstr "a♭♭"
+msgstr "abb"
 
 #: solfege/mpd/musicalpitch.py:114
 msgid "notename|a#"
-msgstr "a♯"
+msgstr "a#"
 
 #: solfege/mpd/musicalpitch.py:115
 msgid "notename|ax"
-msgstr "a♯♯"
+msgstr "ax"
 
 #: solfege/mpd/musicalpitch.py:116
 msgid "notename|b"
@@ -2274,278 +2453,297 @@ msgstr "b"
 
 #: solfege/mpd/musicalpitch.py:117
 msgid "notename|bb"
-msgstr "b♭"
+msgstr "bb"
 
 #: solfege/mpd/musicalpitch.py:118
 msgid "notename|bbb"
-msgstr "b♭♭"
+msgstr "bbb"
 
 #: solfege/mpd/musicalpitch.py:119
 msgid "notename|b#"
-msgstr "b♯"
+msgstr "b#"
 
 #: solfege/mpd/musicalpitch.py:120
 msgid "notename|bx"
-msgstr "b♯♯"
+msgstr "bx"
 
 #: solfege/mpd/musicalpitch.py:127
 #, python-format
 msgid "Invalid notename: %s"
-msgstr "Tên nốt không hợp lệ: %s"
+msgstr "Tên nốt nhạc không hợp lệ: %s"
 
-#: solfege/mpd/musicalpitch.py:353
+#: solfege/mpd/musicalpitch.py:359
 #, no-python-format
 msgid "notenameformat|%(notename)s"
 msgstr "%(notename)s"
 
-#: solfege/mpd/musicalpitch.py:356
+#: solfege/mpd/musicalpitch.py:362
 #, no-python-format
 msgid "notenameformat|%(notename)s%(oct)s"
 msgstr "%(notename)s%(oct)s"
+
+#: solfege/mpd/rhythmwidget.py:116 solfege/mpd/rhythmwidget.py:123
+msgid "insert-overwrite|INSRT"
+msgstr "CHÈN"
+
+#: solfege/mpd/rhythmwidget.py:124
+msgid "insert-overwrite|OVER"
+msgstr "ĐÈ"
 
 #: solfege/soundcard/winsynth.py:32
 msgid "No MIDI output devices available."
 msgstr "Hiện thời không có sẵn sàng thiết bị kết xuất MIDI."
 
-#: solfege/exercises/chord.py:113 solfege/exercises/idproperty.py:110
+#: solfege/exercises/chord.py:116 solfege/exercises/idproperty.py:114
 msgid "Chord types to ask"
 msgstr "Các kiểu hợp âm cần hỏi"
 
-#: solfege/exercises/chord.py:210 solfege/exercises/chordvoicing.py:261
-#: solfege/exercises/compareintervals.py:232
-#: solfege/exercises/elembuilder.py:149
-#: solfege/exercises/harmonicinterval.py:236
-#: solfege/exercises/harmonicprogressiondictation.py:92
-#: solfege/exercises/idbyname.py:240 solfege/exercises/idproperty.py:197
-#: solfege/exercises/idtone.py:244 solfege/exercises/melodicinterval.py:208
-#: solfege/exercises/nameinterval.py:192
-#: solfege/exercises/rhythmdictation2.py:191
-#: solfege/exercises/rhythmdictation.py:138 solfege/exercises/rhythm.py:147
+#: solfege/exercises/chord.py:213 solfege/exercises/chordvoicing.py:259
+#: solfege/exercises/compareintervals.py:263
+#: solfege/exercises/elembuilder.py:156
+#: solfege/exercises/harmonicinterval.py:249
+#: solfege/exercises/harmonicprogressiondictation.py:94
+#: solfege/exercises/idbyname.py:245 solfege/exercises/idproperty.py:201
+#: solfege/exercises/idtone.py:235 solfege/exercises/melodicinterval.py:211
+#: solfege/exercises/nameinterval.py:207
+#: solfege/exercises/rhythmdictation2.py:116
+#: solfege/exercises/rhythmdictation.py:142 solfege/exercises/rhythm.py:146
+#: solfege/exercises/solmisation.py:153 solfege/exercises/toneincontext.py:245
 msgid "Correct"
 msgstr "Đúng"
 
-#: solfege/exercises/chord.py:219 solfege/exercises/chordvoicing.py:249
-#: solfege/exercises/chordvoicing.py:266
-#: solfege/exercises/compareintervals.py:237
-#: solfege/exercises/elembuilder.py:73 solfege/exercises/elembuilder.py:156
-#: solfege/exercises/harmonicinterval.py:239
-#: solfege/exercises/harmonicprogressiondictation.py:95
-#: solfege/exercises/idbyname.py:245 solfege/exercises/identifybpm.py:195
-#: solfege/exercises/idproperty.py:206 solfege/exercises/idtone.py:251
-#: solfege/exercises/melodicinterval.py:212
-#: solfege/exercises/nameinterval.py:194
-#: solfege/exercises/rhythmdictation2.py:194
-#: solfege/exercises/rhythmdictation.py:141 solfege/exercises/rhythm.py:135
+#: solfege/exercises/chord.py:222 solfege/exercises/chordvoicing.py:247
+#: solfege/exercises/chordvoicing.py:264
+#: solfege/exercises/compareintervals.py:268
+#: solfege/exercises/elembuilder.py:84 solfege/exercises/elembuilder.py:163
+#: solfege/exercises/harmonicinterval.py:252
+#: solfege/exercises/harmonicprogressiondictation.py:97
+#: solfege/exercises/idbyname.py:250 solfege/exercises/identifybpm.py:196
+#: solfege/exercises/idproperty.py:210 solfege/exercises/idtone.py:242
+#: solfege/exercises/melodicinterval.py:215
+#: solfege/exercises/nameinterval.py:209
+#: solfege/exercises/rhythmdictation2.py:119
+#: solfege/exercises/rhythmdictation.py:145 solfege/exercises/rhythm.py:134
+#: solfege/exercises/solmisation.py:141
 msgid "Wrong"
 msgstr "Sai"
 
-#: solfege/exercises/chord.py:232 solfege/exercises/chordvoicing.py:213
-#: solfege/exercises/idbyname.py:197 solfege/exercises/idbyname.py:291
-#: solfege/exercises/idproperty.py:219
+#: solfege/exercises/chord.py:235 solfege/exercises/chordvoicing.py:211
+#: solfege/exercises/idbyname.py:202 solfege/exercises/idbyname.py:295
+#: solfege/exercises/idproperty.py:223
 msgid "Right click is not allowed for this lesson file."
 msgstr "Không cho phép nhấn-phải trong tập tin bài học này."
 
-#: solfege/exercises/chord.py:295 solfege/exercises/chord.py:300
-#: solfege/exercises/chordvoicing.py:216 solfege/exercises/chordvoicing.py:241
-#: solfege/exercises/chordvoicing.py:310
+#: solfege/exercises/chord.py:296 solfege/exercises/chord.py:301
+#: solfege/exercises/chordvoicing.py:214 solfege/exercises/chordvoicing.py:239
+#: solfege/exercises/chordvoicing.py:307
 msgid "Click 'New chord' to begin."
-msgstr "Nhấn vào mục « Hợp âm mới » để bắt đầu."
+msgstr "Nhấn vào mục “Hợp âm mới” để bắt đầu."
 
-#: solfege/exercises/chordvoicing.py:110
+#: solfege/exercises/chordvoicing.py:111
 msgid "Identify chord type"
 msgstr "Nhận ra kiểu hợp âm"
 
-#: solfege/exercises/chordvoicing.py:119
+#: solfege/exercises/chordvoicing.py:120
 msgid "Chord voicing"
 msgstr "Hát hợp âm"
 
-#: solfege/exercises/chordvoicing.py:169 solfege/exercises/chordvoicing.py:306
-#: solfege/exercises/compareintervals.py:290
-#: solfege/exercises/compareintervals.py:324
-#: solfege/exercises/harmonicinterval.py:292
-#: solfege/exercises/melodicinterval.py:254 solfege/exercises/rhythm.py:300
-#: solfege/exercises/rhythmtapping.py:182
+#: solfege/exercises/chordvoicing.py:167 solfege/exercises/chordvoicing.py:303
+#: solfege/exercises/compareintervals.py:321
+#: solfege/exercises/compareintervals.py:356
+#: solfege/exercises/harmonicinterval.py:305
+#: solfege/exercises/melodicinterval.py:244 solfege/exercises/rhythm.py:296
+#: solfege/exercises/rhythmtapping.py:189 solfege/exercises/solmisation.py:315
 msgid "You have to solve this question first."
 msgstr "Trước tiên bạn cần phải giải quyết câu hỏi này."
 
-#: solfege/exercises/chordvoicing.py:219 solfege/exercises/idbyname.py:205
-#: solfege/exercises/idbyname.py:209 solfege/exercises/idbyname.py:292
-#: solfege/exercises/idbyname.py:293
+#: solfege/exercises/chordvoicing.py:217 solfege/exercises/idbyname.py:210
+#: solfege/exercises/idbyname.py:214 solfege/exercises/idbyname.py:296
+#: solfege/exercises/idbyname.py:297
 msgid "You should try to guess before right-clicking."
-msgstr "Bạn nên thử đoán trước khi nhấn-phải."
+msgstr "Bạn nên thử đoán trước khi nhấn-chuột-phải."
 
-#: solfege/exercises/chordvoicing.py:245
+#: solfege/exercises/chordvoicing.py:243
 msgid "Correct, now stack the tones"
 msgstr "Đúng, rồi xếp đống các âm"
 
-#: solfege/exercises/chordvoicing.py:251 solfege/exercises/chordvoicing.py:307
+#: solfege/exercises/chordvoicing.py:249 solfege/exercises/chordvoicing.py:304
 msgid "Type is already solved, now specify voicing."
 msgstr "Kiểu đã được giải quyết, rồi xác định cách hát."
 
-#: solfege/exercises/compareintervals.py:123
+#: solfege/exercises/compareintervals.py:133
+#: exercises/standard/lesson-files/compare-intervals:6
+#: exercises/standard/learningtree.txt:109
+msgid "Compare intervals"
+msgstr "So sánh quãng"
+
+#: solfege/exercises/compareintervals.py:152
 msgid ""
 "F_irst interval\n"
 "is largest"
 msgstr ""
 "Quãng đầ_u\n"
-"lớn hơn"
+"rộng nhất"
 
-#: solfege/exercises/compareintervals.py:126
+#: solfege/exercises/compareintervals.py:155
 msgid ""
 "The intervals\n"
 "are _equal"
 msgstr ""
 "Hai quãng\n"
-"t_rùng"
+"dài _bằng nhau"
 
-#: solfege/exercises/compareintervals.py:129
+#: solfege/exercises/compareintervals.py:158
 msgid ""
 "_Last interval\n"
 "is largest"
 msgstr ""
 "Quãng _cuối\n"
-"lớn hơn"
+"rộng nhất"
 
-#: solfege/exercises/compareintervals.py:147
-#: exercises/standard/learningtree.txt:106
+#: solfege/exercises/compareintervals.py:178
+#: exercises/standard/learningtree.txt:111
 msgid "Harmonic"
 msgstr "Hoạ âm"
 
-#: solfege/exercises/compareintervals.py:150
-#: exercises/standard/learningtree.txt:123
+#: solfege/exercises/compareintervals.py:181
+#: exercises/standard/learningtree.txt:129
 msgid "Melodic"
 msgstr "Giai điệu"
 
-#: solfege/exercises/compareintervals.py:157
+#: solfege/exercises/compareintervals.py:188
 msgid "First interval:"
-msgstr "Quãng đầu :"
+msgstr "Quãng đầu:"
 
-#: solfege/exercises/compareintervals.py:168
+#: solfege/exercises/compareintervals.py:199
 msgid "Last interval:"
 msgstr "Quãng cuối:"
 
-#: solfege/exercises/compareintervals.py:224
-#: solfege/exercises/harmonicinterval.py:231
-#: solfege/exercises/harmonicprogressiondictation.py:87
-#: solfege/exercises/idbyname.py:235 solfege/exercises/idbyname.py:294
-#: solfege/exercises/idtone.py:239 solfege/exercises/idtone.py:280
-#: solfege/exercises/nameinterval.py:163 solfege/exercises/nameinterval.py:179
-#: solfege/exercises/nameinterval.py:217
-#: solfege/exercises/rhythmdictation2.py:186
-#: solfege/exercises/rhythmdictation.py:133
+#: solfege/exercises/compareintervals.py:255
+#: solfege/exercises/harmonicinterval.py:244
+#: solfege/exercises/harmonicprogressiondictation.py:89
+#: solfege/exercises/idbyname.py:240 solfege/exercises/idbyname.py:298
+#: solfege/exercises/idtone.py:230 solfege/exercises/idtone.py:271
+#: solfege/exercises/nameinterval.py:178 solfege/exercises/nameinterval.py:194
+#: solfege/exercises/nameinterval.py:229
+#: solfege/exercises/rhythmdictation2.py:111
+#: solfege/exercises/rhythmdictation.py:137
+#: solfege/exercises/toneincontext.py:240
+#: solfege/exercises/toneincontext.py:284
 msgid "Correct, but you have already solved this question"
 msgstr "Đúng, nhưng bạn đã giải quyết câu hỏi này lần trước"
 
-#: solfege/exercises/compareintervals.py:226
-#: solfege/exercises/harmonicinterval.py:233
-#: solfege/exercises/harmonicprogressiondictation.py:89
-#: solfege/exercises/idbyname.py:237 solfege/exercises/idbyname.py:295
-#: solfege/exercises/idtone.py:241 solfege/exercises/idtone.py:281
-#: solfege/exercises/nameinterval.py:165 solfege/exercises/nameinterval.py:181
-#: solfege/exercises/nameinterval.py:218
-#: solfege/exercises/rhythmdictation2.py:188
-#: solfege/exercises/rhythmdictation.py:135
+#: solfege/exercises/compareintervals.py:257
+#: solfege/exercises/harmonicinterval.py:246
+#: solfege/exercises/harmonicprogressiondictation.py:91
+#: solfege/exercises/idbyname.py:242 solfege/exercises/idbyname.py:299
+#: solfege/exercises/idtone.py:232 solfege/exercises/idtone.py:272
+#: solfege/exercises/nameinterval.py:180 solfege/exercises/nameinterval.py:196
+#: solfege/exercises/nameinterval.py:230
+#: solfege/exercises/rhythmdictation2.py:113
+#: solfege/exercises/rhythmdictation.py:139
+#: solfege/exercises/toneincontext.py:242
+#: solfege/exercises/toneincontext.py:285
 msgid "Wrong, but you have already solved this question"
 msgstr "Sai, nhưng bạn đã giải quyết câu hỏi này lần trước"
 
-#: solfege/exercises/compareintervals.py:249
-#: solfege/exercises/compareintervals.py:322
+#: solfege/exercises/compareintervals.py:280
+#: solfege/exercises/compareintervals.py:354
 msgid "Last interval is largest"
 msgstr "Quãng cuối lớn hơn"
 
-#: solfege/exercises/compareintervals.py:251
+#: solfege/exercises/compareintervals.py:282
 msgid "The intervals are equal"
-msgstr "Hai quãng trùng"
+msgstr "Hai quãng là giống nhau"
 
-#: solfege/exercises/compareintervals.py:253
-#: solfege/exercises/compareintervals.py:323
+#: solfege/exercises/compareintervals.py:284
+#: solfege/exercises/compareintervals.py:355
 msgid "First interval is largest"
-msgstr "Quãng đầu lớn hơn"
+msgstr "Quãng đầu tiên là lớn nhất"
 
-#: solfege/exercises/compareintervals.py:254
-#: solfege/exercises/compareintervals.py:322
-#: solfege/exercises/compareintervals.py:323
-#: solfege/exercises/harmonicinterval.py:204 solfege/exercises/idbyname.py:185
-#: solfege/exercises/idtone.py:267
+#: solfege/exercises/compareintervals.py:285
+#: solfege/exercises/compareintervals.py:354
+#: solfege/exercises/compareintervals.py:355
+#: solfege/exercises/harmonicinterval.py:217 solfege/exercises/idtone.py:258
+#: solfege/exercises/toneincontext.py:233
 #, python-format
 msgid "The answer is: %s"
-msgstr "Giải đáp: %s"
+msgstr "Câu trả lời là: %s"
 
-#: solfege/exercises/compareintervals.py:293
-#: solfege/exercises/compareintervals.py:325
+#: solfege/exercises/compareintervals.py:324
+#: solfege/exercises/compareintervals.py:357
 msgid "You have to configure the exercise properly"
 msgstr "Bạn cần phải cấu hình đúng bài tập này"
 
-#: solfege/exercises/compareintervals.py:328
-#: solfege/exercises/elembuilder.py:145 solfege/exercises/elembuilder.py:238
-#: solfege/exercises/idbyname.py:202 solfege/exercises/idbyname.py:230
-#: solfege/exercises/idbyname.py:307 solfege/exercises/nameinterval.py:159
-#: solfege/exercises/nameinterval.py:175 solfege/exercises/nameinterval.py:221
-#: solfege/exercises/rhythmdictation2.py:210
-#: solfege/exercises/rhythmdictation.py:158 solfege/exercises/rhythm.py:264
-#: solfege/exercises/rhythm.py:343 solfege/exercises/singanswer.py:112
-#: solfege/exercises/singanswer.py:115
+#: solfege/exercises/compareintervals.py:360
+#: solfege/exercises/elembuilder.py:152 solfege/exercises/elembuilder.py:259
+#: solfege/exercises/idbyname.py:207 solfege/exercises/idbyname.py:235
+#: solfege/exercises/idbyname.py:311 solfege/exercises/nameinterval.py:174
+#: solfege/exercises/nameinterval.py:190 solfege/exercises/nameinterval.py:233
+#: solfege/exercises/rhythmdictation2.py:144
+#: solfege/exercises/rhythmdictation.py:174 solfege/exercises/rhythm.py:261
+#: solfege/exercises/rhythm.py:335 solfege/exercises/singanswer.py:115
+#: solfege/exercises/singanswer.py:118 solfege/exercises/solmisation.py:277
+#: solfege/exercises/solmisation.py:383 solfege/exercises/toneincontext.py:282
 msgid "Click 'New' to begin."
-msgstr "Nhấn vào « Mới » để bắt đầu."
+msgstr "Nhấn vào “Mới” để bắt đầu."
 
 #: solfege/exercises/dictation.py:67
 msgid "_Play the whole music"
-msgstr "_Phát âm nhạc hoàn toàn"
+msgstr "_Phát toàn bộ đoạn nhạc"
 
-#: solfege/exercises/dictation.py:199
+#: solfege/exercises/dictation.py:195
 #, python-format
 msgid "The lesson file '%s' contains no questions."
-msgstr "Tập tin bài học « %s » không chứa câu hỏi."
+msgstr "Tập tin bài học “%s” không chứa câu hỏi."
 
-#: solfege/exercises/elembuilder.py:108 solfege/exercises/rhythm.py:207
-msgid "_Backspace"
-msgstr "_Xoá lùi"
-
-#: solfege/exercises/elembuilder.py:115
-msgid "elembuilder"
-msgstr "elembuilder"
-
-#: solfege/exercises/elembuilder.py:143
-#: solfege/exercises/harmonicinterval.py:216
-#: solfege/exercises/harmonicinterval.py:318 solfege/exercises/idbyname.py:228
-#: solfege/exercises/idbyname.py:304 solfege/exercises/melodicinterval.py:173
-#: solfege/exercises/melodicinterval.py:271
+#: solfege/exercises/elembuilder.py:150
+#: solfege/exercises/harmonicinterval.py:229
+#: solfege/exercises/harmonicinterval.py:327 solfege/exercises/idbyname.py:233
+#: solfege/exercises/idbyname.py:308 solfege/exercises/melodicinterval.py:176
+#: solfege/exercises/melodicinterval.py:272
 msgid "Click 'Start test' to begin."
-msgstr "Nhấn vào « Bắt đầu phép thử » để bắt đầu."
+msgstr "Nhấn vào “Bắt đầu kiểm tra” để bắt đầu."
 
-#: solfege/exercises/harmonicinterval.py:171
-msgid "Ask for these intervals"
-msgstr "Yêu cầu những quãng này"
+#: solfege/exercises/harmonicinterval.py:104
+#: solfege/exercises/melodicinterval.py:240
+#: solfege/exercises/singinterval.py:140
+msgid "Exercise configuration problem"
+msgstr "Có vấn đề với cấu hình bài học"
 
-#: solfege/exercises/harmonicinterval.py:200
-#: solfege/exercises/harmonicinterval.py:314
-msgid "Harmonic interval"
-msgstr "Quãng hoà âm"
-
-#: solfege/exercises/harmonicinterval.py:223
-#: solfege/exercises/melodicinterval.py:190
-msgid "Ignoring intervals greater than major tenth."
-msgstr "Đang bỏ qua quãng nào lớn hơn quãng 10 trưởng."
-
-#: solfege/exercises/harmonicinterval.py:227
-#: solfege/exercises/harmonicinterval.py:321
-#: solfege/exercises/melodicinterval.py:178
-#: solfege/exercises/melodicinterval.py:274
-msgid "Click 'New interval' to begin."
-msgstr "Nhấn vào « Quãng mới » để bắt đầu."
-
-#: solfege/exercises/harmonicinterval.py:298
-msgid "You have to select some intervals to practise."
-msgstr "Bạn cần phải chọn một số quãng cần thức hành."
-
-#: solfege/exercises/harmonicinterval.py:308
-#: solfege/exercises/melodicinterval.py:261
+#: solfege/exercises/harmonicinterval.py:168
+#: solfege/exercises/melodicinterval.py:100
 msgid "Identify the interval"
 msgstr "Nhận ra quãng"
 
-#: solfege/exercises/harmonicinterval.py:332 solfege/exercises/idbyname.py:321
-#: solfege/exercises/melodicinterval.py:286
-#: solfege/exercises/singinterval.py:212
+#: solfege/exercises/harmonicinterval.py:182
+msgid "Ask for these intervals"
+msgstr "Yêu cầu những quãng này"
+
+#: solfege/exercises/harmonicinterval.py:213
+#: solfege/exercises/harmonicinterval.py:323
+msgid "Harmonic interval"
+msgstr "Quãng hoà âm"
+
+#: solfege/exercises/harmonicinterval.py:236
+#: solfege/exercises/melodicinterval.py:193
+msgid "Ignoring intervals greater than double octave."
+msgstr "Đang bỏ qua quãng nào lớn hơn hai quãng tám."
+
+#: solfege/exercises/harmonicinterval.py:240
+#: solfege/exercises/harmonicinterval.py:330
+#: solfege/exercises/melodicinterval.py:181
+#: solfege/exercises/melodicinterval.py:275
+msgid "Click 'New interval' to begin."
+msgstr "Nhấn vào “Quãng mới” để bắt đầu."
+
+#: solfege/exercises/harmonicinterval.py:311
+msgid "You have to select some intervals to practise."
+msgstr "Bạn cần phải chọn một số quãng cần thức hành."
+
+#: solfege/exercises/harmonicinterval.py:341 solfege/exercises/idbyname.py:325
+#: solfege/exercises/melodicinterval.py:288
+#: solfege/exercises/singinterval.py:225
 msgid "_Start test"
 msgstr "_Bắt đầu phép thử"
 
@@ -2553,142 +2751,171 @@ msgstr "_Bắt đầu phép thử"
 msgid "Harmonic progression dictation"
 msgstr "Đọc cho viết cấp hoà âm"
 
-#: solfege/exercises/idbyname.py:127
+#: solfege/exercises/idbyname.py:134
 msgid "Questions to ask"
 msgstr "Câu cần hỏi"
 
-#: solfege/exercises/idbyname.py:140
+#: solfege/exercises/idbyname.py:147
 msgid "Identify by name"
-msgstr "Nhận ra theo tên"
+msgstr "Định danh theo tên"
 
-#: solfege/exercises/idbyname.py:296
+#: solfege/exercises/idbyname.py:190
+msgid "The answer is: {answer}"
+msgstr "Câu trả lời là: {answer}"
+
+#: solfege/exercises/idbyname.py:300
 msgid "You have to select some questions to practise."
 msgstr "Bạn cần phải chọn một số câu hỏi cần thức hành."
 
-#: solfege/exercises/identifybpm.py:143
+#: solfege/exercises/identifybpm.py:142
 msgid "Bpm"
 msgstr "Nhịp/phút"
 
-#: solfege/exercises/identifybpm.py:171
+#: solfege/exercises/identifybpm.py:170
 msgid "You have to select some tempos to practise."
 msgstr "Bạn cần phải chọn một số nhịp độ cần thức hành."
 
-#: solfege/exercises/identifybpm.py:189 solfege/exercises/identifybpm.py:198
+#: solfege/exercises/identifybpm.py:190 solfege/exercises/identifybpm.py:201
 msgid "Click 'New tempo' to begin."
-msgstr "Nhấn vào « Nhịp độ mới » để bắt đầu."
+msgstr "Nhấn vào “Nhịp độ mới” để bắt đầu."
 
-#: solfege/exercises/identifybpm.py:192
+#: solfege/exercises/identifybpm.py:193
 #, python-format
 msgid "Correct, it is %i"
-msgstr "Đúng, nó là %i"
+msgstr "Chính xác, nó là %i"
 
-#: solfege/exercises/idproperty.py:288 solfege/exercises/idproperty.py:293
+#: solfege/exercises/idproperty.py:286 solfege/exercises/idproperty.py:291
 #, python-format
 msgid "Click '%s' to begin."
-msgstr "Nhấn vào « %s » để bắt đầu."
+msgstr "Bấm chuột vào “%s” để bắt đầu."
 
-#: solfege/exercises/idtone.py:151
+#: solfege/exercises/idtone.py:143
 msgid "Weight"
 msgstr "Nặng"
 
-#: solfege/exercises/idtone.py:174
+#: solfege/exercises/idtone.py:166
 msgid "Octave:"
 msgstr "Quãng tám:"
 
-#: solfege/exercises/idtone.py:182
+#: solfege/exercises/idtone.py:174
 msgid "Hide _piano keyboard shortcuts"
 msgstr "Ẩn _phím tắt pianô"
 
-#: solfege/exercises/idtone.py:188
+#: solfege/exercises/idtone.py:180
 msgid "When you guess wrong"
 msgstr "Khi bạn đoán sai"
 
-#: solfege/exercises/idtone.py:193
+#: solfege/exercises/idtone.py:185
 msgid "Play warning sound"
 msgstr "Phát âm thanh cảnh báo"
 
-#: solfege/exercises/idtone.py:200 solfege/exercises/idtone.py:308
-#: exercises/standard/learningtree.txt:472
-#: exercises/standard/learningtree.txt:474
+#: solfege/exercises/idtone.py:192 solfege/exercises/idtone.py:317
+#: exercises/standard/learningtree.txt:499
+#: exercises/standard/learningtree.txt:501
 msgid "Identify tone"
-msgstr "Nhận ra âm"
+msgstr "Định danh âm"
 
-#: solfege/exercises/idtone.py:214
+#: solfege/exercises/idtone.py:205
 msgid "You have to select some tones practise. Do this on the config page by setting the weight of tones to a value greater than zero."
 msgstr "Bạn cần phải chọn một số âm cần thức hành. Chọn trong trang cấu hình, bằng cách đặt độ nặng của âm thành giá trị hơn số không."
 
-#: solfege/exercises/idtone.py:231
+#: solfege/exercises/idtone.py:222
 #, python-format
 msgid "First tone is %s"
 msgstr "Âm đầu là %s"
 
-#: solfege/exercises/idtone.py:235 solfege/exercises/idtone.py:279
-#: solfege/exercises/idtone.py:311
+#: solfege/exercises/idtone.py:226 solfege/exercises/idtone.py:270
+#: solfege/exercises/idtone.py:320
 msgid "Click 'New tone' to begin."
-msgstr "Nhấn vào « Âm mới » để bắt đầu."
+msgstr "Nhấn vào “Âm mới” để bắt đầu."
 
-#: solfege/exercises/melodicinterval.py:118
-#: solfege/exercises/melodicinterval.py:267
+#: solfege/exercises/melodicinterval.py:121
+#: solfege/exercises/melodicinterval.py:268
 msgid "Melodic interval"
 msgstr "Quãng giai điệu"
 
-#: solfege/exercises/melodicinterval.py:187
+#: solfege/exercises/melodicinterval.py:190
 msgid "You have already identified this interval"
 msgstr "Bạn đã nhận ra quãng này lần trước"
 
-#: solfege/exercises/melodicinterval.py:235
-msgid "The exercise has to be better configured."
-msgstr "Bài tập này phải được cấu hình tốt hơn."
-
-#: solfege/exercises/nameinterval.py:153
-msgid "Could not satisfy the constraints in the lesson header."
-msgstr "Không thể thỏa các điều kiện trong phần đầu bài học."
-
-#: solfege/exercises/nameinterval.py:200
+#: solfege/exercises/nameinterval.py:140
 msgid "Name the interval"
 msgstr "Nhân ra quãng"
 
-#: solfege/exercises/rhythm.py:188
-msgid "Play"
-msgstr "Phát"
+#: solfege/exercises/nameinterval.py:168
+msgid "Could not satisfy the constraints in the lesson header."
+msgstr "Không thể thỏa các điều kiện trong phần đầu bài học."
 
-#: solfege/exercises/rhythm.py:227
-msgid "Don't start the question with a rest"
-msgstr "Không bắt đầu câu hỏi với dấu lặng"
+#: solfege/exercises/rhythmdictation2.py:131
+#: solfege/exercises/rhythmdictation.py:161
+msgid "The music played:"
+msgstr "Người chơi nhạc:"
 
-#: solfege/exercises/rhythm.py:230
-msgid "Beats per minute:"
-msgstr "Nhịp mỗi phút:"
+#: solfege/exercises/rhythmdictation2.py:132
+#: solfege/exercises/rhythmdictation.py:162
+msgid "The rhythm you entered:"
+msgstr "Nhịp bạn đã nhập vào:"
 
-#: solfege/exercises/rhythm.py:304 solfege/exercises/rhythmtapping.py:186
-msgid "You have to configure this exercise properly"
-msgstr "Bạn cần phải cấu hình đúng bài tập này."
+#: solfege/exercises/rhythmdictation.py:62
+msgid "The music object named «rhythm» is not a subclass of MpdParsable"
+msgstr "Đối tượng âm nhạc có tên «rhythm» không phải là lớp con của MpdParsable"
 
-#: solfege/exercises/rhythm.py:339
+#: solfege/exercises/rhythmdictation.py:63
+#: solfege/exercises/rhythmdictation.py:69
+msgid "Read about the «rhythm» variable in the section «Question block» in the chapter named «Extending GNU Solfege» in the user manual."
+msgstr "Đọc thêm thông tin về biến «rhythm» trong phần «Question block» trong chương có tên «Extending GNU Solfege» trong sổ tay hướng dẫn sử dụng."
+
+#: solfege/exercises/rhythmdictation.py:68
+msgid "The music object named «music» is not a subclass of MpdParsable"
+msgstr "Đối tượng âm nhạc có tên «music» không phải là lớp con của MpdParsable"
+
+#: solfege/exercises/rhythm.py:179
 msgid "Identify the rhythm"
 msgstr "Nhận ra nhịp điệu"
 
-#: solfege/exercises/rhythmtapping.py:123
+#: solfege/exercises/rhythm.py:187 solfege/exercises/solmisation.py:195
+msgid "Play"
+msgstr "Phát"
+
+#: solfege/exercises/rhythm.py:224
+msgid "Don't start the question with a rest"
+msgstr "Không bắt đầu câu hỏi với dấu lặng"
+
+#: solfege/exercises/rhythm.py:227 solfege/exercises/solmisation.py:230
+msgid "Beats per minute:"
+msgstr "Nhịp gõ mỗi phút:"
+
+#: solfege/exercises/rhythm.py:300 solfege/exercises/rhythmtapping.py:193
+#: solfege/exercises/solmisation.py:319
+msgid "You have to configure this exercise properly"
+msgstr "Bạn cần phải cấu hình đúng bài tập này."
+
+#: solfege/exercises/rhythmtapping2.py:48
+#: solfege/exercises/rhythmtapping.py:130
 msgid "Please tap the rhythm."
 msgstr "Hãy gõ nhịp điệu."
 
-#: solfege/exercises/rhythmtapping.py:130
+#: solfege/exercises/rhythmtapping.py:137
 msgid "Tap here"
 msgstr "Gõ ở đây"
 
-#: solfege/exercises/rhythmtapping.py:142
+#: solfege/exercises/rhythmtapping.py:149
 msgid "Accuracy required:"
-msgstr "Độ chính xác yêu cầu :"
+msgstr "Độ chính xác yêu cầu:"
 
-#: solfege/exercises/rhythmtapping.py:196
+#: solfege/exercises/rhythmtapping.py:203
 msgid "Tapping in progress..."
 msgstr "Đang gõ..."
 
-#: solfege/exercises/singchord.py:46
+#: solfege/exercises/singchord.py:48
 msgid "440h_z"
 msgstr "440h_z"
 
-#: solfege/exercises/singinterval.py:92
+#: solfege/exercises/singinterval.py:93
+msgid "Sing the interval"
+msgstr "Hát quãng"
+
+#: solfege/exercises/singinterval.py:104
 msgid ""
 "_New interval,\n"
 "last was correct"
@@ -2696,7 +2923,7 @@ msgstr ""
 "Quã_ng mới,\n"
 "cái trước đúng"
 
-#: solfege/exercises/singinterval.py:94
+#: solfege/exercises/singinterval.py:106
 msgid ""
 "New interval,\n"
 "last was _wrong"
@@ -2704,19 +2931,19 @@ msgstr ""
 "Quãng mới,\n"
 "cái trước _sai"
 
-#: solfege/exercises/singinterval.py:99
+#: solfege/exercises/singinterval.py:111
 msgid "_Repeat first tone"
 msgstr "_Lặp lại âm đầu"
 
-#: solfege/exercises/singinterval.py:107
+#: solfege/exercises/singinterval.py:119
 msgid "Play _last tone"
 msgstr "Phát âm _cuối"
 
-#: solfege/exercises/singinterval.py:122 solfege/exercises/singinterval.py:170
+#: solfege/exercises/singinterval.py:134 solfege/exercises/singinterval.py:183
 msgid "Sing interval"
 msgstr "Hát quãng"
 
-#: solfege/exercises/singinterval.py:140
+#: solfege/exercises/singinterval.py:154
 msgid ""
 "The exercise has to be better configured.\n"
 "Click 'Reset to default values' on the config\n"
@@ -2724,22 +2951,68 @@ msgid ""
 msgstr ""
 "Bài tập này phải được cấu hình tốt hơn.\n"
 "Chưa biết cách làm thì nhấn vào\n"
-"« Đặt lại về giá trị mặc định »\n"
+"“Đặt lại về giá trị mặc định”\n"
 "trong trang cấu hình."
 
-#: solfege/exercises/singinterval.py:164
-msgid "Sing the interval"
-msgstr "Hát quãng"
+#: solfege/exercises/solmisation.py:186
+#: exercises/standard/lesson-files/solmisation:7
+msgid "Solmisation Diktat"
+msgstr "Solmisation Diktat"
 
-#: solfege/exercises/twelvetone.py:69
+#: solfege/exercises/solmisation.py:238
+msgid "Show the first tone"
+msgstr "Hiển thị tông đầu tiên"
+
+#: solfege/exercises/solmisation.py:241
+msgid "Play cadence"
+msgstr "Đánh phách"
+
+#: solfege/exercises/toneincontext.py:171
+#: exercises/standard/learningtree.txt:580
+msgid "Tone in context"
+msgstr "Tông trong ngữ cảnh"
+
+#: solfege/exercises/toneincontext.py:191
+msgid "Random transpose"
+msgstr "Chuyển đổi ngẫu nhiên"
+
+#: solfege/exercises/toneincontext.py:195
+msgid "Tones"
+msgstr "Tông"
+
+#: solfege/exercises/toneincontext.py:201
+#: exercises/standard/lesson-files/cadense-1:15
+#: exercises/standard/learningtree.txt:573
+#: exercises/standard/learningtree.txt:575
+msgid "Cadences"
+msgstr "Giai kết"
+
+#: solfege/exercises/toneincontext.py:215
+msgid "Tone in cadence"
+msgstr "Tông trong phần kết"
+
+#: solfege/exercises/toneincontext.py:227
+msgid "No cadences selected"
+msgstr "Chưa chọn kết nào"
+
+#: solfege/exercises/toneincontext.py:265
+msgid "Unnamed"
+msgstr "Chưa đặt tên"
+
+#: solfege/exercises/twelvetone.py:61
+#: exercises/standard/lesson-files/twelvetone:7
+msgid "Sing twelve random tones"
+msgstr "Hát mười hai âm ngẫu nhiên"
+
+#: solfege/exercises/twelvetone.py:70
 msgid "_Play first note"
 msgstr "_Phát nốt đầu"
 
-#: solfege/exercises/twelvetone.py:71
+#: solfege/exercises/twelvetone.py:72
 msgid "Play _last note"
 msgstr "Phát nốt _cuối"
 
-#: solfege/exercises/twelvetone.py:73
+#: solfege/exercises/twelvetone.py:74
 msgid "Play _all"
 msgstr "Phát _tất cả"
 
@@ -2848,12 +3121,6 @@ msgstr "Bài hát trẻ con Na Uy"
 msgid "simple tonal chords"
 msgstr "hợp âm về âm đơn giản"
 
-#: exercises/standard/lesson-files/cadense-1:15
-#: exercises/standard/learningtree.txt:546
-#: exercises/standard/learningtree.txt:548
-msgid "Cadences"
-msgstr "Giai kết"
-
 #: exercises/standard/lesson-files/cadense-1:29
 msgid "Perfect authentic cadence"
 msgstr "Giai kết thực sự hoàn toàn"
@@ -2882,21 +3149,29 @@ msgstr "Hợp âm 7b9 và tr79"
 msgid "chord|maj79"
 msgstr "tr79"
 
+#: exercises/standard/lesson-files/chord-7-inv:17
+msgid "Dominant 7 chord with inversions"
+msgstr "Hợp âm 7 âm át có sự đảo ngược"
+
+#: exercises/standard/lesson-files/chord-all-root:11
+msgid "Lots of chords"
+msgstr "Rất nhiều hợp âm"
+
 #: exercises/standard/lesson-files/chord-dim-aug:12
 msgid "Diminished and augmented chords"
-msgstr "Hợp âm giảm và tăng"
+msgstr "Hợp âm giáng và thăng"
 
 #: exercises/standard/lesson-files/chord-dim-aug:17
 msgid "diminished"
-msgstr "giảm"
+msgstr "giáng"
 
 #: exercises/standard/lesson-files/chord-dim-aug:18
 msgid "augmented"
-msgstr "tăng"
+msgstr "thăng"
 
 #: exercises/standard/lesson-files/chord-dim-aug-min-major:9
 msgid "Minor, major, diminished and augmented chords"
-msgstr "Hợp âm kiểu thứ, trưởng, giảm và tăng"
+msgstr "Hợp âm kiểu thứ, trưởng, giáng và thăng"
 
 #: exercises/standard/lesson-files/chord-m7-7:12
 msgid "Minor 7 and dominant 7 chords"
@@ -2921,7 +3196,7 @@ msgstr "Hợp âm 7 thứ và 7 âm át có sự đảo ngược"
 
 #: exercises/standard/lesson-files/chord-m7-7-maj7-m7b5-dim7:12
 msgid "Chords with 7 in their name"
-msgstr "Hợp âm có 7 trong tên"
+msgstr "Hợp âm có 7 trong tên của chúng"
 
 #: exercises/standard/lesson-files/chord-m9-9:12
 msgid "Minor 9 and 9 chords"
@@ -3015,11 +3290,6 @@ msgstr "Điệu thứ/trưởng có vị trí đóng và mở"
 msgid "Altered chords (chord voicing)"
 msgstr "Hợp âm đã sửa đổi (hát hợp âm)"
 
-#: exercises/standard/lesson-files/compare-intervals:6
-#: exercises/standard/learningtree.txt:104
-msgid "Compare intervals"
-msgstr "So sánh quãng"
-
 #: exercises/standard/lesson-files/compare-intervals-harmonic:7
 #: exercises/standard/lesson-files/compare-intervals-melodic:7
 #: exercises/standard/lesson-files/harmonic-intervals:8
@@ -3062,9 +3332,18 @@ msgstr "Quãng hai"
 msgid "Seconds and thirds"
 msgstr "Quãng hai và ba"
 
+#: exercises/standard/lesson-files/compare-intervals-harmonic-2-to-8:6
+#: exercises/standard/lesson-files/compare-intervals-melodic-2-to-8:6
+#: exercises/standard/lesson-files/harmonic-intervals-2-to-8:8
+#: exercises/standard/lesson-files/melodic-intervals-2-to-8:7
+#: exercises/standard/lesson-files/melodic-intervals-down-2-to-8:7
+#: exercises/standard/lesson-files/melodic-intervals-up-2-to-8:7
+#: exercises/standard/lesson-files/sing-intervals-2-to-8:9
+msgid "Second to octave"
+msgstr "Quãng hai đến tám"
+
 #: exercises/standard/lesson-files/compare-intervals-harmonic-3:6
 #: exercises/standard/lesson-files/compare-intervals-melodic-3:7
-#: exercises/standard/lesson-files/compare-intervals-melodic-3~:6
 #: exercises/standard/lesson-files/harmonic-intervals-3:8
 #: exercises/standard/lesson-files/hear-tones-1:7
 #: exercises/standard/lesson-files/melodic-intervals-3:8
@@ -3077,7 +3356,6 @@ msgstr "Quãng ba"
 
 #: exercises/standard/lesson-files/compare-intervals-harmonic-4-5:6
 #: exercises/standard/lesson-files/compare-intervals-melodic-4-5:7
-#: exercises/standard/lesson-files/compare-intervals-melodic-4-5~:6
 #: exercises/standard/lesson-files/harmonic-intervals-4-5:8
 #: exercises/standard/lesson-files/hear-tones-3:7
 #: exercises/standard/lesson-files/melodic-intervals-4-5:8
@@ -6101,7 +6379,7 @@ msgstr "Quãng năm là đúng, quá nhỏ hay quá lớn? %s"
 #: exercises/standard/lesson-files/csound-intonation-p8-8cent:315
 #: exercises/standard/lesson-files/csound-intonation-p8-8cent:345
 msgid "intonation|flat"
-msgstr "nhỏ"
+msgstr "mỏng"
 
 #: exercises/standard/lesson-files/csound-fifth-0.97:25
 #: exercises/standard/lesson-files/csound-fifth-0.97:55
@@ -9033,7 +9311,7 @@ msgstr "nhỏ"
 #: exercises/standard/lesson-files/csound-intonation-p8-8cent:325
 #: exercises/standard/lesson-files/csound-intonation-p8-8cent:355
 msgid "intonation|in tune"
-msgstr "đúng"
+msgstr "lên dây đàn"
 
 #: exercises/standard/lesson-files/csound-fifth-0.97:35
 #: exercises/standard/lesson-files/csound-fifth-0.97:65
@@ -11965,7 +12243,7 @@ msgstr "đúng"
 #: exercises/standard/lesson-files/csound-intonation-p8-8cent:335
 #: exercises/standard/lesson-files/csound-intonation-p8-8cent:365
 msgid "intonation|sharp"
-msgstr "lớn"
+msgstr "sắc"
 
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-10cent:9
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-15cent:9
@@ -12209,7 +12487,7 @@ msgstr "lớn"
 #: exercises/standard/lesson-files/csound-intonation-p8-8cent:9
 #, python-format
 msgid "Is the interval flat, in tune or sharp? %s cent wrong"
-msgstr "Quãng năm là đúng, quá nhỏ hay quá lớn? %s phần trăm sai"
+msgstr "Quãng năm là phẳng, quá nhỏ hay quá lớn? %s phần trăm sai"
 
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-10cent:10
 #: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-15cent:10
@@ -12463,17 +12741,17 @@ msgstr "Hợp âm nguyên"
 msgid "Diatonic chords & inversions"
 msgstr "Hợp âm nguyên và sự đảo ngược"
 
-#: exercises/standard/lesson-files/harmonic-intervals-2-to-8:8
-#: exercises/standard/lesson-files/melodic-intervals-2-to-8:7
-#: exercises/standard/lesson-files/melodic-intervals-down-2-to-8:7
-#: exercises/standard/lesson-files/melodic-intervals-up-2-to-8:7
-msgid "Second to octave"
-msgstr "Quãng hai đến tám"
+#: exercises/standard/lesson-files/harmonic-intervals-2-to-15:7
+#: exercises/standard/lesson-files/melodic-intervals-2-to-15:7
+#: exercises/standard/lesson-files/melodic-intervals-down-2-to-15:7
+#: exercises/standard/lesson-files/melodic-intervals-up-2-to-15:7
+msgid "Second to 15th"
+msgstr "Từ thứ 2 đến thứ 15"
 
 #: exercises/standard/lesson-files/harmonic-intervals-self-config:6
 #: exercises/standard/csound-tree.txt:218
-#: exercises/standard/learningtree.txt:65
-#: exercises/standard/learningtree.txt:67
+#: exercises/standard/learningtree.txt:68
+#: exercises/standard/learningtree.txt:70
 msgid "Harmonic intervals"
 msgstr "Quãng hoà âm"
 
@@ -12841,13 +13119,15 @@ msgstr "giọng to"
 
 #: exercises/standard/lesson-files/id-tone-cde-10:8
 msgid "C to B, C#, D# and F#"
-msgstr "C đến B, C♯, D♯ và F♯"
+msgstr "C to B, C#, D# và F#"
 
 #: exercises/standard/lesson-files/id-tone-cde-11:8
 msgid "C to B, C#, D#, F# and G#"
-msgstr "C đến B, C♯, D♯, F♯ và G♯"
+msgstr "C to B, C#, D#, F# và G#"
 
 #: exercises/standard/lesson-files/id-tone-cde-12:8
+#: exercises/standard/lesson-files/toneincontext-major:6
+#: exercises/standard/lesson-files/toneincontext-minor:6
 msgid "All"
 msgstr "Tất cả"
 
@@ -12901,7 +13181,7 @@ msgstr "th2"
 #: exercises/standard/lesson-files/interval_in_key_min:68
 #: exercises/standard/lesson-files/interval_in_key_min:76
 msgid "M2"
-msgstr "tr2"
+msgstr "Tr2"
 
 #: exercises/standard/lesson-files/interval_in_key_maj:88
 #: exercises/standard/lesson-files/interval_in_key_maj:95
@@ -12918,7 +13198,7 @@ msgstr "th3"
 #: exercises/standard/lesson-files/interval_in_key_min:111
 #: exercises/standard/lesson-files/interval_in_key_min:119
 msgid "M3"
-msgstr "tr3"
+msgstr "Tr3"
 
 #: exercises/standard/lesson-files/interval_in_key_maj:135
 #: exercises/standard/lesson-files/interval_in_key_maj:142
@@ -12963,7 +13243,7 @@ msgstr "th6"
 #: exercises/standard/lesson-files/interval_in_key_min:223
 #: exercises/standard/lesson-files/interval_in_key_min:230
 msgid "M6"
-msgstr "tr6"
+msgstr "Tr6"
 
 #: exercises/standard/lesson-files/interval_in_key_maj:237
 #: exercises/standard/lesson-files/interval_in_key_maj:245
@@ -12979,23 +13259,23 @@ msgstr "th7"
 #: exercises/standard/lesson-files/interval_in_key_min:264
 #: exercises/standard/lesson-files/interval_in_key_min:272
 msgid "M7"
-msgstr "tr7"
+msgstr "Tr7"
 
 #: exercises/standard/lesson-files/interval_in_key_min:12
 msgid "Interval in a key (minor)"
 msgstr "Quãng theo khoá (thứ)"
 
 #: exercises/standard/lesson-files/interval_in_key_min:15
-msgid "Indetify the interval played after tonic"
-msgstr "Nhận ra quãng được phát sau âm"
+msgid "Identify the interval played after tonic"
+msgstr "Định danh quãng được phát sau âm chủ"
 
 #: exercises/standard/lesson-files/jsb-inventions:8
 msgid "Parts of 2 Bach inventions"
 msgstr "Phần của 2 sự phát minh Bach"
 
 #: exercises/standard/lesson-files/melodic-intervals-self-config:6
-#: exercises/standard/csound-tree.txt:4 exercises/standard/learningtree.txt:45
-#: exercises/standard/learningtree.txt:47
+#: exercises/standard/csound-tree.txt:4 exercises/standard/learningtree.txt:47
+#: exercises/standard/learningtree.txt:49
 msgid "Melodic intervals"
 msgstr "Quãng giai điệu"
 
@@ -13014,8 +13294,8 @@ msgstr "Cấp hoà âm với MMA"
 #: exercises/standard/lesson-files/mma-7-C:11
 #: exercises/standard/lesson-files/mma-7-harmonic-minor:11
 #: exercises/standard/lesson-files/mma-7-natural-minor:12
-#: exercises/standard/lesson-files/progression-1:11
-#: exercises/standard/lesson-files/progression-2:12
+#: exercises/standard/lesson-files/progression-1:10
+#: exercises/standard/lesson-files/progression-2:11
 #: exercises/standard/lesson-files/progression-atte:32
 #: exercises/standard/lesson-files/three-prog-root:10
 msgid "Enter the harmonic progression"
@@ -13069,17 +13349,21 @@ msgstr "Quãng tám"
 msgid "Unisons"
 msgstr "Đồng âm"
 
-#: exercises/standard/lesson-files/progression-1:10
+#: exercises/standard/lesson-files/polish-folk-songs:30
+msgid "Polish folk songs"
+msgstr "Bài hát trẻ con Ba Lan"
+
+#: exercises/standard/lesson-files/progression-1:9
 msgid "Easy harmonic progressions"
 msgstr "Cấp hoà âm dễ dàng"
 
-#: exercises/standard/lesson-files/progression-2:11
+#: exercises/standard/lesson-files/progression-2:10
 msgid "Easy harmonic progressions, including inverted chords"
 msgstr "Cấp hoà âm dễ dàng, gồm có các hợp âm đã đảo ngược"
 
 #: exercises/standard/lesson-files/progression-atte:31
 msgid "A few jazz progressions"
-msgstr "Vài cấp hoà âm ja"
+msgstr "Vài cấp hoà âm jazz"
 
 #: exercises/standard/lesson-files/rhythm-all:8
 #: exercises/standard/lesson-files/tapping-all:8
@@ -13089,8 +13373,21 @@ msgstr "Nhịp điệu (khó)"
 #: exercises/standard/lesson-files/rhythmdict-gen-1:8
 #: exercises/standard/lesson-files/rhythmdict-gen-2:8
 #, python-format
-msgid "Rhythm dictation %s"
-msgstr "Nhịp điệu theo ai đọc %s"
+msgid "4/4 - %s"
+msgstr "4/4 - %s"
+
+#: exercises/standard/lesson-files/rhythmdict-gen-3_4-1:8
+#: exercises/standard/lesson-files/rhythmdict-gen-3_4-2:8
+#: exercises/standard/lesson-files/rhythmdict-gen-3_4-3:8
+#, python-format
+msgid "3/4 - %s"
+msgstr "3/4 - %s"
+
+#: exercises/standard/lesson-files/rhythmdict-gen-6_8-1:8
+#: exercises/standard/lesson-files/rhythmdict-gen-6_8-2:8
+#, python-format
+msgid "6/8 - %s"
+msgstr "6/8 - %s"
 
 #: exercises/standard/lesson-files/rhythm-easy:8
 #: exercises/standard/lesson-files/tapping-easy:8
@@ -13104,7 +13401,7 @@ msgstr "Nhịp điệu"
 
 #: exercises/standard/lesson-files/rhythm-self-config-binary:8
 msgid "Rhythms, binary time"
-msgstr "Nhịp điệu, nhịp hai"
+msgstr "Nhịp điệu, nhịp đôi"
 
 #: exercises/standard/lesson-files/rhythm-self-config-ternary:9
 msgid "Rhythms, ternary time"
@@ -13132,8 +13429,8 @@ msgstr "Gam có 8 nốt"
 
 #: exercises/standard/lesson-files/sc-beb:12
 #: exercises/standard/lesson-files/sc-beb-name:12
-#: exercises/standard/learningtree.txt:402
-#: exercises/standard/learningtree.txt:404
+#: exercises/standard/learningtree.txt:428
+#: exercises/standard/learningtree.txt:430
 msgid "Bebop Scales"
 msgstr "Gam bebop"
 
@@ -13173,22 +13470,22 @@ msgstr "Âm nhà thờ"
 
 #: exercises/standard/lesson-files/sc-dha:12
 #: exercises/standard/lesson-files/sc-dha-name:12
-#: exercises/standard/learningtree.txt:329
-#: exercises/standard/learningtree.txt:331
+#: exercises/standard/learningtree.txt:355
+#: exercises/standard/learningtree.txt:357
 msgid "Double Harmonic Scale and its modes"
 msgstr "Gam hoà âm đôi và các chế độ của nó"
 
 #: exercises/standard/lesson-files/sc-dha-a:12
 msgid "Double Harmonic Scale and its modes - Ascending"
-msgstr "Gam hoà âm đôi và các chế độ của nó — tăng"
+msgstr "Gam hoà âm đôi và các chế độ của nó — Thăng"
 
 #: exercises/standard/lesson-files/sc-dha-d:12
 msgid "Double Harmonic Scale and its modes - Descending"
-msgstr "Gam hoà âm đôi và các chế độ của nó — giảm"
+msgstr "Gam hoà âm đôi và các chế độ của nó — Giáng"
 
 #: exercises/standard/lesson-files/sc-dha-elem:12
 msgid "Double Harmonic scale and its modes - enter structure"
-msgstr "Gam hoà âm đôi và các chế độ của nó — gõ cấu trúc"
+msgstr "Gam hoà âm đôi và các chế độ của nó — nhập vào cấu trúc"
 
 #: exercises/standard/lesson-files/sc-dha-f:12
 msgid "Double Harmonic Scale and its modes - arpeged by fourths"
@@ -13236,14 +13533,14 @@ msgstr "Chế độ ja dùng trên hợp âm nửa giảm hay giảm"
 
 #: exercises/standard/lesson-files/sc-ham:12
 #: exercises/standard/lesson-files/sc-ham-name:12
-#: exercises/standard/learningtree.txt:314
-#: exercises/standard/learningtree.txt:316
+#: exercises/standard/learningtree.txt:340
+#: exercises/standard/learningtree.txt:342
 msgid "Harmonic Major Scale and its modes"
 msgstr "Gam trưởng hoà âm và các chế độ của nó"
 
 #: exercises/standard/lesson-files/sc-ham-a:12
 msgid "Harmonic Major Scale and its modes - Ascending"
-msgstr "Gam trưởng hoà âm và các chế độ của nó — tang"
+msgstr "Gam trưởng hoà âm và các chế độ của nó — Tăng"
 
 #: exercises/standard/lesson-files/sc-ham-d:12
 msgid "Harmonic Major Scale and its modes - Descending"
@@ -13275,22 +13572,22 @@ msgstr "Gam trưởng hoà âm và các chế độ của nó — hợp âm rả
 
 #: exercises/standard/lesson-files/sc-har:12
 #: exercises/standard/lesson-files/sc-har-name:12
-#: exercises/standard/learningtree.txt:299
-#: exercises/standard/learningtree.txt:301
+#: exercises/standard/learningtree.txt:325
+#: exercises/standard/learningtree.txt:327
 msgid "Harmonic Minor Scale and its modes"
 msgstr "Gam thứ hoà âm và các chế độ của nó"
 
 #: exercises/standard/lesson-files/sc-har-a:12
 msgid "Harmonic Minor Scale and its modes - Ascending"
-msgstr "Gam thứ hoà âm và các chế độ của nó — tang"
+msgstr "Gam thứ hoà âm và các chế độ của nó — Thăng"
 
 #: exercises/standard/lesson-files/sc-har-d:12
 msgid "Harmonic Minor Scale and its modes - Descending"
-msgstr "Gam thứ hoà âm và các chế độ của nó — giảm"
+msgstr "Gam thứ hoà âm và các chế độ của nó — Giáng"
 
 #: exercises/standard/lesson-files/sc-har-elem:12
 msgid "Harmonic Minor scale and its modes - enter structure"
-msgstr "Gam thứ hoà âm và các chế độ của nó — gõ cấu trúc"
+msgstr "Gam thứ hoà âm và các chế độ của nó — nhập vào cấu trúc"
 
 #: exercises/standard/lesson-files/sc-har-f:12
 msgid "Harmonic Minor Scale and its modes - arpeged by fourths"
@@ -13318,18 +13615,18 @@ msgstr "Gam thứ Hun-ga-ri và các chế độ của nó — nhận ra cấp"
 
 #: exercises/standard/lesson-files/sc-hun:12
 #: exercises/standard/lesson-files/sc-hun-name:12
-#: exercises/standard/learningtree.txt:375
-#: exercises/standard/learningtree.txt:377
+#: exercises/standard/learningtree.txt:401
+#: exercises/standard/learningtree.txt:403
 msgid "Hungarian Scale and its modes"
 msgstr "Gam Hun-ga-ri và các chế độ của nó"
 
 #: exercises/standard/lesson-files/sc-hun-a:12
 msgid "Hungarian Scale and its modes - Ascending"
-msgstr "Gam Hun-ga-ri và các chế độ của nó — giảm"
+msgstr "Gam Hun-ga-ri và các chế độ của nó — Thăng"
 
 #: exercises/standard/lesson-files/sc-hun-d:12
 msgid "Hungarian Scale and its modes - Descending"
-msgstr "Gam Hun-ga-ri và các chế độ của nó — giảm"
+msgstr "Gam Hun-ga-ri và các chế độ của nó — Giáng"
 
 #: exercises/standard/lesson-files/sc-hun-elem:12
 msgid "Hungarian scale and its modes - enter structure"
@@ -13357,8 +13654,8 @@ msgstr "Gam Hun-ga-ri và các chế độ của nó — hợp âm rải theo qu
 
 #: exercises/standard/lesson-files/sc-maj:12
 #: exercises/standard/lesson-files/sc-maj-name:12
-#: exercises/standard/learningtree.txt:267
-#: exercises/standard/learningtree.txt:269
+#: exercises/standard/learningtree.txt:293
+#: exercises/standard/learningtree.txt:295
 msgid "Major Scale and its modes"
 msgstr "Gam trưởng và các chế độ của nó"
 
@@ -13372,7 +13669,7 @@ msgstr "Gam trưởng và các chế độ của nó — giảm"
 
 #: exercises/standard/lesson-files/sc-maj-elem:12
 msgid "Major scale and its modes - enter structure"
-msgstr "Gam trưởng và các chế độ của nó — gõ cấu trúc"
+msgstr "Gam trưởng và các chế độ của nó — nhập vào cấu trúc"
 
 #: exercises/standard/lesson-files/sc-maj-f:12
 msgid "Major Scale and its modes - arpeged by fourths"
@@ -13408,26 +13705,26 @@ msgstr "Gam them dùng trên hợp âm trưởng hay tăng"
 
 #: exercises/standard/lesson-files/sc-mau-jazz:12
 msgid "Jazz Modes over a Major or Augmented chord"
-msgstr "Chế độ ja trên hợp âm trưởng hay tăng"
+msgstr "Chế độ jazz trên hợp âm trưởng hay tăng"
 
 #: exercises/standard/lesson-files/sc-mel:12
 #: exercises/standard/lesson-files/sc-mel-name:12
-#: exercises/standard/learningtree.txt:284
-#: exercises/standard/learningtree.txt:286
+#: exercises/standard/learningtree.txt:310
+#: exercises/standard/learningtree.txt:312
 msgid "Melodic Minor Scale and its modes"
 msgstr "Gam thứ giai điệu và các chế độ của nó"
 
 #: exercises/standard/lesson-files/sc-mel-a:12
 msgid "Melodic Minor Scale and its modes - Ascending"
-msgstr "Gam thứ giai điệu và các chế độ của nó — tăng"
+msgstr "Gam thứ giai điệu và các chế độ của nó — Thăng"
 
 #: exercises/standard/lesson-files/sc-mel-d:12
 msgid "Melodic Minor Scale and its modes - Descending"
-msgstr "Gam thứ giai điệu và các chế độ của nó — giảm"
+msgstr "Gam thứ giai điệu và các chế độ của nó — Giáng"
 
 #: exercises/standard/lesson-files/sc-mel-elem:12
 msgid "Melodic Minor scale and its modes - enter structure"
-msgstr "Gam thứ giai điệu và các chế độ của nó — gõ cấu trúc"
+msgstr "Gam thứ giai điệu và các chế độ của nó — nhập vào cấu trúc"
 
 #: exercises/standard/lesson-files/sc-mel-f:12
 msgid "Melodic Minor Scale and its modes - arpeged by fourths"
@@ -13463,8 +13760,8 @@ msgstr "Gam thứ nốt thường và các chế độ của nó — nhận ra c
 
 #: exercises/standard/lesson-files/sc-nea:12
 #: exercises/standard/lesson-files/sc-nea-name:12
-#: exercises/standard/learningtree.txt:345
-#: exercises/standard/learningtree.txt:347
+#: exercises/standard/learningtree.txt:371
+#: exercises/standard/learningtree.txt:373
 msgid "Neapolitan Scale and its modes"
 msgstr "Gam Napoli và các chế độ của nó"
 
@@ -13478,7 +13775,7 @@ msgstr "Gam Napoli và các chế độ của nó — giảm"
 
 #: exercises/standard/lesson-files/sc-nea-elem:12
 msgid "Neapolitan scale and its modes - enter structure"
-msgstr "Gam Napoli và các chế độ của nó — gõ cấu trúc"
+msgstr "Gam Napoli và các chế độ của nó — nhập vào cấu trúc"
 
 #: exercises/standard/lesson-files/sc-nea-f:12
 msgid "Neapolitan Scale and its modes - arpeged by fourths"
@@ -13539,8 +13836,8 @@ msgstr "Gam Napoli thứ và các chế độ của nó — hợp âm rải theo
 
 #: exercises/standard/lesson-files/sc-pen:12
 #: exercises/standard/lesson-files/sc-pen-name:12
-#: exercises/standard/learningtree.txt:390
-#: exercises/standard/learningtree.txt:392
+#: exercises/standard/learningtree.txt:416
+#: exercises/standard/learningtree.txt:418
 msgid "Pentatonic Major Scale and its modes"
 msgstr "Gam trưởng nam âm và các chế độ của nó"
 
@@ -13618,42 +13915,43 @@ msgid "All the questions from the singchord exercises"
 msgstr "Mọi câu hỏi từ các bài tập hát hợp âm"
 
 #: exercises/standard/lesson-files/sing-intervals-self-config:8
-#: exercises/standard/learningtree.txt:85
-#: exercises/standard/learningtree.txt:87
+#: exercises/standard/learningtree.txt:89
+#: exercises/standard/learningtree.txt:91
 msgid "Sing intervals"
 msgstr "Hát quãng"
 
 #: exercises/standard/lesson-files/sing-the-fifth:9
-#: exercises/standard/lesson-files/sing-the-fifth:15
-#: exercises/standard/lesson-files/sing-the-fifth:20
+#: exercises/standard/lesson-files/sing-the-fifth:16
+#: exercises/standard/lesson-files/sing-the-fifth:21
 msgid "Sing the fifth of the chord"
 msgstr "Hát quãng năm của hợp âm"
 
 #: exercises/standard/lesson-files/sing-the-root:9
-#: exercises/standard/lesson-files/sing-the-root:15
-#: exercises/standard/lesson-files/sing-the-root:20
+#: exercises/standard/lesson-files/sing-the-root:16
+#: exercises/standard/lesson-files/sing-the-root:21
 msgid "Sing the root of the chord"
 msgstr "Hát gốc của hợp âm"
 
 #: exercises/standard/lesson-files/sing-the-seventh:9
-#: exercises/standard/lesson-files/sing-the-seventh:15
-#: exercises/standard/lesson-files/sing-the-seventh:20
-#: exercises/standard/lesson-files/sing-the-seventh-inv:16
-#: exercises/standard/lesson-files/sing-the-seventh-inv:21
-#: exercises/standard/lesson-files/sing-the-seventh-inv:27
-#: exercises/standard/lesson-files/sing-the-seventh-inv:32
-#: exercises/standard/lesson-files/sing-the-seventh-inv:38
-#: exercises/standard/lesson-files/sing-the-seventh-inv:43
-#: exercises/standard/lesson-files/sing-the-seventh-inv:49
-#: exercises/standard/lesson-files/sing-the-seventh-inv:54
-#: exercises/standard/lesson-files/sing-the-seventh-inv:61
-#: exercises/standard/lesson-files/sing-the-seventh-inv:66
-#: exercises/standard/lesson-files/sing-the-seventh-inv:72
-#: exercises/standard/lesson-files/sing-the-seventh-inv:77
-#: exercises/standard/lesson-files/sing-the-seventh-inv:83
-#: exercises/standard/lesson-files/sing-the-seventh-inv:88
-#: exercises/standard/lesson-files/sing-the-seventh-inv:94
-#: exercises/standard/lesson-files/sing-the-seventh-inv:99
+#: exercises/standard/lesson-files/sing-the-seventh:16
+#: exercises/standard/lesson-files/sing-the-seventh:21
+#: exercises/standard/lesson-files/sing-the-seventh-inv:10
+#: exercises/standard/lesson-files/sing-the-seventh-inv:17
+#: exercises/standard/lesson-files/sing-the-seventh-inv:22
+#: exercises/standard/lesson-files/sing-the-seventh-inv:28
+#: exercises/standard/lesson-files/sing-the-seventh-inv:33
+#: exercises/standard/lesson-files/sing-the-seventh-inv:39
+#: exercises/standard/lesson-files/sing-the-seventh-inv:44
+#: exercises/standard/lesson-files/sing-the-seventh-inv:50
+#: exercises/standard/lesson-files/sing-the-seventh-inv:55
+#: exercises/standard/lesson-files/sing-the-seventh-inv:62
+#: exercises/standard/lesson-files/sing-the-seventh-inv:67
+#: exercises/standard/lesson-files/sing-the-seventh-inv:73
+#: exercises/standard/lesson-files/sing-the-seventh-inv:78
+#: exercises/standard/lesson-files/sing-the-seventh-inv:84
+#: exercises/standard/lesson-files/sing-the-seventh-inv:89
+#: exercises/standard/lesson-files/sing-the-seventh-inv:95
+#: exercises/standard/lesson-files/sing-the-seventh-inv:100
 msgid "Sing the seventh of the chord"
 msgstr "Hát quãng bảy của hợp âm"
 
@@ -13662,8 +13960,8 @@ msgid "Sing the seventh of the chord. Inversions."
 msgstr "Hát quãng bảy của hợp âm. Đảo ngược."
 
 #: exercises/standard/lesson-files/sing-the-third:9
-#: exercises/standard/lesson-files/sing-the-third:15
-#: exercises/standard/lesson-files/sing-the-third:20
+#: exercises/standard/lesson-files/sing-the-third:16
+#: exercises/standard/lesson-files/sing-the-third:21
 msgid "Sing the third of the chord"
 msgstr "Hát quãng ba của hợp âm"
 
@@ -13789,17 +14087,59 @@ msgstr "Âm tiết %s trưởng C"
 msgid "Three chords, root position"
 msgstr "Ba hợp âm, vị trí gốc"
 
-#: exercises/standard/lesson-files/twelvetone:7
-msgid "Sing twelve random tones"
-msgstr "Hát mười hai âm ngẫu nhiên"
+#: exercises/standard/lesson-files/tone-after-dominant:6
+msgid "Find the last played tone's step in the final dominant chord."
+msgstr "Tìm bước tông đã chơi cuối trong hợp âm át cuối cùng"
+
+#: exercises/standard/lesson-files/tone-after-dominant:7
+#: exercises/standard/lesson-files/toneincontext:6
+#: exercises/standard/learningtree.txt:523
+#: exercises/standard/learningtree.txt:525
+msgid "Configure yourself"
+msgstr "Tự cấu hình"
+
+#: exercises/standard/lesson-files/tone-after-dominant:13
+msgid "Dominant 7"
+msgstr "Quãng bảy âm át"
+
+#: exercises/standard/lesson-files/toneincontext:17
+msgid "Minor"
+msgstr "Thứ"
+
+#: exercises/standard/lesson-files/toneincontext-major-cr:6
+#: exercises/standard/lesson-files/toneincontext-minor-cr:6
+msgid "Cromatic"
+msgstr "Cromatic"
+
+#: exercises/standard/lesson-files/toneincontext-major-cr-f6:6
+#: exercises/standard/lesson-files/toneincontext-minor-cr-f6:6
+msgid "Cromatic - first 6 tones"
+msgstr "Cromatic - 6 tông đầu"
+
+#: exercises/standard/lesson-files/toneincontext-major-cr-l6:6
+#: exercises/standard/lesson-files/toneincontext-minor-cr-l6:6
+msgid "Cromatic - last 6 tones"
+msgstr "Cromatic - 6 tông cuối"
+
+#: exercises/standard/lesson-files/toneincontext-major-f4:6
+msgid "First 4 scale tones"
+msgstr "4 tông biến đổi đầu"
+
+#: exercises/standard/lesson-files/toneincontext-major-l4:6
+msgid "Last 4 scale tones"
+msgstr "4 tông biến đổi cuối"
+
+#: exercises/standard/lesson-files/toneincontext-minor-f4:6
+msgid "First 4 tones"
+msgstr "Bốn âm đầu"
+
+#: exercises/standard/lesson-files/toneincontext-minor-l4:6
+msgid "Last 4 tones"
+msgstr "Bốn âm cuối"
 
 #: exercises/standard/lesson-files/include/sc-master:21
 msgid "Ionian"
 msgstr "Ionia"
-
-#: exercises/standard/lesson-files/include/sc-master:22
-msgid "Major"
-msgstr "Trưởng"
 
 #: exercises/standard/lesson-files/include/sc-master:23
 msgid "Diatonic"
@@ -13873,17 +14213,13 @@ msgstr "Nội Ionia"
 msgid "Aeolian"
 msgstr "Æolia"
 
-#: exercises/standard/lesson-files/include/sc-master:211
-msgid "Natural Minor"
-msgstr "Điệu thứ nốt thường"
-
 #: exercises/standard/lesson-files/include/sc-master:212
 msgid "Ancient Minor"
 msgstr "Điệu thứ cổ"
 
 #: exercises/standard/lesson-files/include/sc-master:213
 msgid "Pure Minor"
-msgstr "Điệu thứ đúng"
+msgstr "Điệu thứ thuần"
 
 #: exercises/standard/lesson-files/include/sc-master:214
 msgid "Greek Hypodorian"
@@ -13912,7 +14248,7 @@ msgstr "Nội Phrygia"
 
 #: exercises/standard/lesson-files/include/sc-master:292
 msgid "Jazz Minor"
-msgstr "Điệu thứ ja"
+msgstr "Điệu thứ Jazz"
 
 #: exercises/standard/lesson-files/include/sc-master:293
 msgid "Melodic Minor Ascending"
@@ -14041,10 +14377,6 @@ msgstr "Locria b4"
 #: exercises/standard/lesson-files/include/sc-master:547
 msgid "Melodic Minor A-D"
 msgstr "Điệu thứ giai điệu A-D"
-
-#: exercises/standard/lesson-files/include/sc-master:562
-msgid "Harmonic Minor"
-msgstr "Điệu thứ hoà âm"
 
 #: exercises/standard/lesson-files/include/sc-master:563
 msgid "Mohammedan"
@@ -14542,10 +14874,6 @@ msgstr "N-T tám âm"
 msgid "Halfstep-Wholestep"
 msgstr "Nửa bước - Toàn bước"
 
-#: exercises/standard/lesson-files/include/sc-master:2159
-msgid "Whole Tone"
-msgstr "Âm nguyên"
-
 #: exercises/standard/lesson-files/include/sc-master:2160
 msgid "Exatonic"
 msgstr "Bảy giọng"
@@ -14618,136 +14946,188 @@ msgstr "Bài tập CSound thực nghiệm"
 msgid "Default front page"
 msgstr "Trang chính mặc định"
 
-#: exercises/standard/learningtree.txt:4
-msgid "Intervals"
-msgstr "Quãng"
-
 #: exercises/standard/learningtree.txt:5 exercises/standard/learningtree.txt:7
 msgid "Ascending melodic intervals"
 msgstr "Quãng giai điệu tăng dần"
 
-#: exercises/standard/learningtree.txt:25
-#: exercises/standard/learningtree.txt:27
+#: exercises/standard/learningtree.txt:26
+#: exercises/standard/learningtree.txt:28
 msgid "Descending melodic intervals"
 msgstr "Quãng giai điệu giảm dần"
 
-#: exercises/standard/learningtree.txt:141
-#: exercises/standard/learningtree.txt:142
-#: exercises/standard/learningtree.txt:144
+#: exercises/standard/learningtree.txt:148
+#: exercises/standard/learningtree.txt:149
+#: exercises/standard/learningtree.txt:151
 msgid "Rhythm"
 msgstr "Nhịp điệu"
 
-#: exercises/standard/learningtree.txt:152
-#: exercises/standard/learningtree.txt:154
+#: exercises/standard/learningtree.txt:159
+#: exercises/standard/learningtree.txt:161
 msgid "Tap generated rhythm"
 msgstr "Gõ nhịp điệu đã tạo ra"
 
-#: exercises/standard/learningtree.txt:162
-msgid "Theory"
-msgstr "Nhạc lý"
+#: exercises/standard/learningtree.txt:168
+#: exercises/standard/learningtree.txt:170
+msgid "Rhythm dictation"
+msgstr "Nhịp điệu theo ai đọc"
 
-#: exercises/standard/learningtree.txt:163
-#: exercises/standard/learningtree.txt:165
+#: exercises/standard/learningtree.txt:173
+msgid "Generated rhythms"
+msgstr "Các giai điệu đã tạo"
+
+#: exercises/standard/learningtree.txt:186
+#: exercises/standard/learningtree.txt:188
 msgid "Name intervals"
 msgstr "Nhận ra quãng"
 
-#: exercises/standard/learningtree.txt:179
-#: exercises/standard/learningtree.txt:181
+#: exercises/standard/learningtree.txt:202
+#: exercises/standard/learningtree.txt:204
 msgid "Name Scales"
 msgstr "Nhận ra gam"
 
-#: exercises/standard/learningtree.txt:196
-#: exercises/standard/learningtree.txt:198
+#: exercises/standard/learningtree.txt:219
+#: exercises/standard/learningtree.txt:221
 msgid "Solfa syllables"
 msgstr "Âm tiết Solfa"
 
-#: exercises/standard/learningtree.txt:209
+#: exercises/standard/learningtree.txt:233
 msgid "Chords"
 msgstr "Hợp âm"
 
-#: exercises/standard/learningtree.txt:210
-#: exercises/standard/learningtree.txt:212
+#: exercises/standard/learningtree.txt:234
+#: exercises/standard/learningtree.txt:236
 msgid "Chords in root position"
 msgstr "Hợp âm có vị trí gốc"
 
-#: exercises/standard/learningtree.txt:226
-#: exercises/standard/learningtree.txt:228
+#: exercises/standard/learningtree.txt:251
+#: exercises/standard/learningtree.txt:253
 msgid "Inversions of chords"
 msgstr "Hợp âm đảo ngược"
 
-#: exercises/standard/learningtree.txt:238
-#: exercises/standard/learningtree.txt:240
+#: exercises/standard/learningtree.txt:264
+#: exercises/standard/learningtree.txt:266
 msgid "Sing chord"
 msgstr "Hát hợp âm"
 
-#: exercises/standard/learningtree.txt:251
-#: exercises/standard/learningtree.txt:253
+#: exercises/standard/learningtree.txt:277
+#: exercises/standard/learningtree.txt:279
 msgid "Sing chord tone"
 msgstr "Hát âm hợp âm"
 
-#: exercises/standard/learningtree.txt:263
-#: exercises/standard/learningtree.txt:266
+#: exercises/standard/learningtree.txt:289
+#: exercises/standard/learningtree.txt:292
 msgid "Scales"
 msgstr "Gam"
 
-#: exercises/standard/learningtree.txt:360
-#: exercises/standard/learningtree.txt:362
+#: exercises/standard/learningtree.txt:386
+#: exercises/standard/learningtree.txt:388
 msgid "Neapolitan Minor scale and its modes"
 msgstr "Gam thứ Napoli và các chế độ của nó"
 
-#: exercises/standard/learningtree.txt:413
-#: exercises/standard/learningtree.txt:415
+#: exercises/standard/learningtree.txt:439
+#: exercises/standard/learningtree.txt:441
 msgid "Symmetric Scales"
 msgstr "Gam đối xứng"
 
-#: exercises/standard/learningtree.txt:424
-#: exercises/standard/learningtree.txt:426
+#: exercises/standard/learningtree.txt:450
+#: exercises/standard/learningtree.txt:452
 msgid "Scales Collections"
 msgstr "Tập hợp gam"
 
-#: exercises/standard/learningtree.txt:448
+#: exercises/standard/learningtree.txt:474
 msgid "Misc"
 msgstr "Linh tinh"
 
-#: exercises/standard/learningtree.txt:449
-#: exercises/standard/learningtree.txt:451
+#: exercises/standard/learningtree.txt:475
+#: exercises/standard/learningtree.txt:477
 msgid "Intonation (require CSound)"
 msgstr "Giọng (cần thiết CSound)"
 
-#: exercises/standard/learningtree.txt:462
-#: exercises/standard/learningtree.txt:464
+#: exercises/standard/learningtree.txt:488
+#: exercises/standard/learningtree.txt:490
 msgid "Dictation"
 msgstr "Đọc cho viết"
 
-#: exercises/standard/learningtree.txt:488
-#: exercises/standard/learningtree.txt:490
+#: exercises/standard/learningtree.txt:515
+#: exercises/standard/learningtree.txt:517
 msgid "Misc exercises"
-msgstr "Bài tập linh tinh"
+msgstr "Bài tập tổng hợp"
 
-#: exercises/standard/learningtree.txt:496
-#: exercises/standard/learningtree.txt:498
-msgid "Configure yourself"
-msgstr "Tự cấu hình"
-
-#: exercises/standard/learningtree.txt:511
-#: exercises/standard/learningtree.txt:513
+#: exercises/standard/learningtree.txt:538
+#: exercises/standard/learningtree.txt:540
 msgid "Harmonic progressions"
-msgstr "Cấp hoà âm"
+msgstr "Dãy hoà âm"
 
-#: exercises/standard/learningtree.txt:518
+#: exercises/standard/learningtree.txt:545
 msgid "These progressions require MMA"
 msgstr "Tiến trình kiểu này thì yêu cầu MMA"
 
-#: exercises/standard/learningtree.txt:531
-#: exercises/standard/learningtree.txt:533
+#: exercises/standard/learningtree.txt:558
+#: exercises/standard/learningtree.txt:560
 msgid "Hear tones"
 msgstr "Nghe âm"
 
-#~ msgid "Rhythm dictation"
-#~ msgstr "Nhịp điệu theo ai đọc"
+#: exercises/standard/learningtree.txt:582
+msgid "Tone in context - cadence major"
+msgstr "Tông trong ngữ cảnh - trưởng kết"
 
-#~ msgid "Importing application modules"
-#~ msgstr "Đang nhập các mô-đun ứng dụng"
+#: exercises/standard/learningtree.txt:591
+msgid "Tone in dominant chord"
+msgstr "Tông trong Hợp âm át"
 
-#~ msgid "interval|d5"
-#~ msgstr "5Đ"
+#: exercises/standard/learningtree.txt:596
+msgid "Tone in context - cadence minor"
+msgstr "Tông trong ngữ cảnh - thứ kết"
+
+#~ msgid "Tritone"
+#~ msgstr "Quãng tam âm"
+
+#~ msgid "Perfect 11th"
+#~ msgstr "11 hoàn hảo"
+
+#~ msgid "Octave + Tritone"
+#~ msgstr "Quãng tám + Quãng ba"
+
+#~ msgid "Perfect 12th"
+#~ msgstr "12 hoàn hảo"
+
+#~ msgid "Minor 13th"
+#~ msgstr "13 thứ"
+
+#~ msgid "Major 13th"
+#~ msgstr "13 trưởng"
+
+#~ msgid "Minor 14th"
+#~ msgstr "14 thứ"
+
+#~ msgid "Major 14th"
+#~ msgstr "14 trưởng"
+
+#~ msgid "Perfect 15th"
+#~ msgstr "15 hoàn hảo"
+
+#~ msgid "interval|tt"
+#~ msgstr "qtâ"
+
+#~ msgid "interval|5"
+#~ msgstr "5"
+
+#~ msgid "interval|p11"
+#~ msgstr "10Th"
+
+#~ msgid "interval|tt8"
+#~ msgstr "tt8"
+
+#~ msgid "Spill kadens"
+#~ msgstr "Spill kadens"
+
+#~ msgid "elembuilder"
+#~ msgstr "elembuilder"
+
+#, fuzzy
+#~ msgid "Cromatic -first 4 tones"
+#~ msgstr "Hát hai âm"
+
+#, fuzzy
+#~ msgid "Cromatic -last 4 tones"
+#~ msgstr "Hát hai âm"

@@ -1,119 +1,144 @@
-# translation of solfege-3.20.3.po to Turkish
+# translation of solfege-3.22.1-pre1.po to Turkish
 # This file is distributed under the same license as the Solfege package.
 # Server Acim <yerellestirme@kde.org.tr>, 2005.
 # Server Acim <serveracim@gmail.com>, 2009.
 # Server Acim <serveracim@gmail.com>, 2010.
 # Server Acim <serveracim@gmail.com>, 2011.
+# Server Acim <serveracim@gmail.com>, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: solfege-3.20.3\n"
+"Project-Id-Version: solfege-3.22.1-pre1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-25 16:00+0200\n"
-"PO-Revision-Date: 2011-10-02 12:24+0200\n"
+"POT-Creation-Date: 2013-09-07 23:35+0200\n"
+"PO-Revision-Date: 2013-09-11 22:56+0200\n"
 "Last-Translator: Server Acim <serveracim@gmail.com>\n"
 "Language-Team: Turkish <gnu-tr-u12a@lists.sourceforge.net>\n"
 "Language: tr\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.1\n"
+"X-Generator: Poedit 1.5.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: solfege/abstract.py:103
+#: solfege/abstract.py:102
 msgid "The lessonfile contain potentially dangerous code because it run external programs. Run anyway?"
 msgstr "Bu ders dosyası potansiyel olarak tehlikeli kod içerir çünkü o harici yazılımları çalıştırır. Yine de başlasın mı?"
 
-#: solfege/abstract.py:376 solfege/configwindow.py:483 solfege/mainwin.py:716
-#: exercises/standard/learningtree.txt:284
+#: solfege/abstract.py:123
+msgid "The exercise has to be better configured."
+msgstr "Alıştırma daha iyi yapılandırılmalıdır."
+
+#: solfege/abstract.py:128
+#, python-format
+msgid "No intervals selected for interval number %i."
+msgstr "Aralık sayısı için hiçbir aralık seçilmedi %i."
+
+#: solfege/abstract.py:199
+#, python-format
+msgid "Failed to select random interval number %i because of the configuration of the exercise. Either you have enabled intervals only if one direction, or none of the intervals belong to the key selected when you enabled «Lock to key»."
+msgstr "Rastgele aralık numarası seçilemedi %i çünkü alıştırmanın yapılanmırma ayarları farklı. Bunun sebebi alıştırmaların tek yöne doğru ayarlanmış olması veya aralıkların herhangi bir tona ait olmaması olabilir. «Tona kilitle»."
+
+#: solfege/abstract.py:204
+#, python-format
+msgid "Failed to select random interval number %i because of the configuration of the exercise. You should select some intervals going in both directions."
+msgstr "Alıştırmanın yapılandırmasından dolay rastgele aralık numarası %i seçilemedi. Bazı aralıkları iki yöne birden gidecek şekilde ayarlanamız gerekiyordu."
+
+#: solfege/abstract.py:380 solfege/configwindow.py:483 solfege/mainwin.py:725
+#: exercises/standard/learningtree.txt:290
 msgid "Practise"
 msgstr "Alıştırma yap"
 
-#: solfege/abstract.py:377
+#: solfege/abstract.py:381
 msgid "Config"
 msgstr "Yapılandır"
 
-#: solfege/abstract.py:379
+#: solfege/abstract.py:383
 msgid "_Cancel test"
 msgstr "_Testten vazgeç"
 
-#: solfege/abstract.py:406 solfege/exercises/idbyname.py:332
-#: solfege/exercises/idproperty.py:284 solfege/exercises/nameinterval.py:138
-#: solfege/exercises/singanswer.py:45 solfege/exercises/singchord.py:45
-#: solfege/exercises/twelvetone.py:68
+#: solfege/abstract.py:413 solfege/exercises/idbyname.py:334
+#: solfege/exercises/idproperty.py:282 solfege/exercises/nameinterval.py:153
+#: solfege/exercises/singanswer.py:47 solfege/exercises/singchord.py:47
+#: solfege/exercises/twelvetone.py:69
 msgid "_New"
 msgstr "_Yeni"
 
-#: solfege/abstract.py:407 solfege/exercises/harmonicinterval.py:352
-#: solfege/exercises/melodicinterval.py:297
-#: solfege/exercises/singinterval.py:106 solfege/exercises/singinterval.py:232
+#: solfege/abstract.py:414 solfege/exercises/harmonicinterval.py:350
+#: solfege/exercises/melodicinterval.py:296
+#: solfege/exercises/singinterval.py:108 solfege/exercises/singinterval.py:234
 msgid "_New interval"
 msgstr "_Yeni aralık"
 
-#: solfege/abstract.py:408 solfege/lessonfile.py:1663
-#: solfege/exercises/chord.py:96
+#: solfege/abstract.py:415 solfege/lessonfile.py:1637
+#: solfege/exercises/chord.py:99
 msgid "_New chord"
 msgstr "Yeni _akor"
 
-#: solfege/abstract.py:409
+#: solfege/abstract.py:416
 msgid "_New tone"
 msgstr "_Yeni tonatile"
 
-#: solfege/abstract.py:410 solfege/trainingsetdlg.py:104
-#: solfege/exercises/chord.py:98 solfege/exercises/singanswer.py:46
+#: solfege/abstract.py:417 solfege/trainingsetdlg.py:105
+#: solfege/exercises/chord.py:101 solfege/exercises/singanswer.py:48
 msgid "_Repeat"
 msgstr "_Tekrar"
 
-#: solfege/abstract.py:411 solfege/exercises/chord.py:101
-#: solfege/exercises/singanswer.py:49
+#: solfege/abstract.py:418 solfege/exercises/chord.py:104
+#: solfege/exercises/singanswer.py:51
 msgid "Repeat _arpeggio"
 msgstr "Arpej'i_tekrarla"
 
-#: solfege/abstract.py:412
+#: solfege/abstract.py:419
 msgid "Repeat _slowly"
 msgstr "_Yavaş tekrarla"
 
-#: solfege/abstract.py:413
+#: solfege/abstract.py:420
 msgid "Repeat _melodic"
 msgstr "_Melodik olarak tekrarla"
 
-#: solfege/abstract.py:414
+#: solfege/abstract.py:421
 msgid "Repeat first"
 msgstr "İlkini tekrarla"
 
-#: solfege/abstract.py:415
+#: solfege/abstract.py:422
 msgid "Repeat last"
 msgstr "Sonuncuyu tekrarla"
 
-#: solfege/abstract.py:416
+#: solfege/abstract.py:423
 msgid "Play _tonic"
 msgstr "_Tonik çal"
 
-#: solfege/abstract.py:417
+#: solfege/abstract.py:424
 msgid "P_lay music"
 msgstr "Müziği _çal"
 
-#: solfege/abstract.py:418 solfege/exercises/singanswer.py:52
-#: solfege/exercises/singchord.py:47 solfege/exercises/singinterval.py:113
+#: solfege/abstract.py:425 solfege/exercises/singanswer.py:54
+#: solfege/exercises/singchord.py:49 solfege/exercises/singinterval.py:115
 msgid "_Play answer"
 msgstr "_Cevabı ç_al"
 
-#: solfege/abstract.py:419
+#: solfege/abstract.py:426
 msgid "Guess _answer"
 msgstr "_Cevabı tahmin et"
 
-#: solfege/abstract.py:420
+#: solfege/abstract.py:427
 msgid "_Display music"
 msgstr "Müziği _görüntüle"
 
-#: solfege/abstract.py:426 solfege/exercises/dictation.py:69
+#: solfege/abstract.py:433 solfege/exercises/dictation.py:69
 msgid "_Show"
 msgstr "_Göster"
 
-#: solfege/abstract.py:427 solfege/exercises/chord.py:103
+#: solfege/abstract.py:434 solfege/exercises/chord.py:106
 msgid "_Give up"
 msgstr "_Vazgeç"
 
-#: solfege/abstract.py:549
+#: solfege/abstract.py:435
+msgid "Backspace"
+msgstr "Gerisilme"
+
+#: solfege/abstract.py:562
 #, python-format
 msgid ""
 "Test completed!\n"
@@ -124,7 +149,7 @@ msgstr ""
 "Puanınız %(score).1f%%\n"
 "Bu test için gerekli puan %(requirement).1f%% idi."
 
-#: solfege/abstract.py:551
+#: solfege/abstract.py:564
 #, python-format
 msgid ""
 "Test failed.\n"
@@ -135,130 +160,125 @@ msgstr ""
 "Puanınız %(score).1f%%\n"
 "Bu test için gerekli puan %(requirement).1f%% idi."
 
-#: solfege/abstract.py:584
+#: solfege/abstract.py:614
 msgid "Statistics is disabled. Either because you selected a “Configure yourself” exercise, or because “Expert mode” is selected in the preferences window."
 msgstr "İstatistikler devre dışı bırakıldı. Bu durumda tercihler penceresinde \"Kendin yapılandır\" alıştırması veya \"Uzman kipi\" seçilmiş olmaktadır."
 
-#: solfege/abstract.py:603 solfege/configwindow.py:500
+#: solfege/abstract.py:633 solfege/configwindow.py:500
 #: solfege/configwindow.py:511 solfege/exercises/identifybpm.py:145
 msgid "Statistics"
 msgstr "İstatistikler"
 
-#: solfege/abstract.py:618
+#: solfege/abstract.py:648
 msgid "Delay (seconds):"
 msgstr "Gecikme (saniye bazında):"
 
-#: solfege/abstract.py:624
+#: solfege/abstract.py:654
 msgid "_New question automatically."
 msgstr "_Otomatik olarak yeni soru."
 
-#: solfege/abstract.py:634
+#: solfege/abstract.py:664
 #, python-format
 msgid "Please check question number %(idx)i in the lesson file \"%(lf)s\"."
 msgstr "Lütfen %(idx)i ders dosyasındaki \"%(lf)s\" soru numarasını denetle."
 
-#: solfege/abstract.py:641 solfege/abstract.py:655 solfege/gu.py:1083
+#: solfege/abstract.py:671 solfege/abstract.py:685 solfege/gu.py:1113
 #, python-format
 msgid ""
 "The exception was caught in\n"
 "\"%(filename)s\", line %(lineno)i."
 msgstr "Kural dışı durumun yakalandığı yer %(filename)s:%(lineno)i"
 
-#: solfege/abstract.py:647
+#: solfege/abstract.py:677
 #, python-format
 msgid "Failed to parse the music in the variable \"%(varname)s\" in question number %(idx)i in the lesson file \"%(lf)s\"."
 msgstr "Değişken \"%(varname)s\" soru numarası %(idx)i ders dosyası \"%(lf)s\" yer alan müzik analiz  edilemedi."
 
-#: solfege/abstract.py:652
+#: solfege/abstract.py:682
 #, python-format
 msgid "Failed to parse the music for question number %(idx)i in the lesson file \"%(lf)s\"."
 msgstr "Soru numarası %(idx)i ders dosyası \"%(lf)s\" yer alan müzik analiz  edilemedi."
 
-#: solfege/abstract.py:712
+#: solfege/abstract.py:742
 msgid "Rhythms to use in question"
 msgstr "Soruda kullanılan ritmler"
 
-#: solfege/abstract.py:721
+#: solfege/abstract.py:751
 msgid "Number of beats in question:"
 msgstr "Sorudaki vuruş sayıları:"
 
-#: solfege/abstract.py:732
+#: solfege/abstract.py:762
 msgid "Count in before question:"
 msgstr "Sorudan önce boş say:"
 
-#: solfege/abstract.py:810
+#: solfege/abstract.py:840
 msgid "Input interface:"
 msgstr "Giriş arabirimi"
 
-#: solfege/abstract.py:823
+#: solfege/abstract.py:853
 msgid "_Disable unused buttons"
 msgstr "Kullanılmayan düğmeleri _kaldır"
 
-#: solfege/abstract.py:833
+#: solfege/abstract.py:863
 msgid "Lock intervals to key:"
 msgstr "Aralıkları tonaliteye kilitleyin:"
 
-#: solfege/abstract.py:841 solfege/abstract.py:842
+#: solfege/abstract.py:871 solfege/utils.py:186
+#: exercises/standard/lesson-files/toneincontext:12
 #: exercises/standard/lesson-files/include/sc-master:22
 msgid "Major"
 msgstr "Büyük"
 
-#: solfege/abstract.py:842
-#: exercises/standard/lesson-files/include/sc-master:211
-msgid "Natural Minor"
-msgstr "Doğal Minör"
-
-#: solfege/abstract.py:842
-#: exercises/standard/lesson-files/include/sc-master:562
-msgid "Harmonic Minor"
-msgstr "Armonik Minör"
-
-#: solfege/abstract.py:869 solfege/inputwidgets.py:622
-msgid "Buttons"
-msgstr "Düğmeler"
-
-#: solfege/abstract.py:902 solfege/lessonfile_editor_main.py:221
+#: solfege/abstract.py:926 solfege/lessonfile_editor_main.py:221
 msgid "Random transpose:"
 msgstr "Rastgele aktarım:"
 
-#: solfege/abstract.py:910
+#: solfege/abstract.py:934
 msgid "Change ..."
 msgstr "Değiştir ..."
 
-#: solfege/abstract.py:920 solfege/specialwidgets.py:186
+#: solfege/abstract.py:944 solfege/specialwidgets.py:186
 msgid "Yes"
 msgstr "Evet"
 
-#: solfege/abstract.py:922 solfege/specialwidgets.py:183
+#: solfege/abstract.py:946 solfege/specialwidgets.py:183
 msgid "No"
 msgstr "Hayır"
 
-#: solfege/application.py:216
+#: solfege/abstract_solmisation_addon.py:141
+msgid "Choose tones"
+msgstr "Sesleri seç"
+
+#: solfege/abstract_solmisation_addon.py:151
+msgid "Number of tones:"
+msgstr "Seslerin sayısı:"
+
+#: solfege/application.py:223
 msgid "The pyalsa Python module is missing"
 msgstr "pyalsa Python modülü eksik"
 
-#: solfege/application.py:218
+#: solfege/application.py:225
 msgid "Solfege was configured to use the Python modules from www.alsa-project.org, but the modules were not found. You must reconfigure sound in the preferences window (Ctrl-F12) or restart Solfege in a way that it finds the modules."
 msgstr "Solfege, www.alsa-project.org webinden alınan Python modülleri kullanılarak yapılandırılmıştı, fakat bu modüller kayıp durumdadır. Ses ayarlarını tercihler penceresinden (Ctrl-F12) yeniden yapılandırabilir veya bu modüllerin bulunması için Solfege uygulamasını yeniden başlatabilirsiniz."
 
-#: solfege/application.py:240
+#: solfege/application.py:247
 msgid "MIDI setup"
 msgstr "MIDI ayarları"
 
-#: solfege/application.py:240
+#: solfege/application.py:247
 #, python-format
 msgid "MIDI Device %(olddev)i not available. Will use device %(newdev)i."
 msgstr "MIDI Aygıtı %(olddev)i kullanılamıyor. Yerine kullanılacak aygıt %(newdev)i."
 
-#: solfege/application.py:248
+#: solfege/application.py:255
 msgid "You should configure sound from the 'Sound' page of the preferences window."
 msgstr "Tercihler penceresinin 'Ses' sayfasından sesi  yapılandırmalısınız."
 
-#: solfege/application.py:280
+#: solfege/application.py:287
 msgid "You should configure sound from the preferences window, and try to use an external midi player. Or try to recompile the program and check for error messages to see why the module is not built."
 msgstr "Tercihler penceresinde sesi  yapılandırmalı ve harici midi çalıcıyı kullanmayı denemelisiniz. Veya programı yeniden derlemeyi ve modülün neden yüklenmediğini anlamak için hata mesajlarını kontrol etmelisiniz."
 
-#: solfege/application.py:373 solfege/mainwin.py:345 solfege/mainwin.py:543
+#: solfege/application.py:385 solfege/mainwin.py:349 solfege/mainwin.py:550
 msgid "Error opening web browser"
 msgstr "Web tarayıcı açılırken hata"
 
@@ -286,7 +306,8 @@ msgstr "A_rpej:"
 msgid "BPM"
 msgstr "BPM"
 
-#: solfege/configwindow.py:138 exercises/standard/lesson-files/bpm:6
+#: solfege/configwindow.py:138 solfege/exercises/identifybpm.py:108
+#: exercises/standard/lesson-files/bpm:6
 msgid "Beats per minute"
 msgstr "Dakikadaki vuruş sayısı"
 
@@ -518,7 +539,7 @@ msgstr "Solfege MIDI dosyalarını iki yolla çalar. Windows çokluortam çıkı
 msgid "_Windows multimedia output:"
 msgstr "_Windows çoklu ortam çıkışı:"
 
-#: solfege/configwindow.py:857
+#: solfege/configwindow.py:857 solfege/statisticsviewer.py:303
 msgid "Delete statistics and test results?"
 msgstr "İstatistikler ve test sonuçları silinsin mi?"
 
@@ -550,37 +571,27 @@ msgstr "Hiç kesin istatistik bulunamadı."
 msgid "Statistics of %(practise_count)i practise sessions and %(test_count)i tests from %(exercises)i different exercises."
 msgstr "İstatistikler: %(practise_count)i çalışma oturumları ve %(test_count)i testler ve bağlı olduğu %(exercises)i farklı alıştırmalar."
 
-#: solfege/dataparser.py:167
-#, python-format
-msgid "Unknown name \"%(name)s\" in line %(line)i of file \"%(filename)s\":"
-msgstr "Bilinmeyen isim \"%(name)s\" satırı %(line)i dosyası \"%(filename)s\":"
-
-#: solfege/dataparser.py:178
-#, python-format
-msgid "Wrong argument count in line %(line)i of file \"%(filename)s\":"
-msgstr "Yanlış ifadeler var satır sayısı %(line)i dosyası  \"%(filename)s\":"
-
-#: solfege/dataparser.py:188
+#: solfege/dataparser.py:169
 #, python-format
 msgid "Syntax error in file \"%(filename)s\". %(expected)s"
 msgstr "Sözdizim hatası bulunan dosya  \"%(filename)s\". %(expected)s"
 
-#: solfege/dataparser.py:195
+#: solfege/dataparser.py:176
 #, python-format
 msgid "Assignment to the reserved word \"%(word)s\""
 msgstr "Ayrılmış kelimeye atanma \"%(word)s\""
 
-#: solfege/dataparser.py:202
+#: solfege/dataparser.py:183
 #, python-format
-msgid "Cannot translate lists using in-file translations (ex var[no]=...). See the variable \"%(variable)s\" in the file \"%(filename)s\""
-msgstr "İç dosya çevirilerini kullanarak listelerin çevirisi yapılamıyor (ex var[no]=...). Bakılacak detay değişken \"%(variable)s\" dosya \"%(filename)s\""
+msgid "We can only translate strings using in-file translations (ex var[no]=...). See the variable \"%(variable)s\" in the file \"%(filename)s\""
+msgstr "İç dosya çevirilerini kullanarak listelerin çevirisi yapılamıyor (ex var[no]=...). Bakılacak detay değişkenleri \"%(variable)s\" dosya \"%(filename)s\""
 
-#: solfege/dataparser.py:221
+#: solfege/dataparser.py:202
 #, python-format
 msgid "Unable to tokenize line %(lineno)i of the file \"%(filename)s\""
 msgstr "Bu dosyada yer alan \"%(filename)s\" satır nitelendirilemiyor %(lineno)i"
 
-#: solfege/dataparser.py:319
+#: solfege/dataparser.py:320
 #, python-format
 msgid "Token \"%(nottoken)s\" not found, found \"%(foundtoken)s\" of type %(type)s."
 msgstr "Nitelik \"%(nottoken)s\" bulunamadı, bulunan nitelik  \"%(foundtoken)s\" ve türü %(type)s."
@@ -589,41 +600,41 @@ msgstr "Nitelik \"%(nottoken)s\" bulunamadı, bulunan nitelik  \"%(foundtoken)s\
 msgid "Search"
 msgstr "Ara"
 
-#: solfege/esel.py:247 solfege/fpeditor.py:356
+#: solfege/esel.py:249 solfege/fpeditor.py:356
 #, python-format
 msgid "«%s» was not found"
 msgstr "«%s» bulunamamıştı"
 
-#: solfege/esel.py:250
+#: solfege/esel.py:252
 #, python-format
 msgid "Failed to parse «%s»"
 msgstr "Ayrıştırılamadı «%s»"
 
-#: solfege/esel.py:272
+#: solfege/esel.py:274
 #, python-format
 msgid "passed, %.1f%%"
 msgstr "geçti, %.1f%%"
 
-#: solfege/esel.py:274
+#: solfege/esel.py:276
 #, python-format
 msgid "failed, %.1f%%"
 msgstr "başarılamadı, %.1f%%"
 
-#: solfege/esel.py:298
+#: solfege/esel.py:300
 #, python-format
 msgid "Search results for “%s”:"
 msgstr "“%s” için arama sonucu:"
 
-#: solfege/esel.py:301
+#: solfege/esel.py:303
 #, python-format
 msgid "C-locale search results for “%s”:"
 msgstr "C-şu arama için yerel sonuçlar “%s”:"
 
-#: solfege/esel.py:360
+#: solfege/esel.py:362
 msgid "Search untranslated lesson titles"
 msgstr "Çevrilmemiş ders notlarını ara"
 
-#: solfege/esel.py:362 solfege/esel.py:380
+#: solfege/esel.py:364 solfege/esel.py:382
 msgid "Too few matches?"
 msgstr "Çok fazla uyan mı var?"
 
@@ -648,7 +659,7 @@ msgid "Add link by searching for exercises"
 msgstr "Alıştırmaları arayarak bağlantı ekle"
 
 #: solfege/fpeditor.py:334 solfege/fpeditor.py:513 solfege/fpeditor.py:671
-#: solfege/frontpage.py:249 solfege/gu.py:670
+#: solfege/gu.py:696
 #, python-format
 msgid "Untitled%s"
 msgstr "Başlıksız%s"
@@ -674,444 +685,92 @@ msgstr "İlk sayfa dosyası kurulumunuzda yazmaya karşı korumalıdır. Bu doğ
 msgid "<b>IMPORTANT:</b> Your front page file <b>must</b> be saved in a subdirectory below the directory named exercises. See the user manual for details."
 msgstr "<b>ÖNEMLİ:</b> Giriş sayfanız <b>mutlaka</b> alıştırmalar adını taşıyan dizinin alt dizinine kaydedilmelidir. Ayrıntılar için kullanıcı kılavuzuna bakınız."
 
-#: solfege/gu.py:706
+#: solfege/gu.py:732
 #, python-format
 msgid "Save changes to \"%s\" before closing?"
 msgstr "Değişikliklerin kaydedileceği yer \"%s\" kapatmadan önce?"
 
-#: solfege/gu.py:709
+#: solfege/gu.py:735
 #, python-format
 msgid "If you don't save, changes from the past %i seconds will be permanently lost."
 msgstr "Eğer kaydetmezseniz, geçmiş %i saniyede yapılan değişiklikler kalıcı olarak kaybedilecek."
 
-#: solfege/gu.py:711
+#: solfege/gu.py:737
 #, python-format
 msgid "If you don't save, changes from the past %i minutes will be permanently lost."
 msgstr "Eğer kaydetmezseniz, geçmiş %i dakikada yapılan değişiklikler kalıcı olarak kaybedilecek."
 
-#: solfege/gu.py:713
+#: solfege/gu.py:739
 msgid "_Close without Saving"
 msgstr "_Kayıt Etmeden Kapat"
 
-#: solfege/gu.py:772
+#: solfege/gu.py:802
 msgid "Save As..."
 msgstr "Farklı Kaydet..."
 
-#: solfege/gu.py:797
+#: solfege/gu.py:827
 msgid "File exists. Overwrite?"
 msgstr "Dosya zaten var. Üzerine yazılsın mı?"
 
-#: solfege/gu.py:807 solfege/gu.py:826
+#: solfege/gu.py:837 solfege/gu.py:856
 msgid "Error saving file"
 msgstr "Dosyayı kaydederken hata"
 
-#: solfege/gu.py:839
+#: solfege/gu.py:869
 msgid "Select an empty directory, since we want to fill it with files."
 msgstr "Boş bir dizin seçin, bu dizini dosyalarla doldurmak istiyoruz."
 
-#: solfege/gu.py:1015
+#: solfege/gu.py:1045
 msgid "Visit http://www.solfege.org/support if you need help."
 msgstr "Eğer yardıma ihtiyacınız olurşa şu web sayfasını ziyaret edin http://www.solfege.org/support."
 
-#: solfege/gu.py:1081
+#: solfege/gu.py:1111
 #, python-format
 msgid "Please check the lesson file %s."
 msgstr "Ders dosyasını lütfen denetle %s."
 
-#: solfege/inputwidgets.py:232 solfege/mpd/interval.py:39
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-min2-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-min2-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-min2-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-min2-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-min2-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-min2-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-min2-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-min2-8cent:10
-#: exercises/standard/csound-tree.txt:5 exercises/standard/csound-tree.txt:7
-#: exercises/standard/csound-tree.txt:219
-#: exercises/standard/csound-tree.txt:221
-msgid "Minor Second"
-msgstr "Küçük ikili"
+#: solfege/inputwidgets.py:649
+msgid "Buttons"
+msgstr "Düğmeler"
 
-#: solfege/inputwidgets.py:233 solfege/mpd/interval.py:40
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj2-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj2-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj2-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj2-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj2-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj2-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj2-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj2-8cent:10
-#: exercises/standard/csound-tree.txt:19 exercises/standard/csound-tree.txt:21
-#: exercises/standard/csound-tree.txt:233
-#: exercises/standard/csound-tree.txt:235
-msgid "Major Second"
-msgstr "Büyük ikili"
+#: solfege/inputwidgets.py:650
+#, python-format
+msgid "Buttons %i"
+msgstr "Düğmeler %i"
 
-#: solfege/inputwidgets.py:234 solfege/mpd/interval.py:44
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-min3-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-min3-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-min3-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-min3-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-min3-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-min3-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-min3-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-min3-8cent:10
-#: exercises/standard/csound-tree.txt:33 exercises/standard/csound-tree.txt:35
-#: exercises/standard/csound-tree.txt:247
-#: exercises/standard/csound-tree.txt:249
-msgid "Minor Third"
-msgstr "Küçük üçlü"
-
-#: solfege/inputwidgets.py:235 solfege/mpd/interval.py:45
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj3-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj3-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj3-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj3-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj3-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj3-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj3-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj3-8cent:10
-#: exercises/standard/csound-tree.txt:47 exercises/standard/csound-tree.txt:49
-#: exercises/standard/csound-tree.txt:261
-#: exercises/standard/csound-tree.txt:263
-msgid "Major Third"
-msgstr "Büyük Üçlü"
-
-#: solfege/inputwidgets.py:236 solfege/mpd/interval.py:49
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-p4-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-p4-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-p4-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-p4-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-p4-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-p4-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-p4-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-p4-8cent:10
-#: exercises/standard/csound-tree.txt:61 exercises/standard/csound-tree.txt:63
-#: exercises/standard/csound-tree.txt:275
-#: exercises/standard/csound-tree.txt:277
-msgid "Perfect Fourth"
-msgstr "Tam Dörtlü"
-
-#: solfege/inputwidgets.py:237
-msgid "Tritone"
-msgstr "Üçses"
-
-#: solfege/inputwidgets.py:238 solfege/mpd/interval.py:53
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-p5-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-p5-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-p5-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-p5-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-p5-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-p5-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-p5-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-p5-8cent:10
-#: exercises/standard/csound-tree.txt:75 exercises/standard/csound-tree.txt:77
-#: exercises/standard/csound-tree.txt:289
-#: exercises/standard/csound-tree.txt:291
-msgid "Perfect Fifth"
-msgstr "Tam Beşli"
-
-#: solfege/inputwidgets.py:239 solfege/mpd/interval.py:57
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-min6-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-min6-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-min6-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-min6-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-min6-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-min6-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-min6-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-min6-8cent:10
-#: exercises/standard/csound-tree.txt:89 exercises/standard/csound-tree.txt:91
-#: exercises/standard/csound-tree.txt:303
-#: exercises/standard/csound-tree.txt:305
-msgid "Minor Sixth"
-msgstr "Küçük Altılı"
-
-#: solfege/inputwidgets.py:240 solfege/mpd/interval.py:58
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj6-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj6-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj6-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj6-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj6-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj6-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj6-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj6-8cent:10
-#: exercises/standard/csound-tree.txt:103
-#: exercises/standard/csound-tree.txt:105
-#: exercises/standard/csound-tree.txt:317
-#: exercises/standard/csound-tree.txt:319
-msgid "Major Sixth"
-msgstr "Büyük Altılı"
-
-#: solfege/inputwidgets.py:241 solfege/mpd/interval.py:62
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-min7-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-min7-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-min7-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-min7-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-min7-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-min7-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-min7-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-min7-8cent:10
-#: exercises/standard/csound-tree.txt:117
-#: exercises/standard/csound-tree.txt:119
-#: exercises/standard/csound-tree.txt:331
-#: exercises/standard/csound-tree.txt:333
-msgid "Minor Seventh"
-msgstr "Küçük Yedili"
-
-#: solfege/inputwidgets.py:242 solfege/mpd/interval.py:63
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj7-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj7-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj7-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj7-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj7-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj7-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj7-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj7-8cent:10
-#: exercises/standard/csound-tree.txt:131
-#: exercises/standard/csound-tree.txt:133
-#: exercises/standard/csound-tree.txt:345
-#: exercises/standard/csound-tree.txt:347
-msgid "Major Seventh"
-msgstr "Büyük Yedili"
-
-#: solfege/inputwidgets.py:243 solfege/mpd/interval.py:67
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-p8-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-p8-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-p8-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-p8-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-p8-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-p8-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-p8-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-p8-8cent:10
-#: exercises/standard/csound-tree.txt:145
-#: exercises/standard/csound-tree.txt:147
-#: exercises/standard/csound-tree.txt:359
-#: exercises/standard/csound-tree.txt:361
-msgid "Perfect Octave"
-msgstr "Tüm Sekizli"
-
-#. translators: Only translate the word after interval| , and don't include
-#. interval| in the translated string. So for Norwegians, translate
-#. "interval|Diminished" to "Forminsket". Do similar for all strings
-#. that are preceded with "interval|"
-#: solfege/inputwidgets.py:244 solfege/mpd/interval.py:73
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-min9-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-min9-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-min9-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-min9-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-min9-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-min9-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-min9-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-min9-8cent:10
-#: exercises/standard/csound-tree.txt:159
-#: exercises/standard/csound-tree.txt:161
-#: exercises/standard/csound-tree.txt:373
-#: exercises/standard/csound-tree.txt:375
-msgid "Minor Ninth"
-msgstr "Küçük Dokuzlu"
-
-#: solfege/inputwidgets.py:245 solfege/mpd/interval.py:74
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj9-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj9-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj9-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj9-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj9-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj9-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj9-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj9-8cent:10
-#: exercises/standard/csound-tree.txt:173
-#: exercises/standard/csound-tree.txt:175
-#: exercises/standard/csound-tree.txt:387
-#: exercises/standard/csound-tree.txt:389
-msgid "Major Ninth"
-msgstr "Büyük Dokuzlu"
-
-#: solfege/inputwidgets.py:246 solfege/mpd/interval.py:75
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-min10-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-min10-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-min10-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-min10-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-min10-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-min10-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-min10-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-min10-8cent:10
-#: exercises/standard/csound-tree.txt:187
-#: exercises/standard/csound-tree.txt:189
-#: exercises/standard/csound-tree.txt:401
-#: exercises/standard/csound-tree.txt:403
-msgid "Minor Tenth"
-msgstr "Küçük Onlu"
-
-#: solfege/inputwidgets.py:247 solfege/mpd/interval.py:76
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-8cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj10-10cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj10-15cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj10-20cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj10-30cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj10-40cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj10-5cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj10-6cent:10
-#: exercises/standard/lesson-files/csound-intonation-maj10-8cent:10
-#: exercises/standard/csound-tree.txt:201
-#: exercises/standard/csound-tree.txt:203
-#: exercises/standard/csound-tree.txt:415
-#: exercises/standard/csound-tree.txt:417
-msgid "Major Tenth"
-msgstr "Büyük Onlu"
-
-#: solfege/inputwidgets.py:623 solfege/inputwidgets.py:630
+#: solfege/inputwidgets.py:651
 msgid "Piano"
 msgstr "Piyano"
 
-#: solfege/inputwidgets.py:623 solfege/inputwidgets.py:640
+#: solfege/inputwidgets.py:651
 msgid "Guitar"
 msgstr "Gitar"
 
-#: solfege/inputwidgets.py:623 solfege/inputwidgets.py:643
+#: solfege/inputwidgets.py:651
 msgid "Bass"
 msgstr "Bas"
 
-#: solfege/inputwidgets.py:624 solfege/inputwidgets.py:646
+#: solfege/inputwidgets.py:652
 msgid "5 string bass"
 msgstr "5 telli bas"
 
-#: solfege/inputwidgets.py:624 solfege/inputwidgets.py:650
+#: solfege/inputwidgets.py:652
 msgid "6 string bass"
 msgstr "6 telli bas"
 
-#: solfege/inputwidgets.py:625 solfege/inputwidgets.py:632
+#: solfege/inputwidgets.py:653
 msgid "Accordion B griff"
 msgstr "B ayarında Akordeon"
 
-#: solfege/inputwidgets.py:625 solfege/inputwidgets.py:634
+#: solfege/inputwidgets.py:653
 msgid "Accordion C griff"
 msgstr "C ayarında akordeon"
 
-#: solfege/inputwidgets.py:626 solfege/inputwidgets.py:636
+#: solfege/inputwidgets.py:654
 msgid "Accordion (system used in Finland)"
 msgstr "Akordeon (Finlandiya'da kullanılan sistem)"
 
-#: solfege/inputwidgets.py:627 solfege/inputwidgets.py:638
+#: solfege/inputwidgets.py:655
 msgid "Accordion (Belgian Charleroi do2)"
 msgstr "Akordion (Belçika Charleroi do2 tipi)"
 
@@ -1245,36 +904,37 @@ msgstr "Farklı Kaydet..."
 msgid "Save..."
 msgstr "Kaydet..."
 
-#: solfege/lessonfile.py:98
+#: solfege/lessonfile.py:100
 msgid "The lesson file contains no questions"
 msgstr "Ders dosyası hiçbir soru içermez"
 
-#: solfege/lessonfile.py:102
+#: solfege/lessonfile.py:104
 #, python-format
 msgid "The external file '%s' was not found"
 msgstr "Dış dosya %s bulunamadı"
 
-#: solfege/lessonfile.py:111
+#: solfege/lessonfile.py:113
 msgid "No questions selected"
 msgstr "Hiç bir soru seçilmedi"
 
-#: solfege/lessonfile.py:112
+#: solfege/lessonfile.py:114
 msgid "You can select questions on the config page of the exercise."
 msgstr "Alıştırmanın config sayfasından sorular seçebilirsiniz."
 
-#: solfege/lessonfile.py:1392
+#: solfege/lessonfile.py:1366
 #, python-format
 msgid "Discarding question %(questionidx)i from the lessonfile \"%(filename)s\" because it is missing the \"name\" variable. All questions in lesson files of this type must have a name variable."
 msgstr "Soruyu %(questionidx)i ders dosyasından  \"%(filename)s\" eliyor, çünkü kayıp olan \"name\" değişkeni var. Bu tür ders dosyalarının name değişkeni olmak durumundadır."
 
-#: solfege/lessonfile.py:1622
+#: solfege/lessonfile.py:1596
 #, python-format
 msgid "Question number %(index)i in the lesson file \"%(filename)s\" is missing the \"question_text\" variable."
 msgstr "Soru numarası %(index)i ders dosyasındaki  \"%(filename)s\" kayıp değişkene sahip \"question_text\" bulunmaktadır."
 
-#: solfege/lessonfile.py:1665 solfege/exercises/chord.py:201
+#: solfege/lessonfile.py:1639 solfege/exercises/chord.py:204
 #: exercises/standard/lesson-files/altered-1:14
 #: exercises/standard/lesson-files/chord-7b9-maj79:13
+#: exercises/standard/lesson-files/chord-all-root:12
 #: exercises/standard/lesson-files/chord-dim-aug:13
 #: exercises/standard/lesson-files/chord-dim-aug-min-major:10
 #: exercises/standard/lesson-files/chord-m7-7:13
@@ -1287,40 +947,40 @@ msgstr "Soru numarası %(index)i ders dosyasındaki  \"%(filename)s\" kayıp de�
 msgid "Identify the chord"
 msgstr "Akor türünü nitelendirin"
 
-#: solfege/lessonfile.py:1669 solfege/exercises/chordvoicing.py:166
+#: solfege/lessonfile.py:1643 solfege/exercises/chordvoicing.py:164
 msgid "Chord type"
 msgstr "Akor türü"
 
-#: solfege/lessonfile.py:1670
+#: solfege/lessonfile.py:1644
 msgid "Inversion"
 msgstr "Çevrim"
 
-#: solfege/lessonfile.py:1671
+#: solfege/lessonfile.py:1645
 msgid "Toptone"
 msgstr "Enüst ses"
 
-#: solfege/lessonfile.py:1673
+#: solfege/lessonfile.py:1647
 #, python-format
 msgid "Missing qprops variable in the lesson file %s."
 msgstr "Ders dosyası %s da yer alan kayıp grup değişkeni."
 
-#: solfege/lessonfile.py:1681
+#: solfege/lessonfile.py:1655
 #, python-format
 msgid "Error in the lesson file header of \"%(filename)s\". The variables qprops and qprop_labels must have the same length."
 msgstr "Ders dosyasının \"%(filename)s\" başlığında hata. Şu değişkenler qprops ve qprop_etiketleri aynı uzunlukta olmalı."
 
-#: solfege/lessonfile.py:1694 exercises/standard/lesson-files/chord-7-inv:21
+#: solfege/lessonfile.py:1668 exercises/standard/lesson-files/chord-7-inv:21
 msgid "root position"
 msgstr "kök durumu"
 
-#: solfege/lessonfile.py:1699 exercises/standard/lesson-files/chord-7-inv:25
+#: solfege/lessonfile.py:1673 exercises/standard/lesson-files/chord-7-inv:25
 #: exercises/standard/lesson-files/chord-7-inv:29
 #: exercises/standard/lesson-files/chord-7-inv:34
 #, python-format
 msgid "%i. inversion"
 msgstr "%i çevrim"
 
-#: solfege/lessonfile.py:1722
+#: solfege/lessonfile.py:1696
 #, python-format
 msgid "Discarding question %(questionidx)i from the lesson file \"%(filename)s\" because of a missing variable: %(var)s"
 msgid_plural "Discarding question %(questionidx)i from the lesson file \"%(filename)s\" because of some missing variables: %(var)s"
@@ -1340,7 +1000,7 @@ msgstr "Kapat"
 msgid "Loading front page '%s' failed. Using default page."
 msgstr "Giriş sayfası '%s' yüklenemedi. Öntanımlı sayfa yükleniyor."
 
-#: solfege/mainwin.py:212 exercises/standard/learningtree.txt:181
+#: solfege/mainwin.py:212 exercises/standard/learningtree.txt:185
 msgid "The_ory"
 msgstr "_Teori"
 
@@ -1408,7 +1068,7 @@ msgstr "_Geçerli alıştırmadaki müzik kuramı"
 msgid "_User manual"
 msgstr "_Kullanıcı El Kitabı"
 
-#: solfege/mainwin.py:245 solfege/mainwin.py:393 solfege/mainwin.py:402
+#: solfege/mainwin.py:245 solfege/mainwin.py:397 solfege/mainwin.py:406
 msgid "_File locations"
 msgstr "_Dosya dizinleri"
 
@@ -1428,71 +1088,71 @@ msgstr "_Hataları raporlama"
 msgid "_See your bug reports"
 msgstr "_Hata raporlarınıza bakın"
 
-#: solfege/mainwin.py:321
+#: solfege/mainwin.py:325
 msgid "Question"
 msgstr "Soru"
 
-#: solfege/mainwin.py:328
+#: solfege/mainwin.py:332
 msgid "Please enter the email used when you submitted the bugs:"
 msgstr "Lütfen raporları gönderirken kullandığınız email adresini giriniz."
 
-#: solfege/mainwin.py:408
+#: solfege/mainwin.py:412
 msgid "Solfege application data:"
 msgstr "Solfege uygulama verisi:"
 
-#: solfege/mainwin.py:409
+#: solfege/mainwin.py:413
 msgid "Solfege user data:"
 msgstr "Solfege kullanıcı verisi:"
 
-#: solfege/mainwin.py:410
+#: solfege/mainwin.py:414
 msgid "Solfege config file:"
 msgstr "Solfege yapılandırma dosyası:"
 
-#: solfege/mainwin.py:411
+#: solfege/mainwin.py:415
 msgid "Solfege installation directory:"
 msgstr "Solfege kurulum dizini:"
 
-#: solfege/mainwin.py:412
+#: solfege/mainwin.py:416
 msgid "User manual in HTML format:"
 msgstr "HTML yapısında kullanıcı el kitabı:"
 
-#: solfege/mainwin.py:427 solfege/mainwin.py:452
+#: solfege/mainwin.py:431 solfege/mainwin.py:456
 msgid "SOLFEGETRANSLATORS"
 msgstr "SOLFEGE ÇEVİRMENLERİ"
 
-#: solfege/mainwin.py:438 solfege/mainwin.py:439
+#: solfege/mainwin.py:442 solfege/mainwin.py:443
 msgid "(some lessonfiles)"
 msgstr "(bazı dersdosyaları)"
 
-#: solfege/mainwin.py:440
+#: solfege/mainwin.py:444
 msgid "(sound code for the MS Windows port)"
 msgstr "(MS Windows kapısı için ses kodu)"
 
-#: solfege/mainwin.py:441
+#: solfege/mainwin.py:445
 msgid "(ported winmidi.c to gcc)"
 msgstr "(c, kapısı gcc'ye ayrılmış olan winmidi)"
 
-#: solfege/mainwin.py:442
+#: solfege/mainwin.py:446
 msgid "(spec file for SuSE 8.2)"
 msgstr "(SuSE 8.2 için özeliik dosyası)"
 
-#: solfege/mainwin.py:443
+#: solfege/mainwin.py:447
 msgid "(spec file cleanup)"
 msgstr "(temizleme için özellik dosyası)"
 
-#: solfege/mainwin.py:444
+#: solfege/mainwin.py:448
 msgid "(testing and portability fixes for FreeBSD)"
 msgstr "(FreeBSD için deneme ve taşınabilirlik düzeltmeleri)"
 
-#: solfege/mainwin.py:445 solfege/mainwin.py:446
+#: solfege/mainwin.py:449 solfege/mainwin.py:450
 msgid "(the music font from Lilypond)"
 msgstr "(Lilypond'dan alınan müzik fontu)"
 
-#: solfege/mainwin.py:447
+#: solfege/mainwin.py:451
 msgid "(scale exercises)"
 msgstr "(dizi alıştırmaları)"
 
-#: solfege/mainwin.py:477
+#: solfege/mainwin.py:481
 #, python-format
 msgid ""
 "In Solfege 3.9.0, the location where Solfege look for lesson files you have created was changed. The files has to be moved from \"%(old)s\" and into the folder \"%(gnu)s\" in your \"%(doc)s\" folder.\n"
@@ -1501,7 +1161,7 @@ msgstr ""
 "Solfege 3.9.0 yazılımında, oluşturduğunuz dosyalara Solfege'in göz attığı yer değişti. Şu dosyaların  \"%(old)s\" şu dizini \"%(gnu)s\" şuradaki \"%(doc)s\" dizininizden taşınması gerekiyor.\n"
 "Bunları sizin için otomatik olarak taşıyayım mı?"
 
-#: solfege/mainwin.py:488
+#: solfege/mainwin.py:492
 #, python-format
 msgid ""
 "Error while copying directory:\n"
@@ -1510,61 +1170,70 @@ msgstr ""
 "Dizini kopyalarken hata:\n"
 "%s"
 
-#: solfege/mainwin.py:490
+#: solfege/mainwin.py:494
 msgid "Files copied. The old files has been left behind. Please delete them when you have verified that all files was copied correctly."
 msgstr "Dosyalara kopyalandı. Eski dosyalar geride bırakıldı. Tüm dosyaların doğru olarak kopyalandığını onayladıktan sonra onları siliniz."
 
-#: solfege/mainwin.py:497
+#: solfege/mainwin.py:501
 msgid "Migrated old language setup. You might have to restart the program all translated messages to show up."
 msgstr "Eski dil dosyası ayarlarına göç edildi. Tüm çevrilmiş mesajları görebilmek için programı yeniden başlatmanız gerekiyor."
 
-#: solfege/mainwin.py:546
+#: solfege/mainwin.py:527
+msgid "Cannot load front page file"
+msgstr "İlk sayfa dosyası yüklenemedi"
+
+#: solfege/mainwin.py:528
+#, python-format
+msgid "The file «%s» is saved in an old file format. The file can be converted by editing and saving it with an older version of Solfege. Versions from 3.16.0 to 3.20.4 should do the job."
+msgstr "Dosya «%s» eski dosya formatında kaydedildi. Dosya, Solfege dosyasının eski sürümünü yeni sürüme yükselterek düzenlenebilir hale getirilebilir. 3.16.0 sürümünden 3.20.4 sürümüne yükseltme yapılabilir."
+
+#: solfege/mainwin.py:553
 msgid "User exercises"
 msgstr "Kullanıcı alıştırmaları"
 
-#: solfege/mainwin.py:558
+#: solfege/mainwin.py:565
 #, python-format
 msgid "You really should move the following directory to a directory below <span font_family=\"monospace\">%s</span>. Future versions of GNU Solfege will not display files in the old location. The user manual have details on where to place the files."
 msgstr "Bu dizini gerçekten <span font_family=\"monospace\">%s</span> dizininin bir altına taşımanız gerekiyor. GNU Solfege'in gelecek sürümlerinde dosyalar eski dizinde yer almayacaklardır. Dosyalarına nerelere taşınacağı konusundaki detaylar kullanıcı el kitabında yer almaktadır."
 
-#: solfege/mainwin.py:570 solfege/mainwin.py:572
+#: solfege/mainwin.py:577 solfege/mainwin.py:579
 msgid "Recent exercises"
 msgstr "En son alıştırmalar"
 
-#: solfege/mainwin.py:577 solfege/mainwin.py:579
+#: solfege/mainwin.py:584 solfege/mainwin.py:586
 msgid "Recent tests"
 msgstr "En son testler"
 
-#: solfege/mainwin.py:600
+#: solfege/mainwin.py:607
 msgid "Search the exercise titles of all lesson files found by the program, not just the active front page with sub pages."
 msgstr "Sadece alt sayfalarla birlikte etkin olan ön sayfadaki değil, yazılımdaki tüm alıştırma başlıklarını ara."
 
-#: solfege/mainwin.py:705
+#: solfege/mainwin.py:714
 #, python-format
 msgid "The '%s' exercise module does not support test yet."
 msgstr "Şu '%s' alıştırma modülü henüz testi desteklemiyor."
 
-#: solfege/multipleintervalconfigwidget.py:95
+#: solfege/multipleintervalconfigwidget.py:94
 msgid "Number of intervals:"
 msgstr "Aralıkların sayısı:"
 
-#: solfege/multipleintervalconfigwidget.py:102
+#: solfege/multipleintervalconfigwidget.py:101
 msgid "Configure all intervals in this exercise like this"
 msgstr "Bu alıştırmadaki tüm aralıkları bunun gibi yapılandırın."
 
-#: solfege/multipleintervalconfigwidget.py:110
+#: solfege/multipleintervalconfigwidget.py:109
 msgid "Toggle buttons are for interval number:"
 msgstr "İki durumlu düğmeler aralık sayısı içindir:"
 
-#: solfege/multipleintervalconfigwidget.py:120
+#: solfege/multipleintervalconfigwidget.py:119
 msgid "Up:"
 msgstr "Yukarı:"
 
-#: solfege/multipleintervalconfigwidget.py:136
+#: solfege/multipleintervalconfigwidget.py:135
 msgid "Down:"
 msgstr "Aşağı:"
 
-#: solfege/multipleintervalconfigwidget.py:152
+#: solfege/multipleintervalconfigwidget.py:151
 msgid "Reset to default values"
 msgstr "Varsayılan değerlere sıfırla"
 
@@ -1689,7 +1358,7 @@ msgstr "Her satıra bir soru:"
 msgid "Number of questions:"
 msgstr "Soruların sayısı:"
 
-#: solfege/practisesheetdlg.py:447 solfege/trainingsetdlg.py:295
+#: solfege/practisesheetdlg.py:447 solfege/trainingsetdlg.py:293
 msgid "Select where to export the files"
 msgstr "Dosyaları nereye dışarı aktaracağımızı seç"
 
@@ -1702,18 +1371,36 @@ msgstr "Tüm müzik türleri desteklenmiyor. Bu dosya %(ok)i  desteklenen sorula
 msgid "Could not add the lesson file. It has no questions with a music object with supported music type."
 msgstr "Ders dosyası ekleyemez. Desteklenen müzik türünü içeren müzik öğesini içere bir soru bulunmamaktadır."
 
-#: solfege/practisesheetdlg.py:629
+#: solfege/practisesheetdlg.py:569 solfege/trainingsetdlg.py:228
+msgid "Cannot read old file format"
+msgstr "Eski dosya formatı okunamıyor"
+
+#: solfege/practisesheetdlg.py:570 solfege/trainingsetdlg.py:229
+msgid "To convert the file to the new file format, you must open and save it in an older version of Solfege. Versions from 3.16.0 to 3.20.4 should do the job."
+msgstr "Dosyayı yeni dosya formatına dönüştürmek için, Solfege'in eski sürümüyle dosyayı açın ve kaydedin. 3.16.0 sürümünden 3.20.4 sürümüne dönüştürmek yeterli olacaktır."
+
+#: solfege/practisesheetdlg.py:623 solfege/trainingsetdlg.py:251
 #, python-format
 msgid "«%s» not found"
 msgstr "«%s» bulunamadı"
 
-#: solfege/practisesheetdlg.py:677
+#: solfege/practisesheetdlg.py:671
 msgid "Create Sheet"
 msgstr "Tablo Oluştur"
 
-#: solfege/practisesheetdlg.py:678
+#: solfege/practisesheetdlg.py:672
 msgid "Randomize"
 msgstr "Rastgele Oluştur"
+
+#: solfege/presetup.py:51
+#, python-format
+msgid "Parsing %s failed"
+msgstr "%s ayrıştırılamadı"
+
+#: solfege/presetup.py:52
+#, python-format
+msgid "We cannot recover from this, we can rename the corrupt file to %s and then start the program."
+msgstr "Bu dosya kurtarılamadı, bozulmuş dosyayı %s olarak yeniden adlandırabilir ve programı yeniden başlatabiliriz."
 
 #: solfege/profilemanager.py:32 solfege/profilemanager.py:137
 msgid "_Create profile…"
@@ -1826,15 +1513,11 @@ msgstr "Donanımı değiştirmeden notaları aktarın"
 msgid "Semitones"
 msgstr "Yarım perdeler"
 
-#: solfege/startup.py:142
-msgid "Importing old statistics"
-msgstr "Eski istatistikleri içeri aktarıyor"
-
-#: solfege/startup.py:147
+#: solfege/startup.py:144
 msgid "Opening statistics database"
 msgstr "İstatistikler veritabanını açıyor"
 
-#: solfege/startup.py:152
+#: solfege/startup.py:149
 #, python-format
 msgid ""
 "Failed to open the statistics database:\n"
@@ -1843,47 +1526,48 @@ msgstr ""
 "İstatistikler veritabanı açılırken hata:\n"
 "«%s»"
 
-#: solfege/startup.py:152
+#: solfege/startup.py:149
 msgid "Click OK to exit the program. Then try to quit all other instances of the program, or reboot the computer. You can only run one instance of GNU Solfege at once."
 msgstr "Programdan çıkmak için TAMAM'ı tıklayın. Sonra programın diğer unsurlarını kapatmayı veya bilgisayarınızı yeniden başlatmayı deneyin. GNU Solfege ile sadece bir oturum açabilirsiniz."
 
-#: solfege/startup.py:156
+#: solfege/startup.py:153
 msgid "Creating application window"
 msgstr "Uygulama penceresi oluşturuluyor"
 
-#: solfege/statistics.py:171 solfege/statistics.py:279
-#, python-format
-msgid "Files read: %i"
-msgstr "Okunan dosyalar: %i"
-
-#: solfege/statisticsviewer.py:99 solfege/statisticsviewer.py:232
+#: solfege/statisticsviewer.py:130 solfege/statisticsviewer.py:271
 msgid "Session"
 msgstr "Oturum"
 
-#: solfege/statisticsviewer.py:99 solfege/statisticsviewer.py:236
+#: solfege/statisticsviewer.py:130 solfege/statisticsviewer.py:272
 msgid "Today"
 msgstr "Bugün"
 
-#: solfege/statisticsviewer.py:100 solfege/statisticsviewer.py:240
+#: solfege/statisticsviewer.py:131 solfege/statisticsviewer.py:273
 msgid "Last 7 days"
 msgstr "Son 7 gün"
 
-#: solfege/statisticsviewer.py:100 solfege/statisticsviewer.py:244
+#: solfege/statisticsviewer.py:131 solfege/statisticsviewer.py:151
+#: solfege/statisticsviewer.py:274
 msgid "Total"
 msgstr "Toplam"
 
-#: solfege/statisticsviewer.py:109
+#: solfege/statisticsviewer.py:147
 msgid "Percent"
 msgstr "Yüzde"
 
-#: solfege/statisticsviewer.py:110 solfege/trainingsetdlg.py:98
+#: solfege/statisticsviewer.py:149 solfege/trainingsetdlg.py:99
 msgid "Count"
 msgstr "Say"
 
-#: solfege/statisticsviewer.py:191 solfege/statisticsviewer.py:253
+#: solfege/statisticsviewer.py:238 solfege/statisticsviewer.py:245
 #, python-format
 msgid "Test dated %(date)s: %(percent).1f%%"
 msgstr "Test tarihi %(date)s: %(percent).1f%%"
+
+#: solfege/statisticsviewer.py:304
+#, python-format
+msgid "This exercise have statistics from %(count)s practise sessions, from %(first)s to %(last)s"
+msgstr "Bu alıştırma %(count)s kez çalışılmış, ilk çalışma %(first)s ve %(last)s son çalışma"
 
 #: solfege/tracebackwindow.py:32
 msgid "GNU Solfege message window"
@@ -1915,63 +1599,78 @@ msgstr ""
 "\n"
 "Bunu yapmayı istiyor musunuz?"
 
-#: solfege/trainingsetdlg.py:62
+#: solfege/trainingsetdlg.py:63
 msgid "MIDI"
 msgstr "MIDI"
 
-#: solfege/trainingsetdlg.py:63
+#: solfege/trainingsetdlg.py:64
 msgid "WAV"
 msgstr "WAV"
 
-#: solfege/trainingsetdlg.py:64
+#: solfege/trainingsetdlg.py:65
 msgid "MP3"
 msgstr "MP3"
 
-#: solfege/trainingsetdlg.py:65
+#: solfege/trainingsetdlg.py:66
 msgid "OGG"
 msgstr "OGG"
 
-#: solfege/trainingsetdlg.py:69
+#: solfege/trainingsetdlg.py:70
 msgid "Preferred output format:"
 msgstr "Tercih edilmiş olan çıktı türü:"
 
-#: solfege/trainingsetdlg.py:74
+#: solfege/trainingsetdlg.py:75
 msgid "Name files by questions"
 msgstr "Sorulara göre isim dosyaları"
 
-#: solfege/trainingsetdlg.py:88
+#: solfege/trainingsetdlg.py:89
 msgid "Title"
 msgstr "Başlık"
 
-#: solfege/trainingsetdlg.py:110
+#: solfege/trainingsetdlg.py:111
 msgid "Delay"
 msgstr "Gecikme"
 
-#: solfege/trainingsetdlg.py:168
+#: solfege/trainingsetdlg.py:169
 msgid "This lesson file cannot be exported because some of the music in the file are not parsable by the mpd module."
 msgstr "s"
 
-#: solfege/trainingsetdlg.py:184
+#: solfege/trainingsetdlg.py:185
 msgid "Export"
 msgstr "Dışarı Aktar"
 
-#: solfege/trainingsetdlg.py:245
+#: solfege/trainingsetdlg.py:243
 #, python-format
 msgid "«<b>%s</b>» was not found"
 msgstr "«<b>%s</b>» bulunamadı"
 
-#: solfege/trainingsetdlg.py:253
-#, python-format
-msgid "Unknown lesson_id: <b>%s</b>"
-msgstr "Bilinmeyen ders kimliği: <b>%s</b>"
-
-#: solfege/trainingsetdlg.py:298
+#: solfege/trainingsetdlg.py:296
 msgid "Exporting training set"
 msgstr "Eğitim setimi dışarı aktarıyor"
 
-#: solfege/trainingsetdlg.py:302
+#: solfege/trainingsetdlg.py:300
 msgid "Export training set"
 msgstr "Eğitim setimi dışarı aktar"
+
+#: solfege/utils.py:99
+msgid "No random interval can be selected within the allowed range of tones."
+msgstr "Tona izin verilen genişlik nedeniyle hiç bir rastgele aralık seçilemiyor."
+
+#: solfege/utils.py:174
+msgid "None of the selected intervals can be created in the selected key."
+msgstr "Seçilen aralıklardan hiçbiri seçilmiş olan tonda oluşturulamıyor."
+
+#: solfege/utils.py:188 exercises/standard/lesson-files/include/sc-master:211
+msgid "Natural Minor"
+msgstr "Doğal Minör"
+
+#: solfege/utils.py:190 exercises/standard/lesson-files/include/sc-master:562
+msgid "Harmonic Minor"
+msgstr "Armonik Minör"
+
+#: solfege/utils.py:192 exercises/standard/lesson-files/include/sc-master:2159
+msgid "Whole Tone"
+msgstr "Tam Ton"
 
 #: solfege/mpd/interval.py:34
 msgid "Perfect Unison"
@@ -1989,6 +1688,52 @@ msgstr "Artmış Sekizli"
 msgid "Diminished Second"
 msgstr "Eksilmiş İkili"
 
+#: solfege/mpd/interval.py:39
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min2-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-min2-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-min2-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-min2-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-min2-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-min2-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-min2-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-min2-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-min2-8cent:10
+#: exercises/standard/csound-tree.txt:5 exercises/standard/csound-tree.txt:7
+#: exercises/standard/csound-tree.txt:219
+#: exercises/standard/csound-tree.txt:221
+msgid "Minor Second"
+msgstr "Küçük ikili"
+
+#: solfege/mpd/interval.py:40
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj2-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj2-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj2-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj2-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj2-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj2-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj2-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj2-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj2-8cent:10
+#: exercises/standard/csound-tree.txt:19 exercises/standard/csound-tree.txt:21
+#: exercises/standard/csound-tree.txt:233
+#: exercises/standard/csound-tree.txt:235
+msgid "Major Second"
+msgstr "Büyük ikili"
+
 #: solfege/mpd/interval.py:41
 msgid "Augmented Second"
 msgstr "Artmış İkili"
@@ -1996,6 +1741,52 @@ msgstr "Artmış İkili"
 #: solfege/mpd/interval.py:43
 msgid "Diminished Third"
 msgstr "Eksilmiş Üçlü"
+
+#: solfege/mpd/interval.py:44
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min3-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-min3-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-min3-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-min3-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-min3-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-min3-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-min3-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-min3-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-min3-8cent:10
+#: exercises/standard/csound-tree.txt:33 exercises/standard/csound-tree.txt:35
+#: exercises/standard/csound-tree.txt:247
+#: exercises/standard/csound-tree.txt:249
+msgid "Minor Third"
+msgstr "Küçük üçlü"
+
+#: solfege/mpd/interval.py:45
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj3-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj3-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj3-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj3-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj3-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj3-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj3-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj3-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj3-8cent:10
+#: exercises/standard/csound-tree.txt:47 exercises/standard/csound-tree.txt:49
+#: exercises/standard/csound-tree.txt:261
+#: exercises/standard/csound-tree.txt:263
+msgid "Major Third"
+msgstr "Büyük Üçlü"
 
 #: solfege/mpd/interval.py:46
 msgid "Augmented Third"
@@ -2005,6 +1796,29 @@ msgstr "Artmış Üçlü"
 msgid "Diminished Fourth"
 msgstr "Eksilmiş Dörtlü"
 
+#: solfege/mpd/interval.py:49
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p4-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-p4-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-p4-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-p4-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-p4-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-p4-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-p4-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-p4-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-p4-8cent:10
+#: exercises/standard/csound-tree.txt:61 exercises/standard/csound-tree.txt:63
+#: exercises/standard/csound-tree.txt:275
+#: exercises/standard/csound-tree.txt:277
+msgid "Perfect Fourth"
+msgstr "Tam Dörtlü"
+
 #: solfege/mpd/interval.py:50
 msgid "Augmented Fourth"
 msgstr "Artmış Dörtlü"
@@ -2012,6 +1826,29 @@ msgstr "Artmış Dörtlü"
 #: solfege/mpd/interval.py:52
 msgid "Diminished Fifth"
 msgstr "Eksik Beşli"
+
+#: solfege/mpd/interval.py:53
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p5-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-p5-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-p5-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-p5-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-p5-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-p5-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-p5-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-p5-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-p5-8cent:10
+#: exercises/standard/csound-tree.txt:75 exercises/standard/csound-tree.txt:77
+#: exercises/standard/csound-tree.txt:289
+#: exercises/standard/csound-tree.txt:291
+msgid "Perfect Fifth"
+msgstr "Tam Beşli"
 
 #: solfege/mpd/interval.py:54
 msgid "Augmented Fifth"
@@ -2021,6 +1858,53 @@ msgstr "Artmış Beşli"
 msgid "Diminished Sixth"
 msgstr "Eksik Altılı"
 
+#: solfege/mpd/interval.py:57
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min6-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-min6-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-min6-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-min6-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-min6-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-min6-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-min6-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-min6-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-min6-8cent:10
+#: exercises/standard/csound-tree.txt:89 exercises/standard/csound-tree.txt:91
+#: exercises/standard/csound-tree.txt:303
+#: exercises/standard/csound-tree.txt:305
+msgid "Minor Sixth"
+msgstr "Küçük Altılı"
+
+#: solfege/mpd/interval.py:58
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj6-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj6-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj6-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj6-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj6-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj6-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj6-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj6-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj6-8cent:10
+#: exercises/standard/csound-tree.txt:103
+#: exercises/standard/csound-tree.txt:105
+#: exercises/standard/csound-tree.txt:317
+#: exercises/standard/csound-tree.txt:319
+msgid "Major Sixth"
+msgstr "Büyük Altılı"
+
 #: solfege/mpd/interval.py:59
 msgid "Augmented Sixth"
 msgstr "Artmış Altılı"
@@ -2028,6 +1912,54 @@ msgstr "Artmış Altılı"
 #: solfege/mpd/interval.py:61
 msgid "Diminished Seventh"
 msgstr "Eksik Yedili"
+
+#: solfege/mpd/interval.py:62
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min7-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-min7-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-min7-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-min7-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-min7-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-min7-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-min7-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-min7-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-min7-8cent:10
+#: exercises/standard/csound-tree.txt:117
+#: exercises/standard/csound-tree.txt:119
+#: exercises/standard/csound-tree.txt:331
+#: exercises/standard/csound-tree.txt:333
+msgid "Minor Seventh"
+msgstr "Küçük Yedili"
+
+#: solfege/mpd/interval.py:63
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj7-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj7-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj7-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj7-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj7-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj7-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj7-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj7-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj7-8cent:10
+#: exercises/standard/csound-tree.txt:131
+#: exercises/standard/csound-tree.txt:133
+#: exercises/standard/csound-tree.txt:345
+#: exercises/standard/csound-tree.txt:347
+msgid "Major Seventh"
+msgstr "Büyük Yedili"
 
 #: solfege/mpd/interval.py:64
 msgid "Augmented Seventh"
@@ -2037,9 +1969,133 @@ msgstr "Artmış Yedili"
 msgid "Diminished Octave"
 msgstr "Eksilmiş Sekizli"
 
+#: solfege/mpd/interval.py:67
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-p8-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-p8-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-p8-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-p8-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-p8-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-p8-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-p8-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-p8-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-p8-8cent:10
+#: exercises/standard/csound-tree.txt:145
+#: exercises/standard/csound-tree.txt:147
+#: exercises/standard/csound-tree.txt:359
+#: exercises/standard/csound-tree.txt:361
+msgid "Perfect Octave"
+msgstr "Tüm Sekizli"
+
 #: solfege/mpd/interval.py:68
 msgid "Augmented Octave"
 msgstr "Artmış Sekizli"
+
+#. translators: Only translate the word after interval| , and don't include
+#. interval| in the translated string. So for Norwegians, translate
+#. "interval|Diminished" to "Forminsket". Do similar for all strings
+#. that are preceded with "interval|"
+#: solfege/mpd/interval.py:73
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min9-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-min9-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-min9-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-min9-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-min9-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-min9-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-min9-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-min9-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-min9-8cent:10
+#: exercises/standard/csound-tree.txt:159
+#: exercises/standard/csound-tree.txt:161
+#: exercises/standard/csound-tree.txt:373
+#: exercises/standard/csound-tree.txt:375
+msgid "Minor Ninth"
+msgstr "Küçük Dokuzlu"
+
+#: solfege/mpd/interval.py:74
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj9-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj9-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj9-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj9-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj9-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj9-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj9-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj9-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj9-8cent:10
+#: exercises/standard/csound-tree.txt:173
+#: exercises/standard/csound-tree.txt:175
+#: exercises/standard/csound-tree.txt:387
+#: exercises/standard/csound-tree.txt:389
+msgid "Major Ninth"
+msgstr "Büyük Dokuzlu"
+
+#: solfege/mpd/interval.py:75
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-min10-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-min10-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-min10-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-min10-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-min10-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-min10-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-min10-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-min10-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-min10-8cent:10
+#: exercises/standard/csound-tree.txt:187
+#: exercises/standard/csound-tree.txt:189
+#: exercises/standard/csound-tree.txt:401
+#: exercises/standard/csound-tree.txt:403
+msgid "Minor Tenth"
+msgstr "Küçük Onlu"
+
+#: solfege/mpd/interval.py:76
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-harmonic-maj10-8cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj10-10cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj10-15cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj10-20cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj10-30cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj10-40cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj10-5cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj10-6cent:10
+#: exercises/standard/lesson-files/csound-intonation-maj10-8cent:10
+#: exercises/standard/csound-tree.txt:201
+#: exercises/standard/csound-tree.txt:203
+#: exercises/standard/csound-tree.txt:415
+#: exercises/standard/csound-tree.txt:417
+msgid "Major Tenth"
+msgstr "Büyük Onlu"
 
 #: solfege/mpd/interval.py:77
 msgid "interval|Unison"
@@ -2109,75 +2165,137 @@ msgstr "aralık|Çift-eksilmiş"
 msgid "interval|Doubly-augmented"
 msgstr "aralık|Çift-artmış"
 
-#: solfege/mpd/interval.py:96
-msgid "interval|u"
-msgstr "aralık|ü"
+#. translators: Sorry for changing a few of these interval names.
+#. I want to follow the naming used by wikipedia an others.
+#. See http://www.solfege.org/translate for important details
+#. These strings are used as button labels for the check buttons
+#. selecting which intervals to ask for.
+#: solfege/mpd/interval.py:106
+msgid "interval|P1"
+msgstr "aralık|T1"
 
-#: solfege/mpd/interval.py:97
+#. translators: m2 is a short version of minor second
+#: solfege/mpd/interval.py:108
 msgid "interval|m2"
 msgstr "aralık|k2"
 
-#: solfege/mpd/interval.py:97
+#. translators: M2 is a short string for major second
+#: solfege/mpd/interval.py:110
 msgid "interval|M2"
 msgstr "aralık|B2"
 
-#: solfege/mpd/interval.py:98
+#. translators: m3 is a short string for minor third
+#: solfege/mpd/interval.py:112
 msgid "interval|m3"
 msgstr "aralık|k3"
 
-#: solfege/mpd/interval.py:98
+#. translators: M3 is a short string for major third
+#: solfege/mpd/interval.py:114
 msgid "interval|M3"
 msgstr "aralık|B3"
 
-#: solfege/mpd/interval.py:99
+#. translators: 4 is a short string for perfect fourth
+#: solfege/mpd/interval.py:116
 msgid "interval|4"
 msgstr "aralık|4lü"
 
-#: solfege/mpd/interval.py:99
-msgid "interval|tt"
-msgstr "aralık|ts"
+#. translators: TT is a short string for tritone
+#: solfege/mpd/interval.py:118
+msgid "interval|TT"
+msgstr "aralık|TT"
 
-#: solfege/mpd/interval.py:100
-msgid "interval|5"
-msgstr "aralık|5li"
+#. translators: 5 is a short string for perfect fifth
+#: solfege/mpd/interval.py:120
+msgid "interval|P5"
+msgstr "aralık|T5"
 
-#: solfege/mpd/interval.py:101
+#. translators: m6 is a short string for minor sixth
+#: solfege/mpd/interval.py:122
 msgid "interval|m6"
 msgstr "aralık|k6"
 
-#: solfege/mpd/interval.py:101
+#. translators: M6 is a short string for major sixth
+#: solfege/mpd/interval.py:124
 msgid "interval|M6"
 msgstr "aralık|B6"
 
-#: solfege/mpd/interval.py:102
+#. translators: m7 is a short string for minor seventh
+#: solfege/mpd/interval.py:126
 msgid "interval|m7"
 msgstr "aralık|k7"
 
-#: solfege/mpd/interval.py:102
+#. translators: M7 is a short string for major seventh
+#: solfege/mpd/interval.py:128
 msgid "interval|M7"
 msgstr "aralık|B7"
 
-#: solfege/mpd/interval.py:103
-msgid "interval|8"
-msgstr "aralık|8li"
+#. translators: 8 is a short string for perfect octave
+#: solfege/mpd/interval.py:130
+msgid "interval|P8"
+msgstr "aralık|T8li"
 
-#: solfege/mpd/interval.py:104
+#. translators: m9 is a short string for minor ninth
+#: solfege/mpd/interval.py:132
 msgid "interval|m9"
 msgstr "aralık|k9"
 
-#: solfege/mpd/interval.py:104
+#. translators: M9 is a short string for major ninth
+#: solfege/mpd/interval.py:134
 msgid "interval|M9"
 msgstr "aralık|B9"
 
-#: solfege/mpd/interval.py:105
+#. translators: m10 is a short string for minor tenth
+#: solfege/mpd/interval.py:136
 msgid "interval|m10"
 msgstr "aralık|k10"
 
-#: solfege/mpd/interval.py:105
+#. translators: M10 is a short string for major tenth
+#: solfege/mpd/interval.py:138
 msgid "interval|M10"
 msgstr "aralık|B10"
 
-#: solfege/mpd/interval.py:128
+#. translators: P11 is a short string for perfect 11th (octave + fourth)
+#: solfege/mpd/interval.py:140
+msgid "interval|P11"
+msgstr "aralık|T11"
+
+#. translators: d12 is a short string for octave + tritone
+#. I considered the name TT8 (tritone+octave), but rejected it.
+#: solfege/mpd/interval.py:143
+msgid "interval|d12"
+msgstr "aralık|tt12"
+
+#. translators: P12 is a short string for perfect 12th (octave + fifth)
+#: solfege/mpd/interval.py:145
+msgid "interval|P12"
+msgstr "aralık|T12"
+
+#. translators: m13 is a short string for minor 13th (octave + m6)
+#: solfege/mpd/interval.py:147
+msgid "interval|m13"
+msgstr "aralık|k13"
+
+#. translators: M13 is a short string for major 13th (octave + M6)
+#: solfege/mpd/interval.py:149
+msgid "interval|M13"
+msgstr "aralık|B13"
+
+#. translators: m14 is a short string for minor 14th (octave + m7)
+#: solfege/mpd/interval.py:151
+msgid "interval|m14"
+msgstr "aralık|k14"
+
+#. translators: M14 is a short string for major 14th (octave + M7)
+#: solfege/mpd/interval.py:153
+msgid "interval|M14"
+msgstr "aralık|B14"
+
+#. translators: P15 is a short string for perfect double octave
+#: solfege/mpd/interval.py:155
+msgid "interval|P15"
+msgstr "aralık|T15"
+
+#: solfege/mpd/interval.py:184
 #, python-format
 msgid "Invalid interval name: %s"
 msgstr "Geçersiz aralık adı: %s"
@@ -2327,21 +2445,21 @@ msgstr "six"
 msgid "Invalid notename: %s"
 msgstr "Geçersiz notaadı %s"
 
-#: solfege/mpd/musicalpitch.py:355
+#: solfege/mpd/musicalpitch.py:359
 #, no-python-format
 msgid "notenameformat|%(notename)s"
 msgstr "nota adı kipi |%(notename)s"
 
-#: solfege/mpd/musicalpitch.py:358
+#: solfege/mpd/musicalpitch.py:362
 #, no-python-format
 msgid "notenameformat|%(notename)s%(oct)s"
 msgstr "nota adı kipi |%(notename)s%(oct)s"
 
-#: solfege/mpd/rhythmwidget.py:117 solfege/mpd/rhythmwidget.py:124
+#: solfege/mpd/rhythmwidget.py:116 solfege/mpd/rhythmwidget.py:123
 msgid "insert-overwrite|INSRT"
 msgstr "gir-üzerine yaz|INSRT"
 
-#: solfege/mpd/rhythmwidget.py:125
+#: solfege/mpd/rhythmwidget.py:124
 msgid "insert-overwrite|OVER"
 msgstr "gir-üzerineyaz|OVER"
 
@@ -2349,82 +2467,90 @@ msgstr "gir-üzerineyaz|OVER"
 msgid "No MIDI output devices available."
 msgstr "MIDI çıkış aygıtı yok."
 
-#: solfege/exercises/chord.py:113 solfege/exercises/idproperty.py:110
+#: solfege/exercises/chord.py:116 solfege/exercises/idproperty.py:114
 msgid "Chord types to ask"
 msgstr "Sorulacak akor türleri"
 
-#: solfege/exercises/chord.py:210 solfege/exercises/chordvoicing.py:261
-#: solfege/exercises/compareintervals.py:260
-#: solfege/exercises/elembuilder.py:149
-#: solfege/exercises/harmonicinterval.py:245
-#: solfege/exercises/harmonicprogressiondictation.py:92
-#: solfege/exercises/idbyname.py:242 solfege/exercises/idproperty.py:197
-#: solfege/exercises/idtone.py:244 solfege/exercises/melodicinterval.py:209
-#: solfege/exercises/nameinterval.py:192
-#: solfege/exercises/rhythmdictation2.py:113
-#: solfege/exercises/rhythmdictation.py:139 solfege/exercises/rhythm.py:147
+#: solfege/exercises/chord.py:213 solfege/exercises/chordvoicing.py:259
+#: solfege/exercises/compareintervals.py:263
+#: solfege/exercises/elembuilder.py:156
+#: solfege/exercises/harmonicinterval.py:249
+#: solfege/exercises/harmonicprogressiondictation.py:94
+#: solfege/exercises/idbyname.py:245 solfege/exercises/idproperty.py:201
+#: solfege/exercises/idtone.py:235 solfege/exercises/melodicinterval.py:211
+#: solfege/exercises/nameinterval.py:207
+#: solfege/exercises/rhythmdictation2.py:116
+#: solfege/exercises/rhythmdictation.py:142 solfege/exercises/rhythm.py:146
+#: solfege/exercises/solmisation.py:153 solfege/exercises/toneincontext.py:245
 msgid "Correct"
 msgstr "Doğru"
 
-#: solfege/exercises/chord.py:219 solfege/exercises/chordvoicing.py:249
-#: solfege/exercises/chordvoicing.py:266
-#: solfege/exercises/compareintervals.py:265
-#: solfege/exercises/elembuilder.py:73 solfege/exercises/elembuilder.py:156
-#: solfege/exercises/harmonicinterval.py:248
-#: solfege/exercises/harmonicprogressiondictation.py:95
-#: solfege/exercises/idbyname.py:247 solfege/exercises/identifybpm.py:196
-#: solfege/exercises/idproperty.py:206 solfege/exercises/idtone.py:251
-#: solfege/exercises/melodicinterval.py:213
-#: solfege/exercises/nameinterval.py:194
-#: solfege/exercises/rhythmdictation2.py:116
-#: solfege/exercises/rhythmdictation.py:142 solfege/exercises/rhythm.py:135
+#: solfege/exercises/chord.py:222 solfege/exercises/chordvoicing.py:247
+#: solfege/exercises/chordvoicing.py:264
+#: solfege/exercises/compareintervals.py:268
+#: solfege/exercises/elembuilder.py:84 solfege/exercises/elembuilder.py:163
+#: solfege/exercises/harmonicinterval.py:252
+#: solfege/exercises/harmonicprogressiondictation.py:97
+#: solfege/exercises/idbyname.py:250 solfege/exercises/identifybpm.py:196
+#: solfege/exercises/idproperty.py:210 solfege/exercises/idtone.py:242
+#: solfege/exercises/melodicinterval.py:215
+#: solfege/exercises/nameinterval.py:209
+#: solfege/exercises/rhythmdictation2.py:119
+#: solfege/exercises/rhythmdictation.py:145 solfege/exercises/rhythm.py:134
+#: solfege/exercises/solmisation.py:141
 msgid "Wrong"
 msgstr "Yanlış"
 
-#: solfege/exercises/chord.py:232 solfege/exercises/chordvoicing.py:213
-#: solfege/exercises/idbyname.py:199 solfege/exercises/idbyname.py:293
-#: solfege/exercises/idproperty.py:219
+#: solfege/exercises/chord.py:235 solfege/exercises/chordvoicing.py:211
+#: solfege/exercises/idbyname.py:202 solfege/exercises/idbyname.py:295
+#: solfege/exercises/idproperty.py:223
 msgid "Right click is not allowed for this lesson file."
 msgstr "Bu ders dosyası için sağ tıklamaya izin verilmez."
 
-#: solfege/exercises/chord.py:295 solfege/exercises/chord.py:300
-#: solfege/exercises/chordvoicing.py:216 solfege/exercises/chordvoicing.py:241
-#: solfege/exercises/chordvoicing.py:310
+#: solfege/exercises/chord.py:296 solfege/exercises/chord.py:301
+#: solfege/exercises/chordvoicing.py:214 solfege/exercises/chordvoicing.py:239
+#: solfege/exercises/chordvoicing.py:307
 msgid "Click 'New chord' to begin."
 msgstr "Başlamak için 'Yeni akor'u tıklayın."
 
-#: solfege/exercises/chordvoicing.py:110
+#: solfege/exercises/chordvoicing.py:111
 msgid "Identify chord type"
 msgstr "Akor türünü belirleyin"
 
-#: solfege/exercises/chordvoicing.py:119
+#: solfege/exercises/chordvoicing.py:120
 msgid "Chord voicing"
 msgstr "Akor seslemesi"
 
-#: solfege/exercises/chordvoicing.py:169 solfege/exercises/chordvoicing.py:306
-#: solfege/exercises/compareintervals.py:318
-#: solfege/exercises/compareintervals.py:352
-#: solfege/exercises/harmonicinterval.py:301
-#: solfege/exercises/melodicinterval.py:255 solfege/exercises/rhythm.py:299
-#: solfege/exercises/rhythmtapping.py:182
+#: solfege/exercises/chordvoicing.py:167 solfege/exercises/chordvoicing.py:303
+#: solfege/exercises/compareintervals.py:321
+#: solfege/exercises/compareintervals.py:356
+#: solfege/exercises/harmonicinterval.py:305
+#: solfege/exercises/melodicinterval.py:244 solfege/exercises/rhythm.py:296
+#: solfege/exercises/rhythmtapping.py:189 solfege/exercises/solmisation.py:315
 msgid "You have to solve this question first."
 msgstr "Önce bu soruyu çözmek zorundasınız."
 
-#: solfege/exercises/chordvoicing.py:219 solfege/exercises/idbyname.py:207
-#: solfege/exercises/idbyname.py:211 solfege/exercises/idbyname.py:294
-#: solfege/exercises/idbyname.py:295
+#: solfege/exercises/chordvoicing.py:217 solfege/exercises/idbyname.py:210
+#: solfege/exercises/idbyname.py:214 solfege/exercises/idbyname.py:296
+#: solfege/exercises/idbyname.py:297
 msgid "You should try to guess before right-clicking."
 msgstr "Sağ-tıklamadan önce tahmin etmeyi denemelisiniz."
 
-#: solfege/exercises/chordvoicing.py:245
+#: solfege/exercises/chordvoicing.py:243
 msgid "Correct, now stack the tones"
 msgstr "Doğru, şimdi sesleri diz"
 
-#: solfege/exercises/chordvoicing.py:251 solfege/exercises/chordvoicing.py:307
+#: solfege/exercises/chordvoicing.py:249 solfege/exercises/chordvoicing.py:304
 msgid "Type is already solved, now specify voicing."
 msgstr "Tür çözülmüş durumda, şimdi sesleri nitelendirin."
 
-#: solfege/exercises/compareintervals.py:149
+#: solfege/exercises/compareintervals.py:133
+#: exercises/standard/lesson-files/compare-intervals:6
+#: exercises/standard/learningtree.txt:109
+msgid "Compare intervals"
+msgstr "Aralıkları karşılaştır"
+
+#: solfege/exercises/compareintervals.py:152
 msgid ""
 "F_irst interval\n"
 "is largest"
@@ -2432,7 +2558,7 @@ msgstr ""
 "İl_k aralık\n"
 "en büyük olanıdır."
 
-#: solfege/exercises/compareintervals.py:152
+#: solfege/exercises/compareintervals.py:155
 msgid ""
 "The intervals\n"
 "are _equal"
@@ -2440,7 +2566,7 @@ msgstr ""
 "Aralıklar\n"
 "eşit_yapıdadır."
 
-#: solfege/exercises/compareintervals.py:155
+#: solfege/exercises/compareintervals.py:158
 msgid ""
 "_Last interval\n"
 "is largest"
@@ -2448,84 +2574,90 @@ msgstr ""
 "_Son aralık\n"
 "en büyük olanıdır."
 
-#: solfege/exercises/compareintervals.py:175
-#: exercises/standard/learningtree.txt:107
+#: solfege/exercises/compareintervals.py:178
+#: exercises/standard/learningtree.txt:111
 msgid "Harmonic"
 msgstr "Armonik"
 
-#: solfege/exercises/compareintervals.py:178
-#: exercises/standard/learningtree.txt:125
+#: solfege/exercises/compareintervals.py:181
+#: exercises/standard/learningtree.txt:129
 msgid "Melodic"
 msgstr "Melodik"
 
-#: solfege/exercises/compareintervals.py:185
+#: solfege/exercises/compareintervals.py:188
 msgid "First interval:"
 msgstr "İlk aralık:"
 
-#: solfege/exercises/compareintervals.py:196
+#: solfege/exercises/compareintervals.py:199
 msgid "Last interval:"
 msgstr "Son aralık:"
 
-#: solfege/exercises/compareintervals.py:252
-#: solfege/exercises/harmonicinterval.py:240
-#: solfege/exercises/harmonicprogressiondictation.py:87
-#: solfege/exercises/idbyname.py:237 solfege/exercises/idbyname.py:296
-#: solfege/exercises/idtone.py:239 solfege/exercises/idtone.py:280
-#: solfege/exercises/nameinterval.py:163 solfege/exercises/nameinterval.py:179
-#: solfege/exercises/nameinterval.py:217
-#: solfege/exercises/rhythmdictation2.py:108
-#: solfege/exercises/rhythmdictation.py:134
+#: solfege/exercises/compareintervals.py:255
+#: solfege/exercises/harmonicinterval.py:244
+#: solfege/exercises/harmonicprogressiondictation.py:89
+#: solfege/exercises/idbyname.py:240 solfege/exercises/idbyname.py:298
+#: solfege/exercises/idtone.py:230 solfege/exercises/idtone.py:271
+#: solfege/exercises/nameinterval.py:178 solfege/exercises/nameinterval.py:194
+#: solfege/exercises/nameinterval.py:229
+#: solfege/exercises/rhythmdictation2.py:111
+#: solfege/exercises/rhythmdictation.py:137
+#: solfege/exercises/toneincontext.py:240
+#: solfege/exercises/toneincontext.py:284
 msgid "Correct, but you have already solved this question"
 msgstr "Doğru, fakat bu soruyu zaten çözmüştünüz"
 
-#: solfege/exercises/compareintervals.py:254
-#: solfege/exercises/harmonicinterval.py:242
-#: solfege/exercises/harmonicprogressiondictation.py:89
-#: solfege/exercises/idbyname.py:239 solfege/exercises/idbyname.py:297
-#: solfege/exercises/idtone.py:241 solfege/exercises/idtone.py:281
-#: solfege/exercises/nameinterval.py:165 solfege/exercises/nameinterval.py:181
-#: solfege/exercises/nameinterval.py:218
-#: solfege/exercises/rhythmdictation2.py:110
-#: solfege/exercises/rhythmdictation.py:136
+#: solfege/exercises/compareintervals.py:257
+#: solfege/exercises/harmonicinterval.py:246
+#: solfege/exercises/harmonicprogressiondictation.py:91
+#: solfege/exercises/idbyname.py:242 solfege/exercises/idbyname.py:299
+#: solfege/exercises/idtone.py:232 solfege/exercises/idtone.py:272
+#: solfege/exercises/nameinterval.py:180 solfege/exercises/nameinterval.py:196
+#: solfege/exercises/nameinterval.py:230
+#: solfege/exercises/rhythmdictation2.py:113
+#: solfege/exercises/rhythmdictation.py:139
+#: solfege/exercises/toneincontext.py:242
+#: solfege/exercises/toneincontext.py:285
 msgid "Wrong, but you have already solved this question"
 msgstr "Yanlış, fakat bu soruyu zaten çözmüştünüz"
 
-#: solfege/exercises/compareintervals.py:277
-#: solfege/exercises/compareintervals.py:350
+#: solfege/exercises/compareintervals.py:280
+#: solfege/exercises/compareintervals.py:354
 msgid "Last interval is largest"
 msgstr "Son aralık en büyük olanıdır"
 
-#: solfege/exercises/compareintervals.py:279
+#: solfege/exercises/compareintervals.py:282
 msgid "The intervals are equal"
 msgstr "Aralıklar eşittir"
 
-#: solfege/exercises/compareintervals.py:281
-#: solfege/exercises/compareintervals.py:351
+#: solfege/exercises/compareintervals.py:284
+#: solfege/exercises/compareintervals.py:355
 msgid "First interval is largest"
 msgstr "İlk aralık en büyük olanıdır"
 
-#: solfege/exercises/compareintervals.py:282
-#: solfege/exercises/compareintervals.py:350
-#: solfege/exercises/compareintervals.py:351
-#: solfege/exercises/harmonicinterval.py:213 solfege/exercises/idtone.py:267
+#: solfege/exercises/compareintervals.py:285
+#: solfege/exercises/compareintervals.py:354
+#: solfege/exercises/compareintervals.py:355
+#: solfege/exercises/harmonicinterval.py:217 solfege/exercises/idtone.py:258
+#: solfege/exercises/toneincontext.py:233
 #, python-format
 msgid "The answer is: %s"
 msgstr "Doğru Cevap: %s"
 
-#: solfege/exercises/compareintervals.py:321
-#: solfege/exercises/compareintervals.py:353
+#: solfege/exercises/compareintervals.py:324
+#: solfege/exercises/compareintervals.py:357
 msgid "You have to configure the exercise properly"
 msgstr "Alıştırmayı düzgün bir şekilde yapılandırmalısınız."
 
-#: solfege/exercises/compareintervals.py:356
-#: solfege/exercises/elembuilder.py:145 solfege/exercises/elembuilder.py:238
-#: solfege/exercises/idbyname.py:204 solfege/exercises/idbyname.py:232
-#: solfege/exercises/idbyname.py:309 solfege/exercises/nameinterval.py:159
-#: solfege/exercises/nameinterval.py:175 solfege/exercises/nameinterval.py:221
-#: solfege/exercises/rhythmdictation2.py:141
-#: solfege/exercises/rhythmdictation.py:171 solfege/exercises/rhythm.py:263
-#: solfege/exercises/rhythm.py:342 solfege/exercises/singanswer.py:112
-#: solfege/exercises/singanswer.py:115
+#: solfege/exercises/compareintervals.py:360
+#: solfege/exercises/elembuilder.py:152 solfege/exercises/elembuilder.py:259
+#: solfege/exercises/idbyname.py:207 solfege/exercises/idbyname.py:235
+#: solfege/exercises/idbyname.py:311 solfege/exercises/nameinterval.py:174
+#: solfege/exercises/nameinterval.py:190 solfege/exercises/nameinterval.py:233
+#: solfege/exercises/rhythmdictation2.py:144
+#: solfege/exercises/rhythmdictation.py:174 solfege/exercises/rhythm.py:261
+#: solfege/exercises/rhythm.py:335 solfege/exercises/singanswer.py:115
+#: solfege/exercises/singanswer.py:118 solfege/exercises/solmisation.py:277
+#: solfege/exercises/solmisation.py:383 solfege/exercises/toneincontext.py:282
 msgid "Click 'New' to begin."
 msgstr "Başlamak için 'Yeni'ye tıklayın."
 
@@ -2533,60 +2665,58 @@ msgstr "Başlamak için 'Yeni'ye tıklayın."
 msgid "_Play the whole music"
 msgstr "_Tüm müziği çal"
 
-#: solfege/exercises/dictation.py:199
+#: solfege/exercises/dictation.py:195
 #, python-format
 msgid "The lesson file '%s' contains no questions."
 msgstr "Ders dosyası %s hiçbir soru içermez"
 
-#: solfege/exercises/elembuilder.py:108 solfege/exercises/rhythm.py:206
-msgid "_Backspace"
-msgstr "_Gerisilme"
-
-#: solfege/exercises/elembuilder.py:115
-msgid "elembuilder"
-msgstr "elembuilder"
-
-#: solfege/exercises/elembuilder.py:143
-#: solfege/exercises/harmonicinterval.py:225
-#: solfege/exercises/harmonicinterval.py:329 solfege/exercises/idbyname.py:230
-#: solfege/exercises/idbyname.py:306 solfege/exercises/melodicinterval.py:174
-#: solfege/exercises/melodicinterval.py:274
+#: solfege/exercises/elembuilder.py:150
+#: solfege/exercises/harmonicinterval.py:229
+#: solfege/exercises/harmonicinterval.py:327 solfege/exercises/idbyname.py:233
+#: solfege/exercises/idbyname.py:308 solfege/exercises/melodicinterval.py:176
+#: solfege/exercises/melodicinterval.py:272
 msgid "Click 'Start test' to begin."
 msgstr "Başlamak için 'Teste başla'yı tıklayın"
 
-#: solfege/exercises/harmonicinterval.py:178
-msgid "Ask for these intervals"
-msgstr "Bu aralıkları sor"
+#: solfege/exercises/harmonicinterval.py:104
+#: solfege/exercises/melodicinterval.py:240
+#: solfege/exercises/singinterval.py:140
+msgid "Exercise configuration problem"
+msgstr "Alıştırma yapılandırma sorunu"
 
-#: solfege/exercises/harmonicinterval.py:209
-#: solfege/exercises/harmonicinterval.py:325
-msgid "Harmonic interval"
-msgstr "Armonik aralık"
-
-#: solfege/exercises/harmonicinterval.py:232
-#: solfege/exercises/melodicinterval.py:191
-msgid "Ignoring intervals greater than major tenth."
-msgstr "Büyük onludan büyük aralıkları yoksayıyor"
-
-#: solfege/exercises/harmonicinterval.py:236
-#: solfege/exercises/harmonicinterval.py:332
-#: solfege/exercises/melodicinterval.py:179
-#: solfege/exercises/melodicinterval.py:277
-msgid "Click 'New interval' to begin."
-msgstr "Başlamak için 'Yeni Aralık' komutuna tıklayın"
-
-#: solfege/exercises/harmonicinterval.py:307
-msgid "You have to select some intervals to practise."
-msgstr "Pratik yapmak için bazı aralıklar seçmelisiniz."
-
-#: solfege/exercises/harmonicinterval.py:317
-#: solfege/exercises/melodicinterval.py:262
+#: solfege/exercises/harmonicinterval.py:168
+#: solfege/exercises/melodicinterval.py:100
 msgid "Identify the interval"
 msgstr "Aralığı nitelendir"
 
-#: solfege/exercises/harmonicinterval.py:343 solfege/exercises/idbyname.py:323
-#: solfege/exercises/melodicinterval.py:289
-#: solfege/exercises/singinterval.py:223
+#: solfege/exercises/harmonicinterval.py:182
+msgid "Ask for these intervals"
+msgstr "Bu aralıkları sor"
+
+#: solfege/exercises/harmonicinterval.py:213
+#: solfege/exercises/harmonicinterval.py:323
+msgid "Harmonic interval"
+msgstr "Armonik aralık"
+
+#: solfege/exercises/harmonicinterval.py:236
+#: solfege/exercises/melodicinterval.py:193
+msgid "Ignoring intervals greater than double octave."
+msgstr "Çift sekizliiden büyük aralıkları yoksayıyor."
+
+#: solfege/exercises/harmonicinterval.py:240
+#: solfege/exercises/harmonicinterval.py:330
+#: solfege/exercises/melodicinterval.py:181
+#: solfege/exercises/melodicinterval.py:275
+msgid "Click 'New interval' to begin."
+msgstr "Başlamak için 'Yeni Aralık' komutuna tıklayın"
+
+#: solfege/exercises/harmonicinterval.py:311
+msgid "You have to select some intervals to practise."
+msgstr "Pratik yapmak için bazı aralıklar seçmelisiniz."
+
+#: solfege/exercises/harmonicinterval.py:341 solfege/exercises/idbyname.py:325
+#: solfege/exercises/melodicinterval.py:288
+#: solfege/exercises/singinterval.py:225
 msgid "_Start test"
 msgstr "Teste _başla"
 
@@ -2594,19 +2724,19 @@ msgstr "Teste _başla"
 msgid "Harmonic progression dictation"
 msgstr "Armonik ilerleyen dikte"
 
-#: solfege/exercises/idbyname.py:128
+#: solfege/exercises/idbyname.py:134
 msgid "Questions to ask"
 msgstr "Sorulacak sorular"
 
-#: solfege/exercises/idbyname.py:141
+#: solfege/exercises/idbyname.py:147
 msgid "Identify by name"
 msgstr "İsmiyle nitelendir"
 
-#: solfege/exercises/idbyname.py:187
+#: solfege/exercises/idbyname.py:190
 msgid "The answer is: {answer}"
 msgstr "Cevap şöyledir: {answer}"
 
-#: solfege/exercises/idbyname.py:298
+#: solfege/exercises/idbyname.py:300
 msgid "You have to select some questions to practise."
 msgstr "Pratik yapmak için bazı sorular seçmelisiniz."
 
@@ -2618,7 +2748,7 @@ msgstr "Bpm"
 msgid "You have to select some tempos to practise."
 msgstr "Pratik yapmak için bazı tempolar seçmelisiniz."
 
-#: solfege/exercises/identifybpm.py:190 solfege/exercises/identifybpm.py:200
+#: solfege/exercises/identifybpm.py:190 solfege/exercises/identifybpm.py:201
 msgid "Click 'New tempo' to begin."
 msgstr "Başlamak için 'Yeni Tempo'ya tıklayın"
 
@@ -2627,79 +2757,75 @@ msgstr "Başlamak için 'Yeni Tempo'ya tıklayın"
 msgid "Correct, it is %i"
 msgstr "Doğru, o %i"
 
-#: solfege/exercises/idproperty.py:288 solfege/exercises/idproperty.py:293
+#: solfege/exercises/idproperty.py:286 solfege/exercises/idproperty.py:291
 #, python-format
 msgid "Click '%s' to begin."
 msgstr "Başlamak için şuna %s tıklayın."
 
-#: solfege/exercises/idtone.py:151
+#: solfege/exercises/idtone.py:143
 msgid "Weight"
 msgstr "Ağırlık"
 
-#: solfege/exercises/idtone.py:174
+#: solfege/exercises/idtone.py:166
 msgid "Octave:"
 msgstr "Oktav:"
 
-#: solfege/exercises/idtone.py:182
+#: solfege/exercises/idtone.py:174
 msgid "Hide _piano keyboard shortcuts"
 msgstr "Piyano _tuşu kısayollarını gizle "
 
-#: solfege/exercises/idtone.py:188
+#: solfege/exercises/idtone.py:180
 msgid "When you guess wrong"
 msgstr "Yanlış tahmin ettiğinizde"
 
-#: solfege/exercises/idtone.py:193
+#: solfege/exercises/idtone.py:185
 msgid "Play warning sound"
 msgstr "Uyarı sesini çal"
 
-#: solfege/exercises/idtone.py:200 solfege/exercises/idtone.py:308
-#: exercises/standard/learningtree.txt:493
-#: exercises/standard/learningtree.txt:495
+#: solfege/exercises/idtone.py:192 solfege/exercises/idtone.py:317
+#: exercises/standard/learningtree.txt:499
+#: exercises/standard/learningtree.txt:501
 msgid "Identify tone"
 msgstr "Tonaliteyi nitelendir"
 
-#: solfege/exercises/idtone.py:214
+#: solfege/exercises/idtone.py:205
 msgid "You have to select some tones practise. Do this on the config page by setting the weight of tones to a value greater than zero."
 msgstr "Pratik yapmanız için bazı sesler seçmek zorundasınız. Bunu, config sayfasında seslerin ağırlığını sıfırdan daha büyük bir değere ayarlayarak yapınız."
 
-#: solfege/exercises/idtone.py:231
+#: solfege/exercises/idtone.py:222
 #, python-format
 msgid "First tone is %s"
 msgstr "İlk ses %s"
 
-#: solfege/exercises/idtone.py:235 solfege/exercises/idtone.py:279
-#: solfege/exercises/idtone.py:311
+#: solfege/exercises/idtone.py:226 solfege/exercises/idtone.py:270
+#: solfege/exercises/idtone.py:320
 msgid "Click 'New tone' to begin."
 msgstr "Başlamak için 'Yeni ses'e tıklayın."
 
-#: solfege/exercises/melodicinterval.py:119
-#: solfege/exercises/melodicinterval.py:270
+#: solfege/exercises/melodicinterval.py:121
+#: solfege/exercises/melodicinterval.py:268
 msgid "Melodic interval"
 msgstr "Melodik aralık"
 
-#: solfege/exercises/melodicinterval.py:188
+#: solfege/exercises/melodicinterval.py:190
 msgid "You have already identified this interval"
 msgstr "Bu aralığı nitelendirmiştiniz"
 
-#: solfege/exercises/melodicinterval.py:236
-msgid "The exercise has to be better configured."
-msgstr "Alıştırma daha iyi yapılandırılmalıdır."
-
-#: solfege/exercises/nameinterval.py:153
-msgid "Could not satisfy the constraints in the lesson header."
-msgstr "Ders başlığındaki sınırlamalar yeterli gelmiyor."
-
-#: solfege/exercises/nameinterval.py:200
+#: solfege/exercises/nameinterval.py:140
 msgid "Name the interval"
 msgstr "Aralığın adı"
 
-#: solfege/exercises/rhythmdictation2.py:128
-#: solfege/exercises/rhythmdictation.py:158
+#: solfege/exercises/nameinterval.py:168
+msgid "Could not satisfy the constraints in the lesson header."
+msgstr "Ders başlığındaki sınırlamalar yeterli gelmiyor."
+
+#: solfege/exercises/rhythmdictation2.py:131
+#: solfege/exercises/rhythmdictation.py:161
 msgid "The music played:"
 msgstr "Çalınan müzik:"
 
-#: solfege/exercises/rhythmdictation2.py:129
-#: solfege/exercises/rhythmdictation.py:159
+#: solfege/exercises/rhythmdictation2.py:132
+#: solfege/exercises/rhythmdictation.py:162
 msgid "The rhythm you entered:"
 msgstr "Girdiğiniz tartım:"
 
@@ -2716,47 +2842,53 @@ msgstr "Kullanıcı el kitabından, <GNU Solfege'i Genişletmek> bölümünün <
 msgid "The music object named «music» is not a subclass of MpdParsable"
 msgstr "«müzik» adını taşıyan müzik nesnesi MpdParsable'ın alt sınıfı değildir"
 
-#: solfege/exercises/rhythm.py:187
-msgid "Play"
-msgstr "Çal"
-
-#: solfege/exercises/rhythm.py:226
-msgid "Don't start the question with a rest"
-msgstr "Soruya bir sus ile başlamayınız"
-
-#: solfege/exercises/rhythm.py:229
-msgid "Beats per minute:"
-msgstr "Dakikadaki vuruş sayısı:"
-
-#: solfege/exercises/rhythm.py:303 solfege/exercises/rhythmtapping.py:186
-msgid "You have to configure this exercise properly"
-msgstr "Bu alıştırma dosyasını düzgün bir şekilde yapılandırmalısınız"
-
-#: solfege/exercises/rhythm.py:338
+#: solfege/exercises/rhythm.py:179
 msgid "Identify the rhythm"
 msgstr "Ritmi nitelendirin"
 
-#: solfege/exercises/rhythmtapping.py:123
+#: solfege/exercises/rhythm.py:187 solfege/exercises/solmisation.py:195
+msgid "Play"
+msgstr "Çal"
+
+#: solfege/exercises/rhythm.py:224
+msgid "Don't start the question with a rest"
+msgstr "Soruya bir sus ile başlamayınız"
+
+#: solfege/exercises/rhythm.py:227 solfege/exercises/solmisation.py:230
+msgid "Beats per minute:"
+msgstr "Dakikadaki vuruş sayısı:"
+
+#: solfege/exercises/rhythm.py:300 solfege/exercises/rhythmtapping.py:193
+#: solfege/exercises/solmisation.py:319
+msgid "You have to configure this exercise properly"
+msgstr "Bu alıştırma dosyasını düzgün bir şekilde yapılandırmalısınız"
+
+#: solfege/exercises/rhythmtapping2.py:48
+#: solfege/exercises/rhythmtapping.py:130
 msgid "Please tap the rhythm."
 msgstr "Ritmi vur."
 
-#: solfege/exercises/rhythmtapping.py:130
+#: solfege/exercises/rhythmtapping.py:137
 msgid "Tap here"
 msgstr "Buraya vur"
 
-#: solfege/exercises/rhythmtapping.py:142
+#: solfege/exercises/rhythmtapping.py:149
 msgid "Accuracy required:"
 msgstr "Doğrulama gerekli:"
 
-#: solfege/exercises/rhythmtapping.py:196
+#: solfege/exercises/rhythmtapping.py:203
 msgid "Tapping in progress..."
 msgstr "Vuruş devam ediyor..."
 
-#: solfege/exercises/singchord.py:46
+#: solfege/exercises/singchord.py:48
 msgid "440h_z"
 msgstr "440h_z"
 
-#: solfege/exercises/singinterval.py:102
+#: solfege/exercises/singinterval.py:93
+msgid "Sing the interval"
+msgstr "Aralığı seslendir"
+
+#: solfege/exercises/singinterval.py:104
 msgid ""
 "_New interval,\n"
 "last was correct"
@@ -2764,7 +2896,7 @@ msgstr ""
 "_Yeni aralık,\n"
 " sonuncusu doğru idi."
 
-#: solfege/exercises/singinterval.py:104
+#: solfege/exercises/singinterval.py:106
 msgid ""
 "New interval,\n"
 "last was _wrong"
@@ -2772,19 +2904,19 @@ msgstr ""
 "Yeni aralık,\n"
 " sonuncusu _yanlış idi."
 
-#: solfege/exercises/singinterval.py:109
+#: solfege/exercises/singinterval.py:111
 msgid "_Repeat first tone"
 msgstr "İlk _sesi tekrarla"
 
-#: solfege/exercises/singinterval.py:117
+#: solfege/exercises/singinterval.py:119
 msgid "Play _last tone"
 msgstr "Son _sesi çal"
 
-#: solfege/exercises/singinterval.py:132 solfege/exercises/singinterval.py:181
+#: solfege/exercises/singinterval.py:134 solfege/exercises/singinterval.py:183
 msgid "Sing interval"
 msgstr "Aralığı seslendir"
 
-#: solfege/exercises/singinterval.py:148
+#: solfege/exercises/singinterval.py:154
 msgid ""
 "The exercise has to be better configured.\n"
 "Click 'Reset to default values' on the config\n"
@@ -2793,19 +2925,65 @@ msgstr ""
 "Alıştırma daha iyi yapılandırılmalıdır.\n"
 " Bunu nasıl yapacağınızı bilmiyorsanız yapılandırma sayfasındaki 'Varsayılan değerlere sıfırla'ya tıklayın."
 
-#: solfege/exercises/singinterval.py:175
-msgid "Sing the interval"
-msgstr "Aralığı seslendir"
+#: solfege/exercises/solmisation.py:186
+#: exercises/standard/lesson-files/solmisation:7
+msgid "Solmisation Diktat"
+msgstr "Solmisation Diktat"
 
-#: solfege/exercises/twelvetone.py:69
+#: solfege/exercises/solmisation.py:238
+msgid "Show the first tone"
+msgstr "İlk sesi göster"
+
+#: solfege/exercises/solmisation.py:241
+msgid "Play cadence"
+msgstr "Kadansı çal"
+
+#: solfege/exercises/toneincontext.py:171
+#: exercises/standard/learningtree.txt:580
+msgid "Tone in context"
+msgstr "Ses bağlam içinde"
+
+#: solfege/exercises/toneincontext.py:191
+msgid "Random transpose"
+msgstr "Rastgele aktarım"
+
+#: solfege/exercises/toneincontext.py:195
+msgid "Tones"
+msgstr "Sesler"
+
+#: solfege/exercises/toneincontext.py:201
+#: exercises/standard/lesson-files/cadense-1:15
+#: exercises/standard/learningtree.txt:573
+#: exercises/standard/learningtree.txt:575
+msgid "Cadences"
+msgstr "Kalışlar"
+
+#: solfege/exercises/toneincontext.py:215
+msgid "Tone in cadence"
+msgstr "Kalış sesi"
+
+#: solfege/exercises/toneincontext.py:227
+msgid "No cadences selected"
+msgstr "Hiç bir kalış seçilmedi"
+
+#: solfege/exercises/toneincontext.py:265
+msgid "Unnamed"
+msgstr "isimsiz"
+
+#: solfege/exercises/twelvetone.py:61
+#: exercises/standard/lesson-files/twelvetone:7
+msgid "Sing twelve random tones"
+msgstr "Oniki rastgele ses söyle"
+
+#: solfege/exercises/twelvetone.py:70
 msgid "_Play first note"
 msgstr "İlk _notayı çal"
 
-#: solfege/exercises/twelvetone.py:71
+#: solfege/exercises/twelvetone.py:72
 msgid "Play _last note"
 msgstr "_Son notayı çal"
 
-#: solfege/exercises/twelvetone.py:73
+#: solfege/exercises/twelvetone.py:74
 msgid "Play _all"
 msgstr "_Hepsini çal"
 
@@ -2914,12 +3092,6 @@ msgstr "Norveç çocuk şarkıları"
 msgid "simple tonal chords"
 msgstr "basit tonal akorlar"
 
-#: exercises/standard/lesson-files/cadense-1:15
-#: exercises/standard/learningtree.txt:567
-#: exercises/standard/learningtree.txt:569
-msgid "Cadences"
-msgstr "Kalışlar"
-
 #: exercises/standard/lesson-files/cadense-1:29
 msgid "Perfect authentic cadence"
 msgstr "Perfect authentic cadence"
@@ -2951,6 +3123,10 @@ msgstr "akor|maj79"
 #: exercises/standard/lesson-files/chord-7-inv:17
 msgid "Dominant 7 chord with inversions"
 msgstr "Çevrimleriyle birlikte Dominant 7 akoru"
+
+#: exercises/standard/lesson-files/chord-all-root:11
+msgid "Lots of chords"
+msgstr "Akorların çoğu"
 
 #: exercises/standard/lesson-files/chord-dim-aug:12
 msgid "Diminished and augmented chords"
@@ -3085,11 +3261,6 @@ msgstr "Dar ve geniş serimde minör/majör akorlar"
 msgid "Altered chords (chord voicing)"
 msgstr "Değiştirilmiş akorlar (akor partileri)"
 
-#: exercises/standard/lesson-files/compare-intervals:6
-#: exercises/standard/learningtree.txt:105
-msgid "Compare intervals"
-msgstr "Aralıkları karşılaştır"
-
 #: exercises/standard/lesson-files/compare-intervals-harmonic:7
 #: exercises/standard/lesson-files/compare-intervals-melodic:7
 #: exercises/standard/lesson-files/harmonic-intervals:8
@@ -3144,7 +3315,6 @@ msgstr "Sekizliye ikili"
 
 #: exercises/standard/lesson-files/compare-intervals-harmonic-3:6
 #: exercises/standard/lesson-files/compare-intervals-melodic-3:7
-#: exercises/standard/lesson-files/compare-intervals-melodic-3~:6
 #: exercises/standard/lesson-files/harmonic-intervals-3:8
 #: exercises/standard/lesson-files/hear-tones-1:7
 #: exercises/standard/lesson-files/melodic-intervals-3:8
@@ -3157,7 +3327,6 @@ msgstr "Üçlüler"
 
 #: exercises/standard/lesson-files/compare-intervals-harmonic-4-5:6
 #: exercises/standard/lesson-files/compare-intervals-melodic-4-5:7
-#: exercises/standard/lesson-files/compare-intervals-melodic-4-5~:6
 #: exercises/standard/lesson-files/harmonic-intervals-4-5:8
 #: exercises/standard/lesson-files/hear-tones-3:7
 #: exercises/standard/lesson-files/melodic-intervals-4-5:8
@@ -12543,10 +12712,17 @@ msgstr "Diyatonik akorlar"
 msgid "Diatonic chords & inversions"
 msgstr "Diyatonik akorlar & çevrimleri"
 
+#: exercises/standard/lesson-files/harmonic-intervals-2-to-15:7
+#: exercises/standard/lesson-files/melodic-intervals-2-to-15:7
+#: exercises/standard/lesson-files/melodic-intervals-down-2-to-15:7
+#: exercises/standard/lesson-files/melodic-intervals-up-2-to-15:7
+msgid "Second to 15th"
+msgstr "İkiliden 15liye"
+
 #: exercises/standard/lesson-files/harmonic-intervals-self-config:6
 #: exercises/standard/csound-tree.txt:218
-#: exercises/standard/learningtree.txt:65
-#: exercises/standard/learningtree.txt:67
+#: exercises/standard/learningtree.txt:68
+#: exercises/standard/learningtree.txt:70
 msgid "Harmonic intervals"
 msgstr "Armonik aralıklar"
 
@@ -12921,6 +13097,8 @@ msgid "C to B, C#, D#, F# and G#"
 msgstr "C to B, C#, D#, F# ve G#"
 
 #: exercises/standard/lesson-files/id-tone-cde-12:8
+#: exercises/standard/lesson-files/toneincontext-major:6
+#: exercises/standard/lesson-files/toneincontext-minor:6
 msgid "All"
 msgstr "Hepsi"
 
@@ -13067,8 +13245,8 @@ msgid "Parts of 2 Bach inventions"
 msgstr "2 Bach envansiyonun partileri"
 
 #: exercises/standard/lesson-files/melodic-intervals-self-config:6
-#: exercises/standard/csound-tree.txt:4 exercises/standard/learningtree.txt:45
-#: exercises/standard/learningtree.txt:47
+#: exercises/standard/csound-tree.txt:4 exercises/standard/learningtree.txt:47
+#: exercises/standard/learningtree.txt:49
 msgid "Melodic intervals"
 msgstr "Melodik aralıklar"
 
@@ -13087,8 +13265,8 @@ msgstr "MMA ile armonik program"
 #: exercises/standard/lesson-files/mma-7-C:11
 #: exercises/standard/lesson-files/mma-7-harmonic-minor:11
 #: exercises/standard/lesson-files/mma-7-natural-minor:12
-#: exercises/standard/lesson-files/progression-1:11
-#: exercises/standard/lesson-files/progression-2:12
+#: exercises/standard/lesson-files/progression-1:10
+#: exercises/standard/lesson-files/progression-2:11
 #: exercises/standard/lesson-files/progression-atte:32
 #: exercises/standard/lesson-files/three-prog-root:10
 msgid "Enter the harmonic progression"
@@ -13146,11 +13324,11 @@ msgstr "Sesdeşler"
 msgid "Polish folk songs"
 msgstr "Polonya halk şarkıları"
 
-#: exercises/standard/lesson-files/progression-1:10
+#: exercises/standard/lesson-files/progression-1:9
 msgid "Easy harmonic progressions"
 msgstr "Kolay armoni bağlantıları"
 
-#: exercises/standard/lesson-files/progression-2:11
+#: exercises/standard/lesson-files/progression-2:10
 msgid "Easy harmonic progressions, including inverted chords"
 msgstr "Kolay armoni bağlantıları, çevrim akorlarını da kapsar"
 
@@ -13222,8 +13400,8 @@ msgstr "8 sesli diziler"
 
 #: exercises/standard/lesson-files/sc-beb:12
 #: exercises/standard/lesson-files/sc-beb-name:12
-#: exercises/standard/learningtree.txt:422
-#: exercises/standard/learningtree.txt:424
+#: exercises/standard/learningtree.txt:428
+#: exercises/standard/learningtree.txt:430
 msgid "Bebop Scales"
 msgstr "Bebop Dizileri"
 
@@ -13263,8 +13441,8 @@ msgstr "Kilise Kipleri"
 
 #: exercises/standard/lesson-files/sc-dha:12
 #: exercises/standard/lesson-files/sc-dha-name:12
-#: exercises/standard/learningtree.txt:349
-#: exercises/standard/learningtree.txt:351
+#: exercises/standard/learningtree.txt:355
+#: exercises/standard/learningtree.txt:357
 msgid "Double Harmonic Scale and its modes"
 msgstr "Çift Armonik Dizi ve bağlı modları"
 
@@ -13326,8 +13504,8 @@ msgstr "Yarı-Eksilmiş veya Eksik akor üzerine kullanılan Caz Modları"
 
 #: exercises/standard/lesson-files/sc-ham:12
 #: exercises/standard/lesson-files/sc-ham-name:12
-#: exercises/standard/learningtree.txt:334
-#: exercises/standard/learningtree.txt:336
+#: exercises/standard/learningtree.txt:340
+#: exercises/standard/learningtree.txt:342
 msgid "Harmonic Major Scale and its modes"
 msgstr "Armonik Majör Dizi ve modları"
 
@@ -13365,8 +13543,8 @@ msgstr "Armonik Majör Dizi ve modları - üçlü arpejli"
 
 #: exercises/standard/lesson-files/sc-har:12
 #: exercises/standard/lesson-files/sc-har-name:12
-#: exercises/standard/learningtree.txt:319
-#: exercises/standard/learningtree.txt:321
+#: exercises/standard/learningtree.txt:325
+#: exercises/standard/learningtree.txt:327
 msgid "Harmonic Minor Scale and its modes"
 msgstr "Armonik Minör Dizi ve modları"
 
@@ -13408,8 +13586,8 @@ msgstr "Macar Minör Dizisi ve modları - dereceyi algıla"
 
 #: exercises/standard/lesson-files/sc-hun:12
 #: exercises/standard/lesson-files/sc-hun-name:12
-#: exercises/standard/learningtree.txt:395
-#: exercises/standard/learningtree.txt:397
+#: exercises/standard/learningtree.txt:401
+#: exercises/standard/learningtree.txt:403
 msgid "Hungarian Scale and its modes"
 msgstr "Macar Dizisi ve modları"
 
@@ -13447,8 +13625,8 @@ msgstr "Macar Dizisi ve modları - üçlülerle arpejli"
 
 #: exercises/standard/lesson-files/sc-maj:12
 #: exercises/standard/lesson-files/sc-maj-name:12
-#: exercises/standard/learningtree.txt:287
-#: exercises/standard/learningtree.txt:289
+#: exercises/standard/learningtree.txt:293
+#: exercises/standard/learningtree.txt:295
 msgid "Major Scale and its modes"
 msgstr "Majör Dizi ve modları"
 
@@ -13502,8 +13680,8 @@ msgstr "Majör ve Artık akor üzerine kurulan Caz Modları"
 
 #: exercises/standard/lesson-files/sc-mel:12
 #: exercises/standard/lesson-files/sc-mel-name:12
-#: exercises/standard/learningtree.txt:304
-#: exercises/standard/learningtree.txt:306
+#: exercises/standard/learningtree.txt:310
+#: exercises/standard/learningtree.txt:312
 msgid "Melodic Minor Scale and its modes"
 msgstr "Melodik Minör Dizisi ve modları"
 
@@ -13553,8 +13731,8 @@ msgstr "Doğal Minör Dizisi ve modları - dereceyi algıla"
 
 #: exercises/standard/lesson-files/sc-nea:12
 #: exercises/standard/lesson-files/sc-nea-name:12
-#: exercises/standard/learningtree.txt:365
-#: exercises/standard/learningtree.txt:367
+#: exercises/standard/learningtree.txt:371
+#: exercises/standard/learningtree.txt:373
 msgid "Neapolitan Scale and its modes"
 msgstr "Napoliten Dizisi ve modları"
 
@@ -13629,8 +13807,8 @@ msgstr "Napoliten Dizisi ve modları - üçlülerle arpejli"
 
 #: exercises/standard/lesson-files/sc-pen:12
 #: exercises/standard/lesson-files/sc-pen-name:12
-#: exercises/standard/learningtree.txt:410
-#: exercises/standard/learningtree.txt:412
+#: exercises/standard/learningtree.txt:416
+#: exercises/standard/learningtree.txt:418
 msgid "Pentatonic Major Scale and its modes"
 msgstr "Pentatonik Majör Dizi ve modları"
 
@@ -13708,42 +13886,43 @@ msgid "All the questions from the singchord exercises"
 msgstr "Akor seslendirme alıştırmalarındaki tüm sorular"
 
 #: exercises/standard/lesson-files/sing-intervals-self-config:8
-#: exercises/standard/learningtree.txt:85
-#: exercises/standard/learningtree.txt:87
+#: exercises/standard/learningtree.txt:89
+#: exercises/standard/learningtree.txt:91
 msgid "Sing intervals"
 msgstr "Aralıkları seslendir"
 
 #: exercises/standard/lesson-files/sing-the-fifth:9
-#: exercises/standard/lesson-files/sing-the-fifth:15
-#: exercises/standard/lesson-files/sing-the-fifth:20
+#: exercises/standard/lesson-files/sing-the-fifth:16
+#: exercises/standard/lesson-files/sing-the-fifth:21
 msgid "Sing the fifth of the chord"
 msgstr "Akorun beşlisini seslendir"
 
 #: exercises/standard/lesson-files/sing-the-root:9
-#: exercises/standard/lesson-files/sing-the-root:15
-#: exercises/standard/lesson-files/sing-the-root:20
+#: exercises/standard/lesson-files/sing-the-root:16
+#: exercises/standard/lesson-files/sing-the-root:21
 msgid "Sing the root of the chord"
 msgstr "Akorun kök sesini seslendir"
 
 #: exercises/standard/lesson-files/sing-the-seventh:9
-#: exercises/standard/lesson-files/sing-the-seventh:15
-#: exercises/standard/lesson-files/sing-the-seventh:20
-#: exercises/standard/lesson-files/sing-the-seventh-inv:16
-#: exercises/standard/lesson-files/sing-the-seventh-inv:21
-#: exercises/standard/lesson-files/sing-the-seventh-inv:27
-#: exercises/standard/lesson-files/sing-the-seventh-inv:32
-#: exercises/standard/lesson-files/sing-the-seventh-inv:38
-#: exercises/standard/lesson-files/sing-the-seventh-inv:43
-#: exercises/standard/lesson-files/sing-the-seventh-inv:49
-#: exercises/standard/lesson-files/sing-the-seventh-inv:54
-#: exercises/standard/lesson-files/sing-the-seventh-inv:61
-#: exercises/standard/lesson-files/sing-the-seventh-inv:66
-#: exercises/standard/lesson-files/sing-the-seventh-inv:72
-#: exercises/standard/lesson-files/sing-the-seventh-inv:77
-#: exercises/standard/lesson-files/sing-the-seventh-inv:83
-#: exercises/standard/lesson-files/sing-the-seventh-inv:88
-#: exercises/standard/lesson-files/sing-the-seventh-inv:94
-#: exercises/standard/lesson-files/sing-the-seventh-inv:99
+#: exercises/standard/lesson-files/sing-the-seventh:16
+#: exercises/standard/lesson-files/sing-the-seventh:21
+#: exercises/standard/lesson-files/sing-the-seventh-inv:10
+#: exercises/standard/lesson-files/sing-the-seventh-inv:17
+#: exercises/standard/lesson-files/sing-the-seventh-inv:22
+#: exercises/standard/lesson-files/sing-the-seventh-inv:28
+#: exercises/standard/lesson-files/sing-the-seventh-inv:33
+#: exercises/standard/lesson-files/sing-the-seventh-inv:39
+#: exercises/standard/lesson-files/sing-the-seventh-inv:44
+#: exercises/standard/lesson-files/sing-the-seventh-inv:50
+#: exercises/standard/lesson-files/sing-the-seventh-inv:55
+#: exercises/standard/lesson-files/sing-the-seventh-inv:62
+#: exercises/standard/lesson-files/sing-the-seventh-inv:67
+#: exercises/standard/lesson-files/sing-the-seventh-inv:73
+#: exercises/standard/lesson-files/sing-the-seventh-inv:78
+#: exercises/standard/lesson-files/sing-the-seventh-inv:84
+#: exercises/standard/lesson-files/sing-the-seventh-inv:89
+#: exercises/standard/lesson-files/sing-the-seventh-inv:95
+#: exercises/standard/lesson-files/sing-the-seventh-inv:100
 msgid "Sing the seventh of the chord"
 msgstr "Akorun yedilisini seslendir"
 
@@ -13752,8 +13931,8 @@ msgid "Sing the seventh of the chord. Inversions."
 msgstr "Akorun yedilisini seslendir. Çevrimler."
 
 #: exercises/standard/lesson-files/sing-the-third:9
-#: exercises/standard/lesson-files/sing-the-third:15
-#: exercises/standard/lesson-files/sing-the-third:20
+#: exercises/standard/lesson-files/sing-the-third:16
+#: exercises/standard/lesson-files/sing-the-third:21
 msgid "Sing the third of the chord"
 msgstr "Akorun üçlüsünü seslendir"
 
@@ -13879,9 +14058,55 @@ msgstr "%s Do majördeki heceler"
 msgid "Three chords, root position"
 msgstr "Kök pozisyonunda üç akor"
 
-#: exercises/standard/lesson-files/twelvetone:7
-msgid "Sing twelve random tones"
-msgstr "Oniki rastgele ses söyle"
+#: exercises/standard/lesson-files/tone-after-dominant:6
+msgid "Find the last played tone's step in the final dominant chord."
+msgstr "Bitiş çeken akorunda son sesin perdesini bulunuz."
+
+#: exercises/standard/lesson-files/tone-after-dominant:7
+#: exercises/standard/lesson-files/toneincontext:6
+#: exercises/standard/learningtree.txt:523
+#: exercises/standard/learningtree.txt:525
+msgid "Configure yourself"
+msgstr "Kendiniz yapılandırın"
+
+#: exercises/standard/lesson-files/tone-after-dominant:13
+msgid "Dominant 7"
+msgstr "Çeken 7"
+
+#: exercises/standard/lesson-files/toneincontext:17
+msgid "Minor"
+msgstr "Minör"
+
+#: exercises/standard/lesson-files/toneincontext-major-cr:6
+#: exercises/standard/lesson-files/toneincontext-minor-cr:6
+msgid "Cromatic"
+msgstr "Kromatik"
+
+#: exercises/standard/lesson-files/toneincontext-major-cr-f6:6
+#: exercises/standard/lesson-files/toneincontext-minor-cr-f6:6
+msgid "Cromatic - first 6 tones"
+msgstr "Kromatik -ilk 6 ses"
+
+#: exercises/standard/lesson-files/toneincontext-major-cr-l6:6
+#: exercises/standard/lesson-files/toneincontext-minor-cr-l6:6
+msgid "Cromatic - last 6 tones"
+msgstr "Kromatik -son 6 ses"
+
+#: exercises/standard/lesson-files/toneincontext-major-f4:6
+msgid "First 4 scale tones"
+msgstr "İlk 4 dizi sesi"
+
+#: exercises/standard/lesson-files/toneincontext-major-l4:6
+msgid "Last 4 scale tones"
+msgstr "Son 4 dizi sesleri"
+
+#: exercises/standard/lesson-files/toneincontext-minor-f4:6
+msgid "First 4 tones"
+msgstr "İlk 4 ses"
+
+#: exercises/standard/lesson-files/toneincontext-minor-l4:6
+msgid "Last 4 tones"
+msgstr "Son 4 ses"
 
 #: exercises/standard/lesson-files/include/sc-master:21
 msgid "Ionian"
@@ -14620,10 +14845,6 @@ msgstr "Oktatonik T-Y"
 msgid "Halfstep-Wholestep"
 msgstr "Yarımperde-Tamperde"
 
-#: exercises/standard/lesson-files/include/sc-master:2159
-msgid "Whole Tone"
-msgstr "Tam Ton"
-
 #: exercises/standard/lesson-files/include/sc-master:2160
 msgid "Exatonic"
 msgstr "Eksatonik"
@@ -14700,127 +14921,200 @@ msgstr "Varsayılan giriş sayfası"
 msgid "Ascending melodic intervals"
 msgstr "Çıkıcı melodik aralıklar"
 
-#: exercises/standard/learningtree.txt:25
-#: exercises/standard/learningtree.txt:27
+#: exercises/standard/learningtree.txt:26
+#: exercises/standard/learningtree.txt:28
 msgid "Descending melodic intervals"
 msgstr "İnici melodik aralıklar"
 
-#: exercises/standard/learningtree.txt:144
-#: exercises/standard/learningtree.txt:145
-#: exercises/standard/learningtree.txt:147
+#: exercises/standard/learningtree.txt:148
+#: exercises/standard/learningtree.txt:149
+#: exercises/standard/learningtree.txt:151
 msgid "Rhythm"
 msgstr "Ritm"
 
-#: exercises/standard/learningtree.txt:155
-#: exercises/standard/learningtree.txt:157
+#: exercises/standard/learningtree.txt:159
+#: exercises/standard/learningtree.txt:161
 msgid "Tap generated rhythm"
 msgstr "Elle vurulmuş ritm"
 
-#: exercises/standard/learningtree.txt:164
-#: exercises/standard/learningtree.txt:166
+#: exercises/standard/learningtree.txt:168
+#: exercises/standard/learningtree.txt:170
 msgid "Rhythm dictation"
 msgstr "Ritm diktesi"
 
-#: exercises/standard/learningtree.txt:169
+#: exercises/standard/learningtree.txt:173
 msgid "Generated rhythms"
 msgstr "Elle vurulmuş ritmler"
 
-#: exercises/standard/learningtree.txt:182
-#: exercises/standard/learningtree.txt:184
+#: exercises/standard/learningtree.txt:186
+#: exercises/standard/learningtree.txt:188
 msgid "Name intervals"
 msgstr "Aralıkları adlandır"
 
-#: exercises/standard/learningtree.txt:198
-#: exercises/standard/learningtree.txt:200
+#: exercises/standard/learningtree.txt:202
+#: exercises/standard/learningtree.txt:204
 msgid "Name Scales"
 msgstr "Dizileri adlandır"
 
-#: exercises/standard/learningtree.txt:215
-#: exercises/standard/learningtree.txt:217
+#: exercises/standard/learningtree.txt:219
+#: exercises/standard/learningtree.txt:221
 msgid "Solfa syllables"
 msgstr "Solfej heceleri"
 
-#: exercises/standard/learningtree.txt:228
+#: exercises/standard/learningtree.txt:233
 msgid "Chords"
 msgstr "Akorlar"
 
-#: exercises/standard/learningtree.txt:229
-#: exercises/standard/learningtree.txt:231
+#: exercises/standard/learningtree.txt:234
+#: exercises/standard/learningtree.txt:236
 msgid "Chords in root position"
 msgstr "Kök pozisyonundaki akorlar"
 
-#: exercises/standard/learningtree.txt:245
-#: exercises/standard/learningtree.txt:247
+#: exercises/standard/learningtree.txt:251
+#: exercises/standard/learningtree.txt:253
 msgid "Inversions of chords"
 msgstr "Akorların çevrimleri"
 
-#: exercises/standard/learningtree.txt:258
-#: exercises/standard/learningtree.txt:260
+#: exercises/standard/learningtree.txt:264
+#: exercises/standard/learningtree.txt:266
 msgid "Sing chord"
 msgstr "Akoru seslendir"
 
-#: exercises/standard/learningtree.txt:271
-#: exercises/standard/learningtree.txt:273
+#: exercises/standard/learningtree.txt:277
+#: exercises/standard/learningtree.txt:279
 msgid "Sing chord tone"
 msgstr "Akor sesini söyle"
 
-#: exercises/standard/learningtree.txt:283
-#: exercises/standard/learningtree.txt:286
+#: exercises/standard/learningtree.txt:289
+#: exercises/standard/learningtree.txt:292
 msgid "Scales"
 msgstr "Diziler"
 
-#: exercises/standard/learningtree.txt:380
-#: exercises/standard/learningtree.txt:382
+#: exercises/standard/learningtree.txt:386
+#: exercises/standard/learningtree.txt:388
 msgid "Neapolitan Minor scale and its modes"
 msgstr "Napoliten Minör dizi ve modları"
 
-#: exercises/standard/learningtree.txt:433
-#: exercises/standard/learningtree.txt:435
+#: exercises/standard/learningtree.txt:439
+#: exercises/standard/learningtree.txt:441
 msgid "Symmetric Scales"
 msgstr "Simetrik Diziler"
 
-#: exercises/standard/learningtree.txt:444
-#: exercises/standard/learningtree.txt:446
+#: exercises/standard/learningtree.txt:450
+#: exercises/standard/learningtree.txt:452
 msgid "Scales Collections"
 msgstr "Dizi Koleksiyonu"
 
-#: exercises/standard/learningtree.txt:468
+#: exercises/standard/learningtree.txt:474
 msgid "Misc"
 msgstr "Çeşitli"
 
-#: exercises/standard/learningtree.txt:469
-#: exercises/standard/learningtree.txt:471
+#: exercises/standard/learningtree.txt:475
+#: exercises/standard/learningtree.txt:477
 msgid "Intonation (require CSound)"
 msgstr "Entonasyon (CSound gerekli)"
 
-#: exercises/standard/learningtree.txt:482
-#: exercises/standard/learningtree.txt:484
+#: exercises/standard/learningtree.txt:488
+#: exercises/standard/learningtree.txt:490
 msgid "Dictation"
 msgstr "Dikte"
 
-#: exercises/standard/learningtree.txt:509
-#: exercises/standard/learningtree.txt:511
+#: exercises/standard/learningtree.txt:515
+#: exercises/standard/learningtree.txt:517
 msgid "Misc exercises"
 msgstr "Çeşitli alıştırmalar"
 
-#: exercises/standard/learningtree.txt:517
-#: exercises/standard/learningtree.txt:519
-msgid "Configure yourself"
-msgstr "Kendiniz yapılandırın"
-
-#: exercises/standard/learningtree.txt:532
-#: exercises/standard/learningtree.txt:534
+#: exercises/standard/learningtree.txt:538
+#: exercises/standard/learningtree.txt:540
 msgid "Harmonic progressions"
 msgstr "Armonik ilerlemeler"
 
-#: exercises/standard/learningtree.txt:539
+#: exercises/standard/learningtree.txt:545
 msgid "These progressions require MMA"
 msgstr "Bu bağlantılar MMA gerektiriyor"
 
-#: exercises/standard/learningtree.txt:552
-#: exercises/standard/learningtree.txt:554
+#: exercises/standard/learningtree.txt:558
+#: exercises/standard/learningtree.txt:560
 msgid "Hear tones"
 msgstr "Sesleri duy"
+
+#: exercises/standard/learningtree.txt:582
+msgid "Tone in context - cadence major"
+msgstr "Bağlamdaki ses - majör kalış"
+
+#: exercises/standard/learningtree.txt:591
+msgid "Tone in dominant chord"
+msgstr "Dominant akorundaki ses"
+
+#: exercises/standard/learningtree.txt:596
+msgid "Tone in context - cadence minor"
+msgstr "Bağlamdaki ses - minör kalış"
+
+#~ msgid "Tritone"
+#~ msgstr "Üçses"
+
+#~ msgid "Perfect 11th"
+#~ msgstr "Tam Beşli 11li"
+
+#~ msgid "Octave + Tritone"
+#~ msgstr "Oktav+Triton"
+
+#~ msgid "Perfect 12th"
+#~ msgstr "Tam 12li"
+
+#~ msgid "Minor 13th"
+#~ msgstr "Küçük 13lü"
+
+#~ msgid "Major 13th"
+#~ msgstr "Büyük 13lü"
+
+#~ msgid "Minor 14th"
+#~ msgstr "Küçük 14lü"
+
+#~ msgid "Major 14th"
+#~ msgstr "Büyük 14lü"
+
+#~ msgid "Perfect 15th"
+#~ msgstr "Tam 15li"
+
+#~ msgid "interval|tt"
+#~ msgstr "aralık|ts"
+
+#~ msgid "interval|5"
+#~ msgstr "aralık|5li"
+
+#~ msgid "interval|p11"
+#~ msgstr "aralık|t11"
+
+#~ msgid "interval|tt8"
+#~ msgstr "aralık|tt8"
+
+#~ msgid "Spill kadens"
+#~ msgstr "Spill kadens"
+
+#~ msgid "elembuilder"
+#~ msgstr "elembuilder"
+
+#~ msgid "Cromatic -first 4 tones"
+#~ msgstr "Kromatik -ilk 4 ses"
+
+#~ msgid "Cromatic -last 4 tones"
+#~ msgstr "Kromatik -son 4 ses"
+
+#~ msgid "Unknown name \"%(name)s\" in line %(line)i of file \"%(filename)s\":"
+#~ msgstr "Bilinmeyen isim \"%(name)s\" satırı %(line)i dosyası \"%(filename)s\":"
+
+#~ msgid "Wrong argument count in line %(line)i of file \"%(filename)s\":"
+#~ msgstr "Yanlış ifadeler var satır sayısı %(line)i dosyası  \"%(filename)s\":"
+
+#~ msgid "Importing old statistics"
+#~ msgstr "Eski istatistikleri içeri aktarıyor"
+
+#~ msgid "Files read: %i"
+#~ msgstr "Okunan dosyalar: %i"
+
+#~ msgid "Unknown lesson_id: <b>%s</b>"
+#~ msgstr "Bilinmeyen ders kimliği: <b>%s</b>"
 
 #~ msgid "Bug report"
 #~ msgstr "Hata raporu"
@@ -15111,9 +15405,6 @@ msgstr "Sesleri duy"
 
 #~ msgid "Ignoring the file \"%(filename)s\" because of this error: %(error)s"
 #~ msgstr "Şu dosyayı \"%(filename)s\" gözardı ediyor bu hatadan dolayı: %(error)s"
-
-#~ msgid "name"
-#~ msgstr "isim"
 
 #~ msgid "%s (passed)"
 #~ msgstr "%s (atlanmış)"
