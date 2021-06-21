@@ -25,10 +25,11 @@ import textwrap
 # debian etch system, the browser does will freeze solfege until
 # I close the browser window.
 try:
+    webbrowser.get()
     i = webbrowser._tryorder.index("x-www-browser")
     webbrowser._tryorder.append(webbrowser._tryorder[i])
     del webbrowser._tryorder[i]
-except ValueError:
+except (ValueError, webbrowser.Error):
     pass
 
 import sys
