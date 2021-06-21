@@ -268,7 +268,7 @@ class MainWin(Gtk.ApplicationWindow, cfg.ConfigUtils):
         self.g_ui_manager.add_ui_from_file("ui.xml")
 
         self.add_accel_group(self.g_ui_manager.get_accel_group())
-        hdlbox = Gtk.HandleBox()
+        hdlbox = Gtk.HBox()
         hdlbox.show()
         hdlbox.add(self.g_ui_manager.get_widget('/Menubar'))
         self._vbox.pack_start(hdlbox, False, False, 0)
