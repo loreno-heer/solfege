@@ -65,12 +65,14 @@ help/ru/solfege.xml: help/C/solfege.pot help/ru/ru.po $(USER_MANUAL_SOURCES)
 help/tr/solfege.xml: help/C/solfege.pot help/tr/tr.po $(USER_MANUAL_SOURCES)
 
 help/%/solfege.xml:
-ifdef XML2PO
+ifdef ITSTOOL
 ifneq "$(skipmanual)" "yes"
+	$(MSGFMT) -o $(patsubst help/%/solfege.xml, help/%, $@)/$(patsubst help/%/solfege.xml,%,$@).mo $(patsubst help/%/solfege.xml, help/%, $@)/$(patsubst help/%/solfege.xml,%,$@).po
 	for filename in $(notdir $(USER_MANUAL_SOURCES)); do \
-	$(XML2PO) --keep-entities -p $(patsubst help/%/solfege.xml, help/%, $@)/$(patsubst help/%/solfege.xml,%,$@).po -o $(dir $@)/$$filename help/C/$$filename; \
+	#echo $$filename; \
+	$(ITSTOOL) --keep-entities -m $(patsubst help/%/solfege.xml, help/%, $@)/$(patsubst help/%/solfege.xml,%,$@).mo -o $(dir $@)/$$filename help/C/$$filename; \
 	done
-	rm -f .xml2po.mo
+	rm -f $(patsubst help/%/solfege.xml, help/%, $@)/$(patsubst help/%/solfege.xml,%,$@).mo
 endif
 endif
 
@@ -141,11 +143,11 @@ ifeq "$(skipmanual)" "yes"
 endif
 
 .PHONY: update-manual
-ifdef XML2PO
+ifdef ITSTOOL
 update-manual: $(addsuffix /index.html,$(addprefix help/,C $(USER_MANUAL_LANGUAGES)))
 else
 update-manual:
-	@echo "You have to install xml2po to run 'make update-manual'"
+	@echo "You have to install itstool to run 'make update-manual'"
 endif
 
 %.png:%.ly

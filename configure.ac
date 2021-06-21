@@ -92,8 +92,8 @@ MY_PATH_PROG(CAT, cat)
 
 # FIXME we had to comment out this to run on win32
 # PKG_CHECK_MODULES(XML2PO, xml2po >= 0.4)
-AC_PATH_PROG(XML2PO, xml2po)
-AC_SUBST(XML2PO)
+AC_PATH_PROG(ITSTOOL, itstool)
+AC_SUBST(ITSTOOL)
 
 AC_PATH_PROG(XSLTPROC, xsltproc)
 AC_SUBST(XSLTPROC)
@@ -178,9 +178,9 @@ AC_OUTPUT
 
 AC_MSG_NOTICE
 AC_MSG_NOTICE([Please remember to rerun configure if you change swig versions!])
-if test -z "$XML2PO"; then
+if test -z "$ITSTOOL"; then
 AC_MSG_NOTICE
-AC_MSG_NOTICE([xml2po was not found. This is no big deal, but it mean that the])
+AC_MSG_NOTICE([itstool was not found. This is no big deal, but it mean that the])
 AC_MSG_NOTICE([translated user manuals will not be updated if you make changes])
 AC_MSG_NOTICE([to the english manual.])
 fi

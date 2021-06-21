@@ -74,7 +74,7 @@ If you get the program fresh from the bzr repository, then you also need need:
 @uref{http://www.swig.org}.
 @item GNU Lilypond 2.10 or 2.12. Newer version might work. (@uref{http://www.lilypond.org})
 @item xsltproc and docbook
-@item xml2po
+@item itstool
 @item txt2man
 @end itemize
 

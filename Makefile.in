@@ -39,7 +39,7 @@ export MAKEINFO:=@MAKEINFO@
 export MSGFMT:=@MSGFMT@
 export MSGGREP:=@MSGGREP@
 export MSGMERGE:=@MSGMERGE@
-export XML2PO:=@XML2PO@
+export ITSTOOL:=@ITSTOOL@
 export XSLTPROC:=@XSLTPROC@
 export STYLESHEET:=@STYLESHEET@
 export HAVE_STYLESHEET:=@HAVE_STYLESHEET@
@@ -288,7 +288,7 @@ help:
 	@echo "set skipmanual=yes       Don't rebuild the music theory images"
 	@echo "make po-update           Update po/solfege.pot and msgmerge with po/*.po"
 	@echo "make manual-po-update    Update help/*/solfege.pot and msgmerge with help/*/*.po"
-	@echo "make update-manual       Rebuild the manual, requiring xml2po etc."
+	@echo "make update-manual       Rebuild the manual, requiring itstool etc."
 	@echo "make test-screenshots    See which screenshots are missing in the user manual"
 	@echo "make help                Display this message."
 	@echo "help/C/one-big-page.html Make documentation in on big html file."

@@ -38,13 +38,13 @@ dist_files += help/C/solfege.pot \
 	$(wildcard help/C/scales/images/modes/scales/*.png) \
 
 help/C/solfege.pot: $(USER_MANUAL_SOURCES)
-ifndef XML2PO
+ifndef ITSTOOL
 	@echo
-	@echo "You need to install xml2po to update help/C/solfege.pot"
+	@echo "You need to install itstool to update help/C/solfege.pot"
 	@echo
 	@exit 64
 else
-	$(XML2PO) --keep-entities $(USER_MANUAL_SOURCES) | $(MSGGREP) -v -K -e "@@image:" -e "^Tom" -e "^Amundsen" -e "^tca@gnu.org" -e "^bug-solfege@gnu.org" -e "^solfege-devel@lists.sourceforge.net" -e "^solfege-announce@lists.sourceforge.net"  -o help/C/solfege.pot
+	$(ITSTOOL) --keep-entities $(USER_MANUAL_SOURCES) | $(MSGGREP) -v -K -e "@@image:" -e "^Tom" -e "^Amundsen" -e "^tca@gnu.org" -e "^bug-solfege@gnu.org" -e "^solfege-devel@lists.sourceforge.net" -e "^solfege-announce@lists.sourceforge.net"  -o help/C/solfege.pot
 endif
 
 help/C/index.html: $(USER_MANUAL_SOURCES) $(NOT_TRANSLATED_SOURCES)
