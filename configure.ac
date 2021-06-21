@@ -140,9 +140,9 @@ AC_SUBST(ENABLE_TUNER)
 
 dnl Checks for libraries.
 if test "x$ENABLE_TUNER" = xyes; then
-    AC_DEFINE(ENABLE_TUNER)
+    AC_DEFINE([ENABLE_TUNER], [], [enable tuner])
     AC_CHECK_LIB(rfftw, rfftw, [
-        AC_DEFINE(HAVE_FFTW)
+        AC_DEFINE([HAVE_FFTW], [], [fftw support])
         LIBS="$LIBS -lfftw -lrfftw"], ,-lfftw)
 fi
 
