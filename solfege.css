@@ -5,26 +5,26 @@
 
 
 #ProgressionNameLabel, #Feedback {
-  font: Sans 20;
+  font: 20px Sans;
 }
-#ProgressionLabelNumber { font: Sans 9 }
-#BoldText { font: Bold }
+#ProgressionLabelNumber { font: 9px Sans }
+#BoldText { font: 12px Sans Bold }
 
-#StatisticsH1, #Heading1 { font: Sans 18 }
-#StatisticsH2, #Heading2 { font: Sans 14 }
+#StatisticsH1, #Heading1 { font: 18px Sans }
+#StatisticsH2, #Heading2 { font: 14px Sans }
 
-#BpmInactiveLabel { font: Sans 12 }
-#BpmActiveLabel { font: Sans Bold 12 }
+#BpmInactiveLabel { font: 12px Sans }
+#BpmActiveLabel { font: 12px Sans Bold }
 
 #DIALOGWARNING2 { background: red; }
 #DIALOGWARNING  { background: yellow; }
 
 #DEBUGWARNING {
   background: red;
-  font: Sans Bold 24;
+  font: 24px Sans Bold;
 }
 
-#FlashBarLabel { font: Sans 16 }
+#FlashBarLabel { font: 16px Sans }
 
 #IntervalButtonsWidget GtkButton
  {
