@@ -35,7 +35,7 @@ C_locale_idx = 1
 languages = [
    'system default',
    'English/United States [en-us]',""", file=f)
-    for fn in glob.glob("po/*.po"):
+    for fn in sorted(glob.glob("po/*.po")):
         print("   '%s'," % os.path.splitext(os.path.basename(fn))[0], file=f)
     print("]", file=f)
     f.close()
