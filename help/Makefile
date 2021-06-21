@@ -152,7 +152,12 @@ endif
 ifeq "$(LILYPOND_VERSION)" "2.10"
 	$(LILYPOND) -I ../../C/ly --png -b eps -dno-gs-load-fonts -dinclude-eps-fonts -o $(basename $@) $<
 else
-	$(LILYPOND) -I ../../C/ly --png -d backend=eps -o $(basename $@) $<
+	# Generate the file in a unique temporary folder, in order to avoid mismatch of eps filenames.
+	mkdir $(basename $@)-tempdir
+	$(LILYPOND) -I ../../../C/ly --png -d backend=eps -o $(basename $@)-tempdir/temp_output $<
+	cp $(basename $@)-tempdir/temp_output.png $(basename $@).png
+	rm $(basename $@)-tempdir/*
+	rmdir $(basename $@)-tempdir
 endif
 
 stupid-step1:
