@@ -66,14 +66,24 @@ if 0:
     _("Diminished Octave")
     _("Perfect Octave")
     _("Augmented Octave")
-    # translators: Only translate the word after interval| , and don't include
-    # interval| in the translated string. So for Norwegians, translate
-    # "interval|Diminished" to "Forminsket". Do similar for all strings
-    # that are preceded with "interval|"
+    #
     _("Minor Ninth")
     _("Major Ninth")
     _("Minor Tenth")
     _("Major Tenth")
+    #
+    _("Perfect Eleventh")
+    _("Octave + Tritone")
+    _("Perfect Twelfth")
+    _("Minor Thirteenth")
+    _("Major Thirteenth")
+    _("Minor Fourteenth")
+    _("Major Fourteenth")
+    _("Perfect Double Octave")
+    # translators: Only translate the word after interval| , and don't include
+    # interval| in the translated string. So for Norwegians, translate
+    # "interval|Diminished" to "Forminsket". Do similar for all strings
+    # that are preceded with "interval|"
     _("interval|Unison")
     _("interval|Second")
     _("interval|Third")
