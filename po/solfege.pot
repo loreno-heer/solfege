@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-21 15:51+0200\n"
+"POT-Creation-Date: 2021-06-21 22:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2924,8 +2924,7 @@ msgid ""
 msgstr ""
 
 #: solfege/exercises/solmisation.py:201
-#: exercises/standard/lesson-files/solmisation:7
-msgid "Solmisation Diktat"
+msgid "Dictation (solmization)"
 msgstr ""
 
 #: solfege/exercises/solmisation.py:248
@@ -14114,6 +14113,10 @@ msgstr ""
 msgid "%s syllables in C major"
 msgstr ""
 
+#: exercises/standard/lesson-files/solmisation:7
+msgid "Solmisation Diktat"
+msgstr ""
+
 #: exercises/standard/lesson-files/three-prog-root:9
 msgid "Three chords, root position"
 msgstr ""
@@ -14186,6 +14189,14 @@ msgstr ""
 #: exercises/standard/lesson-files/toneincontext-major-l4:6
 #: exercises/standard/lesson-files/toneincontext-minor-l4:6
 msgid "Last 4 scale tones"
+msgstr ""
+
+#: exercises/standard/lesson-files/volkslieder1:22
+msgid "German Folk Song 1"
+msgstr ""
+
+#: exercises/standard/lesson-files/volkslieder2:22
+msgid "German Folk Song 2"
 msgstr ""
 
 #: exercises/standard/lesson-files/include/sc-master:21

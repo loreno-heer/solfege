@@ -19,7 +19,7 @@
 
 header {
   module = dictation
-  title = "Volkslieder 1"
+  title = _("German Folk Song 1")
   version = "3.19.7"
 }
 

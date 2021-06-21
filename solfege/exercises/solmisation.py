@@ -198,7 +198,7 @@ class RhythmViewer(Gtk.Frame):
 
 
 class Gui(abstract.Gui, abstract_solmisation_addon.SolmisationAddOnGuiClass):
-    lesson_heading = _("Solmisation Diktat")
+    lesson_heading = _("Dictation (solmization)")
 
     def __init__(self, teacher):
         abstract.Gui.__init__(self, teacher)
