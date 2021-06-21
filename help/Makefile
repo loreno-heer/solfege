@@ -13,6 +13,7 @@ XSLTPARAMS:= \
 --param callout.graphics 0 \
 --param xref.with.number.and.title 0 \
 --xinclude \
+--nonet \
 --stringparam html.stylesheet "../style.css"
 
 dist_files += help/Makefile help/README \
