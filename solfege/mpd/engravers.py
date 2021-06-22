@@ -185,7 +185,7 @@ class AccidentalsEngraver(Engraver):
                          + dimentions[self.m_fontsize].linespacing * y / 2
                          + accidental_y_offset[acc]))
                 x += dimentions[self.m_fontsize].accidental_widths[acc] + 1
-        ct.paint()
+            ct.paint()
 
 
 class KeySignatureEngraver(Engraver):
