@@ -167,7 +167,7 @@ class Gui(abstract.LessonbasedGui):
                 return
             tmp = [Rat(0, 1)] + v + [Rat(2**30, 1)]
             for i in range(len(tmp) - 1):
-                btn = self.create_pixmap_button()
+                btn = self.create_pixmap_button(i)
                 btn.show()
                 btn.connect('clicked', f, tmp[i], tmp[i + 1])
                 self.g_partbox.pack_start(btn, True, True, 0)
@@ -231,12 +231,17 @@ class Gui(abstract.LessonbasedGui):
             self.g_show.set_sensitive(True)
         self._update()
 
-    def create_pixmap_button(self):
+    def create_pixmap_button(self, i=None):
         im = Gtk.Image()
         im.set_from_stock("solfege-rhythm-c4", Gtk.IconSize.LARGE_TOOLBAR)
         im.show()
-        btn = Gtk.Button()
-        btn.add(im)
+        if i is not None:
+            btn = Gtk.Button.new_with_label(_("Part %d") % (i+1))
+            btn.set_always_show_image(btn)
+            btn.set_image(im)
+        else:
+            btn = Gtk.Button()
+            btn.add(im)
         return btn
 
     def on_start_practise(self):
