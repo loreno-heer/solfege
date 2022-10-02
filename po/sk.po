@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: solfege 3.22.1-pre1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-07 23:35+0200\n"
-"PO-Revision-Date: 2021-06-17 17:01+0200\n"
+"PO-Revision-Date: 2022-10-02 14:45+0200\n"
 "Last-Translator: Jose Riha <jose1711@gmail.com>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "Language: sk\n"
@@ -1178,7 +1178,7 @@ msgstr ""
 
 #: solfege/mainwin.py:494
 msgid "Files copied. The old files has been left behind. Please delete them when you have verified that all files was copied correctly."
-msgstr ""
+msgstr "Súbory boli skopírované. Staré súbory sú stále dostupné. Po tom, ako skontrolujete, či boli všetky súbory skopírované správne, ich prosím vymažte."
 
 #: solfege/mainwin.py:501
 msgid "Migrated old language setup. You might have to restart the program all translated messages to show up."
@@ -2782,10 +2782,9 @@ msgid "Hide _piano keyboard shortcuts"
 msgstr "Skryť klávesové _skratky pre klavír"
 
 #: solfege/exercises/idtone.py:180
-#, fuzzy
 #| msgid "Play warning sound when you guess wrong"
 msgid "When you guess wrong"
-msgstr "Prehrať zvuk varovania pri nesprávnej odpovedi"
+msgstr "Ak ste neuhádli"
 
 #: solfege/exercises/idtone.py:185
 msgid "Play warning sound"
@@ -13293,7 +13292,7 @@ msgstr "4 akordy v harmonickom molovom móde"
 
 #: exercises/standard/lesson-files/mma-4-natural-minor:11
 msgid "4 chords in natural minor mode"
-msgstr "4 akordy v prirozdenom molovom móde"
+msgstr "4 akordy v prirodzenom molovom móde"
 
 #: exercises/standard/lesson-files/mma-7-C:10
 msgid "7 chords in major mode"
